@@ -1,0 +1,12 @@
+﻿
+@{
+    if (UrlHelper.Equals(Url.Action(), "/Home") == true)
+    {
+        Layout = "~/Views/Shared/_Principal.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_Index.cshtml";
+    }
+}
+
