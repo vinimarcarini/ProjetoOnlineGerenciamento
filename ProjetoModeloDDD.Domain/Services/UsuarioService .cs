@@ -16,12 +16,11 @@ namespace ProjetoModeloDDD.Domain.Services
             _usuarioRepository = UsuarioRepository;
         }
 
-        public static IRepositoryBase<Usuario> UsuarioRepository { get; }
-        
+        public static IRepositoryBase<Usuario> UsuarioRepository { get; }        
 
         public IEnumerable<Usuario> ValidarEmail(IEnumerable<Usuario> usuarios)
         {
-            return usuarios.email (c => c.UsuarioEmail(c));
+            return usuarios.Where (c => c.Email.Equals(c));
         }
     }
 }

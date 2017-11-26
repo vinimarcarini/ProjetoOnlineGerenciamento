@@ -32,6 +32,7 @@
   <ItemGroup>
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Produto.cs" />
+    <Compile Include="Entities\Usuario.cs" />
     <Compile Include="Interfaces\Repositories\IUsuarioRepository .cs" />
     <Compile Include="Interfaces\Repositories\IClienteRepository.cs" />
     <Compile Include="Interfaces\Repositories\IProdutoRepository.cs" />
