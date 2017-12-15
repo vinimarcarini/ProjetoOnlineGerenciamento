@@ -2,97 +2,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Graficos";
 
-    <script src="~/scripts/jquery.min.js"></script>
-    <script src="~/scripts/fullcalendar.min.js"></script>
-    <script src="~/scripts/matrix.charts.js"></script>
-    <script src="~/scripts/excanvas.min.js"></script>
-    <script src="~/scripts/bootstrap.min.js"></script>
-    <script src="~/scripts/jquery.ui.custom.js"></script>
-    <script src="~/scripts/jquery.gritter.min.js"></script>
-    <script src="~/scripts/jquery.validate.js"></script>
-    <script src="~/scripts/jquery.wizard.js"></script>
-    <script src="~/scripts/jquery.uniform.js"></script>
-    <script src="~/scripts/jquery.dataTables.min.js"></script>
-    <script src="~/scripts/jquery.peity.min.js"></script>
-    <script src="~/scripts/jquery.flot.min.js"></script>
-    <script src="~/scripts/jquery.flot.pie.min.js"></script>
-    <script src="~/scripts/jquery.flot.resize.min.js"></script>
-
-
-
-
-    <script src="~/scripts/matrix.js"></script>
-    <script src="~/scripts/matrix.interface.js"></script>
-    @*<script src="~/scripts/matrix.form_validation.js"></script>*@
-    <script src="~/scripts/select2.min.js"></script>
-    <script src="~/scripts/matrix.popover.js"></script>
-    @*<script src="~/scripts/matrix.tables.js"></script>*@
-
-    <script src="~/scripts/matrix.dashboard.js"></script>
-
-    <script type="text/javascript">
-        $(function () {
-
-            var data = [], totalPoints = 300;
-            function getRandomData() {
-                if (data.length > 0)
-                    data = data.slice(1);
-
-                while (data.length < totalPoints) {
-                    var prev = data.length > 0 ? data[data.length - 1] : 50;
-                    var y = prev + Math.random() * 10 - 5;
-                    if (y < 0)
-                        y = 0;
-                    if (y > 100)
-                        y = 100;
-                    data.push(y);
-                }
-
-                var res = [];
-                for (var i = 0; i < data.length; ++i)
-                    res.push([i, data[i]])
-                return res;
-            }
-
-            // setup control widget
-            //var updateInterval = 1800000;
-            var updateInterval = 15000;
-
-            $("#updateInterval").val(updateInterval).change(function () {
-                var v = $(this).val();
-                if (v && !isNaN(+v)) {
-                    updateInterval = +v;
-                    if (updateInterval < 1)
-                        updateInterval = 1;
-                    if (updateInterval > 20000)
-                        updateInterval = 20000;
-                    $(this).val("" + updateInterval);
-                }
-            });
-
-            // setup plot
-            var options = {
-                series: { shadowSize: 0 }, // drawing is faster without shadows
-                yaxis: { min: 0, max: 100 },
-                xaxis: { show: false }
-            };
-            var plot = $.plot($("#placeholder2"), [getRandomData()], options);
-
-            function update() {
-                var aux = getRandomData();
-                plot.setData([aux]);
-                console.log(aux);
-                // since the axes don't change, we don't need to call plot.setupGrid()
-                plot.draw();
-
-                setTimeout(update, updateInterval);
-            }
-
-            update();
-        });
-    </script>
-
-
 }
 
 <div id="content">
@@ -117,8 +26,6 @@
                 </ul>
             </div>
 
-            <hr><h3>Lixeira #001</h3>
-
             <div class="row-fluid">
                 <div class="span12">
                     <div class="widget-box">
@@ -142,11 +49,10 @@
                     <div class="widget-box">
                         <div class="widget-title">
                             <span class="icon"> <i class="icon-signal"></i> </span>
-                            <h5>Turning-series chart</h5>
+                            <h5>Histórico Mensal</h5>
                         </div>
                         <div class="widget-content">
-                            <div id="placeholder"></div>
-                            <p id="choices"></p>
+                            <div class="bars"></div>
                         </div>
                     </div>
                 </div>
@@ -222,18 +128,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="span6">
-                    <div class="widget-box">
-                        <div class="widget-title">
-                            <span class="icon"> <i class="icon-signal"></i> </span>
-                            <h5>Line chart</h5>
-                        </div>
-                        <div class="widget-content">
-                            <div class="bars"></div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 </div>
+ 
