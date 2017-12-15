@@ -52,6 +52,7 @@
     <Compile Include="Entities\Cidade.cs" />
     <Compile Include="Entities\Empresa.cs" />
     <Compile Include="Entities\Estabelecimento.cs" />
+    <Compile Include="Entities\Lixeira.cs" />
     <Compile Include="Entities\LogErros.cs" />
     <Compile Include="Entities\Pais.cs" />
     <Compile Include="Entities\TipoUsuarioAcesso.cs" />

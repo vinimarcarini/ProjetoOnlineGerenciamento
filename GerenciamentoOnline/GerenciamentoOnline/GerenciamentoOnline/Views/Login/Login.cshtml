@@ -43,7 +43,7 @@
             border: 1px solid silver;
             /*padding: 25px 20px 20px 20px;*/
             /*box-shadow: 2px 2px 2px #999;*/
-            background-color: #ECECEC;
+            /*background-color: #ECECEC;*/
             border-radius: 10px;
             margin: auto;
             /*width: 250px;*/
@@ -131,8 +131,8 @@
         <div id="conteudoLogin">
 
             <div id="formLogin" class="form-vertical">
+                <div class="control-group normal_text"> <h3><img src="~/imagens/logo.png" alt="Logo" /></h3></div>
                 <p>@Html.ValidationSummary()</p>
-
                 <div class="control-group">
                     <div class="controls">
                         <div class="main_input_box">
@@ -150,11 +150,11 @@
 
 
                 @if (!String.IsNullOrEmpty(usuario) && !String.IsNullOrEmpty(senha))
-                {
-                    <input type="hidden" value="@usuario" name="usuarioAutenticado" />
-                    <input type="hidden" value="@senha" name="senhaAutenticada" />
-                    <input type="hidden" value="@empresa" name="empresaAutenticada" />
-                }
+    {
+            <input type="hidden" value="@usuario" name="usuarioAutenticado" />
+            <input type="hidden" value="@senha" name="senhaAutenticada" />
+            <input type="hidden" value="@empresa" name="empresaAutenticada" />
+}
                 <div class="form-actions">
                     @*<span class="pull-left"><input type="submit" id="to-recover" class="flip-link btn btn-info" value="@descricaoBotao1" /></span>*@
                     <span class="pull-right"><input type="submit" class="loginEntrar btn btn-success" value="@descricaoBotao" /></span>
