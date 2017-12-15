@@ -1,0 +1,564 @@
+﻿.toast-position-top-left, .toast-position-top-center, .toast-position-top-right, .toast-position-middle-left, .toast-position-middle-center, .toast-position-middle-right{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+body { background-color: #f7f7f7; }
+
+#divEdicaoPedido .backgroundColorTerminal 
+{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #f7f7f7;
+    z-index: -1000;
+}
+
+#divEdicaoPedido 
+{
+    background-color: initial !important;
+}
+
+.identificacao 
+{
+    display: none;
+}
+
+.menufor {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+    background-color: #f7f7f7;
+}
+
+.contPedido{
+    margin-top: 70px;
+}
+
+#divGrupoPai
+{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    border-bottom: 1px solid silver;
+    z-index: 1000;
+    background-color: #f7f7f7;
+    top: 59px;
+}
+
+#divEdicaoPedido #divGridFmt 
+{
+    margin-top: -11px;
+    position: fixed !important;
+    right: -10px;
+    width: 295px;
+    border: 1px solid silver;
+}
+
+#valortotal 
+{
+    bottom: 146px !important;
+}
+/*------------------------------------------------------------------------*/    
+.clickAddItem:hover, .btAddCustom:hover { cursor: pointer; }
+.ProdutoPedido .addItem:active { color: silver; }
+
+#divSubGrupos 
+{
+    position: fixed;
+    top: 140px;
+    bottom: 0px;
+    left:0px;
+    border-right: 1px solid #FCCBA2; 
+    width: 155px;
+}
+
+ #backgroundPedido
+{
+   position: relative;
+   width: 100%;
+   float: left;
+   margin-top: 80px;
+}
+
+#tabsItCust
+{
+    padding-left: 10px;    
+}
+/*
+#divMesas, #divCartoes
+{
+    padding-left: 27px;
+    padding-right: 27px;
+}
+*//*
+.btMesas a, .btMesas
+{
+    margin-bottom: 5px;
+    float: left;
+    clear: both;
+    width: 250px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 10px;
+    
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #EDEDED), color-stop(1, #EBECCD) );
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#EDEDED', endColorstr='#EBECCD');
+	
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #bdbbbd;
+	display:inline-block;
+	color:#777777;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+	
+	border: 1px solid #D3D1C3;
+    box-shadow: 1px 1px 2px #A7A390;
+
+}.btMesas a:hover, .btMesas:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #EBECCD), color-stop(1, #EDEDED) );
+	background:-moz-linear-gradient( center top, #EBECCD 5%, #EDEDED 100% );
+	background-color:#dfdfdf;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#EBECCD', endColorstr='#EDEDED');
+	cursor: pointer;
+}
+*/
+#divProdutos
+{
+    position: absolute;
+    top: 0px;
+    left: 158px;
+    right: 290px;
+}
+
+/*---------------------------juntar mesa-------------------------------*/
+
+#mesaEsquerda, #garcomDireita, .mesaFechamento, #mesaPrincipalDireita
+{
+    margin-top: 65px;
+    margin-left: 10px; 
+    width: 220px;
+}   
+
+.btprincipal
+{
+    left: 5px;
+}
+
+#inpDisplayMesaPricipal
+{
+    background-position: 10px;
+}
+
+.listagarcomremover, .btprincipal 
+{
+    right: 5px;
+}
+    
+.inpconteudoMesa
+{
+    width: 207px;
+}
+
+#contgarcom, #contjuncaomesa, #contcartoes 
+{
+    width: 205px;
+}
+
+#mesaPrincipalDireita
+{
+    margin-right: 12px;
+}
+
+#mesaEsquerda{
+    margin-right: 13px;
+}
+
+.toolDescricao 
+{
+    line-height: 40px;
+    font-size: 19px;
+    width: 207px;
+
+}
+
+#mesaTransferir 
+{
+    margin-top: 70px;
+    margin-left: 80px;
+}
+
+#mesaAtual 
+{
+    margin-top: 70px;
+    margin-left: 90px;
+    margin-right: 135px;
+}
+
+.conteudoUlEsquerda, .conteudoUlDireita  
+{
+    padding: 8px 8px; 
+    width: 380px;
+    height: 240px;
+}
+
+#tituloGridEsquerda .qt, #tituloGridDireita .qt
+{
+    padding-left: 13px;
+    width: 35px;
+    text-align: center;    
+}
+
+#tituloGridEsquerda .ds, #tituloGridDireita .ds
+{
+    padding-left: 15px;
+    width: 195px;
+}
+
+#titulogridesquerda ul li, #titulogriddireita ul li { width: 370px; }
+
+#titulogridesquerda, #titulogriddireita { margin-left: 10px; }
+
+#tituloGridEsquerda, #tituloGridDireita { width: 400px; }
+
+.conteudoUlDireita ul {
+    min-width: 380px;
+}
+
+#tituloGridEsquerda .label, #tituloGridDireita .label
+{
+    float: left;
+    margin-bottom: 2px;
+    padding-left: 9px
+}
+
+#tituloGridDireita .label 
+{
+    padding-left: 45px;
+}
+
+#inpDisplayMesa, .inpDisplayMesaTransferir
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*----------------------------------------------------------------------*/
+#dlgrelatoriomesa .too * 
+{
+    line-height: 25px;
+}
+
+#dlgrelatoriomesa .too h1
+{
+    line-height: 14px !important;
+}
+    
+#dlgRelatorioMesa h1  
+{
+    width: 70px;
+    text-align: center;    
+}
+
+#dlgRelatorioMesa h2  
+{
+    width: 35px;
+    text-align: center; 
+}
+
+#dlgRelatorioMesa h3
+{
+    width: 290px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#dlgRelatorioMesa h4 
+{
+    text-align: right;
+    width: 64px;
+    margin-right: 10px;
+}
+
+#dlgRelatorioMesa .too h4 
+{
+    width: auto;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+#dlgRelatorioMesa .conteudo 
+{
+    max-height: 600px;
+    /*width: 500px;    */
+}
+
+#dlgrelatoriomesa ul li h5 
+{
+    padding-left: 6px;
+    color: rgb(0, 163, 255); 
+    
+    font-size: 11px;
+    line-height: 11px;
+    margin-top: -2px;
+    position: relative;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+    
+#dlgRelatorioMesa .too {
+    margin-left: 10px;
+    padding-right: 23px;
+    padding-bottom: 2px;
+}
+#dlgRelatorioMesa ul 
+{
+    overflow: auto;
+    max-height: 400px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#dlgRelatorioMesa .total {
+    border-top: 1px solid silver;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 470px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#comboAdicXProd, #comboObsXProd
+{
+    width: 250px; 
+    height: 25px;    
+}
+
+#comboCompXProd 
+{
+    width: 305px; 
+    height: 25px;
+}
+
+.ProdutoPedido p
+{
+    font-size: 16px;
+    width: 280px;
+}
+/*
+.btAddCustom
+{
+    position:absolute;
+    top:7px;
+    right: 115px;
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    border: 4px dotted silver !important;   
+}
+
+.btAddCustom ul {
+    width: 19px;
+    height: 19px;
+    border-radius: 15px;
+    background-color: silver;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+.btAddCustom ul li {
+    border: 1px solid silver;
+    float : left;
+    height: 6px;
+    width: 6px;
+    border-radius: 8px;
+    background-color: #EEEBEB;
+    margin: 5px;
+}
+/*
+.ProdutoPedido .addItem, #divContBalanca .enviar
+{
+    height: 21px;
+    width: 21px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 21px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 13px;
+    
+    -moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+	background:-moz-linear-gradient( center top, #ffce79 5%, #eeaf41 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+	background-color:#ffce79;
+	border:1px solid #eeb44f;
+	display:inline-block;
+}
+*/
+/*------------------------------------*/
+
+#observacaoTool, #adicionaTool, #retiraTool 
+{
+    margin-top: -74px;    
+}
+
+#gbox_gridObsItemPed, #gbox_gridAdicItemPed, #gbox_gridCompItemPed 
+{
+        margin-top: 7px;
+}
+/*------------------------------------*/
+ /*
+.ProdutoPedido
+{
+    line-height: 40px;
+    height: 40px;
+    position:relative;
+    padding-left:5px;
+    margin-left:5px;
+    border-bottom: 1px dotted silver;  
+ }
+
+ .ProdutoPedido .valorProduto
+{        
+    position: absolute;
+    right: 160px;
+    top: 10px;
+    line-height: 20px !important;
+    font-size: 12px;
+    color: Orange;
+}
+
+.clickAddItem {
+    position:absolute;
+    top:0px;
+    right: 0px;
+    width: 24px;
+    height: 23px;
+    padding: 8px;
+}*/
+
+.icoform p 
+{
+    margin-right: 20px !important;
+    margin-left: 20px;
+}
+
+#comboAdicXProd, #comboObsXProd 
+{
+    margin-left: 15px;
+}
+
+#comboAdicXProdQtd, #comboObsXProdQtd
+{
+    height: 25px;
+}
+
+#adicionaTool .btOk, #observacaoTool .btOk  
+{
+    padding: 4px 8px;
+    margin-left: 269px;
+}
+
+#retiraTool .btOk
+{
+    padding: 4px 8px;
+    margin-left: 316px;
+}
+
+#adicionatool, #observacaotool, #retiratool 
+{
+    height: 20px;    
+}
+/*---------------------------------------------------------------------------------------*/
+
+.grupoPai.btSilver, .grupoPai.btDourado2, .subGrupo.btSilverSub, .subGrupo.btDouradoSub
+{
+    text-shadow: 1px 1px 0px rgba(242, 242, 242, 0) !important;
+    min-width: 105px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.grupoPai.btDourado2
+{
+    color: #FFF;
+    font-weight: normal;
+    font-size: 15px;
+}
+#divGrupoPai
+{
+    height: 80px;
+    float: left;
+}
+
+.grupoPai, .grupoPaiSelected
+{
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;  
+    text-align: center;
+    font-size:15px;
+    line-height:35px;
+    color: gray;
+}
+
+.SubGrupo
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 10px;
+    float: left; 
+    clear:both; 
+    text-align: center;
+    font-size:15px;
+    line-height:35px;
+    color: #4B4B4D;
+    width: 100px;
+}
+.SubGrupo.btdouradosub 
+{
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFF;    
+}
+
+/*-------------------------------------COMANDA ELETRONICA--------------------------------------------------*/
+
+#pagPersonalizarPedido 
+{
+    background-color: #fff;
+    border: 1px solid silver;
+}
+
+#ItemPedido 
+{
+    float: left;
+    width: 100%;
+    height: 293px;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+    background-color: #fff;
+    overflow: auto;
+    margin-left: -1px;
+}

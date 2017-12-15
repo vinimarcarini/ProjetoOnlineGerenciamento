@@ -1,0 +1,209 @@
+﻿#contMsgConfirmacao {
+    min-height: 150px;
+    width: 280px;
+    border: 1px solid silver;
+    background-color: #F6F6F6;
+    z-index: 50000;
+    top: 0px;
+    box-shadow: 0px 0px 10px gray;
+    position: fixed;
+    border-radius: 5px;
+}
+
+#contMsgConfirmacao .sair {
+    border: 2px solid #FFF;            
+    border-radius: 24px;
+    float: right;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: -8px;
+    margin-right: -10px;
+    /*background-color: #E61A1A;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+    background: -moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );*/
+    background-color: Gray;
+    color: #FFF;
+    font-weight: bold;
+    box-shadow: 0px 0px 8px gray;
+}
+
+#contMsgConfirmacao .conteudo
+{
+    min-height: 60px;
+}
+
+#contMsgConfirmacao .conteudo .msg 
+{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    text-shadow: 2px 1px 5px silver;
+    color: Gray;    
+    margin-bottom: 10px;
+}
+
+#contMsgConfirmacao .footer 
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#contMsgConfirmacao .footer .bt:first-child
+{
+    margin-left: 10px;
+    float: left;
+}
+
+#contMsgConfirmacao .footer .bt:last-child
+{
+    margin-left: 10px;
+    float: left;
+}
+    
+#contMsgConfirmacao .footer .bt 
+{
+    
+    border-radius: 3px;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+
+
+}
+
+#janelaModal .modal 
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #000;
+    opacity: 0.3;
+    z-index: 10000;
+}
+
+.btConfiracaoDourado {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+	background:-moz-linear-gradient( center top, #ffce79 5%, #eeaf41 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+	background-color:#ffce79;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	text-shadow: 2px 1px 2px gray;
+	text-decoration:none;
+	color: #FFF;
+}
+
+.btConfiracaoBlue {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+	
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+	font-weight:bold;
+	text-shadow: 2px 1px 2px gray;
+	
+}
+
+.btConfiracaoRed {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+	background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+	background-color:#f24537;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #810e05;
+}
+
+.btConfiracaoSilver 
+{
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	border:1px solid silver;
+	text-shadow:1px 1px 0px #FFF;
+	color:Gray;
+	font-family:arial;
+	font-size:15px;
+	text-decoration:none;
+	font-weight:bold;
+	text-shadow: 2px 1px 2px #FFF;
+}
+
+#qtdeProdutoConfirmacao 
+{
+    margin-top: 16px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(219, 214, 214);
+    float: left;
+    height: 49px;
+}
+    
+#qtdeProdutoConfirmacao *
+{
+    float: left;
+    height: 25px;
+    text-align: center;
+    color: Gray;
+    line-height: 25px;
+}
+
+#qtdeProdutoConfirmacao .btn 
+{
+    text-align: center;
+    width: 55px;
+    padding-left: 27.5px;
+    height: 43px;
+    padding-top: 8px;
+
+}
+
+#qtdeProdutoConfirmacao .qtde 
+{
+    width: 91px;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 10px;
+}

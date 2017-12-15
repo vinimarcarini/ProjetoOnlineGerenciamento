@@ -1,0 +1,79 @@
+﻿
+#impContainer 
+{
+    font-family:arial,verdana,helvetica;
+    font-size:14px;
+    margin:0 0 0 10px;
+    padding:0;
+}
+
+#impContainer div 
+{
+    float:left;
+    position:relative;
+}
+
+#impContainer p { margin:0; padding:0; }
+
+.clearBoth { clear:both; width:100%; }
+.clearLeft { clear:left; }
+.clearNone { clear:none; }
+.clearRight { clear:right; }
+
+.floatLeft { float:left; }
+.floatRight { float:right; }
+
+.impContainer 
+{
+    clear:both;
+    margin:10px 0;
+    width:100%;
+}
+
+.hideImp { visibility:hidden; }
+
+.alignCenter { text-align:center; }
+.alignLeft { text-align:left; }
+.alignRight { text-align:right; }
+
+.impComprimido { font-size:11px; font-weight:normal; }
+.impExpandido { font-size:16px; font-weight:bold; }
+.impNormal { font-size:14px; font-weight:normal; }
+
+.impNegrito { font-weight:bold; }
+.impItalico { font-style:italic; }
+.impSublinhado { text-decoration:underline; }
+.impRiscado { text-decoration:line-through; }
+
+.impPedidoConteudo p { padding:0 3px !important; }
+
+.impPedidoProduto { margin-left:33px; }
+.impPedidoTab { margin-left:5px; }
+.impPedidoTab2 { margin-left:18px; }
+.impPedidoTab3 { margin-left:26px; margin-top:10px; }
+
+.marginTB { margin:10px 0 !important; }
+
+.impPontilhadoSup 
+{
+    border-top:1px dashed #333;
+    margin:15px 0 0 0;
+    padding-top:10px;
+    width:100%;
+}
+.impPontilhadoInf 
+{
+    border-bottom:1px dashed #333; 
+    margin:0 0 15px 0; 
+    padding-bottom:10px;
+    width:100%;
+}
+
+#impContainerPedidos .impPontilhadoInf { margin-top:0 !important; }
+
+.impSeparador 
+{
+    clear:both;
+    height:3px;
+    padding:5px;
+}

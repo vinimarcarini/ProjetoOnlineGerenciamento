@@ -1,0 +1,303 @@
+﻿#accordion a
+{
+    font-size: 12px;
+    text-decoration:none;
+    color:#4F5152;
+}
+
+#accordion .menuP  /*tem uma imagem de flacha no index*/
+{
+    padding-top:5px!important;
+    border: 1px solid silver!important;
+    height:36px!important;
+    line-height:35px!important;
+    font-size:18px!important;
+    margin-top:0.7px;
+    border-radius:4px;
+}
+
+.borda-ui-dialog
+{
+    border-radius:7px !important;
+    padding: 0px !important;
+}
+
+
+/*.ui-dialog .ui-dialog-content, .ui-dialog
+{
+    padding: 0px !important;    
+}
+.ui-dialog .ui-resizable-se
+{
+    display: none !important;    
+}
+.ui-dialog .ui-dialog-titlebar { display: none !important;  }
+*/
+
+.ui-dialog
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* - criada para os div editor no qual é possível mover o dialog */
+.ui-widget-header-divEditor { background: #f7f7f7; color: #222222; font-weight: bold; }
+
+#accordion .menuP:hover
+{
+ font-weight:bold !important; 
+}
+
+#Composicao
+{
+    width : 400px;
+    padding-left : 5px;    
+}
+
+#accordion .menuP a
+{
+    font-size:11px;
+    margin-left:10px;
+    line-height: 27px;
+}
+
+#accordion .menuLi a /*conteudo menu esquerda*/
+{   
+    font-size:12px;
+}
+
+#accordion .menuLi a:hover
+{
+   color:Orange;
+}
+
+#accordion .menuLi:hover
+{
+display:inline-table !important;
+border: 1px solid silver!important;
+background-color:#f2f2f2;
+}
+
+#accordion .menuLi
+{
+width:150px !important;
+padding-left:3px !important; /*pra dar distancia no link*/
+/*padding-right:2px !important; para distancia no botão*/
+margin-left:2px !important;
+display:inline-table !important;
+border: 1px solid white!important;
+
+}
+
+.itemLink .ui-button-text /*os botoes dentro do menu esquerda*/
+{
+    width:150px;
+    height:inherit;
+    line-height:35px !important;
+    text-align:left;
+    float:left;
+    font-family: arial;
+}
+
+.jspdrag
+{
+    background-color:#C8C9C9 !important;    
+}
+
+.jsptrack
+{
+   background-color:#f2f2f2 !important;  
+}
+
+.jspVerticalBar
+{
+    width: 10px !important;
+}
+
+#accordion .menuUl
+{
+    padding-top:1px !important; /*para jogar 1px os botões para baixo*/
+    padding-bottom:1px !important; /*para jogar 1px os botões para cima*/
+    background-color:White;
+    position:relative;
+    overflow:auto;
+}
+
+#menuUltimo 
+{
+    border-bottom: 1px solid silver;   
+}
+  
+/*.ui-resizable-handle
+{
+    margin:0px;
+    padding:0px; 
+}*/
+
+.x-panel-bbar .x-toolbar
+{
+    border-color: silver !important;
+}
+
+.x-toolbar
+{
+ background-image: none !important;
+ background-color: #EDEDED !important;    
+}
+
+.x-panel-body
+{
+    border-color: silver !important;
+}
+  
+.x-grid3-row-selected /*foi retirado do ext-3.2.1/resources/css/ext-all.css para poder colocar o background*/
+{
+background-color: #E0DED9 !important;
+background-image: none !mportant;
+border-color: Silver !important;
+}
+
+.x-grid3-hd-inner:hover {
+    border-color: Silver !important;
+    background-color: #E0DED9 !important;
+}
+
+.x-grid3-hd-btn-selected:hover
+{
+ border-color: #E0DED9 !important;
+    background-color: #E0DED9 !important;
+}
+
+/*.ui-accordion-content 
+{
+	max-height:32%;
+}
+
+.ui-dialog-titlebar
+{
+ margin:0px;
+ padding:0px;   
+}*/
+
+#divEditor, #divDialogCong, #divEdicaoPedido, #dlgListFechaPedido, #divEditorSemList
+{
+    background-color:#f7f7f7;
+    margin:0px !important;
+    padding:0px !important;
+    border-radius: 7px;
+}
+
+.ui-widget-overlay
+{
+    width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background: -moz-linear-gradient(rgba(11,11,11,0.1), rgba(11,11,11,0.6)) repeat-x rgba(11,11,11,0.2);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(11,11,11,0.1)), to(rgba(11,11,11,0.6))) repeat-x rgba(11,11,11,0.2);
+	z-index:100000;
+}
+
+/*#grid
+{
+    margin-left:10px;
+    clear:both;  
+    padding-bottom:15px;  
+}*/
+#demo .ui-state-active a, #demo .ui-state-active a:link, #demo .ui-state-active a:visited
+{
+    color: #fff !important;    
+}
+
+#divEditor .ui-state-active a, #divEditorSemList .ui-state-active a
+{
+    color:white !important;    
+}
+
+#tabs .ui-state-active a
+{
+    padding:0px !important; margin:0px !important;
+	color:#6E7173 !important;
+	font-family:Vani;
+	font-size:12px !important;
+	font-weight: bold;
+}
+.ui-combobox .ui-combobox-input
+{
+    background: #fff !important;
+}
+.menuP .ui-state-active a
+{
+    color:White !important;    
+}
+.testeScroll
+{
+    height:360px; 
+    width: 700px; 
+    overflow:auto;  
+}
+
+.toolMenu
+{
+    float:left;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+.menu-fundo-branco
+{
+    background: #f2f2f2 !important;
+}
+.ui-jqgrid-labels{
+    border: 1px solid silver; 
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#D5D5D5)) repeat-X;
+    background: -moz-linear-gradient(top, #fff, #D5D5D5) repeat-X;
+}
+.ui-jqgrid .ui-state-highlight
+{
+    background: #C2CACC !important;
+}
+.ui-jqgrid tr.jqgrow
+{
+    font-size: 12px;
+}
+.ui-jqgrid tr.jqgrow:hover
+{
+    cursor: pointer;
+    background-color: #f2f2f2;    
+}
+.ui-pager-control .ui-pg-table
+{
+    font-size: 12px;
+}
+
+/*
+#dlgOpcoesMesas .contornoDlg
+{
+    background-color: rgba(255, 255, 255, 0.81);
+    border: 1px solid silver;
+    border-radius: 6px;
+}*/
+
+.contornoDlg
+{
+    background-color: #FFF;
+    border: 1px solid silver;
+    border-radius: 6px;
+}
+
+.contornoDlg-divEditor, .contornoDlg-divEditor_2
+{
+    background-color: #f7f7f7;
+    border: 1px solid silver;
+    border-radius: 6px;
+}
+
+#divInternoAbaEditor
+{
+    height: 367px;
+}

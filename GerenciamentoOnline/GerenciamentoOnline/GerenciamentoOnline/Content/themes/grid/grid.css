@@ -1,0 +1,46 @@
+﻿#thead 
+{
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(#D5D5D5)) repeat-X;    
+}
+
+#thead li 
+{
+    float: left;
+    font-size: 11px;
+    padding-left: 5px;    
+    border-left: 1px solid silver;
+}
+
+#thead li:first-child 
+{
+    border-left: 0px !important;
+}
+
+
+#contTbody .tbody {
+    float: left;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    background-color: #FFF;
+    margin-top: 2px;
+    
+}
+
+#contTbody .tbody li
+{
+    float: left;
+    /*padding-left: 5px;*/
+    border-left: 1px solid silver;
+}
+
+#contTbody .tbody li:first-child 
+{
+    border-left: 0px !important;
+}
+    
+#contGrid 
+{
+    float: left;
+}

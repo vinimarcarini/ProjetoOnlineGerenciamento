@@ -1,0 +1,1672 @@
+﻿#toobarFechaConta
+{
+    height: 45px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.tooF
+{
+    height: 42px;
+    width: 150px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#E6E7E8)) repeat-X;
+    background: -moz-linear-gradient(top, #fff, #E6E7E8) repeat-X;
+    font-family: arial;
+    font-size: 17px !important;
+    color: #848688;
+    line-height: 42px;
+    text-align: center;
+}
+
+#nomeClienteLabel
+{
+    position: absolute;
+    top: 26px;
+    left: 185px;
+    font-size: 18px;
+    color: #508ECC;
+}
+
+.contFormContaRecTitulos #nomeClienteLabel
+{
+    left: 25px;
+}
+
+#toobarFechaConta .nomeCliente
+{
+    position: absolute;
+    top: 22px;
+    left: 25px;
+    font-size: 20px;
+    color: #508ECC;
+}
+
+#toobarFechaConta .adiantamento p
+{
+    display: none;    
+}
+
+#lupaAdiantamento
+{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 26px;
+    right: 21px;
+    z-index: 1000;
+}
+.adiantamento, .clienteFechaConta
+{
+    border-radius: 4px;
+    height: 42px;
+    width: 135px;
+    padding-right: 15px;
+    float: left;
+    text-align: center;
+    color: gray;
+    line-height: 42px;
+    font-size: 16px;
+    position: relative;
+}
+
+.btnFechaContaPedido span
+{
+    position: absolute;
+    bottom: 0px;
+    right: 6px;
+    font-size: 13px;
+}
+
+.clienteFechaConta span
+{
+    position: absolute;
+    top: -2px;
+    right: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 20px;
+    color: rgb(173, 171, 171);
+    text-shadow: none;
+}
+
+.adiantamento
+{
+    float: right;
+    margin-right: 20px;
+    width: 150px;
+    padding-right: 20px;
+}
+
+.clienteFechaConta:hover, .adiantamento:hover, #selCliente:hover
+{
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#E3D9CF)) repeat-X;
+    background: -moz-linear-gradient(top, #fff, #E3D9CF) repeat-X;
+    cursor: pointer;
+}
+
+#addProduto
+{
+    font-size: 12px;
+    color: #606062;
+    float: left;
+}
+#backgroundproduto
+{
+    width: 24px;
+    height: 24px;
+    float: left;
+    position: absolute;
+    left: 603px;
+    top: 0px;
+}
+#gridItensFmt
+{
+    /*padding-top: 20px;  */
+    float: left;
+}
+#divEventoAdd
+{
+    height: 20px;
+    position: relative;
+}
+#divEventoAdd:hover
+{
+    cursor: pointer;
+}
+#divAdiciona
+{
+    width: 620px;
+}
+#divAdiciona:hover
+{
+    background-color: #E6E6DB;
+}
+#linhaProduto
+{
+    border-top: 1px solid silver;
+    width: 490px;
+    height: 1px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#dlgPedidoFechaConta
+{
+    background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#DADAC9)) repeat-X;
+    background: -moz-linear-gradient(top, #f7f7f7, #DADAC9) repeat-X;
+}
+#adicionaItens
+{
+    position: absolute;
+    height: 70px;
+    width: 621px;
+}
+#comboTipoPedido, #comboMesa
+{
+    width: 100px;
+}
+
+#comboStatusPedido
+{
+    width: 150px;
+}
+
+#adicionaItens h1
+{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    font-weight: normal;
+    font-family: Arial;
+    font-size: 17px;
+    color: #848688;
+}
+#adicionaItens h2
+{
+    position: absolute;
+    top: 10px;
+    left: 105px;
+    font-weight: normal;
+    font-family: Arial;
+    font-size: 17px;
+    color: #848688;
+}
+#adicionaItens h3
+{
+    position: absolute;
+    top: 10px;
+    left: 420px;
+    font-weight: normal;
+    font-family: Arial;
+    color: #848688;
+    font-size: 17px;
+}
+.txtQtde
+{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: #848688;
+    font-size: 12px;
+    height: 25px;
+    width: 75px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding-left: 5px;
+}
+.txtProduto
+{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    color: #848688;
+    font-size: 12px;
+    height: 25px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding-left: 5px;
+}
+#txtValorProduto
+{
+    position: absolute;
+    top: 30px;
+    left: 420px;
+    color: #848688;
+    font-size: 12px;
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    background-color: #f7f7f7;
+    padding-left: 5px;
+}
+#btnAddProdutoConta
+{
+    position: absolute;
+    top: 22px;
+    left: 510px;
+    color: #848688;
+    font-size: 12px;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid #A8A6A6;
+    text-align: center;
+    line-height: 35px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#E3D9CF)) repeat-X;
+    background: -moz-linear-gradient(top, #fff, #E3D9CF) repeat-X;
+}
+#btnAddProdutoConta:hover
+{
+    background: -webkit-gradient(linear, left top, left bottom, from(#E3D9CF), to(#fff)) repeat-X;
+    background: -moz-linear-gradient(top, #E3D9CF, #fff) repeat-X;
+    cursor: pointer;
+    color: #A8A6A6;
+}
+#divPagamentos
+{
+    margin-right: 20px;
+    width: 285px;
+    height: 320px;
+    float: right;
+    position: relative;
+    text-align: center;
+}
+#contFormConta
+{
+    position: relative;
+    padding-left: 25px;
+}
+#totais
+{
+    position: relative;
+    float: left;
+    clear: both;
+    margin-top: 10px;
+    width: 620px;
+}
+
+#contFormConta .grupoTotais
+{
+    position: relative;
+    float: left;
+    clear: both;
+    width: 620px;
+    margin-top: 21px;
+}
+
+.acertoLabel
+{
+    font-size: 14px;
+    color: #848688;
+    text-align: right;
+    float: left;
+}
+.DescontoAcerto
+{
+    margin-right: 126px;
+}
+.TotalAcerto
+{
+    font-size: 14px !important;
+    text-align: center;
+    width: 170px !important;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.inpAcerto
+{
+    border: 1px solid silver;
+    border-radius: 5px;
+    height: 26px;
+    width: 145px;
+    padding-left: 10px;
+    top: 36px;
+    font-size: 17px;
+    color: #848688;
+    float: left;
+}
+
+.inpAcerto.inpAcrescimo
+{
+    width: 70px;
+    margin-right: 5px;
+    padding-right: 25px;
+}
+
+.totaisContFormInput .inpDescontoCtRec
+{
+    text-align: left !important;
+}
+.totaisContFormInput .inpAcrescimo
+{
+    margin-left: 45px;
+    width: 145px;
+}
+.totaisContFormInput .porcentagemDesc
+{
+    margin-left: -47px;
+    background-color: #f2f2f2;
+    text-align: right;
+    padding-right: 2px;
+}
+
+.inpAcerto.inpTaxaEntrega
+{
+    width: 70px;
+    padding-right: 5px;
+    background-color: #f7f7f7;
+}
+
+#grupoInput .porcentagemDesc
+{
+    border: 1px solid silver;
+    border-radius: 5px;
+    height: 26px;
+    /*padding-left: 10px;*/
+    padding-left: 2px;
+    top: 36px;
+    font-size: 17px;
+    color: #848688;
+    float: left;
+}
+
+.inpAcrescimo
+{
+}
+.inpCover
+{
+    width: 70px;
+    height: 20px;
+    background-color: #f7f7f7;
+    font-size: 10px !important;
+}
+
+.inpCover:focus
+{
+    background-color: #fff;
+}
+
+.acertoLabel.cover
+{
+    font-size: 10px;
+    line-height: 20px;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+
+#grupoInput label
+{
+    position: absolute;
+    bottom: 16px;
+    left: 53px;
+    color: gray;
+    font-size: 12px;
+}
+.acertoLabel.AcrescimoAcerto
+{
+    margin-right: 24px;
+    text-align: left;
+}
+
+.totaisContFormInput .AcrescimoAcerto
+{
+    margin-left: 6px;
+}
+
+.acertoLabel.TaxaEntrega
+{
+    margin-right: 50px;
+}
+
+.inpdesconto
+{
+    margin-right: 45px;
+    width: 70px;
+    /*background-color: #f2f2f2;*/
+    padding-left: 25px;
+    font-size: 12px;
+}
+
+.porcentagemDesc
+{
+    width: 70px;
+    margin-right: 5px;
+}
+
+
+.inpValorPedido
+{
+    margin-right: 45px;
+    background-color: #f7f7f7;
+}
+.inpValorPago
+{
+    background-color: #f7f7f7;
+}
+.valorPedidoAcerto
+{
+    margin-right: 110px;
+}
+.inpTotal
+{
+    height: 35px !important;
+    background-color: #f7f7f7;
+    text-align: center !important;
+    width: 170px;
+    margin-top: 4px;
+    font-size: 22px !important;
+}
+#divPagar
+{
+    border: 1px solid silver;
+    width: 99%;
+    height: 40px;
+    color: #848688;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+#divPagar p, .totalPagar
+{
+    width: 130px;
+    float: left;
+    color: #0c0cb3;
+}
+
+#divSetaDivPagar
+{
+    position: absolute;
+    top: 30px;
+    right: -11px;
+    border: 1px;
+    width: 24px;
+    height: 24px;
+}
+
+#divSetaDivPagar:hover
+{
+    cursor: pointer;
+}
+
+#divPagar .divPagarDivisao
+{
+    position: absolute;
+}
+#divPagar .divPagarLegendaValor
+{
+    left: 10px;
+    top: -10px;
+    font-size: 11px;
+}
+#divPagar .divPagarLegendaPorPessoa
+{
+    right: 10px;
+    top: -10px;
+    font-size: 11px;
+}
+#divPagar .divPagarValor
+{
+    left: 10px !important;
+    top: 7px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#divPagar .divPagarInput
+{
+    left: 110px;
+    top: 7px;
+    font-weight: bold;
+    font-size: 11px;
+}
+#divPagar .divPagarValorPorPessoa
+{
+    right: 10px;
+    top: 7px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#divPagar #txtDivisaoDivPagar
+{
+    margin-left: 7px;
+    text-align: center;
+    width: 40px;
+}
+
+#divPagarContSimples, #divPagarContDivisao
+{
+    display: none;
+}
+
+#divPagamentos h1
+{
+    font-weight: normal;
+    color: #848688;
+    line-height: 40px;
+    text-align: left;
+    font-size: 16px;
+}
+.inpPgt
+{
+    height: 30px;
+    width: 145px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    font-size: 15px;
+    color: #848688;
+    float: left;
+}
+
+.inpPgt:focus
+{
+    border: 1px solid orange;
+}
+
+#labelPgt
+{
+    width: 140px;
+    float: left;
+}
+
+#labelPgt h1
+{
+    position: relative;
+}
+
+#labelPgt h1 span
+{
+    position: absolute;
+    right: -24px;
+    font-size: 11px;
+    text-align: left;
+    width: 20px;
+    margin-top: -6px;
+}
+
+#inputPgt
+{
+    float: left;
+    width: 145px;
+    margin-top: -7px;
+}
+#adiantamentoValor
+{
+    background-color: #f7f7f7;
+}
+.inpPgt.troco
+{
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid silver;
+    width: 146px;
+}
+#divPagamentos h2
+{
+    font-weight: normal;
+    color: #848688;
+    line-height: 40px;
+    text-align: left;
+    font-size: 14px; /*margin-top: 20px;*/
+    margin-top: 13px;
+}
+.phPagtoTroco
+{
+    color: Green !important;
+}
+.phPagtoDiferenca
+{
+    color: #cf3224 !important;
+}
+.phPagtoZerado
+{
+    color: #848688 !important;
+}
+#divEfetuarPgt
+{
+    width: 100%;
+    height: 36px;
+    clear: both;
+    line-height: 36px;
+    text-align: center;
+    color: #FFF;
+    font-size: 19px;
+    border-radius: 5px;
+    float: left; /*  margin-top: 12px;*/
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+#dlgListFechaPedido .btContasReceber
+{
+    margin-top: 58px;
+}
+
+#grupoInput
+{
+    float: left;
+    width: 400px;
+    margin-bottom: 10px;
+}
+/*janela para adicionar um cliente*/
+#conteudoCliente
+{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    border: 1px solid silver;
+    height: 450px;
+    position: relative;
+    margin-left: 20px;
+    height: 500px;
+}
+
+#fecharPedido
+{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    border: 1px solid silver;
+    position: relative;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+#conteudoAdiantamento
+{
+    margin-right: 15px !important;
+    background-color: #f7f7f7;
+    margin-left: 10px;
+}
+#toolCliente
+{
+    margin-top: 3px;
+    height: 50px;
+    border-bottom: 1px solid silver;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px; /*width: 450px;*/
+}
+#toolCliente h1, #toolMesa h1
+{
+    float: left;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #f7f7f7;
+}
+#toolCliente h1:hover, #toolMesa h1:hover
+{
+    border: 1px solid silver;
+}
+#toolCliente p, #toolCliente h2, #toolMesa p
+{
+    float: left;
+    height: 45px;
+    width: 310px;
+    line-height: 45px;
+    font-size: 18px;
+    color: #848688;
+    border: 1px solid #f7f7f7;
+    text-align: center;
+}
+#dlgInformacoes #toolCliente h2
+{
+    position: absolute;
+    left: 68px;
+    right: 68px;
+    font-weight: normal;
+}
+
+#dlgInformacoes .sairCli
+{
+    float: right !important;
+}
+
+#menorDlg
+{
+    height: 28px;
+    width: 19px;
+    position: absolute;
+    left: -19px;
+    top: 5px;
+}
+#maiorDlg
+{
+    height: 28px;
+    width: 19px;
+    position: absolute;
+    top: 5px;
+    right: -19px;
+}
+#pesqCliExJs
+{
+    margin-bottom: 20px;
+}
+.clienteP
+{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+#labelCliente
+{
+    height: 220px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#divInputGenerico
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#divInputGenerico p
+{
+    font-size: 13px;
+    color: #848688;
+    float: left;
+    clear: both;
+    margin-left: 5px;
+}
+
+.adiantamento p
+{
+    border: 1px solid silver;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF8F00), to(#F1D9AD)) repeat-X;
+    color: white;
+    text-shadow: 2px 2px 2px silver;
+    box-shadow: 2px 2px 5px silver;
+    float: right;
+    margin-top: 10px;
+    margin-right: -15px;
+    font-weight: bold;
+}
+
+#dlgInformacoes .comboInformacao
+{
+    height: 27px;
+    width: 272px;
+}
+
+.clientePedido, .comboInformacao, .inputGenerico
+{
+    height: 30px;
+    width: 350px;
+    clear: both;
+    float: left;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-bottom: 9px;
+    padding-left: 5px; /*background-color: #f7f7f7;*/
+    border: 1px solid silver;
+}
+
+#divProdutos .inputGenerico {
+    margin-bottom: 4px;
+}
+
+#contInformacoesDelivery .inputGenerico
+{
+    width: 370px;
+}
+
+#contInformacoesDelivery #taxaEntrega
+{
+    padding-right: 5px;
+}
+
+#continformacoesdelivery .inputgenerico.pesqTelefone
+{
+    width: 367px;
+    margin-right: 6px;
+    padding-left: 30px;
+}
+
+#continformacoesdelivery .inputgenerico
+{
+    background-position: right !important;
+    padding-right: 5px;
+}
+
+#dlgInformacoesDelivery, #dlgCadastroCartao, #dlgOpcoesDelivery, #dlgOpcoesCartoes, #dlgOpcoesMesas, #dlgTipoPagamento, #dlgListExceptions
+{
+    overflow: hidden;
+    background-color: #f7f7f7;
+    height: auto;
+    border-radius: 5px;
+}
+
+.inpInformacoes
+{
+    height: 26px;
+    width: 270px;
+    float: left;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    padding-left: 5px;
+    border: 1px solid silver;
+    color: #848688;
+    font-size: 12px;
+}
+.comboInformacao
+{
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+    clear: inherit !important;
+    background-color: #fff !important;
+    color: #848688;
+    font-size: 12px;
+}
+.clientePedido:focus
+{
+    background-color: #fff;
+    border: 1px solid silver;
+}
+#imagemCliente
+{
+    border: 1px solid silver;
+    height: 100px;
+    width: 100px;
+    float: left;
+    clear: both;
+}
+#labelCliente p, #fecharPedido p, #fecharPedido h4, #labelConvenio
+{
+    width: 110px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 15px;
+    color: #848688;
+}
+#fecharPedido p
+{
+    float: left;
+    padding-left: 18px;
+    clear: both;
+}
+#fecharPedido h4, #labelConvenio
+{
+    float: left;
+    width: 300px;
+    color: #508ECC;
+    font-weight: normal;
+}
+#cartaoCredito, #cheque, #assinada
+{
+    float: left;
+}
+
+#contMsgConfirmacao .cancelado
+{
+    color: red;
+    font-size: 12px;
+    margin-left: 17px;
+    margin-top: 15px;
+}
+
+
+.txtQtdeInform
+{
+    color: #848688;
+    font-size: 12px;
+    height: 25px;
+    width: 75px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding-left: 5px;
+    float: left;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+.descricaoInform
+{
+    float: left;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+.descricaoInform h1
+{
+    border: 1px solid silver;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    background-color: Orange;
+    text-align: center;
+    line-height: 15px;
+    color: #fff;
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.descricaoInform h2
+{
+    float: left;
+    color: #848688;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.descricaoInform h3
+{
+    border-bottom: 1px solid silver;
+    height: 8px;
+    float: left;
+    margin-left: 5px;
+}
+.bordaCartaoCredito
+{
+    width: 285px;
+}
+.bordaAss
+{
+    width: 340px;
+}
+.bordaCheque
+{
+    width: 355px;
+}
+.bordaAdi
+{
+    width: 310px;
+}
+#selCliente
+{
+    height: 30px;
+    width: 150px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E3D9CF), to(#fff)) repeat-X;
+    background: -moz-linear-gradient(top, #E3D9CF, #fff) repeat-X;
+    font-family: arial;
+    font-size: 15px;
+    color: #848688;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    margin-top: 4px;
+}
+#conteudoInformacao
+{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    overflow: auto;
+    max-height: 380px;
+}
+.btnNovoCliente, .btConfirmarDelivery, .btConfirma, #dlgInformacoesDelivery .voltar
+{
+    width: 250px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+    float: left;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 5px;
+}
+.btConfirmarDelivery, .btConfirma, .btConfirma, #dlgInformacoesDelivery .voltar
+{
+    margin-top: 13px;
+    margin-left: 65px;
+    margin-bottom: 14px;
+    color: gray;
+    border: 1px solid silver;
+}
+
+#dlgInformacoesDelivery .btV
+{
+    width: 175px !important;
+    margin-left: 0px !important;
+    position: relative !important;
+}
+
+#dlgInformacoesDelivery .btV.voltar
+{
+    float: right;
+    display: none;
+}
+
+.btnCalculadora
+{
+    float: left;
+    width: 25px;
+    height: 28px;
+    border: 1px solid silver;
+    margin-top: 5px;
+    margin-left: 4px;
+    border-radius: 3px;
+}
+
+.btnCalculadora:hover
+{
+    cursor: pointer;
+}
+
+
+.btnCalculadora:active
+{
+    font-weight: bold;
+}
+
+.divInpCalc
+{
+    float: left;
+    width: 150px;
+}
+
+#dlgPgtPedidoEngregadores .contFiltro
+{
+    margin-bottom: 50px;
+}
+
+#divBotoesEntrega
+{
+    left: 321px;
+    position: absolute;
+    width: 642px;
+}
+
+.contFiltro
+{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#dlgListEntregas .contFiltro
+{
+    margin-bottom: 15px;
+    height: 50px;
+}
+
+.contFiltro .status
+{
+    float: left;
+    padding: 5px 0px;
+    margin: 14px 14px;
+    border-radius: 3px;
+    width: 183px;
+    text-align: center;
+    font-size: 17px !important;
+}
+.contFiltro .btSilver.status
+{
+    color: Gray;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+.contFiltro .btDourado2.status
+{
+    color: #fff;
+}
+
+.contFiltro .statusAlerta
+{
+    height: 36px;
+    left: 266px;
+    margin: 12px 0 0 0;
+    padding: 0;
+    position: absolute;
+    width: 48px;
+}
+.contFiltro .imgAtrasados
+{
+    display: none;
+    height: 36px;
+    width: 48px;
+}
+.contFiltro .imgAtrasados:hover
+{
+    cursor: pointer;
+}
+.contFiltro .imgAtrasados:active
+{
+    cursor: pointer;
+    height: 34px;
+    width: 46px;
+}
+
+.contFiltro .imgTempoCerto
+{
+    height: 36px;
+    width: 48px;
+}
+
+#dlgListEntregas .divBusca
+{
+    float: left;
+    margin-right: 20px;
+    width: 250px;
+}
+
+#dlgImprimeEntrega .entrega
+{
+    border-radius: 3px;
+    float: left;
+    clear: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    width: 190px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+}
+
+#dlgImprimeEntrega .divPesqEntregadores
+{
+    margin-bottom: 10px;
+    margin-left: 18px;
+    margin-top: 2px;
+}
+
+#dlgImprimeEntrega .cont
+{
+    padding-top: 20px;
+}
+#dlgImprimeEntrega .cont label
+{
+    font-size: 13px;
+    margin-left: 18px;
+}
+
+#dlgImprimeEntrega .ui-state-default
+{
+    background: #f7f7f7;
+}
+
+#dlgConfirmaEntrega .entrega
+{
+    border-radius: 3px;
+    float: left;
+    clear: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 53px;
+    width: 190px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+}
+
+#dlgImprimeEntrega .entrega.btSilver
+{
+    width: 190px;
+    color: gray;
+    font-size: 14px;
+    border: 1px solid rgba(128, 128, 128, 0.42);
+}
+
+/*.menufor p.excluirItens 
+{
+    border: 1px solid silver;
+}*/
+
+/* ------------------------------------ Mateus A. Saggin 12/03/2013 --------------------------------------------------*/
+
+#dlgAdiantamento
+{
+    max-height: 600px;
+}
+
+#dlgAdiantamento .conteudo *
+{
+    color: gray;
+    font-size: 13px;
+}
+
+#dlgAdiantamento .conteudo
+{
+    padding-right: 5px;
+}
+
+#dlgAdiantamento .conteudo .toolbar *, #dlgAdiantamento .conteudo .itens, #dlgAdiantamento .conteudo .totalPago *
+{
+    float: left;
+}
+
+#dlgAdiantamento .conteudo .toolbar .qtde
+{
+    width: 50px;
+    padding-left: 5px;
+}
+
+#dlgAdiantamento .conteudo .toolbar .val
+{
+    width: 50px;
+    float: right;
+}
+
+#dlgAdiantamento .conteudo .toolbar
+{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid silver;
+    line-height: 30px;
+}
+
+#dlgAdiantamento .conteudo .totalPago
+{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#dlgAdiantamento .conteudo .totalPago .desc
+{
+    padding-left: 5px;
+    width: 60px;
+    color: rgb(87, 101, 219);
+    font-size: 15px;
+}
+
+#dlgAdiantamento .conteudo .totalPago .val
+{
+    float: right;
+    color: rgb(87, 101, 219);
+    font-size: 15px;
+    text-align: right;
+    padding-right: 6px;
+}
+
+#dlgAdiantamento .conteudo .totalPago .cifrao
+{
+    float: right;
+    width: 30px;
+    color: rgb(87, 101, 219);
+    font-size: 15px;
+}
+
+#dlgAdiantamento .conteudo .conteudoCliente .cliente .nome
+{
+    padding-left: 5px;
+    color: rgb(87, 101, 219);
+    float: left;
+    z-index: 100;
+    background-color: #fff;
+    padding-right: 5px;
+}
+
+#dlgAdiantamento .conteudo .conteudoCliente .cliente .val
+{
+    float: right;
+    width: 90px;
+    color: rgb(87, 101, 219);
+    text-align: right;
+    z-index: 100;
+    background-color: #fff;
+}
+
+#dlgAdiantamento .conteudo .conteudoCliente .cliente .pont
+{
+    border-bottom: 1px dotted rgb(87, 101, 219);
+    margin-top: 10px;
+    z-index: -100;
+}
+
+#dlgAdiantamento .conteudo .conteudoCliente .cliente
+{
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+#dlgAdiantamento .conteudo .conteudoCliente .conteudoItens .itens .qtde
+{
+    float: left;
+    width: 40px;
+    padding-left: 5px;
+}
+
+#dlgAdiantamento .conteudo .conteudoCliente .conteudoItens .itens .desc
+{
+    float: left;
+    padding-left: 5px;
+}
+
+#dlgAdiantamento .conteudo .conteudoCliente .conteudoItens .itens
+{
+    width: 100%;
+    line-height: 26px;
+}
+
+#dlgAdiantamento .even
+{
+    background-color: #f7f7f7;
+}
+
+#dlgAdiantamento .conteudo .conteudoCliente .contCancelar
+{
+    width: 100%;
+    float: left;
+    height: 22px;
+    border-bottom: 1px solid silver;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#dlgAdiantamento .conteudo .conteudoCliente .contCancelar .btCancelar
+{
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    float: right;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#dlgAdiantamento .conteudo .conteudoCliente .contCancelar .labelCancelado
+{
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    float: right;
+    color: #ff0000;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------*/
+
+
+/* ------------------------------------ Mateus A. Saggin 02/04/2013 --------------------------------------------------*/
+
+#contInformacoesDelivery .btConfirmaDelivery
+{
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+#divFormCadastroRapido .jspContainer
+{
+    padding-bottom: 5px;
+}
+
+#divFormCadastroRapido .formatCadastroRapido
+{
+    height: 48px;
+    float: left;
+    width: 375px;
+    margin: 7px 0px 0px 0px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------*/
+
+#conteudoPgtEntregadores .tool
+{
+    height: 25px;
+    border-bottom: 1px solid #ACB0B4;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#D5D5D5)) repeat-X;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    line-height: 25px;
+}
+
+#conteudoPgtEntregadores .tool p
+{
+    float: left;
+    font-size: 12px;
+    padding-left: 5px;
+    width: 100px;
+}
+
+#conteudoPgtEntregadores .tool p.entregador
+{
+    width: 300px;
+}
+
+#conteudoPgtEntregadores
+{
+    height: 374px;
+    overflow: auto;
+}
+
+#conteudoPgtEntregadores .cont
+{
+    margin-top: 40px;
+}
+
+#conteudoPgtEntregadores .cont .each
+{
+    border: 1px solid silver;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+#conteudoPgtEntregadores .cont .each .nome
+{
+    line-height: 40px;
+    float: left;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+#conteudoPgtEntregadores .cont .each:hover
+{
+    cursor: pointer;
+    background-color: rgba(192, 192, 192, 0.31) !important;
+}
+
+#conteudoPgtEntregadores .each .geral, #conteudoPgtEntregadores .each .nome
+{
+    float: left;
+    font-size: 15px;
+    padding-left: 5px;
+    width: 95px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#conteudoPgtEntregadores .each .nome
+{
+    width: 300px;
+    text-align: left;
+}
+
+#conteudoPgtEntregadores .each .suprimento
+{
+    color: Red;
+}
+
+#conteudoPgtEntregadores .each .total
+{
+    color: blue;
+}
+
+/*----------------------------------------------------------------------*/
+
+.inpAcerto.inpValorTitulos
+{
+    margin-right: 51px;
+}
+
+.inpAcerto.inpDescontoCtRec
+{
+    width: 70px;
+    margin-right: 52px;
+}
+
+.cta .inpAcrescimo
+{
+    width: 146px;
+    margin-right: 50px;
+}
+
+.cta .DescontoAcerto
+{
+    margin-right: 132px;
+}
+
+.cta .AcrescimoAcerto
+{
+    margin-right: 50px;
+}
+
+.ctap .inpPgt.troco
+{
+    margin-top: 215px;
+}
+
+.ctap h2
+{
+    margin-top: 200px !important;
+}
+
+.ctap #divEfetuarPgt
+{
+    margin-top: 48px;
+}
+
+.divSair.sairGenerico:hover, .salvarGenerico:hover
+{
+    cursor: pointer;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+#dlgAdiantamento .toolbar .cont1
+{
+    float: left;
+    width: 50%;
+    height: 40px;
+}
+
+#dlgAdiantamento .toolbar .cont2
+{
+    float: right;
+    width: 50%;
+    height: 40px;
+}
+
+#dlgAdiantamento .toolbar label
+{
+    font-size: 13px;
+    color: rgb(87, 87, 202);
+}
+
+#dlgAdiantamento .toolbar .cont1 .mesa, #dlgAdiantamento .toolbar .cont1 .descricao, #dlgAdiantamento .toolbar .cont1 .balcao
+{
+    display: none;
+}
+
+#dlgAdiantamento .toolbar .cont1 *
+{
+    margin-left: 3px;
+    margin-right: 4px;
+}
+
+#dlgAdiantamento .toolbar .cont2 *
+{
+    float: right;
+    margin-right: 7px;
+}
+
+#dlgAdiantamento .rodapeHistorico *
+{
+}
+
+#dlgAdiantamento .rodapeHistorico .pagamentos
+{
+    width: 100%;
+    font-weight: normal;
+    margin-bottom: 10px;
+    border-top: 1px solid silver;
+    padding-top: 10px;
+}
+
+#dlgAdiantamento .rodapeHistorico .pagamentos *
+{
+    font-size: 13px !important;
+    color: Gray !important;
+}
+
+#dlgAdiantamento .rodapeHistorico .pagamentos .cifrao
+{
+    width: 100px;
+    text-align: right;
+    margin-right: 6px;
+}
+
+#dlgCadastroCartao .conf
+{
+    float: left;
+}
+
+#mostraCover
+{
+    display: none;
+}
+
+#dlgTipoPagamento #conteudoOpcoesDelivery
+{
+    padding-top: 0;
+}
+
+#conteudoTipoPagamento .listaGarcom
+{
+    width: 187px;
+}
+
+#dlgTipoPagamento #conteudoTipoPagamento
+{
+    margin-bottom: 7px;
+    margin-top: 2px;
+}
+
+#dlgTipoPagamento
+{
+    width: 192px !important;
+    max-height: 590px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+#divEfetuarPgt > input
+{
+    width: 100%;
+    height: 38px;
+    margin-top: -37px;
+    border: none;
+    background-color: transparent;
+}
+
+#dlgListFechaPedido .ordenarDicionario
+{
+  float: left;
+  margin-top: 412px;
+  cursor:pointer;
+}
+
+#dlgListFechaPedido #ordemGridContasPagar, #dlgListFechaPedido #ordemGridContasReceber
+{
+	margin-top: 364px;
+}
+
+.inpAcerto.inpDesconto.block{
+    background-color: #f2f2f2 !important;
+}

@@ -1,0 +1,1975 @@
+﻿#contMsgConfirmacao #idConfirmacaoBtn2:hover, #contMsgConfirmacao #idConfirmacaoBtn1:hover {
+    cursor: pointer;
+}
+
+#conteudoProdutos .ProdutoPedido p {
+line-height: 15px;    
+/*margin-top: 20px;*/
+}
+
+#contMsgConfirmacao .sair:hover
+{
+    cursor: pointer;
+}
+
+#contMsgConfirmacao
+{
+    min-height: 140px;
+    width: 280px;
+    border: 1px solid silver;
+    background-color: #F6F6F6;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 5px;
+    position: relative;
+    float: left;
+    margin-top: 13px;
+}
+
+#qtdeprodutoconfirmacao .btn:hover, #btPergunta1:hover, #btPergunta2:hover
+{
+    cursor: pointer;
+}
+
+.clickAddItem:hover, .btAddCustom:hover
+{
+    cursor: pointer;
+}
+.ProdutoPedido .addItem:active
+{
+    color: silver;
+}
+
+#divSubGrupos
+{
+    position: absolute;
+    padding-top: 10px;
+    top: 5px;
+    bottom: 5px;
+    left: 0px;
+    border-right: 1px solid #FCCBA2;
+    width: 155px;
+    overflow: auto;
+}
+
+#backgroundPedido
+{
+    overflow: hidden !important;
+    overflow: auto;
+    background-repeat: no-repeat;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+#tabsItCust
+{
+    padding-left: 10px;
+}
+
+#divMesas, #divCartoes
+{
+    padding-left: 27px;
+    padding-right: 17px; /* foi comentado para poder aparecer o scroll nas mesas quando não utiliza cartão*/ /*overflow: hidden;*/
+}
+
+#divContainerMesas #divVerificaLargura
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid silver;
+}
+/*
+.btMesas a, .btMesas
+{
+    margin-bottom: 5px;
+    float: left;
+    clear: both;
+    width: 250px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 10px;
+    
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #EDEDED), color-stop(1, #EBECCD) );
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#EDEDED', endColorstr='#EBECCD');
+	
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #bdbbbd;
+	display:inline-block;
+	color:#777777;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+	
+	border: 1px solid #D3D1C3;
+    box-shadow: 1px 1px 2px #A7A390;
+
+}.btMesas a:hover, .btMesas:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #EBECCD), color-stop(1, #EDEDED) );
+	background:-moz-linear-gradient( center top, #EBECCD 5%, #EDEDED 100% );
+	background-color:#dfdfdf;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#EBECCD', endColorstr='#EDEDED');
+	cursor: pointer;
+}
+*/
+#divProdutos
+{
+    bottom: 0px; /*     position: absolute;     top: 0px;     left: 158px;     right: 290px;     bottom: 0px;     overflow-y: auto;     */
+    float: left;
+}
+
+#divEdicaoPedido .divXScroll
+{
+    height: 370px;
+    overflow: auto;
+    position: absolute;
+    width: 521px;
+    z-index: 1;
+}
+#divEdicaoPedido .divXScroll #conteudoProdutos
+{
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#conteudoOpcoesCartao .bt.pagamento
+{
+    display: none;
+}
+
+#conteudoOpcoesCartao .bt.pagamento.utiliza
+{
+    display: block;
+}
+
+#conteudoOpcoesDelivery .bt, #conteudoOpcoesCartao .bt, #conteudoOpcoesLancamento .bt,#conteudoOpcoesContaPagar .bt
+{
+    display: block;
+    height: 42px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 42px;
+    color: gray;
+    border: 1px solid silver;
+    margin-top: 20px;
+    font-size: 17px;
+    width: 100%;
+}
+
+#conteudoOpcoesCartao .bt.false
+{
+    display: none;
+}
+
+#conteudoOpcoesDelivery .disable, #conteudoOpcoesCartao .disable
+{
+    border: 1px solid rgb(230, 230, 230);
+    background-color: #f7f7f7;
+}
+
+#conteudoOpcoesDelivery span /*, #conteudoOpcoesCartao .disable span*/
+{
+    position: absolute;
+    font-size: 9px;
+    top: 95px;
+    right: 18px;
+    color: blue;
+    text-decoration: underline;
+    height: 30px;
+}
+
+#conteudoOpcoesDelivery .voltarPendentes
+{
+    right: 222px;
+    width: 113px;
+}
+
+#conteudoOpcoesDelivery span:hover
+{
+    cursor: pointer;
+}
+
+#contInformacoesDelivery
+{
+    overflow: auto;
+}
+
+#contInformacoesDelivery, #dlgCadastroProduto
+{
+    background-color: #F7F7F7;
+}
+
+/*---------------------------juntar mesa-------------------------------*/
+
+#mesaEsquerda, #garcomDireita, .mesaFechamento, #mesaPrincipalDireita
+{
+    margin-top: 65px;
+    margin-left: 10px;
+    width: 220px;
+}
+
+.btprincipal
+{
+    left: 5px;
+}
+
+#inpDisplayMesaPricipal
+{
+    background-position: 10px;
+}
+
+.listagarcomremover, .btprincipal
+{
+    right: 5px;
+}
+
+.inpconteudoMesa
+{
+    width: 207px;
+}
+
+#contgarcom, #contjuncaomesa, #contcartoes
+{
+    width: 205px;
+}
+
+#mesaPrincipalDireita
+{
+    margin-right: 12px;
+}
+
+#mesaEsquerda
+{
+    margin-right: 13px;
+}
+
+.toolDescricao
+{
+    line-height: 40px;
+    font-size: 19px;
+    width: 207px;
+}
+
+#mesaTransferir
+{
+    margin-top: 70px;
+    margin-left: 80px;
+}
+
+#mesaAtual
+{
+    margin-top: 70px;
+    margin-left: 90px;
+    margin-right: 135px;
+}
+
+.conteudoUlEsquerda, .conteudoUlDireita
+{
+    padding: 8px 8px;
+    width: 380px;
+    height: 240px;
+}
+
+#tituloGridEsquerda .qt, #tituloGridDireita .qt
+{
+    padding-left: 13px;
+    width: 35px;
+    text-align: center;
+}
+
+#tituloGridEsquerda .ds, #tituloGridDireita .ds
+{
+    padding-left: 15px;
+    width: 195px;
+}
+
+#titulogridesquerda ul li, #titulogriddireita ul li
+{
+    width: 370px;
+}
+
+#titulogridesquerda, #titulogriddireita
+{
+    margin-left: 10px;
+}
+
+#tituloGridEsquerda, #tituloGridDireita
+{
+    width: 400px;
+}
+
+#dlgCancelarItemPedido #tituloGridEsquerda
+{
+    width: 410px !important;
+}
+
+.conteudoUlDireita ul
+{
+    min-width: 380px;
+}
+
+#tituloGridEsquerda .label, #tituloGridDireita .label
+{
+    float: left;
+    margin-bottom: 2px;
+    padding-left: 9px;
+}
+
+#tituloGridDireita .label
+{
+    padding-left: 45px;
+}
+
+#inpDisplayMesa, .inpDisplayMesaTransferir
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*----------------------------------------------------------------------*/
+#dlgrelatoriomesa .too *
+{
+    line-height: 25px;
+}
+
+#dlgrelatoriomesa .too h1
+{
+    line-height: 25px !important;
+}
+
+#dlgRelatorioMesa h1
+{
+    width: 70px;
+    text-align: center;
+}
+
+#dlgRelatorioMesa .hTituloRelatorio
+{
+    width: auto !important;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+#dlgRelatorioMesa h2
+{
+    width: 35px;
+    text-align: center;
+}
+
+#dlgRelatorioMesa h3
+{
+    width: 290px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#dlgRelatorioMesa h4
+{
+    text-align: right;
+    width: 64px;
+    margin-right: 10px;
+}
+
+#dlgRelatorioMesa .too h4
+{
+    width: auto;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+#dlgRelatorioMesa .conteudo
+{
+    max-height: 600px; /*width: 500px;    */
+}
+
+#dlgrelatoriomesa ul li h5
+{
+    padding-left: 6px;
+    color: rgb(0, 163, 255);
+    font-size: 11px;
+    line-height: 11px;
+    margin-top: -2px;
+    position: relative;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+
+#dlgRelatorioMesa .too
+{
+    margin-left: 10px;
+    padding-right: 23px;
+    padding-bottom: 2px;
+}
+#dlgRelatorioMesa ul
+{
+    overflow: auto;
+    max-height: 400px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#dlgRelatorioMesa .total
+{
+    border-top: 1px solid silver;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 470px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#comboAdicXProd, #comboObsXProd
+{
+    width: 250px;
+    height: 25px;
+}
+
+#comboCompXProd
+{
+    width: 305px;
+    height: 25px;
+}
+
+#txtNotaItemPedido, #pagPersonalizarSabor .inpNotaComanda
+{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 15px;
+    width: 530px;
+    height: 90px;
+    font-size: 15px;
+    line-height: 20px;
+    border: 1px solid silver;
+    background-color: #FFF;
+    margin-left: 13px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+#pagPersonalizarSabor .inpNotaComanda {
+    max-width: 530px;
+    max-height: 90px;
+}
+
+.ProdutoPedido p
+{
+    font-size: 15px;
+    width: 280px;
+    float: left;
+    /*margin-left: 50px;*/
+    border-left: 1px solid rgb(230, 230, 230);
+    padding-left: 10px; /* foi comentado por que na lista de protudo ocupava a tela toda. andre 04/04/2013     height: 100%;     */
+}
+
+
+#itemParaRemover ul
+{
+    margin-top: 5px;
+}
+
+#contPersonalizar .descProduto
+{
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 44px;
+}
+
+#itemParaRemover
+{
+    border: 1px solid rgba(192, 192, 192, 0.51);
+}
+/*
+.btAddCustom
+{
+    position:absolute;
+    top:7px;
+    right: 115px;
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    border: 4px dotted silver !important;   
+}
+
+/*
+.btAddCustom ul {
+    width: 19px;
+    height: 19px;
+    border-radius: 15px;
+    background-color: silver;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+.btAddCustom ul li {
+    border: 1px solid silver;
+    float : left;
+    height: 6px;
+    width: 6px;
+    border-radius: 8px;
+    background-color: #EEEBEB;
+    margin: 5px;
+}*/
+
+/*
+.ProdutoPedido .addItem, #divContBalanca .enviar
+{
+    height: 21px;
+    width: 21px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 21px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 13px;
+    
+    -moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+	background:-moz-linear-gradient( center top, #ffce79 5%, #eeaf41 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+	background-color:#ffce79;
+	border:1px solid #eeb44f;
+	display:inline-block;
+}
+*/
+/*------------------------------------*/
+
+#observacaoTool, #adicionaTool, #retiraTool
+{
+    margin-top: -74px;
+}
+
+#gbox_gridObsItemPed, #gbox_gridAdicItemPed, #gbox_gridCompItemPed
+{
+    margin-top: 7px;
+}
+/*------------------------------------*/
+/*
+.ProdutoPedido
+{
+    line-height: 40px;
+    height: 40px;
+    position:relative;
+    padding-left:5px;
+    margin-left:5px;
+    border-bottom: 1px dotted silver;  
+ }
+ 
+ .ProdutoPedido .valorProduto
+{        
+    position: absolute;
+    right: 160px;
+    top: 10px;
+    line-height: 20px !important;
+    font-size: 12px;
+    color: Orange;
+}
+*/
+.clickAddItem
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 34px;
+    bottom: 0px;
+    padding: 11px 8px;
+}
+
+#comboAdicXProd, #comboObsXProd
+{
+    margin-left: 15px;
+}
+
+#comboAdicXProdQtd, #comboObsXProdQtd
+{
+    height: 25px;
+}
+
+#adicionaTool .btOk, #observacaoTool .btOk
+{
+    padding: 4px 8px;
+    margin-left: 269px;
+}
+
+#retiraTool .btOk
+{
+    padding: 4px 8px;
+    margin-left: 316px;
+}
+
+#adicionatool, #observacaotool, #retiratool
+{
+    height: 20px;
+}
+/*---------------------------------------------------------------------------------------*/
+
+.grupoPai.btSilver, .grupoPai.btDourado2, .subGrupo.btSilverSub, .subGrupo.btDouradoSub, .grupoSabor.btSilver, .grupoSabor.btDourado2
+{
+    text-shadow: 1px 1px 0px rgba(242, 242, 242, 0) !important;
+    min-width: 100px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.grupoPai.btDourado2, .grupoSabor.btDourado2
+{
+    color: #FFF;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.divBotaoRelatorioImprime
+{
+    position: absolute;
+    top: 5px;
+    right: 140px;
+}
+
+.divBotaoRelatorioEmail
+{
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+#divGrupoPai
+{
+    /*height: 71px;*/
+    float: left;
+}
+
+.grupoPai, .grupoPaiSelected, .grupoSabor, .grupoSaborSelected
+{
+    height: 32px;
+    line-height: 32px; /*margin-top: 20px;*/
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+.grupoPai.btDourado2, .grupoPai.btSilver
+{
+    margin-top: 5px;
+}
+
+#divGrupoPai .grupoPai, #divGrupoPai .grupoPaiSelected, #divGrupoPai .grupoSabor, #divGrupoPai .grupoSaborSelected
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.slotMenu
+{
+    width: 6px;
+    margin: 15px 2px 0 2px;
+    height: 23px;
+    float: left;
+    border: 0;
+    z-index: 2;
+}
+
+.setaSlotMenu
+{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -14px;
+    display: none;
+    z-index: 1;
+}
+
+.SubGrupo
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 10px;
+    float: left;
+    clear: both;
+    text-align: center;
+    font-size: 15px;
+    line-height: 35px;
+    color: #4B4B4D;
+    width: 100px;
+}
+.SubGrupo.btDouradoSub
+{
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFF;
+}
+
+/*------------------------------------------*/
+
+.btEach
+{
+    position: absolute;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+#itemParaRemover ul .customizados li
+{
+    padding-left: 24px;
+}
+
+#itemParaRemover ul li.liRemover
+{
+    height: 24px;
+    width: 24px;
+    border-radius: 48px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+    -moz-box-shadow: inset 0px 1px 0px 0px #f5978e;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #f5978e;
+    box-shadow: inset 0px 1px 0px 0px #f5978e;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+    background: -moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+    background-color: #f24537;
+    border: 1px solid #d02718;
+    display: inline-block;
+    line-height: 3px !important;
+    margin-top: 4px !important;
+}
+
+#itemParaRemover .liAdicionar
+{
+    height: 24px;
+    width: 24px;
+    border-radius: 28px;
+    text-align: center;
+    line-height: 24px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 4px !important;
+    -moz-box-shadow: inset 0px 1px 0px 0px #caefab;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #caefab;
+    box-shadow: inset 0px 1px 0px 0px #caefab;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+    background: -moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+    background-color: #77d42a;
+    border: 1px solid rgb(61, 211, 13);
+    display: inline-block;
+}
+
+#ItemPedido .tdProduto:hover
+{
+    cursor: pointer;
+}
+
+.montagem .borda .abreCaixa, .montagem .borda .ec
+{
+    background-color: #F7F7F7;
+}
+
+.montagem .borda
+{
+    margin-top: 30px;
+}
+
+.btDourado:hover, .btRed:hover, .btDourado4:hover
+{
+    cursor: pointer;
+}
+
+#dlgRelatorioMesa
+{
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgb(104, 104, 104);
+    overflow:hidden;
+}
+
+#dlgRelatorioMesa .total
+{
+    clear: both;
+    font-size: 15px;
+    border-top: 1px solid silver;
+}
+
+#dlgRelatorioMesa .total li
+{
+    list-style-type: none;
+    float: right;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+#dlgRelatorioMesa .total li *
+{
+    float: left;
+}
+
+#dlgRelatorioMesa .total li h1, #dlgRelatorioMesa .total li h2
+{
+    margin-right: 10px;
+    width: auto;
+}
+
+#divSaborPizza .montagem .editar, #divSaborPizza .montagem .incluir
+{
+    display: none;
+}
+
+.montagem .grupoBtnOpcoesPizza
+{
+    display: none;
+}
+
+.divAgrupaOpcoesPersonaliza
+{
+    height: 500px;
+    overflow: auto;
+    margin-top: 0 !important;
+}
+
+#divContainerTotal
+{
+    bottom: 12px;
+    position: absolute;
+}
+
+#valorTotalPizza
+{
+    width: 293px;
+    margin-left: 13px;
+    margin-top: 18px;
+}
+
+#divContainerTotal .total, #valorTotalPizza .total
+{
+    float: left;
+    line-height: 35px;
+    border: 1px solid #E7E7E7;
+    width: 150px;
+    text-align: right;
+    color: Blue;
+    background: #f1f1f1;
+    margin-left: 3px;
+    border-right: none;
+}
+
+#divContainerTotal .valor, #valorTotalPizza .valor
+{
+    float: right;
+    line-height: 35px;
+    border: 1px solid #E7E7E7;
+    width: 131px;
+    text-align: left;
+    color: Blue;
+    background: #f1f1f1;
+    padding-left: 5px;
+    border-left: none;
+}
+
+#divFechamentoCaixa
+{
+    max-height: 450px;
+    overflow: auto;
+}
+
+#divMesas .divVerificaLarguraCartao
+{
+    width: 578px;
+    height: 310px;
+    overflow-y: scroll;
+}
+
+#divMesas .divVerificaLarguraMesas
+{
+    width: 725px;
+    height: 350px;
+    margin-left: 25px;
+}
+
+#txtCodBuscaCartao
+{
+    color: #222;
+    font-style: normal;
+}
+
+#txtCodBuscaCartao .placeholderOn
+{
+    color: #777;
+    font-style: italic;
+}
+#txtCodBuscaCartao:focus
+{
+    border: 1px solid orange;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+.msgDialog .conteudo .rd
+{
+    border: 2px solid #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 30px;
+}
+
+.msgDialog .conteudo label
+{
+    font-size: 15px;
+    margin-top: 14px;
+    float: left;
+}
+
+.msgDialog .conteudo .check .rd
+{
+    background-color: rgb(0, 213, 0);
+}
+
+.msgDialog .conteudo .ck
+{
+    float: left;
+}
+
+.msgDialog .conteudo .ck:hover, .msgDialog .conteudo .ck label:hover
+{
+    cursor: pointer;
+}
+
+.msgDialog .conteudo .bord
+{
+    border: 1px solid silver;
+    float: left;
+    border-radius: 30px;
+    box-shadow: 0px 0px 7px silver;
+    margin: 10px 8px 3px 10px;
+    clear: left;
+}
+
+.msgDialog .conteudo .msg
+{
+    margin-top: 10px !important;
+}
+
+.msgDialog .conteudo .bt
+{
+    float: left;
+    clear: left;
+    margin-top: 15px;
+    width: 170px;
+    height: 32px;
+    line-height: 30px;
+    border-radius: 2px;
+    margin-left: 52px;
+    margin-bottom: 12px;
+}
+
+#contMsgConfirmacao .liCartao
+{
+    margin-top: 20px;
+    font-size: 14px;
+    margin-left: 18px;
+    margin-bottom: 38px;
+}
+
+#contMsgConfirmacao .liCartao a
+{
+    color: blue;
+    text-decoration: underline;
+}
+
+#janelaModal .footer .voltar
+{
+    margin-top: -28px;
+}
+
+#pagItensImprissao #contPersonalizar
+{
+    background-color: #f7f7f7;
+}
+
+#dlgInformacoes #conteudoInformacao .contImprimir
+{
+    position: relative;
+    margin-top: 15px;
+    float: left;
+}
+
+#dlgInformacoes #conteudoInformacao .check, .checkbox
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid silver;
+    margin-left: 17px;
+    float: left;
+    clear: left;
+}
+
+#dlgInformacoes #conteudoInformacao .check:hover, .checkbox:hover
+{
+    cursor: pointer;
+}
+
+#dlgInformacoes #conteudoInformacao .check.checado, .checkbox.checado
+{
+    color: rgb(7, 144, 221);
+    box-shadow: 0px 0px 3px rgb(7, 144, 221);
+    border: 1px solid rgba(0, 0, 255, 0.27);
+    text-shadow: 1px 1px 1px silver;
+}
+
+#dlgInformacoes #conteudoInformacao .desc, .contImprimir .desc
+{
+    font-size: 15px;
+    line-height: 30px;
+    color: Gray;
+    float: left;
+    margin-left: 10px;
+}
+
+#dlgtransferirItemPedido #tituloGridDireita
+{
+    margin-top: 7px;
+}
+
+.btMesas[foco=true]
+{
+    border: 1px solid #000 !important;
+}
+
+
+#dlgRelatorioMesa
+{
+    /*height:470px !important;*/
+}
+
+#divRelMesaContainer
+{
+    height: 470px !important;
+}
+
+.divRelTopo .sair
+{
+    position: absolute;
+    right: 20px;
+}
+
+.divRelTopo .divTituloRelMesa
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+#divRelMesaMenu
+{
+    border-right: 3px decimal orange;
+    margin-left: 10px;
+    margin-top: 15px;
+    min-height: 390px;
+    width: 165px;
+}
+
+#divRelMesaMenu .btSilverSub
+{
+    color: #222;
+    font-weight: bold;
+    width: 120px;
+}
+
+#divRelMesaMenu .btSilverSub.primeiro
+{
+    margin-top: 0 !important;
+}
+#divRelMesaMenu .btSilverSub.ultimo
+{
+    margin-bottom: 30px;
+}
+
+#divRelMesaMenu .btDouradoSub
+{
+    color: #fff;
+}
+
+#divRelMesaMenuTipo
+{
+    clear: both;
+    border-top: 1px dotted #ddd;
+    bottom: 10px;
+    height: 72px;
+    left: 15px; /*margin-top: 10;     margin-left: 10px;     margin-right: 15px;*/
+    padding-top: 20px;
+    position: absolute;
+    width: 145px;
+}
+
+#divRelMesaMenuTipo p
+{
+    color: #000;
+    font-weight: bold !important;
+    margin-bottom: 15px;
+}
+#divRelMesaMenuTipo span
+{
+    display: block;
+    margin-bottom: 8px;
+}
+
+.radRelMesa
+{
+    clear: both;
+    float: left;
+}
+
+#divRelMesaConteudo
+{
+    height: 130px;
+    width: 610px;
+    float: right; /* margin-top: -390; */
+    margin-right: 20; /* margin-right: 20px; */ /* margin-top: -196px; */
+    margin-left: 185px; /* z-index: 1; */
+    margin-top: -390px;
+    position: absolute;
+}
+
+#dlgRelatorioHistoricoPagamentos .tabRelMesa
+{
+    width: 605px;
+}
+
+
+
+.tabRelMesa
+{
+    width: 100%;
+}
+
+.tabRelMesa th
+{
+    background-color: #eeb44f;
+    color: #fff !important;
+    font-weight: bold !important;
+    padding: 10px 5px;
+}
+
+.tdTransfDirecao .spnTransDirecao
+{
+    padding-left: 25px !important;
+}
+.tabRelMesa td
+{
+    padding: 10px 5px !important;
+}
+.tabRelMesa .trRelMesa.ultima
+{
+    background-color: #eee;
+}
+
+.tabRelMesa .thLeft
+{
+    border-top-left-radius: 8px;
+}
+.tabRelMesa .thRight
+{
+    border-top-right-radius: 8px;
+}
+.tabRelMesa .trRelMesa.ultima td:first-child
+{
+    border-bottom-left-radius: 8px;
+}
+.tabRelMesa .trRelMesa.ultima td:last-child
+{
+    border-bottom-right-radius: 8px;
+}
+
+.tabRelMesa .tdQtde, .tabRelMesa .thQtde
+{
+    text-align: center;
+    width: 40px;
+}
+
+.tabRelMesa .tdValor, .tabRelMesa .thValor
+{
+    text-align: center;
+    width: 75px;
+}
+.tabRelMesa .tdValor
+{
+    text-align: right;
+}
+
+.tabRelMesa .tdQtde, .tabRelMesa .tdValor
+{
+    vertical-align: top;
+}
+
+.tabRelMesa tr:nth-child(even)
+{
+    background: #f6f6f7;
+}
+.tabRelMesa tr:nth-child(odd)
+{
+    background: #fbfbfc;
+}
+.tabRelMesa tr:hover
+{
+    background: #eee;
+}
+
+.tabRelMesa .tdRelCancelamento
+{
+    color: rgb(207, 20, 20) !important;
+}
+
+#divTableRelMesa
+{
+    overflow: auto;
+    height: 280px; /*width: 627px;*/
+}
+
+#divRelMesaTotalPagar
+{
+    background-color: #eee; /*background-color: rgba(223, 224, 212, 0.8);*/
+    border-radius: 5px;
+    color: #000 !important;
+    padding: 10px 20px;
+    position: absolute;
+    right: 20px;
+    text-align: right;
+    top: 410px;
+    width: 570px;
+}
+
+#divRelMesaTotalPagar span, #divRelMesaTotalPagar span
+{
+    font-weight: bold !important;
+}
+
+#divRelMesaTotalPagar span
+{
+    color: red;
+    font-size: 20px;
+}
+
+.divRelVazia
+{
+    position: absolute;
+    left: 130px;
+    right: 0;
+    text-align: center;
+    top: 200px;
+}
+
+.spnRelData, .spnRelDataTransf, .spnRelText
+{
+    clear: both;
+    color: #c08b2f !important;
+    display: block;
+    font-weight: normal;
+    margin: 10px 0;
+}
+.tabRelTransf .spnRelData
+{
+    font-weight: bold !important;
+    color: #777 !important;
+}
+.spnRelDataTransf
+{
+    color: #999 !important;
+    margin-left: 45px;
+}
+.spnRelText
+{
+    color: gray !important;
+}
+
+.tabRelMesa hr
+{
+    border-color: #eee;
+    opacity: 0.3;
+}
+
+.tabRelCompleto td
+{
+    color: #a37446 !important;
+    font-weight: bold !important;
+}
+
+#dlgRelatorioMesa .menuRel, #dlgRelatorioMesa .imprimir
+{
+    z-index: 15000;
+    position: absolute;
+}
+
+.divInfoCartao
+{
+    height: 130px;
+    padding: 0 10px;
+}
+
+.divInfoCartao .cartaoTitulo
+{
+    padding: 5px;
+    margin: -27px -10px 20px -10px;
+    opacity: 0.7;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #fceaca;
+    box-shadow: inset 0px 1px 0px 0px #fceaca;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+    color: #333;
+    text-align: center;
+    z-index: 50 !important;
+}
+
+#dlgCodPagExterno #divPagamentoExterno
+{
+  min-height: 140px;
+  width: 278px;
+  border: 1px solid silver;
+  background-color: #F6F6F6;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 5px;
+  position: relative;
+  float: left;
+  margin-top: 13px;
+  height: 185px;
+}
+
+.divInfoCartao .cartaoDiv
+{
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    text-shadow: 2px 1px 5px silver;
+}
+
+
+.divInfoCartao .voltar
+{
+    margin-top: 0 !important;
+}
+
+#divLimiteCartao
+{
+    height: 190px;
+}
+#divLimiteCartao .divLimiteInfo
+{
+    color: #000;
+    font-size: 13px;
+    padding: 5px 0;
+}
+#divLimiteCartao .limite
+{
+    color: Blue;
+}
+#divLimiteCartao .ultrapassou
+{
+    color: Red;
+}
+
+#contMsgConfirmacao .sairOnClick
+{
+    height: 40px;
+    margin-right: -29px;
+    margin-top: -14px;
+    position: absolute;
+    right: 0;
+    width: 60px;
+}
+#contMsgConfirmacao .sairOnClick:hover
+{
+    cursor: pointer;
+}
+
+#contMsgConfirmacao .sair
+{
+    border: 2px solid #FFF;
+    border-radius: 24px;
+    float: right;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-right: 14px; /*     margin-top: -12px;     margin-right: -10px;     */
+    background-color: gray;
+    color: #FFF;
+    font-weight: bold;
+    box-shadow: 0 0 8px gray;
+    position: absolute !important;
+    right: 0 !important;
+    z-index: 100 !important;
+}
+
+#divEdicaoPedido #divGrupoPai #divMenuCliente
+{
+    border: 1px solid rgba(242, 242, 242, 0);
+    height: 45px;
+    margin: -2 5 0 -13px;
+    width: 40px;
+    float: left;
+}
+
+#divEdicaoPedido #divGrupoPai #divMenuCliente:hover
+{
+    cursor: pointer;
+}
+
+#divMenuCliente .divMenuClienteAtivo
+{
+    cursor: hand !important;
+}
+#divMenuCliente .divMenuClienteAtivo:hover
+{
+    border: 1px solid #ccc !important;
+}
+#divMenuCliente .divMenuClienteInativo
+{
+    cursor: default !important;
+}
+#divMenuCliente .divMenuClienteInativo:hover
+{
+    border: 1px solid rgba(242, 242, 242, 0) !important;
+}
+
+#divEdicaoPedido #divGrupoPai #divMenuClienteLabel
+{
+    color: #a46e11;
+    font-size: 12px;
+    font-weight: bold;
+    left: 25px;
+    padding-left: 15px;
+    position: absolute;
+    top: 62px;
+    display: none;
+}
+
+.divImpressaoOffline .btImprime
+{
+    margin-top: 16px;
+    float: left;
+    margin-bottom: 9px;
+    line-height: 28px;
+    width: 200px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 32px;
+}
+
+.divImpressaoOffline .linkPrintConfig
+{
+    margin-top: 27px;
+    float: left;
+    margin-left: 17px;
+    text-decoration: underline;
+    font-size: 12px;
+    color: Orange;
+}
+
+.divImpressaoOffline .linkPrintConfig:hover
+{
+    cursor: pointer;
+}
+
+.divImpressaoOffline .linkPrintConfig span
+{
+    border: 1px solid #fff;
+    background-color: orange;
+    color: #fff;
+    padding: 0px 4px;
+    border-radius: 68px;
+    font-weight: bold;
+}
+
+#relatorioContasReceber .bt
+{
+    float: left;
+    margin-left: 20px;
+    margin-top: 2px;
+    width: 74px;
+    height: 27px;
+    border-radius: 3px;
+    line-height: 27px;
+    text-align: center;
+}
+
+#relatorioContasReceber .pesqOffline
+{
+    float: left;
+    display: none;
+}
+
+#relatorioContasReceber .opacity
+{
+    background-color: #000;
+    position: absolute;
+    left: 7px;
+    width: 442px;
+    opacity: 0.4;
+    border-radius: 4px;
+    height: 54px;
+}
+
+#relatorioContasReceber .pesqPorDataOpac .bt
+{
+    position: absolute;
+    width: 145px;
+    top: 9px;
+    left: 128;
+}
+
+#relatorioContasReceber .pesqPorDataOpac
+{
+    margin-left: 10px;
+    float: left;
+}
+
+#relatorioContasReceber .pesqPorDataOpac
+{
+    display: none;
+}
+
+#relatorioContasReceber .pesqPorDataOpac .btN
+{
+    height: 27px;
+    width: 50px;
+    text-align: center;
+    line-height: 27px;
+    font-size: 23px;
+    border-radius: 3px;
+}
+
+#dlgRelatorioAniversariantes #divRelAnivContainer
+{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgb(104, 104, 104);
+    height: 470px !important;
+    min-height: 468px;
+    width: auto;
+}
+#divRelAnivContainer #divRelAnivTopo.titulo
+{
+    border-bottom: 1px solid silver;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#divRelAnivContainer #divRelAnivTopo .imprimir
+{
+    background-image: Url("/Content/img/Layout/ico_imprimir.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgba(242, 242, 242, 0);
+    float: left;
+    height: 40px;
+    margin-left: -10px;
+    margin-right: 10px;
+    margin-top: 4px;
+    position: absolute;
+    width: 45px;
+    z-index: 15000;
+}
+#divRelAnivContainer #divRelAnivTopo .desc
+{
+    float: left;
+    margin-right: 28px;
+    text-align: center;
+    width: 270px;
+}
+#divRelAnivContainer #divRelAnivTopo .desc .divTituloRel
+{
+    color: #cf7512;
+    font-size: 20px;
+    margin-left: 195px;
+    width: 380px;
+}
+#divRelAnivContainer #divRelAnivTopo .sair
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgba(242, 242, 242, 0);
+    float: left;
+    height: 40px;
+    margin-top: 4px;
+    width: 45px;
+}
+#divRelAnivContainer #divRelAnivTopo .sair:hover
+{
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+#divRelAnivContainer #divRelAnivBusca
+{
+    background-color: #eee;
+    color: rgb(207, 117, 18);
+    height: 10px;
+    margin: 5px 20px;
+    padding: 12px 10px 20px;
+}
+#divRelAnivContainer #divCalendario
+{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#divRelAnivContainer #divCalendario .de, #divRelAnivContainer #divCalendario .ate
+{
+    float: left;
+    left: 0;
+    position: relative;
+    top: 0;
+}
+#divRelAnivContainer #divCalendario input
+{
+    float: left;
+    left: 0;
+    margin-top: -4px;
+    padding: 0;
+    position: relative;
+    top: 0;
+    width: 80px;
+}
+#divRelAnivContainer #divCalendario #divRealAnivBuscar
+{
+    height: 26px;
+    line-height: 26px;
+    margin: -4px 0 0 0;
+    padding: 0;
+}
+#divRelAnivContainer #divRelAnivScroll
+{
+    height: 340px; /*overflow:auto;*/
+    width: auto;
+}
+#divRelAnivContainer #divContRelAniv
+{
+    margin: 20px;
+    width: auto;
+}
+#divRelAnivContainer .tabRelAniv
+{
+    font-size: 12px;
+    width: 100%;
+}
+#divRelAnivContainer .tabRelAniv #divTableRelAniv
+{
+    height: 290px !important;
+    overflow: auto !important;
+}
+#divRelAnivContainer #tabRelAnivHeader th
+{
+    background-color: #eeb44f;
+    color: #fff !important;
+    font-weight: bold !important;
+    padding: 10px 5px;
+}
+
+#divRelAnivContainer #tabRelAnivHeader .thLeft
+{
+    border-top-left-radius: 8px;
+    text-align: center; /*width:75px;*/
+}
+#divRelAnivContainer #tabRelAnivHeader .thRight
+{
+    border-top-right-radius: 8px;
+}
+#divRelAnivContainer #tabRelAniv tr:nth-child(odd)
+{
+    background-color: #fbfbfc;
+}
+#divRelAnivContainer #tabRelAniv tr:nth-child(even)
+{
+    background-color: #f6f6f7;
+}
+#divRelAnivContainer #tabRelAniv tr:hover
+{
+    background-color: #eee;
+}
+#divRelAnivContainer table th, #divRelAnivContainer table td
+{
+    padding: 10px 5px !important;
+}
+
+#divRelAnivContainer table .thRelAnivData
+{
+    width: 83px !important;
+}
+#divRelAnivContainer table .thRelAnivNome
+{
+    width: 290px !important;
+}
+#divRelAnivContainer table .thRelAnivFone
+{
+    width: 150px !important;
+}
+#divRelAnivContainer table .thRelAnivEnd
+{
+    width: 300px !important;
+}
+
+#divRelAnivContainer table .tdRelAnivData
+{
+    text-align: center;
+    width: 80px !important;
+}
+#divRelAnivContainer table .tdRelAnivNome
+{
+    width: 277px !important;
+}
+#divRelAnivContainer table .tdRelAnivFone
+{
+    width: 147px !important;
+}
+#divRelAnivContainer table .tdRelAnivEnd
+{
+    width: 297px !important;
+}
+
+.itemLink:hover
+{
+    cursor: pointer;
+}
+
+#divFavoritosCliente
+{
+    /*     background-image: Url("/Content/img/Layout/HistoricoCliente.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#divFavoritosCliente a
+{
+    color: rgb(201, 148, 14);
+    font-size: 14px;
+    text-decoration: none;
+}
+#divFavoritosCliente a:hover
+{
+    text-decoration: underline;
+}
+
+.divItensFavoritosCliente .divDataFavoritosCliente
+{
+    color: Green;
+    float: left;
+    font-size: 12px;
+    padding: 0 8px;
+}
+.divItensFavoritosCliente .pDescProdutoFavoritos
+{
+    background-image: Url("/Content/img/Layout/BordaFavoritosCliente.png");
+    background-position-x: -1px;
+    background-position-y: 11px;
+    background-repeat: no-repeat;
+    border: 0;
+    color: #a46e11;
+    margin: -7px 0 0 0;
+    width: 375px;
+}
+.divItensFavoritosCliente .pDescProdutoFavoritos:hover
+{
+    color: brown;
+    cursor: pointer;
+}
+.divItensFavoritosCliente .divExibirMaisFavoritos
+{
+    /*background-image: Url("/Content/img/Layout/SetaAbaixo.png");*/
+    background-position-x: -2px;
+    background-position-y: 20px;
+    background-repeat: no-repeat;
+    color: green;
+    font-size: 11px;
+    left: 100px; /*padding-left: 15px;*/
+    position: absolute;
+    top: 12px;
+}
+.divItensFavoritosCliente .divExibirMaisFavoritos label:hover
+{
+    cursor: pointer;
+}
+
+.divItensFavoritosCliente .divDetalhesFavoritosCliente
+{
+    background-color: white;
+    border-left: 3px solid rgb(230, 229, 227);
+    clear: both;
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 87px;
+    padding-left: 8px;
+    width: 570px;
+}
+
+.divItensFavoritosCliente .divDetalhesFavoritosCliente
+{
+    color: #928E8E;
+    font-size: 12px;
+    line-height: normal;
+    max-height: 150px;
+    overflow-y: scroll;
+    padding: 10px;
+    width: 537px;
+}
+.divItensFavoritosCliente .divDetalhesFavoritosCliente p
+{
+    border: 0;
+    clear: both;
+    font-size: 13px;
+    margin: 0;
+    padding: 5px 0;
+    width: 98%;
+}
+.divItensFavoritosCliente .pDataHoraFavoritosCliente
+{
+    background-size: 17px;
+    color: #222;
+    font-size: 11px !important;
+    padding-left: 20px !important;
+    width: auto;
+}
+.divItensFavoritosCliente .ulDetalhesFavoritosCliente
+{
+    clear: both;
+    float: left;
+    list-style-position: inside;
+    list-style-type: disc;
+    margin: 5px 0 5px 15px;
+    width: 460px;
+}
+.divItensFavoritosCliente .pTituloDetalhesFavoritos
+{
+    color: #a46e11;
+}
+.divItensFavoritosCliente .pTituloDetalhesSabor
+{
+    color: rgb(216, 136, 15);
+}
+.pTituloDetalhesFavoritos span
+{
+    color: #2B2823;
+}
+.divDetalhesFavoritosCliente hr
+{
+    border: 1px dotted rgb(226, 222, 222);
+    clear: both;
+    float: left;
+    margin: 10px 0;
+    width: 500px;
+}
+.divDetalhesFavoritosCliente .divSeparadorFavoritos
+{
+    border-bottom: 1px dotted #ccc;
+    clear: both;
+    float: left;
+    margin: 10px 0;
+    width: 100%;
+}
+
+/* Botão para adicionar novo item a uma lista nos formulários de cadastro genéricos. */
+/* --------------------------------------------------------------------------------- */
+.btnAddGenerico
+{
+    background-color: transparent;
+    border: 0;
+    height: 26px;
+    margin-left: 4px;
+    width: 26px;
+    float: right;
+}
+.btnAddGenerico:hover,.btnEditarGenerico:hover
+{
+    cursor: pointer;
+}
+
+.btnEditarGenerico
+{
+     background-color: transparent;
+    border: 0;
+    height: 26px;
+    margin-left: 4px;
+    width: 26px;
+    float: right;
+    background-size: 26px;
+}
+
+#dlgCodPagExterno #divPagamentoExterno .voltar
+{
+  margin-left: 54px;
+  margin-bottom: 0px;
+  margin-top: 40px !important;
+}
+
+#dlgCodPagExterno #divPagamentoExterno .PagamentoExterno{
+    padding: 5px;
+    margin: 0px -10px 20px -10px;
+    opacity: 0.7;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #fceaca;
+    box-shadow: inset 0px 1px 0px 0px #fceaca;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+    color: #333;
+    text-align: center;
+    z-index: 50 !important;
+}
+
+#dlgCodPagExterno .btClose
+{
+  border: 2px solid #FFF;
+  border-radius: 24px;
+  float: right;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 15px;
+  margin-right: 1px;
+  background-color: gray;
+  color: #FFF;
+  font-weight: bold;
+  box-shadow: 0 0 8px gray;
+  position: absolute !important;
+  right: 0 !important;
+  z-index: 100 !important;
+  cursor: pointer;
+}
+
+#dlgCodPagExterno #divPagamentoExterno .divTextPagamento
+{
+  text-align: center;
+  font-size: 17px;
+}
+
+#dlgCodPagExterno #divPagamentoExterno .divCodigoPagExterno
+{
+  text-align: center;
+  font-size: 29px;
+  margin-top: 20px;
+  margin-bottom: -27px;
+}
+

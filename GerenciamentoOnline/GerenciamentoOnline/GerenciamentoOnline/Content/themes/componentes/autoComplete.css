@@ -1,0 +1,130 @@
+﻿#contInformacoesDelivery .pesquisa
+{
+    position: relative;
+    float: left;
+} 
+
+#contInformacoesDelivery .pesquisa .conteudo .informacao {
+    font-size: 12px;
+    color: gray;
+    text-shadow: 0px 1px 1px silver;
+    text-align: center;
+    line-height: 100px;
+}
+
+#contInformacoesDelivery .pesquisa .conteudo .fone .label {
+    clear: both;
+    margin-left: 5px;
+}
+
+#contInformacoesDelivery .pesquisa .conteudo .fone .label span {
+    font-size: 12px;
+}
+
+
+
+#contInformacoesDelivery .pesquisa .conteudo, #dlgCadastroCartao .pesquisa .conteudo
+{
+    border: 1px solid silver;
+    position: absolute;
+    width: 100%;
+    top: 48px;
+    min-height: 100px;
+    max-height: 500px;
+    background-color: #fff;
+    z-index: 500;
+    box-shadow: 0px 3px 12px gray;
+    overflow-y: scroll;
+    display: none;   
+}
+ 
+#dlgCadastroCartao .pesquisa .conteudo 
+{
+    max-height: 236px;
+}
+     
+#dlgCadastroCartao .pesq, #dlgCadastroRapidoCli .pesq { padding-left: 30px; }
+     
+#contInformacoesDelivery .conteudo ul {  
+    float: left;
+    border: 1px solid silver;
+    margin: 2px;
+}
+
+#contInformacoesDelivery .conteudo ul li 
+{
+    font-size: 14px;
+    float: left;
+    color: Gray;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+#contInformacoesDelivery .conteudo ul li.nome 
+{
+    margin-left: 5px;
+    float: none;
+    width: 340px;
+}
+
+#contInformacoesDelivery .conteudo ul li span 
+{
+    margin-left: 5px;
+    color: rgb(0, 39, 70);
+    font-size: 14px;
+}
+
+#contInformacoesDelivery .conteudo ul li.rua span 
+{
+    margin-left: 18px;
+}
+    
+#contInformacoesDelivery .conteudo ul li.rua 
+{
+    margin-left: 5px;
+    width: 260px;
+}
+
+#contInformacoesDelivery .conteudo ul li.numero 
+{
+    margin-left: 5px;
+    width: 75px;
+}
+
+#contInformacoesDelivery .conteudo ul:hover 
+{
+    border: 1px solid orange;
+    background-color: rgba(255, 153, 0, 0.03);
+    cursor: pointer;
+}
+
+#contInformacoesDelivery .conteudo ul.selecionado
+{
+    border: 1px solid rgb(32, 164, 252);
+    background-color: rgba(0, 153, 255, 0.03);
+}
+
+#contInformacoesDelivery .pesquisa .icone
+{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+}
+
+#contInformacoesDelivery .pesquisa .icone 
+{
+    left: 4px;
+    top: 20px;
+}
+
+#contInformacoesDelivery .limparCampos
+{
+    right: 12px;
+    top: 21px;
+}
+
+.ulPesqMaisResultados { border:0 !important; }
+.ulPesqMaisResultados:hover { border:0 !important; }
+.ulPesqMaisResultados a { color:Blue; }
+.ulPesqMaisResultados a:hover { text-decoration:underline; }
+.ulPesqMaisResultados span { color:darkblue; font-weight:bold; padding:0 7px 0 3px; }

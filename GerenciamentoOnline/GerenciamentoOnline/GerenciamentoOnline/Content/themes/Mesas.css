@@ -1,0 +1,1128 @@
+﻿#divMesas h1, #divCartoes h1
+{
+    height: 45px;
+    width: 45px;
+    float: left;
+    margin: 12px;
+}
+
+#divCartoes h1
+{
+    margin: 15px;
+}
+
+#divCartoes h1 a
+{
+    height: 45px;
+    width: 50px;
+    line-height: 45px;
+    padding: 0px !important;
+}
+
+.sairGenerico:hover
+{
+    cursor: pointer;
+    border: 1px solid silver;
+}
+
+.sairGenerico
+{
+    float: right;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin-top: 5;
+}
+
+#divMesas h1 a, #divCartoes h1 a, .contorno .tool .mesa
+{
+    float: left;
+    font-size: 17px;
+    color: White;
+    font-weight: bold;
+    width: 50px;
+    height: 43px;
+    line-height: 43px;
+    font-family: verdana;
+}
+
+#divMesas h1 a:hover, #divCartoes h1 a:hover {
+    text-decoration:none;
+}
+
+.contorno .tool .mesa
+{
+    margin-left: 28px;
+    margin-top: -2px;
+    border-radius: 6px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 0px 6px #FFF;
+    text-align: center;
+}
+
+a.Fechada
+{
+    border-radius: 6px;
+    color: rgb(163, 163, 163) !important;
+    border: 1px solid rgb(211, 211, 211);
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, rgb(206, 206, 206)) ) !important;
+}
+
+a.Disponivel
+{
+    opacity: 0.4;
+}
+a.Ocupada
+{
+    box-shadow: 2px 2px 3px silver;
+}
+#divMesas a:active, #divMesas h1 a:active
+{
+    border: 1px solid rgb(56, 16, 22) !important;
+}
+#dlgNovoPedido
+{
+    /*height: 395px; */
+    position: relative;
+    background-color: #F7F7F7;
+    border-radius: 7px;
+}
+#dlgJuntarMesa
+{
+    background-color: #F7F7F7;
+    border-radius: 7px;
+}
+#conteudoGeral
+{
+    background-color: #F7F7F7;
+    height: 395px;
+    position: relative;
+    border-bottom: 1px solid silver;
+    border-radius: 10px;
+}
+#conteudoGeral
+{
+    height: 505px;
+}
+#toolMesa p
+{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    width: auto;
+}
+.toolInformacoes p
+{
+    position: absolute;
+    right: 100px;
+    left: 100px;
+    text-align: center;
+    line-height: 45px;
+    color: #808080;
+    font-size: 25px;
+}
+
+#dlgCartoesFechamento .toolInformacoes p
+{
+    right: 110px;
+    left: 110px;
+}
+
+#dlgCartoesPedido .toolInformacoes p
+{
+    right: 110px;
+    left: 110px;
+}
+
+#dlgCartoesFechamento .toolInformacoes .btLupa
+{
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#dlgCartoesFechamento .toolInformacoes .btLupa:hover
+{
+    border: 1px solid silver;
+}
+
+#toolMesa, .toolInformacoes
+{
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    right: 10px;
+    padding-bottom: 4px;
+}
+.toolInformacoes
+{
+    border-bottom: 1px solid silver;
+}
+
+#toolMesa h1
+{
+    position: absolute;
+    right: 5px;
+}
+
+.contOpcoes
+{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+.btMesas.btOpcaoCartao
+{
+    width: 180px;
+    height: 39px;
+    line-height: 39px;
+}
+
+#listPedidoEsconde
+{
+    display: none !important;
+}
+
+.ui-dialog .ui-dialog-title
+{
+    text-align: center;
+    width: 100%;
+    color: #777;
+}
+.icoSalvar
+{
+    height: 45px;
+    width: 45px;
+    border: 1px solid #f7f7f7;
+    float: left;
+}
+.icoSair
+{
+    height: 45px;
+    width: 45px;
+    border: 1px solid #f7f7f7;
+    z-index: 100;
+    float: right;
+}
+.icoSalvar:hover, .icoSair:hover
+{
+    border: 1px solid silver;
+}
+
+#mesaEsquerda, #garcomDireita, .mesaFechamento, #mesaPrincipalDireita
+{
+    height: 300px;
+    float: right;
+}
+
+.toolDescricao
+{
+    text-align: center;
+    color: #797272;
+    min-height: 20px;
+}
+.inpconteudoMesa
+{
+    height: 30px;
+    text-align: center;
+    color: #0033FD;
+    margin-bottom: 10px;
+    border: 1px solid silver;
+}
+
+.inpconteudoCartao
+{
+    height: 30px;
+    text-align: center;
+    color: #0033FD;
+    margin-bottom: 10px;
+    border: 1px solid silver;
+}
+
+#mesaEsquerda .inpconteudoMesa
+{
+    width: 207px;
+}
+
+
+.calcMobileCartoes p
+{
+    border: 1px solid #bbb !important;
+}
+#mesaEsquerda p, .mesaFechamento p, .calcMobileCartoes p, .inicioAbreCartao .calcMesa p
+{
+    width: 60px;
+    height: 45px;
+    border: 1px solid silver;
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px;
+    margin: 5px 10px 5px 0px;
+}
+#mesaEsquerda p, .mesaFechamento p, .calcMobileCartoes p, .inicioAbreCartao .calcMesa p
+{
+    -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background: -moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+    background-color: #ededed;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    color: #777777;
+    font-family: arial;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+#mesaEsquerda p:hover, .mesaFechamento p:hover, .inicioAbreCartao .calcMesa p
+{
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+    background: -moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+    cursor: pointer;
+    background-color: #dfdfdf;
+}
+
+.inpconteudoMesa
+{
+    width: 207px;
+}
+
+.inpDisplayMesaTransferir:hover
+{
+    cursor: pointer;
+}
+
+#conteudoMesa #contGarcom
+{
+    border: 1px solid silver;
+    height: 262px;
+    background-color: White;
+    overflow: auto;
+}
+
+#contJuncaoMesa, #contCartoes
+{
+    border: 1px solid silver;
+    height: 216px;
+    margin-top: 5px;
+    background-color: White;
+    overflow: auto;
+}
+
+#contJuncaoMesa, #contCartoesAdd
+{
+    border: 1px solid silver;
+    height: 216px;
+    margin-top: 5px;
+    background-color: White;
+    overflow: auto;
+}
+
+#contCartoes
+{
+    height: 262px;
+}
+
+#contCartoesAdd
+{
+    height: 262px;
+}
+
+.listaGarcom
+{
+    height: 35px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 35px;
+    color: #777777;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    margin-left: 7px;
+}
+
+#dlgNovoPedido .listaGarcom
+{
+    width: 182px;
+}
+
+.conteudoDir .btNovoCartoes
+{
+    display: none;
+}
+
+.listaGarcomRemover, .btPrincipal
+{
+    width: 22px;
+    height: 22px;
+    position: absolute; /*top: 15px;*/
+    top: 7px;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(242, 242, 242, 0);
+}
+.btPrincipal
+{
+    right: inherit;
+    width: 22px;
+    height: 22px;
+    background-position: center;
+    top: 6px;
+    border: 1px solid rgba(242, 242, 242, 0); /*zoom: 52%;*/
+}
+
+.listaGarcomRemover:hover, .btPrincipal:hover
+{
+    border: 1px solid silver;
+}
+/*
+.listaGarcomRemover:active, .btPrincipal:active 
+{
+     top: 11px;  
+}*/
+.efSilver
+{
+    cursor: inherit;
+}
+.mesaFechamento
+{
+    margin-right: 45px;
+}
+.contGeral p, #contInformacoesDelivery p
+{
+    font-size: 14px;
+    color: #848484;
+    padding-left: 5px; /*clear: both;*/
+}
+#contInformacoesDelivery, #dlgCadastroProduto
+{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 17px;
+}
+
+#conteudoOpcoesDelivery
+{
+    padding-top: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 13px;
+}
+
+.contGeral h1, .contGeral h2
+{
+    font-size: 14px;
+    color: #848484;
+    padding-left: 5px;
+    font-weight: normal;
+    float: left;
+}
+.contGeral h2
+{
+    margin-left: 83px;
+}
+.inpReserva.inicio, .inpReserva.fim
+{
+    width: 170px !important;
+}
+.inpReserva.inicio
+{
+    margin-right: 10px;
+}
+.contGeral
+{
+    padding-top: 80px;
+    padding-left: 20px;
+}
+.inpReserva
+{
+    width: 350px;
+    border-radius: 6px;
+    border: 1px solid silver;
+    padding-left: 5px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px !important;
+    color: #535252;
+    margin-bottom: 8px;
+}
+
+.ui-combobox
+{
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+}
+#ui-active-menuitem
+{
+    background: #f2f2f2 !important;
+    font-size: 14px !important;
+}
+.ui-menu-item
+{
+    font-size: 14px !important;
+}
+
+#dlgReservaMesa, #dlgMesaFechamento
+{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 0px;
+}
+.confirmarLanc, .confirmarfechamento
+{
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: #fff;
+    height: 35px;
+    width: 250px;
+    clear: both;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50%;
+    left: -140px;
+    position: relative;
+    float: left;
+}
+.confirmarfechamento
+{
+    margin-bottom: 20px;
+}
+#dlgtransferirItemPedido, #dlgCancelarItemPedido, #dlgtransferirItemCartoes
+{
+    background-color: #f7f7f7;
+    border-radius: 7px;
+}
+.inpconteudoMesa
+{
+    font-weight: bold;
+}
+.inpconteudoCartao
+{
+    font-weight: bold;
+    width: 207px;
+}
+#mesaAtual
+{
+    float: left;
+    margin-bottom: 10px;
+}
+
+#mesaTransferir
+{
+    float: left;
+    margin-bottom: 10px;
+}
+
+#excluirItens
+{
+    float: left;
+    margin-top: 85px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: 1px solid silver;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 60px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.conteudoUlDireita ul
+{
+    float: left;
+    min-height: 230px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+#excluirItens p
+{
+    text-align: center;
+}
+
+#mesaTransferir .inpDisplayMesa:hover
+{
+    cursor: pointer;
+}
+
+#mesaAtual p, #mesaTransferir p
+{
+    text-align: center;
+    font-family: Verdana;
+    color: Gray;
+}
+/*
+#tituloGrid 
+{
+    float: left;
+}
+#tituloGrid p 
+{
+    float: left;
+    font-size: 11px; 
+}*/
+
+#tituloGridEsquerda, #tituloGridDireita
+{
+    height: 250px;
+    position: relative;
+    float: left;
+}
+
+.conteudoUlEsquerda, .conteudoUlDireita
+{
+    border: 1px solid silver;
+    background-color: #FFF;
+    overflow: auto;
+    position: relative;
+}
+
+.conteudoUlDireita h6
+{
+    position: absolute;
+    bottom: 25px;
+    color: silver;
+    font-size: 15px;
+    left: 55px;
+    font-weight: normal;
+}
+
+.conteudoUlDireita h6 span
+{
+    border: 1px solid silver;
+    border-radius: 4px;
+    opacity: 0.5;
+    padding: 15px 15px;
+    position: absolute;
+    right: -40px;
+    top: -5px;
+}
+
+.conteudoUlDireita h6 span:hover
+{
+    cursor: pointer;
+    border: 1px solid green;
+}
+
+.conteudoUlDireita h6 span:active
+{
+    font-weight: bold;
+}
+
+#tituloGridEsquerda ul li, #tituloGridDireita ul li
+{
+    height: 38px;
+    border: 1px solid silver;
+    margin-bottom: 5px;
+}
+#tituloGridEsquerda ul li p, #tituloGridDireita ul li p
+{
+    float: left;
+    font-size: 14px;
+}
+
+#tituloGridEsquerda .label p, #tituloGridDireita .label p
+{
+    float: left;
+    font-size: 12px;
+}
+
+
+.labelSilver .qt, .labelSilver .vl
+{
+    line-height: 38px;
+}
+
+
+#tituloGridEsquerda .add
+{
+    margin-right: 4px;
+    line-height: 30px;
+    height: 30px;
+    margin-top: 4px;
+    width: 30px;
+    border: 1px solid silver;
+    float: right;
+    text-align: center;
+    border-radius: 4px;
+}
+#titulogriddireita .add
+{
+    line-height: 30px;
+    height: 30px;
+    margin-top: 4px;
+    width: 30px;
+    border: 1px solid rgba(242, 242, 242, 0);
+    margin-left: 4px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+#tituloGridEsquerda .add:hover, #tituloGridDireita .add:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+#tituloGridEsquerda .add:active, #tituloGridDireita .add:active
+{
+    font-weight: normal;
+}
+
+#btRelatorioOpcoes
+{
+    margin-bottom: 10px;
+}
+
+.desabilitado
+{
+    box-shadow: none;
+    border: 1px solid silver;
+    opacity: 0.5;
+}
+
+#dlgOpcoesMesas .desabilitado
+{
+    box-shadow: none;
+    border: 1px solid silver;
+    opacity: 0.5;
+}
+#dlgOpcoesMesas .desabilitado:hover
+{
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #EDEDED), color-stop(1, #EBECCD) );
+    cursor: default;
+}
+
+.anexo1
+{
+    border: 2px dotted green !important;
+    box-shadow: 0px 0px 5px green !important;
+}
+.anexo2
+{
+    border: 2px dotted red !important;
+    box-shadow: 0px 0px 5px red !important;
+}
+.anexo3
+{
+    border: 2px dotted #000 !important;
+    box-shadow: 0px 0px 5px gray !important;
+}
+/*roxo*/
+.anexo4
+{
+    border: 2px dotted blue !important;
+    box-shadow: 0px 0px 5px blue !important;
+}
+.anexo5
+{
+    border: 2px dotted #00A3FF !important;
+    box-shadow: 0px 0px 5px #00A3FF !important;
+}
+.anexo6
+{
+    border: 2px dotted #8B008B !important;
+    box-shadow: 0px 0px 5px #8B008B !important;
+}
+/*magenta*/
+.anexo7
+{
+    border: 2px dotted #FF69B4 !important;
+    box-shadow: 0px 0px 5px #FF69B4 !important;
+}
+/*pink*/
+.anexo8
+{
+    border: 2px dotted #8B6969 !important;
+    box-shadow: 0px 0px 5px #8B6969 !important;
+}
+/*maron*/
+.anexo9
+{
+    border: 2px dotted orange !important;
+    box-shadow: 0px 0px 5px orange !important;
+}
+.anexo10
+{
+    border: 2px dotted #FFFF00 !important;
+    box-shadow: 0px 0px 5px #FFFF00 !important;
+}
+/*amarelo*/
+
+
+#dlgRelatorioMesa .too
+{
+    line-height: 20px !important;
+    border-bottom: 1px solid silver;
+    margin-top: 15px;
+}
+
+
+#dlgRelatorioMesa
+{
+    background-color: rgb(255, 255, 255); /* foi comentado por causa da comanda. andre 26/04/2013     border-radius: 5px;     box-shadow: 0px 0px 3px rgb(68, 68, 68);     */
+}
+
+#dlgRelatorioMesa .too *, #dlgRelatorioMesa .conteudo *, #dlgrelatoriomesa .too
+{
+    float: left;
+}
+
+#dlgRelatorioMesa *
+{
+    font-weight: normal;
+    font-size: 12px;
+    color: Gray;
+}
+
+#dlgRelatorioMesa .titulo
+{
+    border-bottom: 1px solid silver;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+
+#dlgRelatorioMesa .desc
+{
+    float: left;
+    width: 270px;
+    margin-right: 28px;
+    text-align: center;
+}
+
+#dlgRelatorioMesa .desc .divTituloRelMesa
+{
+    font-size: 20px;
+}
+
+#dlgRelatorioMesa .menuRel, #dlgRelatorioMesa .imprimir, #dlgRelatorioMesa .sair, #dlgRelatorioMesa .detalhes
+{
+    height: 40px;
+    width: 45px;
+    float: left;
+    border: 1px solid rgba(242, 242, 242, 0);
+    margin-top: 4px;
+}
+#dlgRelatorioMesa .menuRel
+{
+    margin-left: -10px;
+}
+#dlgRelatorioMesa .imprimir
+{
+    margin-left: -10px; /*margin-left:40px;*/
+}
+
+#dlgRelatorioMesa .imprimir, #dlgRelatorioMesa .detalhes
+{
+    margin-right: 10px;
+}
+#dlgRelatorioMesa .imprimir:hover, #dlgRelatorioMesa .sair:hover, #dlgRelatorioMesa .detalhes:hover
+{
+    cursor: pointer;
+    border: 1px solid silver;
+}
+
+#dlgRelatorioMesa ul li *
+{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#dlgRelatorioMesa ul li.odd
+{
+    background-color: #f7f7f7;
+}
+
+#dlgRelatorioMesa .total *
+{
+    font-size: 17px;
+}
+
+#dlgRelatorioMesa #divRelCartao
+{
+    background-color: #eee;
+    color: rgb(207, 117, 18);
+    display: none;
+    height: 16px;
+    margin: 5px 20px;
+    padding: 12px 10px 20px;
+}
+#dlgRelatorioMesa #divRelCartao span
+{
+    color: rgb(207, 117, 18);
+    font-size: 14px;
+}
+#dlgRelatorioMesa #divRelCartao #spnNomeClienteCartao
+{
+    color: #222;
+    font-weight: bold;
+}
+#dlgRelatorioMesa #divRelCartao #divRelCartaoCliente
+{
+    float: left;
+    left: 0;
+}
+#dlgRelatorioMesa #divRelCartao #divRelCartaoData
+{
+    float: right;
+    right: 0;
+}
+#dlgRelatorioMesa #divRelCartao .divRelCartaoCliente
+{
+    color: rgb(207, 117, 18);
+    font-size: 14px !important;
+}
+
+#dlgUsuarioSenha .geral *
+{
+    clear: both;
+    float: left;
+    font-size: 14px;
+    color: rgb(83, 83, 83);
+}
+
+#dlgUsuarioSenha .geral input, #dlgUsuarioSenha .geral select
+{
+    width: 280px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid silver;
+    padding-left: 5px;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+#dlgUsuarioSenha .geral label
+{
+    padding-left: 5px;
+}
+
+#dlgUsuarioSenha .geral
+{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#dlgUsuarioSenha .confirmar.btDourado2
+{
+    width: 200px !important;
+    height: 35px !important;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 4px;
+    margin-left: 40px;
+    color: White;
+    border: 1px solid #eeb44f;
+}
+
+#dlgTerminal .icoForm a.divSair
+{
+    border: 1px solid rgb(214, 0, 0);
+    border-radius: 3px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #D60000;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+#dlgInformacoesDelivery .divContCheck
+{
+    height: 19px;
+    float: left;
+    width: 100%;
+}
+
+#dlginformacoesdelivery .divcontcheck:hover
+{
+    cursor: pointer;
+}
+
+#dlginformacoesdelivery .divcontcheck .inpCheck
+{
+    float: left;
+    margin-left: 15px;
+}
+
+#dlginformacoesdelivery .divcontcheck .desc
+{
+    color: gray;
+    font-size: 14px;
+    float: left;
+    padding-left: 30px;
+    line-height: 15px;
+    position: absolute;
+    left: 15px;
+}
+
+#mesaPrincipalDireita .inpMesaPrincipal
+{
+    position: relative;
+}
+
+#mesaPrincipalDireita .inpMesaPrincipal .excluir
+{
+    height: 22px;
+    width: 22px;
+    float: left;
+    position: absolute;
+    top: 4px;
+    right: 5px;
+}
+
+#mesaPrincipalDireita .inpMesaPrincipal .excluir:hover
+{
+    border: 1px solid silver;
+    cursor: pointer;
+}
+
+
+#dlgRelatorioMesa #divTotaisRelComanda
+{
+    bottom: 5px;
+    position: absolute;
+    right: 7px;
+    text-align: right;
+    width: 100%;
+}
+#dlgRelatorioMesa #divTotaisRelComanda p
+{
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+#dlgRelatorioMesa #divTotaisRelComanda .pTotalRelCom
+{
+    border-top: 1px dotted #ccc;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding-top: 10px;
+}
+#dlgInserirCreditoCartao .conteudoInserirCredito
+{
+    height: 288px;
+    background-color: #fff;
+    width: 334px;
+    padding-top: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.conteudoInserirCredito .pontilhado
+{
+    border-top: 1px dotted #aaa;
+    margin: 22px 20px 10px 0;
+}
+
+.conteudoInserirCredito .topo
+{
+    margin-top: 69px;
+}
+
+.conteudoInserirCredito .rightFields
+{
+    float: right;
+    margin-right: 22px;
+}
+
+.conteudoInserirCredito .leftFields
+{
+    margin-left: 21px;
+}
+
+.conteudoInserirCredito input[type="text"]
+{
+    float: right;
+    width: 147px;
+    margin-top: -5px;
+}
+.conteudoInserirCredito .labelsBotton
+{
+    margin-top: 21px;
+}
+
+.conteudoInserirCredito input[type="button"]
+{
+    margin-left: 58px;
+    margin-top: 11px;
+    height: 38px;
+    width: 239px;
+}
+
+.leftFields .formaPag
+{
+    font-weight: normal;
+    color: #848688;
+    text-align: left;
+    font-size: 16px;
+}
+
+.conteudoInserirCredito span
+{
+    float: right;
+    margin-left: 186px;
+    position: absolute;
+    margin-top: -17px;
+    font-size: 11px;
+    text-align: left;
+    width: 20px;
+    color: #848688;
+}
+#camposSuperioresCreditoCartao label
+{
+    font-family: Verdana;
+    font-size: 13px;
+    font-weight: bold;
+}
+#camposSuperioresCreditoCartao div
+{
+    margin-top: 5px;
+}
+.orangeDotted
+{
+    border-top: 1px dotted;
+    margin: 22px 20px 10px 0;
+    border-color: rgb(207, 117, 18);
+}
+
+.conteudoInserirCredito .titleToolbar
+{
+    margin-bottom: 30px;
+}
+
+.lightBlue
+{
+    color: rgb(112, 146, 190);
+}
+.cyan
+{
+    color: rgb(0, 177, 240);
+}
+.conteudoInserirCredito input[type="text"]
+{
+    text-align: right;
+}
+
+#conteudoOpcoesDelivery, #conteudoOpcoesCartao, #conteudoOpcoesContaPagar, #conteudoOpcoesLancamento {
+    padding-top: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 13px;
+}
+
+#dlgNovoPedido p:contains('➜').vColor {
+ transform: rotate(180deg);
+}

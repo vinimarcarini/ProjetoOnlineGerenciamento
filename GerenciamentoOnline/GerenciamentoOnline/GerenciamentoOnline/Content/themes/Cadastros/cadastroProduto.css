@@ -1,0 +1,129 @@
+﻿/** ------------------------------------------- **/
+/** ESTILOS PARA A TELA DE CADASTRO DE PRODUTO. **/
+/** ------------------------------------------- **/
+
+.coposicaoProduto { margin-top:10px; }
+
+#ComposicaoProdutoselectable { list-style-type: none; margin: 0; padding: 0; }
+#ComposicaoProdutoselectable li { font-size: 1.4em; margin: 3px; padding: 0.4em; }
+#ComposicaoProdutoselectable .ui-selecting ol li { background: #fac149; }
+#ComposicaoProdutoselectable .ui-selected ol li { background: #f7f7f7; }
+
+#ComposicaoProdutoselectable #divData { height:20px; }
+#ComposicaoProdutoselectable .divTituloTabela h1 { float:left !important; padding:0 0 0 10px !important; }
+
+#ComposicaoProdutoselectable #hCadProd_Produto { width:390px; }
+#ComposicaoProdutoselectable #hCadProd_Qtde { width:60px; }
+#ComposicaoProdutoselectable #hCadProd_Retirar { width:160px; }
+#ComposicaoProdutoselectable #hCadProd_Excluir { width:50px; }
+
+#ComposicaoProdutoselectable .divTabCadProdColuna  
+{
+    float:left; 
+    font-size:14px; 
+    width: 42px;
+    padding-left: 8px;
+}
+
+#ComposicaoProdutoselectable #divTabCadProd_Descricao { width:299px; }
+#ComposicaoProdutoselectable #divTabCadProd_Qtde { text-align:center; width:70px; }
+#ComposicaoProdutoselectable #divTabCadProd_Retirar { padding-left:8px; width:98px; }
+#ComposicaoProdutoselectable #divTabCadProd_Remover { padding-left:5px; width:50px; }
+
+.ProducaoEstoque #ComposicaoProdutoselectable #divTabCadProd_Remover {
+    margin-left: 64px;
+}
+
+#ComposicaoProdutoselectable #divTabCadProd_Qtde input { font-size:14px; margin-top:-4px; padding-right:3px; text-align:right; width:65px; border-radius: 2px;}
+#ComposicaoProdutoselectable #divTabCadProd_Remover .btnRemove  
+{
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#divTabCadProd_Perda input {
+    width: 65px;
+    border-radius: 2px;
+    margin-left: 0px;
+    margin-top: -4px;
+}
+
+#ComposicaoProdutoselectable #divTabCadProd_Perda 
+{
+    width: 64px;
+}
+
+td #inpCadProdPerda {
+    width: 65px;
+    border-radius: 2px;
+    margin-left: 2px;
+}
+
+
+#ListaEdicaoComposicaoProduto .divCadProdAdd { clear:none; float:left; }
+#ListaEdicaoComposicaoProduto #divCadProdAdd_Produto { padding-left: 10px; text-align: left; width:390px; }
+#ListaEdicaoComposicaoProduto #divCadProdAdd_Qtde { width:70px; }
+#ListaEdicaoComposicaoProduto #divCadProdAdd_Retirar { width:55px; }
+#ListaEdicaoComposicaoProduto #divCadProdAdd_Botao { width:50px; }
+
+#ListaEdicaoComposicaoProduto #divCadProdAdd_Qtde input { font-size:14px; padding-right:3px; text-align:right; width:60px; }
+#ListaEdicaoComposicaoProduto a { height:26px !important; margin-top:3px !important; margin-left: -1px !important;}
+#ListaEdicaoComposicaoProduto input { float:left; height:28px; margin-left:-1px; margin-top:3px; }
+
+#ListaEdicaoComposicaoProduto .ui-combobox-input { width: 292px; }
+
+#tabComposicaoProduto { font-size:13px; margin:0px 10px; }
+#tabComposicaoProduto .tdComposicaoProduto { font-size:11px; }
+#tabComposicaoProduto #tdItem { width:210px; }
+#tabComposicaoProduto #tdQtde { width:75px; }
+#tabComposicaoProduto #tdRetirar { position: absolute; }
+#tabComposicaoProduto #tdBotao { width:50px; }
+
+#tabComposicaoProduto #inpCadProdQtde { width:65px; border-radius: 2px; }
+#tabComposicaoProduto #divCadProdAdd_Retirar { clear:none; float:left; margin:7px 0 0 5px; }
+/*#tabComposicaoProduto #divCadProdAdd_Retirar:hover { cursor:pointer; }*/
+#tabComposicaoProduto #imgCadProdAdd { border:1px solid #e6e7e8; }
+#tabComposicaoProduto #imgCadProdAdd:hover { border:1px solid #ccc; cursor:pointer; }
+
+#tabComposicaoProduto .ui-combobox 
+{
+    width: 325px;
+}
+
+#divTabCadProd_Retirar .ui-selectee
+{
+    width: 50px;
+    height: 23px;
+    
+}
+
+#chkCadProdAdd_Retirar {
+    width: 22px;
+    height: 24px !important;
+    margin-top: -4px !important;
+    margin-bottom: -11px;
+}
+
+#chkCadProdAdd_Retirar:focus, #tabComposicaoProduto #inpCadProdQtde:focus, #tabComposicaoProduto input.ui-autocomplete-input:focus
+{
+    box-shadow: 0px 0px 3px rgb(0, 110, 255);
+}
+
+#tabComposicaoProduto .btAdicionar {
+    color: #fff;
+    width: 110px;
+    height: 25px;
+    line-height: 21px;
+    border-radius: 3px;
+}
+
+#tabComposicaoProduto .btAdicionar:focus {
+    box-shadow: 0px 0px 3px rgb(0, 110, 255);
+}
+
+#divTabCadProd_Retirar input 
+{
+    width: 47px;
+    height: 21px;
+}

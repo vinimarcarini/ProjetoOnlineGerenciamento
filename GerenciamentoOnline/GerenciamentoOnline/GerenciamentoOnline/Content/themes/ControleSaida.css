@@ -1,0 +1,175 @@
+﻿body {
+	font-family:helvetica, arial, sans-serif;
+}
+
+a { text-decoration:none; }
+a:hover { color:#fff; }
+
+input, label {
+	clear:both;
+	float:left;
+}
+
+#txtNumeroCartao {
+	color:#355271;
+	font-size:30px;
+	height:50px;
+	text-align:center;
+	width:350px;
+}
+
+.divCentralizada #lblNumeroCartao { font-size:20px; }
+
+.divCentralizada {
+	height:40px;
+	left:50%;
+	padding-top:10px;
+	position:fixed;
+	top:50%;
+}
+.divCentralizada p { font-size:30px; }
+
+.divContainer {
+	bottom:0;
+	height:100%;
+	left:0;
+    min-height:100%;
+    position:absolute;
+	right:0;
+    top:0;
+}
+
+/* TOPO */
+
+#divTopo {
+	font-weight:bold;
+	height:30px;
+	position:absolute;
+	width:100%;
+	z-index:50;
+}
+#divTopo div { position:absolute; top:5px; }
+#divTopo #divEstabelecimento { left:5px; }
+#divTopo #divSair { height:30px; padding:0 5px 0 0; right:5px; }
+#divTopo #divSair:hover { color:#fff; cursor:pointer; }
+#divTopo.divTopoAguardando { border-bottom:1px dotted #4a729d; color:#CCD3DB; }
+#divTopo.divTopoLiberado { border-bottom:1px dotted #04cb3c; color:#04cb3c; }
+#divTopo.divTopoPendencia { border-bottom:1px dotted #f84153; color:#f84153; }
+
+/* AGUARDANDO */
+
+#divAguardando { background-color:#0e2135; }
+
+#divAguardando .divCentralizada {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -175px;
+    margin-top: -100px;
+}
+
+#divAguardando, .divTopoAguardando a { color:#CCD3DB; }
+
+.divTopoAguardando a:hover { color:#fff; }
+
+/* LIBERADO */
+
+#divLiberado {
+	background-color:#041e0e;
+	display:none;
+}
+#divLiberado .divCentralizada {
+	margin-left:-262px;
+	margin-top:-30px;
+	padding-left:50px;
+	width:524px;
+}
+#divLiberado, .divTopoLiberado a { color:#02a931; }
+.divTopoLiberado a:hover { color:#fff; }
+
+/* PENDENCIA */
+
+#divPendencia {
+	background-color:#4c000a;
+	display:none;
+}
+#divPendencia .divCentralizada {
+	margin-left:-200px;
+	margin-top:-100px;
+	/*padding-left:50px;*/
+	padding-top: 50px;
+	/*width:460px;*/
+}
+#divPendencia, .divTopoPendencia a { color:#ec061d; }
+.divTopoPendencia a:hover { color:#fff; }
+
+.toast-container
+{
+    width:450px !important;
+}
+.toast-item 
+{
+    /*background-color:#ec061d !important;*/
+    /*color:#f84545 !important;*/
+    color:#fff !important;
+    font-family:lucida Grande !important;
+    font-size:18px !important;
+    font-weight:bold;
+}
+.divCentralizada .btConfirmaCartao{
+    float: left;
+    width: 50px;
+    height: 48px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 36px;
+    border-radius: 39px;
+    margin-left: 10px;
+}
+
+#dlgRelatorioMesa
+{
+    border: 3px solid rgb(92, 5, 26) !important;
+    width: auto;
+    min-height: 517px;
+    height: auto;
+}
+
+#btnRelatorioPendencia
+{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid #6B0707;
+    background-color: rgb(163, 8, 8);
+    color: rgb(43, 7, 7);
+    font-size: 16px;
+    margin-top: 15px;
+    width: 398px;
+}
+#btnRelatorioPendencia:hover { border: 2px solid rgb(180, 2, 2); cursor: pointer; }
+
+/* VOLTAR */
+
+#divVoltar 
+{
+    bottom: 10px;
+    display: none;
+    height:48px;
+    left: 10px;
+    position: absolute;
+    width:48px;
+}
+#divVoltar:hover { cursor:pointer; }
+
+#divTotalPresentes
+{
+    bottom: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    height: 48px;
+    right: 10px;
+    position: absolute;
+}
+#divTotalPresentes:hover { cursor:pointer; }
+

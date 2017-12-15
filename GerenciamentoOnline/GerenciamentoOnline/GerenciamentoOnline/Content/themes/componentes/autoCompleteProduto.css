@@ -1,0 +1,35 @@
+﻿
+#contInformacoesDelivery .buscaProduto .conteudo 
+{
+    width: 310px !important;
+}
+
+#contInformacoesDelivery .buscaProduto .conteudo ul
+{
+    width: 289px !important;
+}
+
+#contInformacoesDelivery .buscaProduto .conteudo div
+{
+    position:relative;
+    float:left;
+    width:100%;
+    padding:0;
+}
+
+#contInformacoesDelivery .buscaProduto .conteudo .divFlutuanteDescricao
+{
+    clear:right;
+
+}
+
+#contInformacoesDelivery .buscaProduto .conteudo .divFlutuantePreco
+{
+    margin-top:-5px;
+}
+
+#contInformacoesDelivery .buscaProduto .conteudo .divFlutuantePreco span 
+{
+    color:Blue;
+    font-size:10px;
+}

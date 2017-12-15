@@ -1,0 +1,57 @@
+﻿@media screen {
+    .divImpressaoOffline #imprimeNfce #conteudoImpressao
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+#conteudoImpressao .NFCCabecalho_SubTitulo1
+{
+      font-size: 10px;
+      text-align: center;
+}
+
+#conteudoImpressao .NFCCabecalho_SubTitulo2
+{
+      font-size: 10px;
+      text-align: center;
+}
+
+.NFCECabecalho
+{
+  margin-top: 3px;
+  width: 100%;
+}
+
+#conteudoImpressao #nfce
+{
+    margin-top: 5px;
+}
+
+.divImpressaoOffline .linkPrintConfig
+{
+      margin-left: 35px !important;
+}
+
+.divImpressaoOffline .btImprime
+{
+      margin-left: 50px !important;
+}
+
+.divImpressaoOffline #btMargem
+{
+  margin-top: 48px;
+  position: absolute;
+  float: left;
+  margin-left: 68px;
+}
+
+.divImpressaoOffline #spMargem
+{
+  font-size: 11px;
+  float: left;
+  text-align: center;
+  width: 100%;
+  margin-top: 5px;
+}

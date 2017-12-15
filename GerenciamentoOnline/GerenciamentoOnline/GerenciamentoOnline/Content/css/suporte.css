@@ -1,0 +1,83 @@
+﻿/* hide the original widget - that there were no two labels on the screen*/
+#jivo_chat_widget{
+	display: none;
+}
+
+/* the default style - for offline messages if no one is online */
+#jivo_custom_widget{
+	position: fixed;
+    right: 15px;
+    bottom: -3px;
+    z-index: 300000;
+    cursor: pointer;
+    height: 54px;
+    line-height: 54px;
+    background-image: url(images/jivo_widget_offline.png);
+    background-repeat: no-repeat;
+    width: 215px;
+    background-color: #999;
+    background-position-x: 13px;
+    background-position-y: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+    #jivo_custom_widget span {
+        padding-left: 51px;
+    }
+
+#jivo_close_button {
+    position: absolute;
+    right: -10px;
+    z-index: 30000000000;
+    background-color: #fff;
+    border-radius: 10px;
+    top: -2px;
+    /*display: none;*/
+}
+
+#header-avatar #callme{
+    /*display: none;*/
+    display: block;
+}
+
+#jivo_action #jivo_close_button:hover{
+    position: absolute !important;
+     z-index: 3000000000000 !important;
+}
+   
+    .jivo-iframe-container-bottom.jivo-expanded div#jivo-drag-handle {
+        width: 81%!important
+    }
+
+/* when you hover the label should be shifted to the right by 3px */
+#jivo_custom_widget:hover{
+	
+}
+
+/* if there are operators online - show other label*/
+#jivo_custom_widget.jivo_online{
+	/*
+    height: 178px;
+	background-image: url(images/jivo_widget_online.png);
+    */
+     background-color: #049B4F;
+}
+
+#jivo_action .limparESair {
+    /*cursor: pointer;*/
+    text-decoration: underline;
+    font-size: 11px;
+    position: absolute;
+    right: 126px;
+    top: 14px;
+    color: #000;
+}
+.jivo-iframe-container-bottom.jivo-expanded.escondeChat {
+    display: none !important;
+}
+
+#jivo_action .limparESair:hover, #jivo_action .limparESair:after {
+    cursor: pointer;
+}

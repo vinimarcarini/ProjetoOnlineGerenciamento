@@ -1,0 +1,1522 @@
+﻿button.salvarGenerico, button.icoSalvarPedido {
+    float: left;
+    height: 47px;
+    width: 53px;
+    margin-left: 20px;
+    border: 1px solid rgba(242, 242, 242, 0);
+    background-color: #f7f7f7;
+    margin-top: 6px;
+}
+
+button.salvarGenerico:hover 
+{
+    border: 1px solid silver;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.contPedido
+{
+   float: left;
+   width: 100%;
+}
+#pedidoDataDe, #pedidoDataAte, #pedidoTipoPedido
+{
+    border-radius: 5px;
+    border: 1px solid silver;
+    height: 25px;
+    text-align: center;
+    width: 130px;
+    float: left;    
+}
+
+.descLancamentoAtual
+{
+    margin-left: 10px;
+    float: left;
+    color: rgb(7, 134, 206);
+}
+
+#contFiltro label
+{
+    margin-left: 12px;
+    font-size: 12px;
+    float: left;
+    margin-right: 10px;
+    line-height: 22px;
+}
+
+.grupoPaiSelected
+{
+    border: 1px solid #CE8F64 !important;
+    font-weight: bold;
+    color: #727376;
+    font-size: 15px;
+} 
+   
+.ProdutoPedido .cbQuant
+{        
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+
+#divProdutos
+{
+    border-left: 1px solid #FCCBA2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+#divGridFmt
+{
+    position:relative;
+    height: 100%; 
+    float: right;
+    margin-right: 10px;
+    margin-top: -1px;
+    clear: right;
+}
+#divGridFmt .ui-jqgrid
+{
+    margin: 0px;    
+}
+#valorTotal
+{
+    line-height:35px;
+    border: 1px solid #E7E7E7;
+    width: 286px;
+    text-align: center;
+    color: Blue;
+    background: #f1f1f1;
+}
+
+.btnFechaContaPedido.btDourado3 
+{
+    position: absolute;
+    bottom: 5px;
+    line-height:35px;
+    width: 286px;
+    text-align: center;
+    color: White;
+    margin-left: 3px;
+    left: 0px;
+}
+#divGridFmt h1
+{
+    font-size: 12px;
+    text-align: center; 
+    font-weight: normal;
+    padding-bottom: 5px; 
+}
+/*.grupoPai:hover
+{
+  color: #000;   
+  cursor: pointer; 
+  border: 1px solid #CE8F64; 
+  font-size:16px;
+}*/
+.grupopaiselected:hover
+{
+  cursor: pointer;
+  border: 1px solid #CE8F64;
+}
+
+/*
+#divSubGrupos
+{
+    position: absolute;
+    border-right: 1px solid #FCCBA2; 
+    width: 155px;
+}
+*/
+
+#divShowAdCustomProd #tabsitcust 
+{
+    border: none;
+    background: #f7f7f7;
+}
+#divShowAdCustomProd 
+{
+    border-radius: 7px;    
+}
+
+/*.subgruposelected
+{
+    border: 1px solid #CE8F64 !important;
+    font-weight: bold;
+    color: #606062;
+    font-size: 14px !important;
+    cursor: pointer;
+}
+.subgruposelected:hover, .SubGrupo:hover
+{
+    border: 1px solid #CE8F64; 
+    cursor: pointer;
+    font-size: 16px;
+}*/
+.divPorProduto
+{
+    border-bottom: 1px solid silver;
+    clear:both;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+/* left tem quer ser 300px por que pode ter ateh 4 icones*/
+.descricaoTitulo  
+{
+    margin-top:10px;
+    text-align:center;
+    font-weight:normal;
+    float:left;
+    font-size:25px;
+    color:#808080;
+    position: absolute;
+    left: 300px;
+    right: 300px;
+}
+
+.descricaoTitulo span, .descriV span  {  
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+#adicionaTool, #observacaoTool, #retiraTool
+{
+    padding-top: 20px;
+    padding-bottom: 12px;
+    clear: both;
+}
+
+#comboAdicXProdQtd, #comboObsXProdQtd
+{
+    border-radius: 2px;
+    border: 1px solid silver;
+    float: left;     
+}
+#comboCompXProd
+{
+    margin-right: 10px;
+    border-radius: 2px;
+    border: 1px solid silver; 
+    float: left;
+    /**/
+    position: absolute;
+    left: 10px;
+    right: 89px;
+}
+#layoutTextAreaToo
+{
+    font-family: Arial;
+    font-size: 11px;
+    padding-left: 5px;
+    line-height: 22px;
+    margin-top: 34px;
+    width: 551px;
+    height: 22px;
+    background-color: #f2f2f2;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-top: 1px solid silver;    
+}
+
+#layoutTextAreaRodape
+{
+    width: 556px;
+    height: 25px;
+    background-color: #f2f2f2; 
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;      
+}
+#comboAdicXProd, #comboObsXProd
+{
+    float: left;
+    margin-right: 10px;
+    border-radius: 2px;
+    border: 1px solid silver; 
+/**/
+    position: absolute;
+    left: 50px;
+    right: 89px;
+}
+
+#contPersonalizar .btSilver.btOk 
+{
+    border: 1px solid rgb(179, 179, 179) !important;
+    color: rgb(80, 80, 80) !important;
+/**/
+    position: absolute;
+    right: 10px;
+
+}
+
+
+.btOk  
+{
+    float: left; 
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    color: gray;
+    margin-top: -1px;
+}
+
+.editorTabs
+{
+   
+;   
+}
+.editorTabs a
+{
+    font-size: 12px;
+    font-family: Vani;
+    padding:0px !important; 
+    margin-left: 5px;
+}
+.editorTabs a:hover
+{
+   color: Orange;   
+}
+#remover
+{
+    margin-top: -6px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #f7f7f7; 
+    float: right; 
+}
+#removerPedido
+{
+    margin-right: 10px; 
+    margin-top: 2px;
+    border: 1px solid rgba(242, 242, 242, 0);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+#removerPedido:hover
+{
+    border: 1px solid silver;    
+}
+
+#btnremoverPedido
+{
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #f7f7f7;
+}
+#btnEditarPedido
+{
+    position: absolute;
+    bottom: 5px;
+    right: 60px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #f7f7f7;
+    
+}
+#labelPedido
+{
+    font-size: 12px;
+    position: absolute;
+    top: 14px;
+    right: 110px;
+    height: 35px;
+    width: 135px;
+    border: 1px solid #f7f7f7; 
+    
+}
+#btnremoverPedido:hover, #removerPedido:hover, #btnEditarPedido:hover, #remover:hover
+{ 
+    border: 1px solid silver;    
+}
+
+#divShowAdCustomProd
+{
+    /*border: 1px solid silver;*/
+    background-color: #F7F7F7;   
+}
+
+#divZoomPai
+{
+    height: 80px;
+    width: 150px;
+    float: left;       
+}
+#divZoomSub
+{
+    height: 60px;
+    width: 150px;
+    float: left;
+}
+.displayCliente, .displayGarcom, .displayAtendente 
+{
+    font-size: 14px;  
+    color: rgb(134, 50, 37); 
+    float: left;
+}
+.labelCliDelivery 
+{
+    float: left;
+    padding-left: 30px;
+    font-size: 14px;
+    padding-right: 10px;
+}
+p.identGreen, p.identRed
+{
+    height: 10px;
+    width: 10px;
+    border: 1px solid red;
+    background-color: Red;
+    border-radius: 15px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+p.identGreen 
+{
+    background-color: #1DD81D;
+    border: 1px solid #1DD81D; 
+}
+
+.divRelatorioContainer .contRelatorio 
+{
+    float: left;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.divIdentificacaoBalcao, .divIdentificacaoMesa, .divIdentificacaoDelivery
+{
+    padding-top: 3px;
+    float: left;
+    display: none;
+}
+.linhaCont
+{
+    float: left; 
+    clear: left; 
+    width: 100%; 
+    margin-top: 15px;
+    border-bottom: 1px solid silver;
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 15px;
+}
+#conteudoAdiantamento .contNome
+{
+    width: 150px;
+    padding-left: 5px; 
+    float: left;   
+}
+
+#conteudoAdiantamento .contItens 
+{
+    width: 264px;
+    padding-left: 5px; 
+    float: left;   
+
+}
+
+#conteudoAdiantamento .valorTotalAdic 
+{
+    margin-top: 30px; 
+    position: absolute; 
+    bottom: 0px;    
+}
+        
+#conteudoAdiantamento .valorTotalAdic .contValor {
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#conteudoAdiantamento .valorTotalAdic .contNome 
+{
+     color: red;
+    font-size: 15px;
+    font-weight: bold;   
+}
+
+.contValor
+{
+    padding-right: 5px;
+    float: right;
+}
+
+.liAdiantamento
+{
+    float: left; 
+    clear: boths;
+    width: 100%;
+    font-size: 13px;
+    color: gray;
+    line-height: 25px;
+     
+}
+
+.liAdiantamento.odd
+{
+    background-color: #f7f7f7;
+    border: 1px solid #f2f2f2;    
+}
+
+#ui-dialog-title-dlgRelatorioMesa span 
+{
+    font-size: 9px;
+    margin-left: 10px;
+    position: absolute;
+    top: 20px;
+    right: 22px;    
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*
+.mostraAdicionado
+{
+    height: 23px;
+    width: 23px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 21px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+    
+	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+	background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+	background-color:#77d42a;
+	border:2px solid #F2F2F2;
+	display:inline-block;
+}
+*/
+
+/*------------- cliente cartão -----------------------------*/
+#divClienteCartao 
+{
+    background-color: #f7f7f7;
+    border-radius: 7px;
+    float: left;
+    width: 400px;
+    box-shadow: 1px 1px 20px #5F5D5D;
+    margin: 10px;
+}
+
+#divClienteCartao h6.descriV 
+{
+    font-size: 18px;
+    left: 55px;
+    right: 55px;
+}
+
+#divClienteCartao .conteudo 
+{
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#divClienteCartao .conteudo *
+{
+    float: left;
+    clear: both;
+    font-size: 14px;
+}
+
+#divClienteCartao .conteudo input 
+{
+    width: 325px;
+    border-radius: 4px;
+    border: 1px solid silver;
+    height: 28px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    color: Gray;
+}
+
+#divContBalanca 
+{
+    display: none;
+    float: right;
+    width: 276px;
+    height: 50px;
+    border: 1px solid #E7E7E7;
+    background-color: #f1f1f1;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    padding-left: 3px;
+}
+
+#divContBalanca * 
+{
+    float: left;
+    font-size: 14px;
+}
+
+#divContBalanca input 
+{
+    clear: both;
+    width: 222px;
+    height: 23px;
+}
+
+#divContBalanca label 
+{
+    padding-left: 5px;
+    color: Gray;
+}
+
+#divcontbalanca div:first-child 
+{
+    margin-right: 15px;
+    margin-left: 8px;
+}
+
+#divcontbalanca div:last-child 
+{
+    margin: 0px;
+    padding: 0px;
+    width: 29px;
+    height: 34px;
+    padding-top: 16px;
+}
+
+#divcontbalanca .enviar 
+{
+    font-size: 17px;
+    float: right;
+    margin-right: 7px;
+}
+
+#divcontbalanca div:last-child:hover { cursor: pointer; }
+#divcontbalanca .enviar:active { color: Silver; } 
+
+#contInformacoesDelivery .inpCheck 
+{
+    float: left;
+    margin-top: 2px;
+}
+
+#contInformacoesDelivery p.desc
+{
+    clear: right;
+    padding-left: 25px;
+}
+
+#contInformacoesDelivery .atualizar:hover { cursor: pointer; }
+
+#contInformacoesDelivery .camposMenores { float: left;}
+
+#contInformacoesDelivery .camposMenores .divComboRegiaoEntrega { margin-right: 27px; }
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.mostraAdicionado
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 28px;
+    text-align: center;
+    line-height: 30px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    
+	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+	background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+	background-color:#77d42a;
+	border:1px solid rgb(61, 211, 13);
+	display:inline-block;
+}
+
+#contPersonalizar .personalizar .cont ul li .anterior .diminuir{
+    line-height: 9px !important;
+}
+
+#contPersonalizar .adicGrupo .cont ul li .valor, #contPersonalizar .adicGrupoQtde .cont ul li .valor 
+{
+    right: 50px;
+    color: rgb(89, 122, 190);
+    font-weight: bold;
+}
+
+#confirmaMgs {
+    color: #fff;
+    width: 200px !important;
+    margin-left: 37px !important;
+}
+
+
+/*------------------os btn na personalização do produto-----------------------------------------*/
+#contPersonalizar .btEach .bt
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#contPersonalizar .btEach .bt.remove 
+{
+    line-height: 9px;
+}
+
+#contPersonalizar .btEach .label 
+{
+    padding-left: 5px;
+    font-size: 9px;
+}
+
+/*-----------------------------------------------------------*/
+
+.btEach.btRemove  
+{
+    left: 3px; 
+    /*display: none;*/    
+}
+
+.btEach.btAdiciona { right: 5px; }
+.btEach.btPersonaliza { right: 60px; }
+
+.btEach.btEach:hover 
+{
+    cursor: pointer;
+}
+
+.btEach .bt 
+{
+    height: 22px;
+    width: 22px;
+    border-radius: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 5px;
+    display:inline-block;
+}
+
+.btEach.btRemove .bt.remove {    
+    -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+	background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+	background-color:#f24537;
+	border:1px solid #d02718;
+	
+	opacity: 0.2;
+	color: #FFF;
+	line-height: 8px;
+}
+    
+.btEach.btAdiciona .bt.add {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	border:1px solid #dcdcdc;
+	text-shadow:1px 1px 0px #ffffff;
+	/*
+    -moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+	background:-moz-linear-gradient( center top, #ffce79 5%, #eeaf41 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+	background-color:#ffce79;
+	border:1px solid #eeb44f;
+	*/
+	
+	color: rgba(128, 128, 128, 0.67);
+	line-height: 22px;
+}
+
+.btEach.btPersonaliza .bt.per {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	border:1px solid #dcdcdc;
+	text-shadow:1px 1px 0px #ffffff;
+	
+	
+	color: rgba(128, 128, 128, 0.67);
+	line-height: 22px;
+}
+
+.btEach.btAdiciona .bt.mostraAdd 
+{
+    text-shadow: 2px 1px 2px gray;
+    -moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+	background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+	background-color:#77d42a;
+	border:1px solid rgb(61, 211, 13);
+	display:inline-block;
+	line-height: 22px;
+	font-size: 14px;
+	color: #FFF;
+}	
+
+.btEach.btPersonaliza .bt.perMostra 
+{
+    -moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+	background:-moz-linear-gradient( center top, #ffce79 5%, #eeaf41 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+	background-color:#ffce79;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	font-family:arial;
+	text-decoration:none;
+	text-shadow: 2px 1px 2px gray;
+	
+	line-height: 22px;
+	font-size: 14px;
+	color: #FFF;
+}
+
+.btEach.btRemove .bt.remove.opac { opacity: 1; }
+
+.btEach .label {
+    font-size: 9px;
+    color: gray;
+    line-height: 19px;
+}
+
+#tbody .tdExcluir p.remove 
+{
+    height: 22px;
+    width: 22px;
+    border-radius: 21px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 4px;
+    display:inline-block;
+    
+     -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+	background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+	background-color:#f24537;
+	border:1px solid #d02718;
+	
+	color: #FFF;
+	line-height: 5px;
+	position: absolute;
+	top: 50%;
+	margin-top: -11px;   
+}
+
+#contPersonalizar .descProduto .qtdeDescProduto 
+{
+    position: relative;
+    float: left;
+}
+
+/*foi alterado margin-top pois influenciou na quantidade na personalização. andre 09/05/2013*/
+#contPersonalizar .descProduto .qtdeDescProduto .desc
+{
+    float: left;
+    font-size: 15px;
+    margin-top: 22px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/ 
+
+#itemParaRemover .contBt 
+{
+    float: left;
+    margin-left: 42px;
+}
+
+#itemParaRemover .contBt .bt
+{
+    float: left;
+    margin: 10px;
+    width: 105px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#itemParaRemover .contBt .bt.btDourado2
+{
+    color: #fff;
+}
+
+#itemParaRemover .contBt .bt.btSilver
+{
+    color: gray;
+}
+    
+#itemParaRemover {
+    padding-left: 53px;
+    float: left;
+    background-color: #fff;
+    padding-top: 5px;
+}
+
+#itemParaRemover ul 
+{
+    /*height: 35px;*/
+    float: left;
+    border-bottom: 1px dotted silver;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 37px;
+    padding-bottom: 5px;
+}
+
+#itemParaRemover ul * 
+{
+    float: left;
+    font-size: 14px;
+    font-family: Arial;
+    color: rgb(5, 134, 184);
+    margin: 0px;
+    /*width: auto;*/
+    border: 0px;
+}
+    
+#itemParaRemover ul li.qtde 
+{
+    margin-left: 7px;
+}
+
+#itemParaRemover ul li.liRemover {
+    line-height: 9px;
+    margin-top: 0px;
+}
+
+#itemParaRemover ul li.mostraAdicionado 
+{
+    color: #FFF !important;
+}
+
+#itemParaRemover ul li.liRemover:hover, #itemParaRemover ul li.liAdicionar:hover  
+{
+    cursor: pointer;
+}
+    
+#itemParaRemover ul li.desc 
+{
+    width: 231px;
+    margin-right: -25px;
+    padding-left: 22px;
+    line-height: 14px;
+    margin-top: 9px;
+}
+
+#itemParaRemover ul li.descPedidoExistente 
+{
+    width: 176px;
+    margin-right: -20px;
+    padding-left: 15px;
+}
+
+#itemParaRemover ul li.valor 
+{
+    width: 70px;
+    text-align: right;
+    margin-right: 10px;
+    color: rgb(5, 134, 184);
+    font-weight: bold;
+}
+
+#itemParaRemover .label {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px gray;
+    color: gray;
+}
+
+#itemParaRemover .removido
+{
+    text-decoration: line-through;
+    color: Silver !important;
+}
+
+#itemParaRemover .opcoes {
+    color: gray;
+    font-size: 15px;
+    margin-left: 11px;
+    margin-top: 8px;
+}
+
+#itemParaRemover .opcoes .radio 
+{
+    margin-top: 10px; 
+    margin-right: 13px;   
+}
+
+.customizados li 
+{
+    float: left;
+}
+
+.customizados li p 
+{
+    font-size: 11px !important;
+    color: Gray !important;
+    line-height: 15px;
+    float: left;
+}
+
+.customizados li p.qtde {
+    margin-left: 15px;
+    width: 17px !important;
+    height: 12px;
+    margin-right: 5px;
+}
+
+#itemParaRemover .customizados li p.desc {
+    width: 157px;
+}
+
+.customizados li p.desc {
+    width: 92px;
+}
+
+.customizados li p.qtde.retirar {
+    margin-left: 15px;
+    width: 40px;
+}
+
+.customizados li p.retirar {
+    font-size: 10px !important;
+    line-height: 14px;
+    color: rgb(189, 7, 7) !important;
+}
+
+#itemParaRemover .customizados li p.retirar.removido 
+{
+   width: 170px;    
+}
+
+#divProdutos .inputGenerico
+{
+   width: 497px;
+   margin-left: 10px;
+   padding-left: 30px; 
+}
+
+#divProdutos .icone
+{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 13px;
+    top: 18px;
+}
+
+.icone:hover
+{
+    cursor: pointer;
+}
+
+#divProdutos .divBuscaProduto 
+{
+    border-bottom: 1px solid silver;
+    height:30px;
+    padding:15px 0;
+    position:relative;
+    width:100%;
+}
+
+.btAddCustom ul li 
+{
+    line-height: 8px;
+    font-weight: bold;
+   /* border: 1px solid silver;
+    float : left;
+    height: 6px;
+    width: 6px;
+    border-radius: 8px;
+    background-color: #EEEBEB;
+    margin: 5px;*/
+}
+
+.btAddCustom ul, #qtdeProdutoConfirmacao .before, .personalizar .cont ul li .anterior .diminuir
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 48px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+    
+    -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+	background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+	background-color:#f24537;
+	border:1px solid #d02718;
+	display:inline-block;
+}
+
+#qtdeProdutoConfirmacao .before 
+{
+    line-height: 9px !important; 
+}
+    
+.personalizar .cont ul li .proximo .qtde 
+{
+    margin-top: 4px;
+    height: 30px;
+    width: 30px;
+    border-radius: 52px;
+    text-align: center;
+    line-height: 27px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+    
+    -moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+	background:-moz-linear-gradient( center top, #ffce79 5%, #eeaf41 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+	background-color:#ffce79;
+	border:1px solid #eeb44f;
+	display:inline-block;
+}
+
+.personalizar .cont ul li .proximo .mostraAdicionado {
+    margin-top: 4px;
+}
+
+.ProdutoPedido .addItem, #divContBalanca .enviar, #qtdeProdutoConfirmacao .next
+{
+    margin-top: -2px;
+    height: 26px;
+    width: 26px;
+    border-radius: 52px;
+    text-align: center;
+    line-height: 27px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+    
+    -moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+	background:-moz-linear-gradient( center top, #ffce79 5%, #eeaf41 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+	background-color:#ffce79;
+	border:1px solid #eeb44f;
+	display:inline-block;
+}
+
+.personalizar .cont ul li .check 
+{
+    top: 7px;
+    right: 6px;
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 25px;
+    border:1px solid silver;
+	display:inline-block;
+}
+
+.personalizar .cont ul li .check.checado 
+{
+    color: rgb(7, 144, 221);
+    box-shadow: 0px 0px 3px rgb(7, 144, 221);
+    border: 1px solid rgba(0, 0, 255, 0.27);
+    text-shadow: 1px 1px 1px silver;
+}
+
+.compGrupo .cont ul li .check.checado 
+{
+    color: red;
+    box-shadow: 0px 0px 3px red;
+    border: 1px solid rgba(255, 0, 0, 0.29);
+}
+
+/*-------------------------------------------------------------------------------*/
+    
+/**/
+
+#comboAdicXProd, #comboObsXProd 
+{
+    height: 35px;
+    margin-left: 10px;
+}
+
+#comboAdicXProdQtd, #comboObsXProdQtd
+{
+    height: 35px;
+}
+
+.btOk  
+{
+    padding: 8px;
+    width: 62px;
+    text-align: center;
+}
+
+#adicionatool, #observacaotool, #retiratool 
+{
+    height: 50px;
+    float: left;    
+}
+
+#comboCompXProd
+{
+    height: 35px;
+}
+
+
+/*-------------------------------------------------------------------------------*/
+
+#pagRelatorioMesa .btn.imprimir {
+    float: right;
+    margin-right: 10px;
+    margin-left: 0px;
+    color: #fff;
+}
+
+#contMsgConfirmacao .conteudo .msgConfirmaJuncao 
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 2px 1px 5px silver;
+    color: rgb(23, 130, 172);
+    font-size: 15px;   
+
+}
+
+
+/*-----------------------------------------------------------------*/
+
+.blackToo  
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 20px;
+    background-color: Gray;
+}
+
+/*-----------------------------------------------------------------*/
+
+#contMsgConfirmacao .adcProd 
+{
+    clear: both;   
+    line-height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid silver;
+    float: left;
+    width: 264px;
+    font-size: 15px;
+}
+
+#contMsgConfirmacao .adcProd:first-child 
+{
+    margin-bottom: 10px;
+}
+
+#contMsgConfirmacao .adcProd:last-child 
+{
+    margin-bottom: 15px;
+}
+    
+#contMsgConfirmacao .adcProd * 
+{
+    float: left;
+    color: Gray;
+}
+
+#contMsgConfirmacao .adcProd .qtde 
+{
+    min-width: 25px;
+}
+
+#contMsgConfirmacao .adcProd .qtde span {
+    font-size: 12px;
+    color: red;
+    margin-right: 5px;
+}
+
+#contMsgConfirmacao .adcProd .descPedidoExistente 
+{
+    width: 170px;
+}
+
+#contMsgConfirmacao .adcProd .descRet {
+    font-size: 16px;
+    width: 100%;
+    color: rgb(189, 7, 7);
+}
+
+#contMsgConfirmacao .adcProd .valor
+{
+    width: 65px;
+    text-align: right;
+    color: rgb(89, 122, 190);
+}
+
+/*-------------------------------------*/
+
+
+
+/*-------------------------------------*/
+
+#contPedido #tbody .customizados 
+{
+    margin-top: 40px;
+}
+
+#contPedido #tbody .customizados li p 
+{
+    line-height: 20px;
+}
+
+#contPedido #tbody .customizados li p.desc.retirar 
+{
+    margin-left: 0px;
+    width: 115px !important;
+    
+}
+    
+#contPedido #tbody .customizados li p.qtde
+{
+    margin-left: 45px;
+}
+
+#contPedido #tbody .customizados li p.valor 
+{
+    width: 38px !important;
+    color: rgb(3, 3, 156) !important;
+}
+
+/*
+    foi comentado por que no pedido no pc estourava no grid. andre 17/04/2013
+
+#contPedido #tbody .customizados li p.desc 
+{
+    width: auto !important;
+}
+*/
+
+#contPedido #tbody .customizados li p.titleContent {
+    position: absolute;
+    right: 98px;
+    top: -3px;
+    font-size: 9px !important;
+}
+
+/*----------------------------------------------*/
+
+#contPersonalizar .personalizar, .contPersonalizarPizza .personalizar
+{
+    border: 1px solid silver;
+    margin: 25px 5px;
+}
+
+#contPersonalizar .personalizar p, .contPersonalizarPizza .personalizar p {
+    font-size: 12px;
+    color: gray;
+    text-shadow: 1px 1px 2px silver;
+    margin-top: -9px;
+    text-align: center;
+    
+}
+
+.personalizar p label
+{
+    background-color: #fff;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.personalizar .cont ul li * 
+{
+    position: absolute;
+}
+
+ .personalizar .cont ul li .btn 
+{
+    height: 45px;
+    width: 41px;
+    padding-top: 5px;
+    padding-left: 4px;    
+}
+
+.personalizar .cont ul li .proximo .qtde:hover, #contPersonalizar .personalizar .cont ul li .anterior .diminuir:hover, .personalizar .cont ul li .check:hover, .personalizar .cont ul li .proximo .mostraAdicionado:hover 
+{
+    cursor: pointer;
+}
+
+ .personalizar .cont ul li .anterior 
+{
+    left: 0px;
+} 
+
+ .personalizar .cont ul li .proximo, .personalizar .cont ul li .check-pai 
+{
+    right: 0px;
+} 
+
+ .obsGrupoQtde .cont ul li .descricao 
+{
+    left: 50px !important;
+}
+
+ .adicGrupoQtde .cont ul li .descricao 
+{
+    left: 50px !important;
+}
+
+ .personalizar .cont ul li .descricao 
+{
+    left: 15px;
+    right: 85px;
+}  
+
+/*
+#contPersonalizar .adicGrupo .cont ul li .descricao 
+{
+    left: 50px;
+    right: 100px;
+} 
+*/
+.personalizar .cont ul li {
+    position: relative;
+    height: 50px;
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: 1px dashed silver;
+    line-height: 50px;
+
+}
+
+.personalizar .cont ul li:last-child
+{
+    border: none;
+}
+
+.obsGrupo .cont ul li .anterior .diminuir, .adicGrupo .cont ul li .anterior .diminuir, .compGrupo .cont ul li .proximo .qtde  
+{
+    opacity: 0.2;
+}
+
+.compGrupo .cont ul li .removido 
+{
+    opacity: 0.2;    
+}
+
+/*----------------------------------------------*/
+
+/*------------------------------------------------*/
+
+#contMsgConfirmacao .btConfiracaoDourado.bt:hover { cursor: pointer;}
+
+#dlgListEntregas .submit 
+{
+    position: absolute;
+    z-index: 10000;
+}
+
+#dlgListEntregas #btPesq {
+    position: absolute;
+    left: 246px;
+    z-index: 10000;
+    -webkit-transform: rotate(90deg);
+    top: 85px;
+}
+
+#wrapperSabores .alterar.hidePersonalizar 
+{
+    display: none;
+}
+
+.descProduto .qtdeDescProduto
+{
+    width: 330px;
+    margin-left: -165px;
+    left: 50%;
+}
+
+.descProduto .qtdeDescProduto .desc
+{
+    width: 250px;
+    margin-left: -125px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+}
+
+.btEach.btAdiciona .bt.mostraAdd.Peso 
+{
+    border-radius: 4px;
+    width: 110%;
+    top: 50%;
+    left: 50%;
+    margin-left: -20%;
+}
+
+.btEach.btPersonaliza .bt.perMostra.Peso 
+{
+    border-radius: 4px;
+    width: 110%;
+    top: 50%;
+    left: 50%;
+    margin-left: -20%;
+}

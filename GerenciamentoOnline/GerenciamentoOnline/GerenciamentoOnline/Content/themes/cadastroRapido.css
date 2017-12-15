@@ -1,0 +1,330 @@
+﻿.toolbar .botaoConfigCadastro, .toolbar .botaoConfigCadastroHidden
+{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: 1px solid rgba(242, 242, 242, 0);
+}
+
+.divEditor_DeliveryGenerica .iconePesquisa.iconePesquisaGenerica {
+    height: 25px !important;
+    float: inherit;
+    width: 25px !important;
+    position: relative !important;
+    left: -30px !important;
+    top: 0 !important;
+}
+
+.toolbar .botaoConfigCadastro:hover
+{
+   border: 1px solid silver;     
+}
+.toolbar .botaoConfigCadastroHidden
+{
+    background-image:none !important;
+}
+.toolbar .botaoConfigCadastroHidden:hover
+{
+   cursor:default;
+}
+
+.generico.toolbar
+{
+    height: 38px;
+    margin-top: -13px;
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-bottom: 17px;
+    border-radius: 2px;
+    border: 1px solid silver;
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	border:1px solid #dcdcdc;
+	text-shadow:1px 1px 0px #ffffff;
+
+}
+
+#conteudoOpcoesDelivery .titleToolbar 
+{
+    margin-left: 30px;
+    width: 272px;
+}
+    
+.generico.toolbar *
+{
+    font-family: Verdana;
+}
+/*
+.generico.toolbar .titleToolbar, .generico.toolbar .titleToolbar
+{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #777;
+    float: left;
+    width: 311px;
+    padding-top: 10px;
+}
+*/
+.toolbar .botaoFecharToolbar
+{
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    padding-right: 14px;
+    padding-top: 10px;    
+    /*
+    position:absolute;
+    right:9px;
+    padding:10px 10px 10px 30px;
+    cursor: pointer;
+    */
+}
+.toolbar .botaoFecharToolbar:hover { cursor:pointer; }
+
+#dlgCadastroProduto { padding: 0px; }
+
+#dlgConfigCadastro .personalizar .cont ul li .check
+{
+    left: 5px;
+    height: 25px;
+    width: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 1px;
+    top: 12px;
+    background-color: #fff;
+}
+
+#dlgConfigCadastro .personalizar .cont ul li .descricao 
+{
+    left: 50px;
+    font-size: 14px;
+    color: grey;
+}
+
+#dlgConfigCadastro .btConfimarSelecao 
+{
+    width: 177px;
+    height: 30px;
+    line-height: 31px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.generico.toolbar .salvarGenerico
+{
+    float: left;
+    width: 38px;
+    height: 38px;
+    margin-top: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+/*
+.generico.toolbar
+{
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    height: 50px;
+    border-bottom: 1px solid silver;
+    position: relative;
+}
+*/
+.generico.toolbar *
+{
+    font-family: Verdana;
+}
+
+.generico.toolbar .titleToolbar
+{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #777;
+    float: left;
+    width: 265px;
+    line-height: 38px;
+}
+
+.generico.toolbar .icoSair
+{
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+}
+
+#dlgConfigCadastro
+{
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+#conteudoCadastroRapido .personalizar 
+{
+    background-color: #fff;
+}
+
+#contPersonalizar .personalizar p label{
+    border-radius: 14px;
+    box-shadow: 0px -1px 1px silver;
+}
+
+#dlgConfigCadastro .contPersonalizar
+{
+    margin-right: 8px;
+}
+
+#conteudoCadastroRapido #contPersonalizar
+{
+    overflow: auto;
+    /* ficou essa altura por causa da configuração do dos produtos. andre 02/04/2013*/
+    height: 415px;
+}
+
+.cadRapido .inputGenerico 
+{
+    padding-left: 30px;
+}
+
+.buscaProduto .cadRapido .icone 
+{
+    left: 5px;
+}
+
+.conf input[type=checkbox]
+{
+    margin:10px 0;
+}
+
+#dlgCadastroCartao 
+{
+    border-radius: 3px;
+}
+
+.divEditor_DeliveryGenerica .generico.toolbar .titleToolbar
+{
+    margin: auto;
+    float: none;
+}
+
+.contornoDlg-divEditor_ClienteToolbar, .contornoDlg-divEditor_AlterarCadDelivery, .contornoDlg-divEditor_ClientePedido, 
+.contornoDlg-divEditor_ClienteCartao, .contornoDlg-dlgConfirmaDadosCliente
+{
+    background-color: #f7f7f7;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
+.divEditor_DeliveryGenerica #divLimparClienteDelivery
+{
+    border:1px solid rgba(242, 242, 242, 0);
+    height:26px;
+    padding:3px;
+    position: absolute;
+    top: 3px;
+    width:26px;  
+}
+.divEditor_DeliveryGenerica #divLimparClienteDelivery:hover
+{
+    border:1px solid #ccc;
+    cursor:pointer;
+}
+
+.generico.toolbar #btEdGrid{
+    float: none;
+    border: 1px solid rgba(242, 242, 242, 0);
+    height: 24px;
+    padding: 3px;
+    position: absolute;
+    top: 5px;
+    width: 34px;
+    right: 35px;
+    background-size: 32px;
+    background-position-y: -1px;
+}
+
+.generico.toolbar #btEdGrid:hover{
+    border:1px solid #ccc;
+    cursor:pointer;
+}
+ 
+ .divEditor_DeliveryGenerica .generico.toolbar
+{
+    margin: 0px;    
+}
+
+.divEditor_DeliveryGenerica .botaoFecharToolbar{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.divEditor_DeliveryGenerica .btConfirmar{
+    width: 250px;
+    height: 35px;
+    line-height: 36px;
+    font-size: 17px;
+    text-align: center;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 79px;
+    border-radius: 5px;
+}
+.divEditor_DeliveryGenerica input,
+.divEditor_DeliveryGenerica textarea,
+.divEditor_DeliveryGenerica label,
+.divEditor_DeliveryGenerica select
+{
+    margin-left:10px;
+}
+
+.divEditor_DeliveryGenerica .contFormV
+{
+    margin-left: 13px;
+}
+
+.divEditor_DeliveryGenerica #Troco,
+.divEditor_DeliveryGenerica #TaxaEntrega,
+.divEditor_DeliveryGenerica .timepicker,
+.divEditor_DeliveryGenerica .editor-combo
+{
+    border: 1px solid silver;
+    border-radius: 3px;
+    color: #6E7173;
+    font-size: 15px !important;
+    height: 28px !important;
+}
+
+.divEditor_DeliveryGenerica .iconePesquisa {
+    height: 27px;
+    width: 26px;
+    position: absolute;
+    left: 225px;
+    top: 17px;
+}
+
+.divEditor_DeliveryGenerica .iconePesquisa:hover 
+{
+   cursor: pointer;
+}
+
+.divEditor_DeliveryGenerica .field-validation-error
+{
+    position: absolute;
+    right: 23px;
+}
+

@@ -1,0 +1,84 @@
+﻿.pagina1 {background-image: Url("./img/Layout/fund.png");}
+.rodape {background-image: Url("./img/Layout/rod.png");}
+.menuSup {background-image: Url("./img/Layout/menuup.png");}
+.menu:hover {background-image:  Url("./img/Layout/aba1.png");}
+.menuSelected {background-image: Url("./img/Layout/aba1.png");} /*menu selecionado*/
+.config:hover {background-image: Url("./img/Layout/aba1.png");}
+.Sairmenu:hover {background-image: Url("./img/Layout/aba1.png");}
+.menuSup.ui-state-active { background-image: Url("./img/Layout/aba1.png")!important; background-repeat: repeat !important; font-weight:bold !important; cursor: pointer;}
+.textbox.hasDatepicker{ background-image: Url("./img/Cadastro/Descricao/calend.png"); background-repeat: no-repeat; background-position:right; }
+.ui-tabs-selected { background-image: Url("./img/Layout/test2.png")!important; background-repeat: repeat !important; }
+#demo .ui-state-active { background-image: Url("./img/Layout/aba1.png")!important; background-repeat: repeat !important; font-weight:bold !important; cursor: pointer;}
+.field-validation-error { background-image: Url("./img/Layout/er.png")!important; background-repeat: no-repeat; background-position:left;}
+.imagemAddItem { background-image: Url("./img/Layout/flechaeMais2.png"); background-repeat: no-repeat; }
+#opiniao { background-image: Url("./img/Layout/op.png"); background-repeat: no-repeat; }
+#ajuda { background-image: Url("./img/Layout/su.png"); background-repeat: no-repeat; }
+#opiniao:hover { background-image: Url("./img/Layout/opH.png"); background-repeat: no-repeat; }
+#ajuda:hover { background-image: Url("./img/Layout/suH.png"); background-repeat: no-repeat; }
+.divAparece { display: none; }
+.menuSuperior { background-image: Url("./img/Cadastro/Descricao/too1s2.png"); }
+.menuT.status.aguard { background-image: Url("./img/Cadastro/Descricao/fmm1.png"); }
+.voltarAbsolut { background-image: Url("./img/Cadastro/Descricao/f2.png"); }
+#mostra { background-image: Url("./img/Cadastro/Descricao/listaB1.png"); }
+#historicoB { background-image: Url("./img/Cadastro/Descricao/historicoB1.png"); }
+#historicoV { background-image: Url("./img/Cadastro/Descricao/historicoV1.png"); }
+#conf { background-image: Url("./img/Cadastro/Descricao/confB.png"); }
+#expand { background-image: Url("./img/Layout/ta1.png"); background-repeat: no-repeat; }
+#salvar, .salvarCli, .salvarGenerico, .icoSalvar { background-image: Url("./img/Cadastro/s.png"); background-repeat: no-repeat; background-position: center;}
+#btSair, .sairCli, .sairGenerico, .icoSair { background-image: Url("../img/Cadastro/sa.png"); background-repeat: no-repeat; background-position: center;}
+#btnremoverPedido, #dlgCancelarItemPedido .conteudoUlEsquerda .labelSilver p.add, .inpMesaPrincipal .excluir { background-image: Url("./img/Layout/reG.png"); background-repeat: no-repeat; background-position: center;}    
+.listaGarcomRemover, .conteudoUlDireita h6 span, #thead .tdExcluir { background-image: Url("./img/Layout/reB.png"); background-repeat: no-repeat; background-position: center;}    
+/*#pagDialogGrupoSabores*/.dialogMobile .icone { background-image: Url("./img/Layout/lupa12.png"); background-repeat: no-repeat; background-position: center;}
+#removerPedido { background-image: Url("./img/Layout/reG.png"); }
+#removerPedido:hover, .btnRemove { background-image: Url("./img/Layout/reG.png");}
+.listaGarcomRemover:hover { background-image: Url("./img/Layout/reG.png");}
+#btnEditarPedido { background-image: Url("./img/Layout/editarPedido.png");}
+#placeholder .personalizar.alterado { background-image: Url("./img/Layout/editarSabor.png");}
+#placeholder .personalizar { background-image: Url("./img/Layout/editarSaborOpaco.png");}
+#backgroundproduto { background-image: Url("./img/Layout/f.png"); background-repeat: no-repeat;}
+#lupaAdiantamento { background-image: Url("./img/Layout/lupa12.png"); background-repeat: no-repeat;}
+#menorDlg { background-image: Url("./img/Layout/menorDlg.png"); background-repeat: no-repeat;}
+#maiorDlg { background-image: Url("./img/Layout/maiorDlg.png"); background-repeat: no-repeat;}
+#btNovo { background-image: Url("./img/Cadastro/n.png"); background-position: center;}
+#btEdit { background-image: Url("./img/Cadastro/edi.png"); }
+#pgtMesa { background-image: Url("./img/Layout/Money.png"); background-repeat: no-repeat;}
+#btReservaTool { background-image: Url("./img/Layout/calendario.png"); background-repeat: no-repeat;}
+.btPrincipal { background-image: Url("./img/Layout/starB.png"); background-repeat: no-repeat;}
+.btPrincipal:hover { background-image: Url("./img/Layout/star2.png"); background-repeat: no-repeat;}
+#inpDisplayMesaPricipal { background-image: Url("./img/Layout/star2.png"); background-repeat: no-repeat;}
+#btDelivery { background-image: Url("./img/Layout/clienteP.png"); background-repeat: no-repeat;}
+#btSan { background-image: Url("./img/Layout/icoSangria.png"); background-repeat: no-repeat; background-position: center;}
+#observacaoGrupo .btnRemove { background-image: Url("./img/Layout/btR1.png"); background-repeat: no-repeat; background-position: center;}
+#btSup { background-image: Url("./img/Layout/suprimento.png"); background-repeat: no-repeat; background-position: center;}
+#btPesq { background-image: Url("./img/Layout/lupa12.png"); background-repeat: no-repeat; background-position: center;}
+.btCaixaDiario { background-image: Url("./img/Layout/dia.png"); background-repeat: no-repeat; background-position: center; float: right !important;}
+.btResumoCaixa { background-image: Url("./img/Layout/cai.png"); background-repeat: no-repeat; background-position: center; float: right !important;}
+.btRelatorioAnalitico { background-image: Url("./img/Layout/ana.png"); background-repeat: no-repeat; background-position: center; float: right;}
+.btRelatorioSintetico { background-image: Url("./img/Layout/sin.png"); background-repeat: no-repeat; background-position: center; float: right;}
+#appetito  { background-image: Url("./img/Layout/logo2.png"); background-repeat: no-repeat; background-position: center;}
+.ImgDelivery, .ImgBalcaoDelivery { background-image: Url("./img/Layout/d.png"); background-repeat: no-repeat; background-position: center;}
+.ImgBalcao { background-image: Url("./img/Layout/b.png"); background-repeat: no-repeat; background-position: center;}
+.ImgCartao { background-image: Url("./img/Layout/Pedidocartao.png"); background-repeat: no-repeat; background-position: center;}
+.ImgMesas { background-image: Url("./img/Layout/m.png"); background-repeat: no-repeat; background-position: center;}
+.ImgPedido { background-image: Url("./img/Layout/pedido.png"); background-repeat: no-repeat; background-position: center;}
+.ImgEntrega { background-image: Url("./img/Layout/entrega.png"); background-repeat: no-repeat; background-position: center;}
+.ImgCliente { background-image: Url("./img/Layout/cliente.png"); background-repeat: no-repeat; background-position: center;}
+.ImgFechamento { background-image: Url("./img/Layout/ClienteCartao.png"); background-repeat: no-repeat; background-position: center;}
+#logoRestaurante { background-image: Url("@{@cUrl}logo/logo.png"); }
+#logoMogo { background-image: Url("@{@cUrl}logo/Mogo.png"); }
+.relatorioMesa { background-image: Url("./img/Layout/Caixadiario.png"); }
+.conteudoUlDireita ul.cont { background-image: Url("./img/Layout/exA.png"); }
+.icoForm .voltarList { background-image: Url("./img/Cadastro/voltar.png"); background-repeat: no-repeat; background-position: center;}
+#tbody .tdProduto.img { background-image: Url("./img/Layout/editarPedido.png"); background-repeat: no-repeat; background-position: right; background-position-y: 0px; }
+#tbody .tdProduto { background-image: Url("./img/Layout/editarPedidoOpaco.png"); background-repeat: no-repeat; background-position: right;}
+.carregadorMostra, .genericBlackGif { background-image: Url("./img/Layout/transparentP.gif"); background-repeat: no-repeat; }
+.gifMobile p.gif, .genericLWGif { background-image: Url("./img/Layout/gif_sil.gif"); background-repeat: no-repeat; }
+.montagem .pizza { background-image: Url("./img/Layout/borda.png"); background-repeat: no-repeat; }
+.montagem .editarPizza .icoEditar, #pagGraficoPizza .montagem .editar .bt { background-image: Url("./img/Layout/editarPedido.png"); background-repeat: no-repeat; }
+#pagDialogComandaMesas .contorno { background-image: Url("./img/Layout/fdb.png"); background-repeat: no-repeat; }
+#imgRelCartoesAdicionados { background-image: Url("./img/Layout/imgRemover.png"); }
+#imgTransfLoading { background-image: Url("./img/Layout/ajax-loader.gif"); }
+#divTecladoMogo #divOpcoesTeclado { background-image: Url("./img/Layout/menuHamburger.png"); background-repeat: no-repeat; background-position-y: 10px; }
+#divTecladoMogo[cor="preto"] #divOpcoesTeclado { background-image: Url("./img/Layout/menuHamburger_Invertido.png"); background-repeat: no-repeat; background-position-y: 10px; }
+#divTecladoMogo #divFecharTeclado { background-image: Url("./img/Layout/sairCli.png"); background-repeat: no-repeat; background-position-y: 2px; }
+#submenuTecladoMogo li.liOpcaoTecladoSel { background-image: Url("./img/Layout/Checado2.png"); }

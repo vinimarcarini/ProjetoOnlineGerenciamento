@@ -1,0 +1,2127 @@
+﻿fieldset
+{
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea
+{
+    min-height: 30px;
+}
+
+#dlgConfirmaDadosCliente .contFormV{
+    margin-left: 23px;
+    max-height: 530px;
+    overflow: auto;
+    border-bottom: 1px solid rgba(192, 192, 192, 0.48);
+    margin-bottom: 7px;
+}
+
+#divEditor_ClienteDelivery textarea
+{
+    height: 30px;
+}
+
+#divEditor_ClienteDelivery .espaco-abas
+{
+    height: 10px;
+}
+
+.divContCheck .atualizar
+{
+    display: none;
+}
+
+#divEditor .contFormV, .divEditorGenerica .contFormV, .contFormV.NotaDeEntrada 
+{
+  max-height: 437px;
+}
+
+.contFormV
+{
+    margin-left: 23px;
+    overflow: auto;
+}
+
+.divEditor_DeliveryGenerica .contFormV
+{
+    margin-left: 23px;
+    max-height: 530px;
+    overflow: auto;
+    border-bottom: 1px solid rgba(192, 192, 192, 0.48);
+    margin-bottom: 7px;
+}
+
+/*.ui-selectable
+{
+  border : 1px solid silver; 
+  width:100%; 
+}*/
+.txtproximaaba
+{
+    float: left;
+    width: 700px;
+    border: 0px;
+    background-color: transparent;
+    cursor: default;
+}
+
+.txtproximaaba:over
+{
+    cursor: default;
+}
+
+/*.ui-dialog .ui-dialog-content
+{
+    overflow:inherit !important;
+}*/
+
+#ComboGrid label
+{
+    /*height:25px;*/
+    font-family: Arial;
+    font-style: italic;
+    font-size: 25px !important;
+    text-align: center;
+}
+
+.ComboGrid
+{
+    height: 300px;
+    width: 710px;
+    float: left;
+}
+
+.acessoNome.adicional
+{
+    width: 235px !important;
+}
+
+.acessoNome.Item
+{
+    width: 258px !important;
+}
+
+.Quantidade
+{
+    width: 75px;
+    margin-right: 65px;
+    text-align: right;
+    padding-right: 2px;
+}
+
+.Observacao
+{
+    width: 250px;
+    padding-left: 2px;
+}
+
+.acessoNome
+{
+    width: 254px;
+    float: left;
+    font-size: 15px;
+    margin-right: 4px;
+}
+
+.acessoNomeDes
+{
+    font-size: 15px;
+    float: left;
+}
+
+.espacoCheckAdicional
+{
+    margin-left: 30px !important;
+}
+
+.ComboGrid .ui-widget-content
+{
+    clear: both;
+    border: 1px solid silver !important;
+    background: #f6f6f6; /* width:675px !important; */
+}
+
+#ListaEdicaoComposicaoProduto #labelPermicao p
+{
+    width: 62px;
+}
+
+#labelPermicao p
+{
+    padding-top: 5px;
+    margin-right: 0px;
+    font-size: 13px;
+    width: 58px;
+    float: left;
+    margin-left: -4px;
+}
+
+#labelPermicao
+{
+    /*margin-top : 15px;*/
+    font-size: 12px; /*clear : both;*/
+}
+
+.espacoCheck
+{
+    /*width:50px;*/ /*float:left; */
+    margin-top: 2px;
+}
+/*.ui-selectee
+{
+    padding-right:30px;    
+}*/
+
+.lista
+{
+    width: 605px;
+    float: left;
+    font-size: 15px;
+}
+.CheckSelecionado
+{
+    /*width:70px !important;*/
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#editorListaCombo /*Combo no form */
+{
+    width: 220px;
+    height: 22px;
+    float: left;
+    margin-top: 0px !important;
+}
+#labelClasse
+{
+    float: left;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+
+/*#ext-gen53 
+{
+    height:250px !important;
+}*/
+/*.x-grid3-body
+{
+    height:260px !important;
+}*/
+
+.ComboGrid .btnAdiciona:hover
+{
+    border: 1px solid silver;
+}
+
+.btnRemove.Item
+{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+li.ui-widget-content
+{
+    height: auto;
+    padding: 5px !important;
+}
+
+#AdicionaisGruposelectable
+{
+    width: 725px !important;
+}
+
+.btnRemove.produto, .btnAdiciona.produto
+{
+    height: 25px;
+    width: 22px;
+    border: 1px solid #f7f7f7;
+    margin-left: 15px;
+}
+
+.btnAdiciona.produto:hover
+{
+    border: 1px solid silver;
+}
+
+.btnRemove.produto:hover
+{
+    border: 1px solid silver;
+}
+
+.ComboGrid .btnRemove:hover
+{
+    border: 1px solid silver !important;
+}
+.Sabor #divInternoAbaEditor .acessoCadDescricao
+{
+      margin-top: 7px;
+}
+
+.adicionalSabor .ui-combobox, .Sabor .adicionalSabor h1
+{
+    float:left;
+}
+
+#ListaEdicaoPermissoes
+{
+    margin-top: 2px;
+    margin-left: 5px;
+    float: left; /*margin-bottom:5px;     height:28px;     /*margin-left:10px;     margin-right:10px;     border-bottom: 1px solid silver;     background-color:#f6f6f6;*/
+}
+
+.acessoCad, .acessoCadTBody
+{
+   /* width: 72px;*/
+    padding-right: 225px;
+    padding-bottom: 3px;
+    float: left;
+    font-size: 12px;
+    font-style: italic;
+}
+.acessoCadTBody
+{
+    padding-right: 209px;
+}
+
+.acessoCad.Item
+{
+    width: auto !important;
+    padding-left: 5px;
+    padding-right: 210px !important;
+}
+
+.acessoDes.Quan
+{
+    padding-right: 70px;
+}
+
+.editorLista.Item
+{
+    width: 250px !important;
+    padding-left: 2px;
+}
+
+.editorLista.sabor
+{
+    width: 200px !important;
+    margin-top: 2px !important;
+    margin-left: 5px;
+}
+
+.editorLista.quantidade.acessoDes
+{
+    text-align: right;
+    padding-right: 2px;
+}
+
+.nomeAtivo
+{
+    float: right;
+    width: 100px;
+    font-size: 15px; /*padding-top:4px;*/
+    margin-right: 35px; /*clear:both;*/
+}
+
+#ListaEdicaoSaboresGrupo
+{
+    width: 627px;
+}
+
+.editorLista.check
+{
+    float: right;
+}
+
+.editorLista.check.adicional
+{
+    margin-left: 28px;
+    margin-right: 5px;
+    width: 15px;
+    float: left;
+}
+
+.nomeSabor
+{
+    /*padding-top:4px;*/
+    float: left;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.acessoDes, .acessoDesTBody
+{
+    width: 75px;
+    float: left;
+    font-size: 12px;
+    font-style: italic;
+}
+.acessoDesTBody
+{
+    margin-left: 5px;
+    width: 70px;
+}
+
+.acessoAtivo
+{
+    float: right;
+    margin-right: 45px;
+    font-size: 12px;
+}
+
+.divCombo
+{
+    padding-top: 2px;
+    width: 220px;
+    height: 30px;
+    float: left;
+}
+
+#ListaEdicaoAdicionaisGrupo
+{
+    padding-left: 5px;
+    float: left;
+    clear: both;
+    width: 700px;
+}
+
+.editorLista.adicional, .editorLista.estabelecimento
+{
+    width: 200px;
+}
+
+.editorLista.combo
+{
+    width: 200px;
+    margin-left: 5px;
+}
+
+.editorLista.numerico
+{
+    width: 125px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+p.valor
+{
+    height: 20px;
+    font-size: 15px;
+    text-align: right;
+    line-height: 20px;
+    width: 34px !important;
+}
+
+.btnRemove.adicional
+{
+    margin-right: 5px !important;
+    margin-left: 30px;
+}
+
+.espacoCheckAtualiza
+{
+    float: left;
+}
+
+.btnAdiciona.adicional
+{
+    margin-left: 15px !important;
+    margin-right: 0px !important;
+}
+
+.acessoCad.adicional
+{
+    margin-left: 26px;
+    margin-top: 10px;
+    padding-right: 155px !important;
+}
+
+.acessoToobar.adicional
+{
+    padding-bottom: 5px;
+}
+
+.acessoToobar.item
+{
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.DivAdicionaisGrupo
+{
+    width: 125px !important;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.btnAdiciona
+{
+    height: 25px;
+    width: 80px;
+    float: left;
+}
+
+.gridEditor
+{
+    clear: both;
+}
+
+.editor-label
+{
+    font-family: Arial !important;
+    font-size: 15px;
+    color: #666; /*clear:left;     float:left;*/ /*clear:both;*/
+    margin: 0px !important;
+    padding: 0px !important; /*line-height:40px !important;     width:160px;     */
+    margin-left: 15px;
+}
+
+.ui-tabs .ui-tabs-nav li
+{
+    line-height: 20px;
+}
+.ui-tabs-nav
+{
+    float: right !important;
+}
+/*#tabs { height: 350px;} */
+
+.tabs-bottom
+{
+    position: relative;
+}
+
+
+.ui-tabs-panel
+{
+    margin-top: 30px;
+}
+
+.ui-tabs-panel
+{
+    padding: 0px !important;
+    /*margin: 0px !important;*/
+    /*se deixar margem 0, quando tiver muitas abas e quebrar linha os itens ficam sobrepostos na tela de cadastro*/
+    margin: 50px 0 0 0 !important;
+    clear: both;
+}
+.ui-tabs-nav
+{
+    border: 0px solid silver;
+    border-radius: 7px;
+    background: #EDEDEE;
+    height: 22px !important;
+}
+
+#tabs a
+{
+    padding: 0px !important;
+    margin: 0px !important;
+    color: #6E7173;
+    font-family: Vani;
+    font-size: 12px !important;
+}
+
+.ui-tabs-nav li
+{
+    border-bottom: 1px solid red !important;
+}
+
+#tabs a:hover
+{
+    color: Orange !important;
+}
+
+.ui-tabs-selected
+{
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 8px !important;
+}
+.ui-tabs-selected a
+{
+    color: #6B6B6C !important;
+    cursor: pointer !important;
+    font-weight: bold;
+}
+
+.ui-tabs-selected a:hover
+{
+    color: Orange !important;
+}
+
+.tabs-bottom a
+{
+    text-align: center !important;
+}
+
+.ui-tabs-nav li
+{
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+}
+
+.editor-field
+{
+    margin-bottom: 15px !important;
+    clear: both;
+    float: left;
+    min-height: 25px; /*margin-top:10px !important; /*espaçamento entre os componentes*/
+}
+
+.editor-linha
+{
+    clear: left;
+    float: left;
+}
+
+#divEditor .positive, .divEditorGenerica .positive, #divGenNotaFiscalItens .positive /*valores ex. limite crédito*/
+{
+    width: 400px !important;
+    height: 25px !important;
+    border-radius: 3px;
+    border: 1px solid silver !important;
+    float: left;
+    padding-left: 5px;
+}
+
+.editor-linha #Tratamento
+{
+    width: 400px !important;
+    height: 25px !important;
+    border-radius: 7px;
+    border: 1px solid silver !important;
+    float: left;
+    padding-left: 5px;
+}
+
+.ui-menu-item
+{
+    border: 1px solid #f2f2f2 !important;
+    margin: 1px;
+    padding-left: 5px;
+    border-radius: 7px;
+}
+
+/*.ui-autocomplete .ui-state-hover
+{
+    padding-right:360px;
+    border: 1px solid orange;    
+}
+
+.ui-autocomplete
+{
+    margin-top:1px;
+    width: 400px !important;
+    border: 1px solid silver !important; 
+    background-color:#f2f2f2;   
+}*/
+
+.positive:focus
+{
+    background-color: #FBFBEA;
+}
+
+#ui-datepicker-div
+{
+    background-color: #fff;
+    border: 1px solid silver;
+}
+
+.campo-checkbox:focus
+{
+    background-color: #FBFBEA;
+    border: 1px solid red;
+}
+
+.editor-field .textbox.hasDatepicker
+{
+    padding-left: 10px;
+    /*font-size: 1em;*/
+    font-size: 15px !important;
+    color: #6E7173;
+    border: 1px solid silver;
+    border-radius: 2px;
+    width: 400px;
+    height: 25px;
+}
+
+.textbox.hasDatepicker:focus
+{
+    background-color: #FBFBEA;
+}
+
+.editor-field .text-box, .editor-field .textbox
+{
+/*
+    font-size: 15px !important;
+    color: #6E7173;
+    float: left;
+*/
+    border: 1px solid silver;
+    border-radius: 3px;
+    color:#6E7173;
+    float:left;
+    font-size:15px !important;
+    height:25px;
+}
+
+.editor-field #DescricaoCartao
+{
+    text-align: right;
+   /* padding-right: 10px;*/
+   padding-right:32px;
+}
+
+.divEditor_DeliveryGenerica .editor-label-Pesquisa
+{
+    float: left;
+}
+
+.divEditor_DeliveryGenerica .editor-label-Pesquisa:first-child, #divGenNCMProduto .editor-label-Pesquisa:first-child
+{
+    width: 250px;
+}
+
+#divGenNCMProduto .editor-label-Pesquisa:first-child {
+     width: 250px;
+     float:left;
+}
+
+.divEditor_DeliveryGenerica #cbPesquisa
+{
+    width: 105px;
+    border: 1px solid silver;
+    border-radius: 3px;
+    color: #6E7173;
+    font-size: 15px !important;
+    height: 28px !important;
+    margin-left: 5px;
+}
+
+.divEditor_DeliveryGenerica .editor-label-Pesquisa label, .divEditorGenerica .editor-label-Pesquisa label
+{
+    font-family: Arial !important;
+    font-size: 15px;
+    color: #666;
+}
+
+.divEditor_DeliveryGenerica .contPesquisaGenerica
+{
+    margin-top: -10px;
+    padding-bottom: 10px;
+    margin-bottom: 7px;
+    position: relative;
+}
+
+.divEditor_DeliveryGenerica .contPesquisaGenerica .divHr
+{
+    position: absolute;
+    left: 11px;
+    right: 23px;
+    bottom: 0px;
+    border-bottom: 1px solid silver;
+}
+
+.divEditor_DeliveryGenerica .impPesquisa
+{
+    font-size: 15px !important;
+    color: #6E7173;
+    border: 1px solid silver;
+    border-radius: 3px;
+    float: left;
+    height: 28px;
+    width: 244px;
+    padding-left: 5px;
+}
+
+.editor-field .positive
+{
+    font-size: 15px !important;
+    color: #6E7173;
+    border: 1px solid silver;
+    border-radius: 3px;
+    text-align: right;
+    padding-right: 25px;
+    height: 28px;
+}
+
+.text-box:focus, .divEditor_DeliveryGenerica .impPesquisa:focus
+{
+    background-color: #FBFBEA;
+}
+
+.check-box:focus
+{
+    border: 1px solid red;
+    background-color: #FBFBEA;
+}
+
+.check-box
+{
+    height: 25px !important;
+    font-size: 15px;
+    color: #6E7173;
+    border: 1px solid silver;
+    padding-left: 10px !important; /*clear:both;*/
+    float: left;
+}
+
+#divEditor .editor-combo, .divEditorGenerica .editor-combo, #divGenNotaFiscalItens .editor-combo
+{
+    font-size: 15px !important;
+    color: #6E7173;
+    border: 1px solid silver;
+    border-radius: 3px;
+    width: 400px;
+    height: 25px;
+    float: left;
+    padding-left: 10px !important;
+}
+
+#acessoConteudo
+{
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+    height: 280px;
+    clear: both;
+    width: 725px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.liObsGrupo
+{
+    clear: both;
+    border: 1px solid silver;
+    width: 716px;
+    position: relative;
+    margin-left: 3px;
+    background-color: #f2f2f2;
+    height: 45px;
+    margin-bottom: 3px;
+}
+.camposHidden
+{
+    display: none;
+}
+#observacaoGrupo .ui-selectee, #bandeiraTipoPagamento .ui-selectee
+{
+    position: absolute;
+    top: 16px;
+    left: 415px;
+}
+#observacaoGrupo .btnRemove, #bandeiraTipoPagamento .btnRemove
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 28px;
+    width: 28px;
+    border: 1px solid #F2F2F2;
+}
+
+#bandeiraTipoPagamento .btnRemove
+{
+    height: 22px;
+width: 22px;
+    }
+.liObsGrupo span
+{
+    line-height: 45px;
+    font-size: 15px;
+    margin-left: 9px;
+}
+#observacaoGrupo ol,  #bandeiraTipoPagamento ol
+{
+    margin-top: 4px;
+    float: left;
+}
+#observacaoGrupo #acessoToobar,  #bandeiraTipoPagamento #acessoToobar
+{
+    float: left;
+    margin-bottom: 10px;
+}
+#observacaoGrupo h1, #bandeiraTipoPagamento h1
+{
+    float: left !important;
+    border-right: none !important;
+    padding-left: 0px !important;
+}
+.acessoToobar
+{
+    /*border-bottom: 1px solid silver;  */
+    width: 725px;
+    display: block;
+    float: left;
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid silver;
+    background-color: #E6E7E8;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-bottom: 0px;
+}
+
+.ComboGrid.coposicaoProduto .acessoToobar
+{
+    width: 724px;
+    display: block;
+    float: left;
+    font-size: 1.2em;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#D5D5D5)) repeat-X;
+    padding-top: 2px;
+    margin-bottom: -1px;
+    border: 1px solid silver;
+}
+
+.editor-combo:focus
+{
+    background-color: #FBFBEA;
+}
+
+.single-line:focus
+{
+    background-color: #FBFBEA;
+}
+
+.single-line, .multi-line /*textbox do editor for model*/
+{
+    width: 400px;
+    padding-left: 5px;
+    height: 25px;
+}
+
+
+
+.submit:focus
+{
+    background-color: #FBFBEA;
+}
+
+.submit /*campo e botao de pesquisa*/
+{
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-left: 5px;
+    height: 28px;
+    font-size: 15px;
+    color: #6E7173;
+    border: 1px solid silver;
+    border-radius: 3px;
+    float: left;
+    width: 215px;
+    margin-top: 3px;
+}
+.contPesqPedido
+{
+    clear: none;
+    float: left;
+}
+#contFiltro
+{
+    height: 30px;
+    margin-top: 20px;
+}
+#btPesq, #btPesqMovimentoEstoque
+{
+    margin-left: -32px;
+    margin-top: 4px;
+    float: left;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    background-color: rgba(242, 242, 242, 0);
+    border: 0px;
+}
+#btPesq:hover, #btPesqMovimentoEstoque:hover
+{
+    box-shadow: 2px 2px 2px silver;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btPesq:active, #btPesqMovimentoEstoque:active
+{
+    position: relative;
+    top: 1px;
+}
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+    cursor: pointer;
+    margin-left: -25px;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+.field-validation-error
+{
+    height: 25px;
+    width: 25px;
+    float: right;
+    margin-left: -25px;
+}
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors, .validation-summary-errors p
+{
+    font-style: italic;
+    font-family: Times New Roman !important;
+    color: #ff0000 !important;
+    margin-top: 5px;
+    font-size: 17px !important;
+}
+
+#divEditor_ClienteDelivery .validation-summary-errors
+{
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+}
+
+.validation-summary-errors li
+{
+    display: none;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+.labelEditorLista
+{
+    float: left;
+}
+.acessoDes.Observacao
+{
+    width: 52px !important;
+}
+.editorLista.Observacao
+{
+    width: 200px;
+    margin-left: 5px;
+}
+.divhidden
+{
+    height: 17px;
+}
+.ui-combobox-toggle
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px !important;
+    padding: 0;
+    height: 26px;
+    border: 1px solid silver !important;
+}
+.ui-combobox-toggle:hover
+{
+    background: #f2f2f2;
+    border: 1px solid #B3A48A;
+}
+.ui-combobox-input
+{
+    margin: 0;
+    border: 1px solid silver !important;
+    padding-left: 5px;
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+#conteudoProdutos .itensExcluidos
+{
+    border: 1px solid orange !important;
+}
+
+.divComboRegiaoEntrega .ui-combobox.desabled .ui-state-default
+{
+    background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+.divPesqCliFechamento
+{
+    float: left;
+    margin-right: 35px;
+    clear: both;
+}
+
+.divPesqCliFechamento .ui-combobox-input
+{
+    height: 28px;
+    width: 260px;
+    margin-bottom: 10px;
+}
+.divPesqCliDelivery
+{
+    float: left;
+    margin-right: 40px;
+}
+.divPesqCliDelivery .ui-combobox-input, .limparCampos
+{
+    margin-top: 0px;
+    height: 28px;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.divPesqEntregadores .ui-combobox-input
+{
+    margin-top: 0px;
+    height: 30px;
+    width: 210px;
+    margin-bottom: 10px;
+}
+
+.divPesqEntregadores .ui-combobox-toggle
+{
+    height: 28px;
+}
+
+#contInformacoesDelivery .icone:hover
+{
+    cursor: pointer;
+}
+
+/*
+#contInformacoesDelivery .pesquisa .tipo, #contInformacoesDelivery .pesquisa p  
+{
+    float: left;
+}
+
+#contInformacoesDelivery .pesquisa .tipo p {
+    border-radius: 3px;
+    margin-left: 8px;
+    margin-bottom: 17px;
+    width: 76px;
+    text-align: center;
+    font-size: 14px;
+    padding: 0px;
+    height: 20px;
+    line-height: 20px;
+    margin-top : -2px;
+}
+
+#contInformacoesDelivery .pesquisa .tipo p.btDourado2 
+{
+    color: #fff;
+}
+    
+/*
+#contInformacoesDelivery .pesquisa .tipo.sombra {
+    box-shadow: 0px 0px 10px gray;
+    width: 83px;
+    background-color: #fff;
+}
+
+#contInformacoesDelivery .pesquisa .tipo p:first-child 
+{ 
+    display: block; 
+}
+
+#contInformacoesDelivery .pesquisa .tipo p:hover 
+{
+    cursor: pointer;
+    color: Orange;
+}
+
+
+#contInformacoesDelivery .pesquisa .tipo .triangulo
+{
+    border-color: silver transparent transparent transparent;
+    border-width:7px; 
+    border-style:solid;
+    width: 0px;
+    margin-right: -15px;
+    margin-top: -12px;
+    float: right;
+}
+
+
+#contInformacoesDelivery .pesquisa .tipo .background {
+    background-color: #fff;
+    height: 36px;
+    width: 76px;
+    position: absolute;
+    top: 19px;
+    display: none;
+    z-index: 1;
+}
+*/
+
+/*   
+.pesqPorNome .icone 
+{
+    right: 5px;
+    top: 19px;
+}
+
+.pesqPorRua .icone 
+{
+    right: 5px;
+    top: 19px;
+}
+ */
+
+.limparCampos
+{
+    height: 20px;
+    width: 20px;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: gray;
+    border-radius: 16px;
+    position: absolute;
+    right: 19px;
+    top: 19px;
+    border: 1px solid rgba(128, 128, 128, 0.59) !important;
+}
+#contCampoDelivery
+{
+    /*width: 375px;     height: 400px;*/
+    float: left;
+    overflow: auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid e1e1e1;
+}
+
+#conteudoGeral .ui-combobox-input
+{
+    height: 28px;
+    width: 316px;
+}
+
+.ativoAdicionalGrupo
+{
+    float: right;
+    margin-right: 70px;
+    margin-top: 6px;
+}
+
+#toolTabelaPreco h3
+{
+    font-weight: normal;
+    font-size: 11px;
+    float: right;
+    line-height: 25px;
+    padding-right: 55px;
+    border-left: 1px solid silver;
+    padding-left: 10px;
+}
+#ListaEdicaoAdicionaisGrupo .editorlista.numerico.estilo
+{
+    margin-top: 0px;
+}
+
+.ui-autocomplete
+{
+    max-height: 230px;
+    overflow-y: auto; /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+
+.bt.add:hover
+{
+    cursor: pointer;
+}
+
+input[type="submit"]:active, input[type="submit"]:focus
+{
+    border: 1px solid #000 !important;
+}
+
+#acessoToobar .divAdicionaContainer
+{
+    margin-top: 10px;
+}
+
+#ListaEdicaoItens #ValorUnitario_ProdutoEstab
+{
+   margin-left:10px;    
+   width: 69px !important;
+}
+
+#acessoToobar .spnTitulo
+{
+    position: relative;
+    float: left;
+    clear: none;
+    font-size: 12px;
+    line-height: 28px;
+    margin-right: 5px;
+    width: auto !important;
+}
+
+#acessoToobar .inputCodBar
+{
+    position: relative;
+    float: left;
+    clear: none;
+    height: 28px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+#acessoToobar .icone
+{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    float: left;
+    clear: none;
+    margin: 3px 0 0 -40px;
+    cursor: pointer;
+}
+
+#acessoToobar .divComboProduto
+{
+    position: relative;
+    float: left;
+    clear: none;
+    margin-right: 80px;
+    width: 100px;
+}
+
+#acessoToobar .divComboProduto .ui-button
+{
+    left: 139px;
+}
+
+.formRelatorio .divDropDownRelatorio 
+{
+    margin-bottom: 15px;
+}
+
+#acessoToobar .qtd
+{
+    position: relative;
+    float: left;
+    clear: none;
+    margin-top: 0 !important;
+    height: 28px;
+    width: 60px !important;
+}
+
+#acessoToobar .divBtnAdiciona
+{
+    display: inline;
+    position: absolute;
+    top: -29px;
+    left: 770px;
+}
+
+#dlgPgtPedidoEngregadores .cont
+{
+    background-color: #f7f7f7;
+    min-height: 600px;
+    border-radius: 6px;
+}
+
+.divContCheck .total
+{
+    font-size: 13px;
+    float: right;
+    font-weight: bold;
+}
+
+.divContCheck .total *
+{
+    float: left;
+    color: blue !important;
+}
+
+#divRelatorioPorPeriodo #contFiltro
+{
+    clear: none;
+    float: left;
+    margin-top: 10px;
+    padding: 5px 15px 5px 5px;
+    width: 200px;
+}
+#divRelatorioPorPeriodo #contFiltro label
+{
+    clear: both;
+    font-weight: bold;
+    margin: 0;
+}
+#divRelatorioPorPeriodo #contFiltro p
+{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+#divRelatorioPorPeriodo #contFiltro input
+{
+    clear: both;
+    display: block;
+    margin-bottom: 15px;
+    width: 104px;
+}
+#divRelatorioPorPeriodo #contFiltro select
+{
+    margin: 0 0 15px 0;
+    width: 196px;
+}
+#divRelatorioPorPeriodo #contFiltro #divAtualizar
+{
+    margin: 10px 0 0 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+#divRelatorioPorPeriodo #contFiltro .datepicker
+{
+    margin-left: 0;
+}
+#divRelatorioPorPeriodo #contRelatorioPorPeriodo
+{
+    border-left: 1px dotted #ddd;
+    clear: none;
+    float: right;
+    margin-top: 10px;
+    padding: 5px 5px 5px 15px;
+    width: 424px;
+}
+#divRelatorioPorPeriodo .liCorEntrada
+{
+    color: #000;
+}
+#divRelatorioPorPeriodo .liCorSaida
+{
+    color: #f00;
+}
+#divRelatorioPorPeriodo .liCorDestaque
+{
+    color: #00f;
+    margin-top: 20px;
+}
+#divRelatorioPorPeriodo li
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#divRelatorioPorPeriodo span
+{
+    line-height: 30px;
+}
+#divRelatorioPorPeriodo h1
+{
+    border: 1px solid silver;
+    border-radius: 5px;
+    color: gray;
+    height: 30px;
+    float: right;
+    font-size: 16px;
+    font-weight: normal;
+    left: 60px;
+    line-height: 30px;
+    margin-top: -30px;
+    padding-right: 5px;
+    text-align: right;
+    width: 130px;
+}
+#divRelatorioPorPeriodo .liCorDestaque h1
+{
+    margin-top: -23px;
+}
+
+#divRelatorioPorPeriodo #divRelPeriodoRodape
+{
+    border-top: 1px solid #ddd;
+    bottom: 10px;
+    position: absolute;
+    width: 100%;
+}
+#divRelatorioPorPeriodo #divRelPeriodoRodape .liCorDestaque
+{
+    float: right;
+    width: 200px;
+    margin-right: 5px;
+}
+
+#divRelatorioPorPeriodo #contFiltro .btDourado2
+{
+    text-shadow: 1px 1px 0px rgba(242, 242, 242, 0) !important;
+    min-width: 100px;
+    border-radius: 3px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    width: 103px;
+}
+
+#divRelatorioPorPeriodo #divRelPeriodoRodape #divImprimir
+{
+    float: right;
+    position: relative;
+    right: 0;
+}
+
+#divEditor .acessoTotal, .divEditorGenerica .acessoTotal
+{
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+
+#lblCategoriasPermissoes
+{
+    clear: right;
+    display: block;
+    float: left;
+    color: gray;
+    font-size: 15px;
+    line-height: 45px;
+    margin-right: 10px;
+}
+#selCategoriasPermissoes
+{
+    float: left;
+    margin: 10px 0 20px;
+}
+#spnAvisoPermissoesOutros
+{
+    color: #d22;
+    float: right;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+#tabPermissoes
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#tabPermissoesOutras
+{
+    width: 730px;
+}
+.trPermissoes th, .trPermissoes td
+{
+    font-size: 10px;
+    line-height: 35px;
+    text-align: center;
+    width: 75px;
+}
+.trPermissoes td
+{
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+#divCadastroView .icoBalanca
+{
+    display: none;
+    float: left;
+}
+
+#divBalancaPreLeitura .imgPesoValor
+{
+    margin-top: 0px;
+    margin-left: 4px;
+    width: 20px;
+    height: 15px;
+}
+
+#divCadastroView .icoBalanca span
+{
+    color: #fff;
+    margin-left: 24px;
+    line-height: 69px;
+    font-size: 10px;
+}
+
+#acessoToobar .btAdicionar
+{
+    color: #fff;
+    width: 110px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+
+#divCadastroView .icoFoneLinha
+{
+    display: none;
+    position: absolute;
+    right: 133px;
+}
+#divCadastroView .icoFoneLinha:hover { cursor: pointer; }
+#divCadastroView .icoFoneLinha2 { right: 80px; }
+
+.relatorioColunas .imp, .tutorialRequisitos .imp
+{
+    border-radius: 3px;
+    border: 1px solid silver;
+    height: 25px;
+    padding-left: 5px;
+    line-height: 25px;
+    margin-right: 5px;
+}
+
+.relatorioColunas .imp.impIdentificacao 
+{
+    width: 165px;
+}
+
+.relatorioColunas .imp.impTitulo 
+{
+    width: 270px;
+}
+
+.relatorioColunas .imp.impDataType 
+{
+    width: 82px;
+}
+
+.relatorioColunas .imp.impLargura 
+{
+    width: 70px;
+}
+
+.relatorioColunas .imp.impExibir
+{
+    height: 13px;
+    margin-left: 5px;
+}
+
+.relatorioColunas .btnAddGenerico {
+    margin-right: 35px;
+}
+
+.relatorioColunas #acessoToobar
+{
+    margin-bottom: 10px;
+}
+
+.relatorioColunas .tool, .tutorialRequisitos .tool
+{
+    float: left;
+    font-size: 11px;
+    line-height: 25px;
+}
+
+.relatorioColunas .tool.laIdentificacao {
+    margin-left: 5px;
+    width: 273px;
+    border-right: 1px solid gray;
+}
+
+.relatorioColunas .tool.laTitulo {
+    width: 161px;
+    padding-left: 11px;
+    border-right: 1px solid gray;
+    margin-right: 10px;
+}
+
+.relatorioColunas .tool.laDataType {
+    width: 82px;
+    border-right: 1px solid gray;
+    margin-right: 10px;
+}
+
+.relatorioColunas #contTabela 
+{
+    height: 283px !important;
+}
+
+.relatorioColunas .impKo
+{
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    float: left;
+    padding-left: 5px;
+    text-align: left;
+    color: #777373;
+}
+
+.relatorioColunas .impKo.identificacao 
+{
+    width: 255px;
+}
+
+.relatorioColunas .conteudoListTabela ol li:hover 
+{
+    cursor: move;    
+}
+
+.relatorioColunas .impKo.titulo {
+    margin-left: 10px;
+    width: 163px;
+}
+.relatorioColunas .impKo.dataType {
+    width: 82px;
+    margin-left: 10px;
+}
+.relatorioColunas .impKo.largura {
+    width: 60px;
+    margin-left: 12px;
+    margin-right: 24px;
+}
+
+.relatorioColunas .impKo:focus
+{
+   border: 1px solid silver;
+   background-color: white; 
+   color: Black;
+}
+
+.relatorioColunas .impKo:hover
+{
+    cursor: pointer;    
+}
+
+.relatorioColunas .btnRemove 
+{
+    margin: 0px;
+}
+
+.filtroRelatorio .comboFiltro, .filtroItensTutorial .comboFiltro
+{
+    height: 25px;
+    width: 250px;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
+.FiltroRelatorio #SqlFiltro 
+{
+    height: 200px;
+    width: 700px;
+}
+
+.relatorios .formRelatorio * 
+{
+    clear: both;
+    float: left;
+}
+
+.relatorios .btConfirmar {
+    float: left;
+    clear: both;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+}
+
+.relatorios .formRelatorio {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.relatorios .formRelatorio label 
+{
+    font-size: 15px;
+    color: #666;
+}
+
+.relatorios .formRelatorio .impRelatorio {
+    border: 1px solid silver;
+    border-radius: 3px;
+    color: #6E7173;
+    float: left;
+    font-size: 15px !important;
+    height: 25px;
+    width: 400px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+#dlgRelatorioGenerico #divContRelGenerico 
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.contFormV.TopoRodapeRelatorio #SqlBusca 
+{
+    width: 726px;
+    height: 232px;
+    padding: 5px;
+}
+
+#SqlBusca {
+    width: 734px;
+    height: 344px;
+    padding: 5px;
+}
+
+.contFormV.TopoRodapeRelatorio #Topo, .contFormV.TopoRodapeRelatorio #Rodape {
+    width: 726px;
+    height: 158px;
+    padding: 5px;
+}
+
+.divContainerRelatoriosNovos .topoRelatorio
+{
+    line-height: 25px;
+}
+    
+.divContainerRelatoriosNovos .topoRelatorio, .divContainerRelatoriosNovos .rodapeRelatorio {
+    position: relative;
+    left: 20px;
+    border: 1px solid rgb(246, 248, 246);
+    background-color: rgb(246, 248, 246);
+    margin-top: 10px;
+    resize: none;
+    min-height: 10px;
+    font-size: 15px;
+}
+
+.divContainerRelatoriosNovos .rodapeRelatorio {
+    height: 45px;
+    line-height: 42px;
+    padding-left: 5px;
+    background-color: rgb(225, 228, 225);
+}
+
+.divContainerRelatoriosNovos .divScrollRelatorio 
+{
+    max-height: 600px;
+    overflow: auto;
+}
+
+.relatorioColunas .imp {
+    border-radius: 3px;
+    border: 1px solid silver;
+    height: 25px;
+    padding-left: 5px;
+    line-height: 25px;
+    margin-right: 5px;
+}
+
+.relatorioColunas .imp.impIdentificacao 
+{
+    width: 272px;
+}
+
+.relatorioColunas .imp.impTitulo 
+{
+    width: 162px;
+}
+
+.relatorioColunas .imp.impLargura 
+{
+    width: 70px;
+}
+
+.relatorioColunas .btnAddGenerico {
+    margin-right: 35px;
+}
+
+.relatorioColunas #acessoToobar
+{
+    margin-bottom: 10px;
+}
+
+.relatorioColunas .tool {
+    float: left;
+    font-size: 11px;
+    line-height: 25px;
+}
+
+.relatorioColunas .tool.laLargura {
+  width: 64px;
+  border-right: 1px solid gray;
+  margin-right: 10px;
+}
+  
+.relatorioColunas #contTabela 
+{
+    height: 283px !important;
+}
+
+.relatorioColunas .impKo
+{
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    float: left;
+    padding-left: 5px;
+    text-align: left;
+    color: #777373;
+}
+
+.relatorioColunas .impKo.dataType {
+    width: 82px;
+    margin-left: 10px;
+}
+
+.relatorioColunas .impKo:focus
+{
+   border: 1px solid silver;
+   background-color: white; 
+   color: Black;
+}
+
+.relatorioColunas .impKo:hover
+{
+    cursor: pointer;    
+}
+
+.relatorioColunas .btnRemove 
+{
+    margin: 0px;
+}
+
+.filtroRelatorio .comboFiltro 
+{
+    height: 25px;
+    width: 250px;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
+.conteudoDir.relatorios .formRelatorio
+{
+      overflow: auto;
+      max-height: 305px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid silver;    
+}
+
+.relatorios .formRelatorio * 
+{
+    clear: both;
+    float: left;
+}
+
+.relatorios .btConfirmar {
+    float: left;
+    clear: both;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}   
+
+.relatorios .formRelatorio label 
+{
+    font-size: 15px;
+    color: #666;
+}
+
+.relatorios .formRelatorio .impRelatorio {
+    border: 1px solid silver;
+    border-radius: 3px;
+    color: #6E7173;
+    float: left;
+    font-size: 15px !important;
+    height: 25px;
+    width: 400px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+#dlgRelatorioGenerico #divContRelGenerico 
+{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.contFormV.TopoRodapeRelatorio #SqlBusca 
+{
+    width: 726px;
+    height: 232px;
+    padding: 5px;
+}
+
+#SqlBusca {
+    width: 734px;
+    height: 344px;
+    padding: 5px;
+}
+
+.contFormV.TopoRodapeRelatorio #Topo, .contFormV.TopoRodapeRelatorio #Rodape {
+    width: 726px;
+    height: 158px;
+    padding: 5px;
+}
+
+.divContainerRelatoriosNovos .topoRelatorio, .divContainerRelatoriosNovos .rodapeRelatorio {
+    position: relative;
+    left: 20px;
+    border: 1px solid rgb(246, 248, 246);
+    background-color: rgb(246, 248, 246);
+    margin-top: 10px;
+    resize: none;
+    min-height: 10px;
+    font-size: 15px;
+}
+
+.divContainerRelatoriosNovos .rodapeRelatorio {
+    height: 45px;
+    line-height: 42px;
+    padding-left: 5px;
+    background-color: rgb(225, 228, 225);
+}
+
+#toolTabelaPreco .editar {
+    width: 77px;    
+    float: right;    
+    font-size: 11px;    
+    color: Black;    
+    line-height: 25px;    
+    padding-left: 10px;
+    border-left: 1px solid silver;
+}
+
+.btnEditarGenerico
+{
+   zoom: 89% !important;
+    width: 33px !important;
+    height: 31px !important;
+    margin-top: -2px !important; 
+}
+
+#acessoConteudo .liObsGrupo .btnEditarGenerico {
+    float: right;
+    margin-right: 119px;
+    margin-top: 12px;
+    border: 1px solid #F2F2F2;
+}
+
+#acessoConteudo .liObsGrupo .filtroObrigatorio 
+{
+    float: right;
+    margin-right: 67px;
+    margin-top: 19px;
+}
+
+#acessoConteudo .liObsGrupo .btnEditarGenerico:hover 
+{
+    border: 1px solid silver;
+}
+
+#observacaoGrupo #tooltabelapreco p.filtroToo {
+  width: 428px;
+  border-right: 1px solid silver;
+}
+
+#observacaoGrupo #tooltabelapreco p.obrigatorioToo {
+    width: 69px;
+}
+
+.filtroItensTutorial .tabelaToo
+{
+      margin-bottom: -1px !important;
+}
+
+.filtroItensTutorial .filtroToo
+{
+    border: none;
+}
+
+.ui-dialog.ui-widget.ui-corner-all.ui-draggable.ui-resizable.contornoDlg-divGenDadosUsuario
+{
+  border-radius: 4px;
+  padding: 0px;
+}
+
+ #divGenNCMProduto #cbPesquisa
+ {
+    width: 105px;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    color: #6e7173;
+    font-size: 15px!important;
+    height: 28px!important;
+    margin-left: 5px;
+}
+	
+#divGenNCMProduto .impPesquisa
+{
+   font-size: 15px!important;
+   color: #6e7173;
+   border: 1px solid #c0c0c0;
+   border-radius: 3px;
+   float: left;
+   height: 28px;
+   width: 244px;
+   padding-left: 5px;
+}
+
+#divGenNCMProduto .contPesquisaGenerica
+{
+    margin-top: -10px;
+    padding-bottom: 10px;
+    margin-bottom: 7px;
+    position: relative;
+}
+
+ #divGenNCMProduto .iconePesquisa
+ {
+    height: 27px;
+    width: 26px;
+    position: absolute;
+    left: 219px;
+    top: -10px !important;
+    margin-top: 27px;
+    background-color: green;
+ }
+ 
+ #divGenNCMProduto .divHr
+ {
+    position: absolute;
+    left: 1px;
+    right: 23px;
+    bottom: 0;
+    border-bottom: 1px solid silver;
+    width: 350px;
+	}
+
+.genericSearch 
+{
+    border: 1px solid silver;
+    border-radius: 3px;
+    color: #6E7173;
+    float: left;
+    font-size: 15px !important;
+    height: 25px;
+}
+
+.divEditorGenerica .iconePesquisa, #divEditor .iconePesquisa {
+    height: 25px;
+    float: inherit;
+    width: 25px;
+    position: relative;
+    left: -11px;
+}
+
+#ItensXMLselectable .iconePesquisa{
+    left: 17px;
+}

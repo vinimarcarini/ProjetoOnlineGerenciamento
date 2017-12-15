@@ -1,0 +1,368 @@
+﻿#relatorioContasReceber
+{
+    border: 1px solid silver;
+    float: left;
+    bottom: 0;
+    position: absolute;
+    top: 0;
+}
+
+#relatorioContasReceber .relatorioUl li *
+{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 25px;
+    float: left;
+    padding-left: 5px;
+    border-right: 1px solid silver;
+    height: 25px;
+}
+
+#relatorioContasReceber .relatorioUl li h1
+{
+    width: 195px;
+}
+
+#relatorioContasReceber .relatorioUl li h2
+{
+    width: 264px;
+}
+
+#relatorioContasReceber .relatorioUl li h3
+{
+    width: 115px;
+}
+
+#relatorioContasReceber .relatorioUl li h4
+{
+    width: 110px;
+}
+
+#relatorioContasReceber .relatorioUl li h5
+{
+    width: 110px;
+}
+
+#relatorioContasReceber .relatorioUl li h6
+{
+    width: 126px;
+}
+
+.relatorioUl.tool h6 {
+    width: 143px !important;
+}
+
+#relatorioContasReceber .relatorioUl.conteudo li h4
+{
+    /*
+
+    tive que comentar por que estava conflitando no relatório de vendas de produto
+    tem que ser mais especifico se for utilizar. andre 02/08/2013
+
+    width: 355px;
+    */
+}
+
+
+.relatorioUl.tool
+{
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#D5D5D5)) repeat-X;
+    background: -moz-linear-gradient(top, #fff, #D5D5D5) repeat-X;
+    border-top:1px solid #ccc;
+    float: left;
+}
+
+.relatorioUl.conteudo li.odd
+{
+    background-color: #f2f2f2;
+    float: left;
+    border-top-width: 1px;
+    /*border-top-style: solid;*/
+    border-top-color: silver;
+}
+
+.relatorioUl.conteudo li
+{
+    border-bottom: 1px solid silver;
+    float: left;
+}
+
+.relatorioUl.conteudo
+{
+    position: absolute;
+    bottom: 20px;
+    top: 106;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    /*height: 455px;*/
+}
+
+
+#relatorioContasReceber #contFiltro
+{
+    float: left;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#contFiltro a 
+{
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: rgb(109, 102, 102);
+    text-decoration: none;
+}
+
+.totalRelatorio, .totalRelatorioResumo
+{
+    width: 100%;
+    float: left;    
+}
+
+.totalRelatorio p, .totalRelatorioResumo p
+{
+    font-size: 15px;
+    color: Blue;
+    float: left;
+    padding: 15px;
+    font-weight: bolder;
+    
+}
+
+/*.totalRelatorio li, .totalRelatorioResumo li
+{
+    width: 100%;
+        
+}*/
+
+.totalRelatorio li h2, .totalRelatorioResumo li h2
+{
+    border: 0px !important;
+}
+
+
+.totalRelatorioResumo ul li:first-child
+{
+    border-top: 1px solid silver;    
+}
+
+.totalRelatorioResumo ul li
+{
+    border-top: 1px solid silver;    
+}
+
+.totalRelatorio ul li h2, .totalRelatorioResumo ul li h2 
+{
+    width: 745px !important;
+    border-right: 1px solid silver !important; 
+}
+
+#divParmRelatorio, #divRelatorioResultado
+{
+    position: relative;
+    background-color: #F7F7F7;
+    border-radius: 7px;
+}
+
+/*combobox filtro por tipo e por descricao*/
+
+.divPesqTipo, .divPesqDescricao 
+{
+    float: left;
+}
+
+#relatorioContasReceber .ui-combobox-input 
+{
+    height: 28px;
+}
+
+#relatorioContasReceber .ui-combobox-toggle 
+{
+    background: #f2f2f2;
+    height: 18px;
+    width: 20px;
+    border-radius: 0px;
+    top: 1px;
+}
+
+#relatorioContasReceber label 
+{
+    line-height: 28px;
+}
+
+#relatorioContasReceber .datepicker {
+    height: 28px;
+    border-radius: 0px;
+}
+
+.relatorioUl.conteudo .total {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-shadow: 2px 2px 2px silver;
+    color: gray;
+}
+
+#relatorioContasReceber .conteudoRelatorio 
+{
+    border-top: 1px solid silver;
+    float: left;    
+}
+
+.totalRelatorio ul li:first
+{
+    border-top-width: 1px; border-top-style: solid; border-top-color: silver;
+}
+
+#selAgrupamento 
+{
+    position:absolute; 
+    left:100px; 
+    top:13px; 
+    width:153px;
+}
+
+#relatorioCancelados #contFiltro label 
+{
+    position:absolute; 
+    top:18px;
+}
+
+#divCalendario 
+{
+    /*
+    comentei por que estava conflitando no relatorio de vendas de produto. andre 02/08/2013
+
+    position:absolute;
+    top:0;
+    left:-77px;
+    */
+}
+
+#relatorioTiposDeVenda #divCalendario { left:-359px; }
+#relatorioTiposDeVenda #divAtualizar { position:absolute; right:0; top:8px !important; }
+
+#divCalendario .de {
+    position:absolute; 
+    left:276px; 
+    top:18px;
+}
+
+#divCalendario #relatorioDataDe
+{
+    position:absolute; 
+    left:305px; 
+    top:13px; 
+    height:28px; 
+    width:110px; 
+    padding-left: 7px;
+}
+
+#divCalendario #relatorioDataAte
+{
+    position:absolute; 
+    left:454px; 
+    top:13px; 
+    height:28px; 
+    width:110px; 
+    padding-left: 7px;
+}
+
+#relatorioCancelados #selRelaPorUsuario 
+{
+    position:absolute; 
+    left:648px; 
+    top:13px; 
+    width:168px;
+}
+
+#divCalendario .ate 
+{
+    position:absolute; 
+    left:422px; 
+    top:18px;
+}
+
+#contFiltro .usuario {
+    position:absolute; 
+    left:587px; 
+    top:18px;
+}
+
+#relatorioCancelados #divAtualizar {
+    position: absolute; 
+    height: 28px;
+    left: 846px;
+    top: 10px;
+}
+
+#contRelatorioCancelados 
+{
+    margin-top:10px;
+}
+
+#cData 
+{
+    width:120px !important;
+    padding:0 10px !important;
+}
+
+.cartaocredito .btAtualizar
+{
+    width: 100px;
+    height: 25px;
+    margin-top: 3px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 8px;
+}
+
+.cartaocredito label.de, .cartaocredito label.ate 
+{
+    margin-top: 5px;
+    margin-right: 0px !important;
+}
+
+#dlgRelatorioCancelamentos .total{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#dlgRelatorioCancelamentos .total .titulo 
+{
+    font-family: verdana;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+    margin-bottom: 5px;
+}
+
+#dlgRelatorioCancelamentos .total p
+{
+    font-family: verdana;
+    float: left;
+    width: 163px;
+    color: rgb(87, 87, 87);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#dlgRelatorioCancelamentos .total .valorTotal p 
+{
+    font-size: 16px;
+    color: Blue;
+}
+#dlgRelatorioCancelamentos .total div 
+{
+    clear: both;
+}
+
+.cartaocredito .submit 
+{
+    width: 126px;
+}

@@ -1,0 +1,697 @@
+﻿
+/* ----- GERAL -------------------------------------------------------------------------------- */
+.counteudoHistoricoNFCe #notasEnviadasDoDiaEMes,.conteudoNfeEmitidas #notasEnviadasDoDiaEMes,
+.conteudoDireita #rodapeContasPagar, .conteudoDireita #rodapeContasReceber,
+.conteudoDireita #rodapeNFeCupomRef {
+    height: 70px;
+    border: solid 1px silver;
+    margin: 20px 10px 15px 16px;
+}
+
+#notasEnviadasDoDiaEMes .ajax-loader,
+#rodapeContasPagar .ajax-loader,
+#rodapeContasReceber .ajax-loader,
+#rodapeNFeCupomRef .ajax-loader {
+    height: 20px;
+    margin-left: 375px;
+    margin-top: 23px;
+}
+
+#notasEnviadasDoDiaEMes #pTituloNotasDoDia,
+#rodapeContasReceber #pTituloContasReceber,
+#rodapeNFeCupomRef #pTituloNfeCupomRef
+ {
+    text-align: center;
+    margin-top: -12px;
+}
+
+#notasEnviadasDoDiaEMes #divTituloNotasDoDia {
+    width: 120px;
+    margin-left: 325px;
+    background-color: #F9F9F9;
+}
+
+    #notasEnviadasDoDiaEMes #divTituloNotasDoDia span,
+    #rodapeContasPagar #divTituloContasPagar span,
+    #rodapeContasReceber #divTituloContasReceber span,
+    #rodapeNFeCupomRef #divTituloNFeCupomRef span{
+        margin-left: 10px;
+        color: #808080;
+        font-weight: bold;
+        font-family: verdana;
+        font-size: 15px;
+    }
+
+   #notasEnviadasDoDiaEMes .primeiroPNotasDoDia,
+   #rodapeContasPagar .primeiroPContasPagar,
+   #rodapeContasPagar .segundoPContasPagar,
+   #rodapeContasReceber .primeiroPContasReceber,
+   #rodapeContasReceber .segundoPContasReceber
+   {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+   #rodapeContasPagar .segundoPContasPagar,
+   #rodapeContasReceber .segundoPContasReceber{
+        margin-top: 6px;
+   }
+
+    #notasEnviadasDoDiaEMes .segundoPNotasDoDia {
+        text-align: center;
+        font-size: 11px;
+        margin-top: 8px;
+    }
+
+#notasEnviadasDoDiaEMes #conteudoNotasDoDia {
+    padding-top: 15px;
+}
+
+#tabEmissaoNFCeCliente #tdCheckImpressaoOffline span {
+    margin-top: -1px;
+    position: absolute;
+}
+
+#divNFCeNumeracao #divEmissaoNFCeCliente {
+height: 55px !important;
+}
+
+#divNFCeNumeracao #divNFCeNumeracaoBotoes {
+    margin-top: 85px;
+    float: right;
+}
+
+#divEmissaoNFCe, #divCancelamentoNFCe, #divNFCeCancelada, #divNFCeNumeracao {
+    background-color: rgb(246, 248, 246) !important;
+    border: 2px solid rgb(40, 22, 4);
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgb(68, 41, 41);
+    color: rgb(199, 109, 26);
+    font-size: 12px;
+    font-weight: normal;
+    /*height: 383px;*/
+    height: 410px;
+    padding: 5px 0 10px;
+}
+#divCancelamentoNFCe { height: 445px; }
+#divNFCeCancelada { height: 390px; }
+#divNFCeNumeracao { height: 358px; }
+
+.divEmissaoNFCe a { text-decoration: none; }
+.divEmissaoNFCe a:hover { color: rgb(16, 108, 211); }
+
+/* ----- TOPO --------------------------------------------------------------------------------- */
+
+
+.emissaoNFCe { margin:0 20px; }
+
+#divEmissaoNFCeTopo {
+    border-bottom: 1px solid silver;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 20px;
+}
+
+#divEmissaoNFCeTopo .desc {
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: auto;
+}
+
+.divEmissaoNFCeTitulo {
+    color: #cf7512;
+    font-size: 20px
+}
+
+#divEmissaoNFCeTopo .sair
+{
+    border: 1px solid rgba(242, 242, 242, 0);
+    float: left;
+    height: 40px;
+    margin-top: 4px;
+    position: absolute;
+    right: 20px;
+    width: 45px;
+}
+#divEmissaoNFCeTopo .sair:hover 
+{
+    border: 1px solid #ccc;
+	cursor:pointer;
+}
+
+#ulRegrasNFCeNumeracao 
+{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* ----- DESCRIÇÃO ---------------------------------------------------------------------------- */
+
+
+#divEmissaoNFCeDescricao {
+    color: #222;
+    padding: 10px 0;
+    border-bottom: 1px dotted orange;
+}
+#divCancelamentoNFCe #divEmissaoNFCeDescricao { color: #C9302C; }
+
+#pJustificativaCancelamentoNFCe 
+{
+    border-top: 1px dotted #ccc;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+#txtJustificativaCancelamentoNFe 
+{
+    background-color: #F4F4F4;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    margin: 5px 0;
+    padding: 5px;
+	width: 99%;
+}
+
+#divNFCeCancelada #pDescNFCeCancelada 
+{
+    background-color: rgb(201, 48, 44);
+    background-position: 5px;
+    background-repeat: no-repeat;
+    background-size: 21px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+/* ----- CONTEÚDO/OPERAÇÃO -------------------------------------------------------------------- */
+
+
+#divEmissaoNFCeConteudo {
+	background-color: #fff;
+    border: 1px solid #ADADAD;
+    margin-top: 10px;
+}
+
+#tabEmissaoNFCe tr {
+    background-color: #E8E7E7;
+    height: 30px;
+}
+
+.divEmissaoNFCeCabecalho .tabEmissaoNFCe tr  
+{
+    background-color:#f5f5f5; 
+    color: rgb(124, 66, 47);
+    height: 30px;
+}
+.divEmissaoNFCeCabecalho .tabEmissaoNFCe td  
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+.tdNFCeOperacao { width: 200px; }
+.tdNFCeTentativas { text-align:center; width: 100px; }
+.tdNFCeStatusOperacao { width: 580px; }
+.divEmissaoNFCeLinha .tdNFCeOperacao { width: 200px; }
+.divEmissaoNFCeLinha .tdNFCeTentativas { padding-rigth:8px; width: 98px; }
+.divEmissaoNFCeLinha .tdNFCeStatusOperacao  
+{
+    -webkit-user-select: initial !important;
+    width: 598px; 
+}
+
+.divEmissaoNFCeLinha .tabEmissaoNFCe tr { height:40px; }
+.divEmissaoNFCeLinha .tabEmissaoNFCe td  
+{
+    border-bottom: 1px dotted #ddd;
+    font-size: 12px;
+    padding: 0 5px;
+}
+.divEmissaoNFCeLinha .trEmissaoNFCeUltimaLinha { border-bottom:none; }
+
+.divEmissaoNFCeLinha .tabEmissaoNFCe td
+{
+    background-repeat: no-repeat;
+    background-position: 5px 10px;
+    padding-left: 25px;
+}
+.divEmissaoNFCeLinha .tabEmissaoNFCe .tdNFCeProcessando { background-position: 5px 14px; }
+#divCancelamentoNFCe .divEmissaoNFCeLinha .tabEmissaoNFCe .tdNFCeProcessando { background-position: 5px 11px; }
+
+.divEmissaoNFCeLinha .tdNFCeTentativas { text-align:center; }
+
+/*.tabEmissaoNFCe .trNFCeAguardando { color: #333; }*/
+.tabEmissaoNFCe .trNFCeAguardando { color: #cf7512; }
+.tabEmissaoNFCe .trNFCeProcessando { color: rgb(160, 109, 15); font-weight:bold; }
+.tabEmissaoNFCe .trNFCeSucesso { color: green; }
+.tabEmissaoNFCe .trNFCeErro { color: red; }
+
+.aNFCeStatus 
+{  
+    display: none;
+    text-decoration: none;
+}
+.aNFCeStatus:hover { text-decoration: underline; }
+
+.divEmissaoNFCe #txtEmissaoNFCeErro 
+{
+    border: 1px solid #ddd;
+    font-size: 11px;
+    height: 102px;
+    margin: 5px 0;
+    padding: 5px;
+    width: 579px;
+}
+
+#divNFCeNumeracao .divNFCeNumeracaoLinha1 
+{
+    float:left;
+    margin:10px 0 15px;
+}
+
+#divNFCeModelo .divNFCeNumeracaoLinha1
+{
+    float:left;
+    margin:10px 0 15px;
+}
+
+#divNFCeNumeracao .divNFCeNumeracaoLinha1 input { text-align: center; }
+
+#divNFCeNumeracao #txtJustificativaNFCeNumeracao { width: 823px; }
+#divNFCeNumeracao #divJustificativaNFCeNumeracao  
+{
+    clear: both;
+    margin: 15px 0 10px; 
+}
+#divNFCeNumeracao #divEmissaoNFCeCliente input  #divNFCeNumeracao select
+{
+    font-size: 12px;
+    padding: 5px;
+}
+
+/* ----- CLIENTE ------------------------------------------------------------------------------ */
+
+#divNFCeNumeracao #divEmissaoNFCeCliente {
+    height: 55px;
+}
+
+#divEmissaoNFCeCliente
+{
+    background-color: #fff;
+    border: 1px solid #adadad;
+    margin-top: 10px;
+    padding: 5px;
+    padding-bottom: 0;
+    /*height: 45px;*/
+    height: 45px;
+}
+
+#divEmissaoNFCeCliente table { font-size: 12px; }
+
+#tabEmissaoNFCeCliente { width: 100%; }
+
+#divEmissaoNFCeCliente #tdEmissaoNFCeCliente { font-weight: bold; }
+
+#tabEmissaoNFCeCliente #tdEmissaoNFCeCliente
+{
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    padding-left: 20px;
+    width: 740px;
+}
+#tabEmissaoNFCeCliente .spnNFCeCliente 
+{ 
+    color: rgb(155, 41, 41); 
+    font-weight: bold; 
+    text-decoration: none;
+}
+#tabEmissaoNFCeCliente .spnNFCeCliente:hover
+{
+    color: rgb(200, 61, 61);
+    cursor: pointer;
+    text-decoration: underline; 	
+}
+#tabEmissaoNFCeCliente .spnNFCeClienteDisabled { color: rgb(157, 154, 154); }
+#tabEmissaoNFCeCliente .spnNFCeClienteDisabled:hover 
+{
+	cursor: default;
+	text-decoration: none;
+}
+
+#tabEmissaoNFCeCliente #tdCancelamentoNFCeCliente 
+{
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    font-weight: normal;
+    padding-left: 0;
+    width: 740px;
+}
+#tabEmissaoNFCeCliente #tdCancelamentoNFCeCliente span { font-weight: bold; }
+
+#tabEmissaoNFCeCliente #tdCancelamentoNFCeCliente p  
+{
+    line-height: 23px; 
+    -webkit-user-select: initial !important;
+}
+
+/* ----- STATUS ------------------------------------------------------------------------------- */
+
+
+#divEmissaoNFCeCliente #tdEmissaoNFCeStatusSefaz 
+{
+	background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 73px;
+    color: #222;
+    border-left: 1px dotted aaa;
+    padding-left: 10px;
+    width: 84px;
+}
+#divEmissaoNFCeCliente #tdEmissaoNFCeStatusSefaz:hover { cursor: pointer; }
+#divEmissaoNFCeCliente #tdEmissaoNFCeStatusSefaz.tdServidorSefazConsultando { color: rgb(137, 135, 135); }
+#divEmissaoNFCeCliente #tdEmissaoNFCeStatusSefaz.tdServidorSefazAtivo { color: rgb(33, 115, 5); }
+#divEmissaoNFCeCliente #tdEmissaoNFCeStatusSefaz.tdServidorSefazInativo { color: rgb(158, 60, 9); }
+
+
+/* ----- BOTÕES ------------------------------------------------------------------------------- */
+
+
+.btnValidarXML{
+  border-radius: 5px;
+  background-color: green;
+  display: none;
+  float: left;
+  font-size: 12px !important;
+  font-weight: normal;
+  text-shadow: 1px 1px 0px rgba(242, 242, 242, 0) !important;
+  margin-top: 20px;
+  min-width: 100px;
+  padding: 10px 10px 10px 27px;
+  position: relative;
+  border: 1px solid #000 !important;
+  cursor: pointer;
+  margin-left:5px;
+  color: #FFF !important;
+  background-position: 5px;
+  height: 37px;
+  width: 120px;
+
+  }
+
+.btnEmissaoNFCe {
+    border-radius: 5px;
+    color: #FFF !important;
+    display: none;
+    float: right;
+    font-size: 12px !important;
+    font-weight: normal;
+    text-shadow: 1px 1px 0px rgba(242, 242, 242, 0) !important;
+    margin-top: 20px;
+    min-width: 100px;
+    padding: 10px 10px 10px 27px;
+    position: relative;
+    right: 0;
+}
+.btnEmissaoNFCe:hover 
+{
+    border: 1px solid #000 !important;
+    cursor: pointer;
+}
+
+#btnEmissaoNFCeIniciar, #btnEmissaoNFCeRepetir, #btnConfirmaNFCeCancelada
+{
+    background-color: #449d44;
+    border: 1px solid #398439;
+    display: inline-block;
+    margin-left: 5px;
+}
+#btnEmissaoNFCeRepetir { display: none; }
+#btnEmissaoNFCeRepetir:hover, #btnEmissaoNFCeIniciar:hover { background-color: #398439; }
+
+#btnEmissaoNFCeCancelar, #btnEmissaoNFCeEncerrar, #btnCancelaNFCeCancelada
+{
+    background-color: #c9302c;
+    border: 1px solid #ac2925;    
+}
+#btnEmissaoNFCeCancelar:hover, #btnEmissaoNFCeEncerrar:hover { background-color: #ac2925; }
+
+#btnEmissaoNFCeCancelarNota, #btnEmissaoNFCeCancelar
+{
+    background-color: #f89406;
+    border: 1px solid #C77706;
+    float: left;
+    margin-left:5px;
+}
+
+#btnEmissaoNFCeCancelarNota:hover, #btnEmissaoNFCeCancelar:hover { background-color: #C77706; }
+
+#btnEmissaoNFCeImprimir 
+{
+    background-color: #31b0d5;
+    border: 1px solid #269abc;
+    float: left;
+}
+#btnEmissaoNFCeImprimir:hover { background-color: #269abc; }
+
+#btnEmissaoNFCeParar
+{
+    background-color: #c94A2c;
+    border: 1px solid #ba462a;
+}
+#btnEmissaoNFCeParar:hover { background-color: #7b1e1b; }
+
+.btnNFCeCancelada { display: inline-block; }
+#btnConfirmaNFCeCancelada 
+{ 
+    float: left; 
+    margin-left: 0;
+}
+
+
+/* ----- OUTROS ------------------------------------------------------------------------------- */
+
+
+.inutLoteNumNFCe 
+{
+    border: 1px solid #f7f7f7;
+    top: 8px;
+    position: absolute;
+    width: 53px;
+    height: 40px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    left: 10px;
+}
+.inutLoteNumNFCe:hover 
+{
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#dlgValidarXMLNaReceita .generico.toolbar .titleToolbar {
+    font-size: 15px;
+    font-weight: bold;
+    /* text-align: center; */
+    color: #777;
+    /* float: left; */
+    padding-left: 31px;
+    width: 79%;
+    position: absolute;
+}
+
+#dlgValidarXMLNaReceita .counteudoXML {
+    width: 387px;
+    margin-left: 0;
+}
+
+#dlgValidarXMLNaReceita .generico.toolbar {
+height: 38px;
+    margin-top: -13px;
+    margin-left: 3px !important;
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-bottom: 17px;
+    border-radius: 2px;
+    border: 1px solid silver;
+    -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background: -moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+    background-color: #ededed;
+    border: 1px solid #dcdcdc;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+
+#dlgValidarXMLNaReceita #contentXML {
+    background-color: #fff;
+    max-height: 433px;
+    height: 365px;
+    max-width: 392px;
+    width: 403px;
+}
+
+ #dlgValidarXMLNaReceita  
+ {
+     overflow-x: hidden;
+     background-color: white;
+     /*
+
+    Não pode colocar formação em div que é dialog, por que interfere no index,
+    coloque na div interna do dialog
+
+  background-color: #fff;
+  
+  padding-left: 13px;
+  padding-right: 13px;
+  max-height: 430px;
+  max-width: 360px;
+  */
+ 
+}
+
+    #dlgValidarXMLNaReceita #baixarXmlValidacao {
+        height: 50px;
+    }
+
+    #dlgValidarXMLNaReceita #btnBaixarXmlValidacao {
+        display: inline-block;
+        background-color: #449d44;
+        border: 1px solid #398439;
+        background-repeat: no-repeat;
+        background-size: 18px;
+        background-position: 5px;
+        border-radius: 5px;
+        color: #FFF !important;
+        font-size: 12px !important;
+        text-shadow: 1px 1px 0 rgba(242, 242, 242, 0) !important;
+        min-width: 102px;
+        padding: 7px 7px 7px 7px;
+        right: 155px;
+        margin-top: 10px;
+    }
+
+#dlgValidarXMLNaReceita .counteudoXML
+{
+  padding-top: 16px;
+}
+
+    #dlgValidarXMLNaReceita #contentXML {
+        /*margin-top: 40px;*/
+        margin-top: 39px;
+    }
+
+#dlgValidarXMLNaReceita .xml
+{
+    padding: 5px;
+    height: 325px;
+ }
+
+#dlgValidarXMLNaReceita .xml textarea
+{
+ 
+  max-height: 231px;
+ /* overflow-x: auto;*/
+  background-color: #f4f4d9;
+  width: 100%;
+  height: 100%;
+  max-width:100%;
+  max-height:100%;
+  padding:5px;
+  font-size: 12px;
+}
+
+#dlgValidarXMLNaReceita #linkValidarXML
+{
+    padding-top: 10px;
+}
+
+#dlgValidarXMLNaReceita #linkValidarXML p
+{
+ text-align: center;
+ color: #006fbb;
+ font-size: 14px;
+}
+#dlgValidarXMLNaReceita #linkValidarXML p:hover
+{
+ cursor:pointer;
+ text-decoration: underline;
+}
+
+#dlgConfirmarEmail #contentConfirmarEmail{
+
+/*margin-top: 100px;*/
+padding-top: 60px;
+}
+
+#dlgConfirmarEmail{
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+#dlgConfirmarEmail .counteudoConfirmacaoEmail{
+
+    position: absolute;
+    padding-top: 16px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 13px;
+    background-color: white;
+}
+
+
+#dlgConfirmarEmail .informacaoesEmail{
+padding-left: 15px;
+}
+
+.informacaoesEmail #inputConfirmacaoEmail{
+
+    width: 285px;
+}
+
+#dlgConfirmarEmail .botaoFecharToolbar
+{
+   margin-top: -38px;
+}
+
+#dlgConfirmarEmail .informacaoesEmail button
+{
+    width: 121px;
+    height: 30px;
+    margin-left: 75px;
+}
+
+#divEmissaoNFCeBotoes #btnEnviarNFCePorEmail
+{
+    background-color: #1e77bb;
+    border: 1px solid #269abc;
+    float: left;
+    margin-left: 10px;
+    height: 37px;
+    width: 145px;
+}
+
+#contentConfirmarEmail .informacaoesEmail .btConfiracaoDourado:hover
+{
+        cursor:pointer;
+}
+
+#dlgEmissaoNFCe #divEmissaoNFCeConteudo{
+    height: 160px;
+    overflow-y: scroll;
+}
+
+#dlgOpcoesNfe{
+    overflow: hidden;
+    background-color: #f7f7f7;
+    height: auto;
+    border-radius: 5px;
+}

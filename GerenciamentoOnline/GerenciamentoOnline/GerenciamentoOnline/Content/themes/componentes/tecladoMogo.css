@@ -1,0 +1,523 @@
+﻿/* -------------------------------------------------------------------- */
+/* GERAIS
+/* -------------------------------------------------------------------- */
+
+#divTecladoMogo 
+{
+    border-radius: 15px;
+    box-shadow: 5px 5px 9px #7C7B7A;
+    display: none;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+    margin: auto !important;
+    overflow: auto;
+    padding: 20px;
+    position: absolute;
+    /*resize: both;*/
+    white-space: nowrap;
+    width: auto; 
+    z-index: 8000; /* Z-index de #menuTecladoMogo deve ser maior que este. */     
+}
+
+#divTecladoMogo #divAuxTecladoMogo 
+{ 
+    height: 30px;
+    margin: 0 0 10px 3px; 
+    width: 100%;
+    display:none;
+    z-index:0;
+}
+#divTecladoMogo #divAuxTecladoMogo #divOpcoesTeclado 
+{ 
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+    background-size: 24px;
+    height: inherit;
+    left: 22px;
+    position: absolute;
+    top: 20px;
+    width: 32px;
+}
+
+.porcentagemDesc + .tecladoVirtual
+{
+    margin-left: 46px !important;
+}
+
+#divTecladoMogo #divAuxTecladoMogo #divOpcoesTeclado:hover { cursor: pointer; }
+
+#divTecladoMogo #divAuxTecladoMogo #divVisorTeclado 
+{ 
+    height: 25px;
+    margin: 33px;
+    padding: 4px 3px;
+    position: absolute;
+    top: -13px;
+    width: auto;
+    left: 20px;
+    right: 28px;
+}
+
+#divTecladoMogo #divAuxTecladoMogo #divVisorTeclado
+#divTecladoMogo[layout="numerico"] #divAuxTecladoMogo #divVisorTeclado { right: 26px; }
+#divTecladoMogo #divAuxTecladoMogo #divVisorTeclado input 
+{
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    height: inherit;
+    width: inherit;
+}
+#divTecladoMogo #divAuxTecladoMogo #divFecharTeclado 
+{
+    height: inherit;
+    position: absolute;
+    right: 18px;
+    top: 20px;
+    width: 32px;
+}
+#divTecladoMogo #divAuxTecladoMogo #divFecharTeclado:hover { cursor: pointer; }
+
+#divTecladoMogo.tecladoQwerty,
+#divTecladoMogo.tecladoAlfabetico { width: 700px; }
+#divTecladoMogo.tecladoNumerico { width: 260px; }
+
+#divTecladoMogo .divLinhaTeclado 
+{
+    clear: both;
+    text-align: center;
+    width: 100%;	
+}
+
+#divTecladoAuxiliar 
+{
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    z-index: 8002;    
+}
+
+/* -------------------------------------------------------------------- */
+/* CORES 
+/* -------------------------------------------------------------------- */
+
+/* Elemento (input) que ativou o teclado. */
+.inputTecladoAtivo { border: 1px solid red !important; }
+
+/* Teclado. */
+#divTecladoMogo[cor="branco"]
+{
+    background-color: #fff;
+    border: 3px solid #EEAF46;
+    color: #222;
+}
+#divTecladoMogo[cor="preto"]
+{
+    background-color: #1B1919;
+    border: 3px solid #DDDDDD;
+    color: #222;
+}
+#divTecladoMogo[cor="azul"]
+{
+    background-color: #4F7CAE;
+    border: 3px solid #1E2F42;
+    color: #222;
+}
+
+/* Visor. */
+#divTecladoMogo[cor="branco"] #divVisorTeclado 
+{ 
+    background-color: rgba(249, 247, 247, 0.89);
+    border: 1px solid rgb(239, 239, 231);
+    color: #393939; 
+}
+#divTecladoMogo[cor="preto"] #divVisorTeclado 
+{ 
+    background-color: rgba(50, 49, 49, 1);
+    border: 1px solid rgb(73, 73, 71);
+    color: #E3E5E0;   
+}
+#divTecladoMogo[cor="azul"] #divVisorTeclado 
+{ 
+    background-color: rgba(89, 139, 194, 1);
+    border: 1px solid rgb(56, 104, 157);
+    color: #393939;  
+}
+
+/* Botões. */
+#divTecladoMogo[cor="branco"] .btnTecladoMogo.divTeclaNormal,
+#divTecladoAuxiliar[cor="branco"] button
+{
+    background-color: #f6f6f6;
+    border: 1px solid #cccccc;
+    color: #1c94c4;
+}
+#divTecladoMogo[cor="preto"] .btnTecladoMogo.divTeclaNormal,
+#divTecladoAuxiliar[cor="preto"] button
+{
+    background-color: #1A1A1A;
+    border: 1px solid #313131;
+    color: #F2F5F5;
+}
+#divTecladoMogo[cor="azul"] .btnTecladoMogo.divTeclaNormal,
+#divTecladoAuxiliar[cor="azul"] button
+{
+    background-color: #4F7CAE;
+    border: 1px solid #38689D;
+    color: #E9EEF0;
+}
+
+/* Botões (active). */
+#divTecladoMogo[cor="branco"] .btnTecladoMogo.divTeclaNormal:active,
+#divTecladoMogo[cor="branco"] .btnTecladoMogo.divTeclaAux:active,
+#divTecladoAuxiliar[cor="branco"] button:active 
+{ 
+    border: 2px solid #fff !important;
+}
+#divTecladoMogo[cor="preto"] .btnTecladoMogo.divTeclaNormal:active,
+#divTecladoMogo[cor="preto"] .btnTecladoMogo.divTeclaAux:active,
+#divTecladoAuxiliar[cor="preto"] button:active  
+{ 
+    border: 2px solid #1A1A1A !important;
+}
+#divTecladoMogo[cor="azul"] .btnTecladoMogo.divTeclaNormal:active,
+#divTecladoMogo[cor="azul"] .btnTecladoMogo.divTeclaAux:active,
+#divTecladoAuxiliar[cor="azul"] button:active 
+{ 
+    border: 2px solid #4F7CAE !important;
+}
+
+/* Teclas especiais. */
+#divTecladoMogo .btnTecladoMogo.divTeclaEspec[valor="{enter}"] 
+{
+    background-color: #fbd850 !important;
+	border: 1px solid #fbd850 !important;
+	color: #222 !important;
+}
+#divTecladoMogo .btnTecladoMogo.divTeclaEspec[valor="{ok}"],
+#divTecladoMogo .btnTecladoMogo.divTeclaEspec[valor="{v}"] 
+{
+    background-color: green !important;
+	border: 1px solid green !important;
+	color: #fff !important;
+}
+#divTecladoMogo .btnTecladoMogo.divTeclaEspec[valor="{cancelar}"],
+#divTecladoMogo .btnTecladoMogo.divTeclaEspec[valor="{c}"] 
+{
+    background-color: red !important;
+	border: 1px solid red !important;
+	color: #fff !important;
+}
+#divTecladoMogo .btnTecladoMogo.divTeclaEspec:hover { border: 1px solid; }
+#divTecladoMogo[cor="branco"] .btnTecladoMogo.divTeclaEspec:active { border: 2px solid #fff !important }
+#divTecladoMogo[cor="preto"] .btnTecladoMogo.divTeclaEspec:active { border: 2px solid #1B1919 !important }
+#divTecladoMogo[cor="azul"] .btnTecladoMogo.divTeclaEspec:active { border: 2px solid #4F7CAE !important }
+
+/* Teclado auxiliar e teclas auxiliares. */
+#divTecladoMogo[cor="branco"] .btnTecladoMogo.divTeclaAux,
+#divTecladoMogo[cor="branco"] #divTeclado button:hover,
+#divTecladoAuxiliar[cor="branco"] button:hover
+{ 
+    background-color: transparent;
+    border: 1px solid #fbd850;
+    color: #eb8f00;
+}
+#divTecladoMogo[cor="preto"] .btnTecladoMogo.divTeclaAux,
+#divTecladoMogo[cor="preto"] #divTeclado button:hover,
+#divTecladoAuxiliar[cor="preto"] button:hover
+{ 
+    background-color: transparent;
+    border: 1px solid #815925;
+    color: #815925;
+}
+#divTecladoMogo[cor="azul"] .btnTecladoMogo.divTeclaAux,
+#divTecladoMogo[cor="azul"] #divTeclado button:hover,
+#divTecladoAuxiliar[cor="azul"] button:hover
+{ 
+    background-color: transparent;
+    border: 1px solid #90B7E4;
+    color: #90B7E4;
+}
+#divTecladoAuxiliar[cor="branco"] 
+{
+    background-color: #F0EDE8;
+    border: 2px solid #F5BC59; 
+}
+#divTecladoAuxiliar[cor="preto"]
+{
+    background-color: #191919;
+    border: 2px solid #F5BC59;
+}
+#divTecladoAuxiliar[cor="azul"] 
+{
+    background-color: #4F7CAE;
+    border: 2px solid #F5BC59; 
+}
+
+/* -------------------------------------------------------------------- */
+/* BOTÕES
+/* -------------------------------------------------------------------- */
+
+#divTecladoMogo #divTeclado .divLinhaTeclado button,
+#divTecladoAuxiliar button
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 4em !important;
+    line-height: 2em;
+    margin: .1em;
+    min-width: 1em;
+    overflow: hidden;
+    width: 4em;
+}
+
+button[valor="{bksp}"],
+button[valor="{tab}"],
+button[valor="{shift}"],
+button[valor="{limpa}"],
+{
+    color: #eb8f00 !important;
+}
+
+button[valor="{enter}"] 
+{  
+    width: 8em !important;
+}
+button[valor="{ok}"], 
+button[valor="{v}"]
+{  
+    width: 8em !important;
+}
+button[valor="{v}"] { width: 4em !important; }
+button[valor="{espaço}"] 
+{ 
+    color: #fff !important;
+    width: 30em !important; 
+}
+button[valor="{cancelar}"],
+button[valor="{c}"] 
+{
+    width: 8em !important;
+}
+button[valor="{c}"] { width: 4em !important; }
+button[valor="{=}"]  
+{
+    background-color: #eb8f00 !important;
+    border: 1px solid #fbd850 !important;
+    color: #F4EEEE !important;
+    width: 8em !important;
+}
+
+/* -------------------------------------------------------------------- */
+/* MENUS
+/* -------------------------------------------------------------------- */
+
+#menuTecladoMogo,
+#submenuTecladoMogo
+{
+    background-color: #FAC162;
+    border: 2px solid #A36B0D;
+    border-radius: 5px;
+    color: #A36B0D;
+    font-size: 12px;
+    position: absolute;
+    min-width: 150px;
+    z-index: 8001;
+}
+#menuTecladoMogo li, 
+#submenuTecladoMogo li 
+{ 
+    border-bottom: 1px dotted;
+    padding: 7px 5px; 
+}
+#submenuTecladoMogo li.liOpcaoTecladoSel 
+{
+    background-position: 5px;
+    background-repeat: no-repeat;
+    background-size: 11px;
+    font-weight: bold;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+#menuTecladoMogo li:hover, 
+#submenuTecladoMogo li:hover
+{
+    background-color: #A36B0D;
+    color: #fff;
+    cursor: pointer;
+}
+#menuTecladoMogo li.liTecladoSeparador, 
+#submenuTecladoMogo li.liTecladoSeparador
+{
+    border-top: 1px dotted #A36B0D;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+ 
+/* -------------------------------------------------------------------- */
+/* OUTROS
+/* -------------------------------------------------------------------- */
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+
+ .tecladoVirtualPesqGen
+ {
+  float: left;
+  margin-left: -50px
+ }
+ 
+   #dlgListEntregas .divBusca .tecladoVirtual
+   {
+    z-index: 10000;
+	margin-left: 176px;
+    margin-top: 2px;
+    position: absolute;
+  }
+  
+#dlgUsuarioSenha #formLogin .tecladoVirtual
+{
+  float: right;
+  margin-top: -46px;
+  margin-right: 3px;
+}
+
+#dlgInformacoes #fecharPedido .tecladoVirtual
+{
+  float: right;
+  margin-right: 54px;
+  margin-top: 4px;
+}
+
+#dlgInformacoes #adiantamentoValor + .tecladoVirtual
+{
+    display:none;
+}
+
+#contPersonalizar .divAgrupaOpcoesPersonaliza .tecladoVirtual
+{
+ position: relative;
+  margin-top: 14px;
+  margin-right: 22px;
+  float: right;
+}
+
+#divEditor .contFormV .tecladoVirtual 
+{
+   float: inherit;
+   margin-top: -3px;
+}
+
+#divProdutos .divBuscaProduto .tecladoVirtual{
+ 
+  position: absolute;
+  margin-left: 454px;
+}
+
+  .tecladoVirtual
+  { 
+    background-repeat: no-repeat;
+    height: 29px;
+    width: 26px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: -25px;
+    float: inherit;
+  }
+  
+#divInserirValor .tecladoVirtual
+{
+    margin-left: 206px;
+    margin-top: -30px;
+    position: absolute;
+}
+
+#divBalancaPreLeitura .tecladoVirtual 
+{
+    margin-top: -23px;
+}
+    
+#conteudoLogin .tecladoVirtual
+{
+    margin-left: 220px;
+    margin-top: -42px;
+    position: absolute;
+}
+
+.LogOnline .tecladoVirtual {
+    right: 83px;
+    margin-top: -45px !important;
+}
+
+input[type='hidden'] + .tecladoVirtual
+{
+   display:none;
+}
+  
+.contPesquisaGenerica #PesquisaGenerica + .tecladoVirtual
+{
+  margin-right: 141px;
+  margin-top: -29px;
+  float: right;
+}
+ 
+#divEditor_ClienteToolbar #PesquisaGenerica + .tecladoVirtual
+{
+  margin-right: 160px;
+}
+
+ .contFormV #TaxaEntrega + .tecladoVirtual{
+    float: right;
+    position: relative;
+    margin-right: 3px;
+    }
+    
+    
+    #divEditor_ClientePedido #Troco + .tecladoVirtual
+    {
+        float: right;
+        display: block;
+        z-index: 50000;
+        position: relative;
+    }
+    
+    .conteudoDir .divBusca .tecladoVirtual
+    {
+        float: left;
+        margin-left: -30px;
+        margin-top: 1px;
+    }
+    
+   .divBusca #MovimentoEstoque_descricao + .tecladoVirtual,
+   .divBusca #EntradaProduto_descricao + .tecladoVirtual,
+  .divBusca #cPesq + .tecladoVirtual
+    {
+        margin-left: -56px;
+    }
+    
+    #hiddenItensContagemEstoque + .tecladoVirtual,
+    .gridEditor + #hiddenItens + .tecladoVirtual
+    {
+      display: none;
+    }
+    
+  #grupoInput .tecladoVirtual{
+  margin-top: 58px;
+  position: absolute;
+  margin-left: 311px;
+  }
+  
+  .divBusca #ProdutoEstabelecimento_grupo + .tecladoVirtual
+  {
+     margin-left: -55px;    
+  }

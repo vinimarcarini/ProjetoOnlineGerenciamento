@@ -1,0 +1,330 @@
+﻿.divResetDicionario { background-image: Url("./img/Cadastro/reset-icon.png"); background-position: center; }
+#divTutorialImpressora {background-image: Url("./img/Layout/tutorialImpressao2.png"); height: 640px !important;}
+.pagina1 {background-image: Url("./img/Layout/fund.png");}
+.rodape {background-image: Url("./img/Layout/rod.png");}
+.menuSup {background-image: Url("./img/Layout/menuup.png");}
+.menuSup .menu:hover {background-image:  Url("./img/Layout/aba1.png");}
+.menuSelected {background-image: Url("./img/Layout/aba1.png");} /*menu selecionado*/
+.config:hover {background-image: Url("./img/Layout/aba1.png");}
+.Sairmenu:hover {background-image: Url("./img/Layout/aba1.png");}
+.menuSup.ui-state-active { background-image: Url("./img/Layout/aba1.png")!important; background-repeat: repeat !important; font-weight:bold !important; cursor: pointer;}
+.textbox.hasDatepicker{ background-image: Url("./img/Cadastro/Descricao/calend.png"); background-repeat: no-repeat; background-position:right; }
+.ui-tabs-selected { background-image: Url("./img/Layout/test2.png")!important; background-repeat: repeat !important; }
+#demo .ui-state-active { background-image: Url("./img/Layout/aba1.png")!important; background-repeat: repeat !important; font-weight:bold !important; cursor: pointer;}
+.field-validation-error { background-image: Url("./img/Layout/er.png")!important; background-repeat: no-repeat; background-position:left;}
+.icoForm .imprimirConfigImp {background-image: Url("./img/Layout/ico_imprimir.png");}
+#confCaixa .imprimirConfigImp {background-image: Url("./img/Layout/ico_imprimir.png");}
+.menuUl, #contGarcom, #contJuncaoMesa, #contCartoes, #divSubGrupos, .conteudoUlEsquerda, .conteudoUlDireita { background-image: Url("./img/Cadastro/Descricao/scroll1.png"); background-repeat: repeat-y; background-position:right; }
+.imagemAddItem { background-image: Url("./img/Layout/flechaeMais2.png"); background-repeat: no-repeat; }
+#divSetaDivPagar { background-image: Url("./img/Layout/arrow-orange.png"); background-repeat: no-repeat; }
+#opiniao { background-image: Url("./img/Layout/op.png"); background-repeat: no-repeat; }
+#ajuda { background-image: Url("./img/Layout/su.png"); background-repeat: no-repeat; }
+#opiniao:hover { background-image: Url("./img/Layout/opH.png"); background-repeat: no-repeat; }
+#ajuda:hover { background-image: Url("./img/Layout/suH.png"); background-repeat: no-repeat; }
+.carregadorMostra, .gifInput { background-image: Url("./img/Layout/transparentP.gif"); background-repeat: no-repeat; }
+.ajax-loader { background-image: Url("./img/Layout/ajax-loader.gif"); background-repeat: no-repeat; }
+.gifCarregandoValores { background-image: Url("./img/Layout/gifCarregandoValores.gif"); background-repeat: no-repeat; }
+.ajax-loader-barra { background-image: Url("./img/Layout/ajax-loader-barra.gif"); background-repeat: no-repeat; }
+.divAparece { display: none; }
+.menuSuperior { background-image: Url("./img/Cadastro/Descricao/too1s2.png"); }
+.menuT.status.aguard { background-image: Url("./img/Cadastro/Descricao/fmm1.png"); }
+.voltarAbsolut { background-image: Url("./img/Cadastro/Descricao/f2.png"); }
+#mostra { background-image: Url("./img/Cadastro/Descricao/listaB1.png"); }
+#historicoB { background-image: Url("./img/Cadastro/Descricao/historicoB1.png"); }
+#historicoV { background-image: Url("./img/Cadastro/Descricao/historicoV1.png"); }
+#conf { background-image: Url("./img/Cadastro/Descricao/confB.png"); }
+#expand { background-image: Url("./img/Layout/ta1.png"); background-repeat: no-repeat; }
+#salvar, .salvarCli, .salvarGenerico, .icoSalvar, .beforeSalvarGenerico, .icoSalvarPedido { background-image: Url("./img/Cadastro/s.png"); background-repeat: no-repeat; background-position: center;}
+.cadRapidoProd { background-image: Url("./img/Cadastro/cadastro.png"); background-repeat: no-repeat; background-position: center;}
+#btSair, .sairCli, .sairGenerico, .icoSair, #dlgRelatorioMesa .sair, #dlgSuporte .sair, 
+#divConfigInicialSair, #divRelAnivContainer .sair, #dlgRelatorioVendasPorGarcom .sair, 
+.divContainerRelatoriosNovos .sair, #divRelMesaTopo .sair, #dlgContratarPlanos .btSair { background-image: Url("./img/Cadastro/sa.png"); background-repeat: no-repeat; background-position: center;}
+.menufor .icoForm #btEdGrid { background-image: Url("./img/Cadastro/ed_grid_icon.png"); background-repeat: no-repeat; background-position: center;}
+.generico.toolbar #btEdGrid { background-image: Url("./img/Cadastro/ed_grid_icon.png"); background-repeat: no-repeat; background-position: center;}
+#dlgPersonalizarCadastro #gridColunas #dots, .relatorioColunas .conteudoListTabela ol li {background-image: Url("./img/Cadastro/dots.png"); background-repeat: no-repeat; background-position: center;}
+.icoHelp { background-image: Url("./img/Layout/icoHelp.png"); background-repeat: no-repeat; background-position: center;}
+#btnremoverPedido, #dlgCancelarItemPedido .conteudoUlEsquerda .labelSilver p.add { background-image: Url("./img/Layout/reG.png"); background-repeat: no-repeat; background-position: center;}    
+.listaGarcomRemover, .conteudoUlDireita h6 span { background-image: Url("./img/Layout/reB.png"); background-repeat: no-repeat; background-position: center;}    
+.divContainerRelatoriosNovos .exportar, .icoForm .exportar { background-image: Url("./img/Layout/icoExcel.png"); background-repeat: no-repeat; background-position: center;}
+.divContainerRelatoriosNovos .imprimir { background-image: Url("./img/Layout/ico_imprimir.png"); background-repeat: no-repeat; background-position: center;}
+.icoArquivosImpressao { background-image: Url("./img/Layout/ico_imprimir.png"); }
+.icoEnviaCartaoFidelidade { background-image: Url("./img/Layout/SendMail.png"); }
+#removerPedido { background-image: Url("./img/Layout/reG.png"); }
+#removerPedido:hover, .btnRemove { background-image: Url("./img/Layout/reG.png");}
+.listaGarcomRemover:hover { background-image: Url("./img/Layout/reG.png");}
+#btnEditarPedido { background-image: Url("./img/Layout/editarPedido.png"); background-repeat: no-repeat;}
+#placeholder .personalizar.alterado { background-image: Url("./img/Layout/editarSabor.png");}
+#placeholder .personalizar { background-image: Url("./img/Layout/editarSaborOpaco.png");} 
+.botaoConfigCadastro { background-image: Url("./img/Layout/estorno.png"); background-repeat: no-repeat; background-position: center;}
+#backgroundproduto { background-image: Url("./img/Layout/f.png"); background-repeat: no-repeat;}
+#lupaAdiantamento { background-image: Url("./img/Layout/lupa12.png"); background-repeat: no-repeat;}
+#menorDlg { background-image: Url("./img/Layout/menorDlg.png"); background-repeat: no-repeat;}
+#maiorDlg { background-image: Url("./img/Layout/maiorDlg.png"); background-repeat: no-repeat;}
+#btNovo { background-image: Url("./img/Cadastro/n.png"); background-position: center;}
+.relatorios .teste { background-image: Url("./img/Cadastro/teste.png"); background-position: center;}
+#btNovoFast { background-image: Url("./img/Cadastro/ns.png"); background-position: center;}
+#btNovo.btNovoCartoes { background-image: Url("./img/Cadastro/Cartao.png"); background-position: center;}
+#btEdit, .btEdit { background-image: Url("./img/Cadastro/edi.png"); }
+.conteudoDir .configuracaoDicionario { background-image: Url("./img/Layout/imgdicionario.png"); background-position: center; background-repeat: no-repeat; }
+#btReset, .btReset { background-image: Url("./img/Cadastro/reset.png"); }
+.icoForm .btImportar { background-image: Url("./img/Cadastro/Importar.png"); background-repeat: no-repeat; }
+.icoForm .btTransfContas { background-image: Url("./img/Cadastro/trsf.png"); background-repeat: no-repeat; }
+.btLupa { background-image: Url("./img/Cadastro/lupa.png"); }
+.menufor p.excluirItens { background-image: Url("./img/Cadastro/e.png"); }
+.menufor p#bExcluir { background-image: Url("./img/Cadastro/e.png"); }
+#imgRelCartoesAdicionados { background-image: Url("./img/Layout/imgRemover.png"); }
+.tdTransfEntrada { background-image: Url("./img/Layout/SetaA-AbaixoVerde.png"); background-repeat: no-repeat; background-position-y: 9px; background-position-x: 5px; }
+.tdTransfSaida { background-image: Url("./img/Layout/SetaA-AcimaVermelha.png"); background-repeat: no-repeat; background-position-y: 8px; background-position-x: 5px; }
+#pgtMesa { background-image: Url("./img/Layout/MoneyPayment.png"); background-repeat: no-repeat;}
+#pgtMesa.pgtFechaConta { background-image: Url("./img/Layout/fecharPedido1.png"); background-repeat: no-repeat;}
+#btReservaTool { background-image: Url("./img/Layout/calendario.png"); background-repeat: no-repeat;}
+.btPrincipal { background-image: Url("./img/Layout/starB.png"); background-repeat: no-repeat;}
+.btPrincipal:hover { background-image: Url("./img/Layout/star2.png"); background-repeat: no-repeat;}
+#inpDisplayMesaPricipal { background-image: Url("./img/Layout/star2.png"); background-repeat: no-repeat;}
+#btDelivery { background-image: Url("./img/Layout/clienteP.png"); background-repeat: no-repeat;}
+#btSan { background-image: Url("./img/Layout/icoSangria.png"); background-repeat: no-repeat; background-position: center;}
+#observacaoGrupo .btnRemove { background-image: Url("./img/Layout/btR1.png"); background-repeat: no-repeat; background-position: center;}
+#btSup { background-image: Url("./img/Layout/suprimento.png"); background-repeat: no-repeat; background-position: center;}
+#nfce { background: Url("./img/Layout/nfce.png"); background-repeat: no-repeat; background-position: center;}
+.imgNfce { background: Url("./img/Layout/nfce.png"); background-repeat: no-repeat; background-position: center;}
+.infoCredenciadora { background: Url("./img/Layout/infoCredenciadora.png"); background-repeat: no-repeat; background-position: center;}
+.noInternet { background-image: Url("./img/Layout/no_internet.png");}
+.topoPlanos .vlGreen { background-image: Url("./img/planosWeb/precoGreen.png"); }
+.topoPlanos .vlBlue { background-image: Url("./img/planosWeb/back_blue.png"); font-weight: bold;}
+.topoPlanos .vlGreenBold { background-image: Url("./img/planosWeb/back_green_dark.png"); font-weight: bold;}
+/*#divPagSeguro #logoAppetito { background-image: Url("./img/planosWeb/logo.png"); }*/
+#divLoginEsquerda #divImgNovoLogo { background-image: Url("./img/planosWeb/logo.png"); }
+#divPagSeguro #linhaDir { background-image: Url("./img/planosWeb/separador.png"); }
+.menuLi #imgCr { background-image: Url("./img/planosWeb/ico_orange_car.png"); }
+#btAddUsuario #icoUser { background-image: Url("./img/planosWeb/ico_wuser.png"); }
+#btAddHour #icoHora { background-image: Url("./img/planosWeb/ico_clock.png"); }
+#btConfirma #icoOk { background-image: Url("./img/planosWeb/ico_ok.png"); }
+#divImgDispositivos { background-image: Url("./img/Layout/Dispositivos.jpg");}
+.logoDisp { background-image: Url("./img/Layout/img_dispo.png");}
+#logoChrome { background-image: Url("./img/Layout/img_chrome.png");}
+#opcoesUsuario #bar { background-image: Url("./img/TelaInicial/hover_vert_bar.png");}
+#divConfigLogin #btUser { background-image: Url("./img/TelaInicial/ico_user.png");}
+#divConfigLogin #btConf { background-image: Url("./img/TelaInicial/ico_wheel.png");}
+#divConfigLogin #separador { background-image: Url("./img/TelaInicial/separator.png");}
+#dlgOpcoesUsuario #setaUser { background-image: Url("./img/TelaInicial/arrow_head.png");}
+#opcoesConfig #setaUser { background-image: Url("./img/TelaInicial/arrow_head.png");}
+#opcoesConfig #bar { background-image: Url("./img/TelaInicial/hover_vert_bar.png");}
+#opcoesConfig .bar { background-image: Url("./img/TelaInicial/hover_vert_bar.png");}
+.fimColuna { background-image: Url("./img/TelaInicial/collumn_foot.png");}
+#icoShop { background-image: Url("./img/TelaInicial/ico_shop.png");}
+#funcIndisponivel #imgFone { background-image: Url("./img/Login/ico_phone.png"); background-repeat: no-repeat;}
+#rodapeDir #icoFone { background-image: Url("./img/Login/ico_phone.png"); background-repeat: no-repeat;}
+#rodapeDir #icoEmail { background-image: Url("./img/Login/ico_email.png"); background-repeat: no-repeat;}
+#rodapeDir #icoChat { background-image: Url("./img/Login/ico_chat.png"); background-repeat: no-repeat;}
+#divEmitirNFe { background-image: Url("./img/Layout/NotaFiscal.png"); background-repeat: no-repeat; background-position: center;}
+#divReimprimirNFe { background-image: Url("./img/Layout/NotaFiscal-Reimpressao.png"); background-repeat: no-repeat; background-position: center;}
+#divEnviarEmailNFe { background-image: Url("./img/Layout/NotaFiscal-Email.png"); background-repeat: no-repeat; background-position: center;}
+#btPesq, #btPesqMovimentoEstoque, #contInformacoesDelivery .icone, #divSeletorTourConteudo .icone, #divProdutos .icone, #acessoToobar .icone, #divSaborPizza .icone { background-image: Url("./img/Layout/lupa12.png"); background-repeat: no-repeat; background-position: center;}
+.divEditor_DeliveryGenerica .iconePesquisa { background-image: Url("./img/Layout/lupa13.png"); background-repeat: no-repeat; background-position: center;}
+.divEditorGenerica .iconePesquisa { background-image: Url("./img/Layout/lupa13.png"); background-repeat: no-repeat; background-position: right; cursor:pointer;}
+#divEditor .iconePesquisa { background-image: Url("./img/Layout/lupa13.png"); background-repeat: no-repeat; background-position: right; cursor:pointer;}
+.alterarProduto .iconePesquisa { background-image: Url("./img/Layout/lupa13.png"); background-repeat: no-repeat; background-position: right; cursor:pointer;}
+#divEdicaoPedido #divGrupoPai .divMenuClienteInativo { background:Url("./img/Layout/favoritos_cliente_off.png") left no-repeat; background-size: 35px; background-position:3px;}
+#divEdicaoPedido #divGrupoPai .divMenuClienteAtivo { background:Url("./img/Layout/favoritos_cliente.png") left no-repeat; background-size: 35px; background-position:3px;}
+#divEdicaoPedido #divGrupoPai #divMenuClienteLabel { background:Url("./img/Layout/SetaParaBaixo.png") left no-repeat;}
+.btCaixaDiario { background-image: Url("./img/Layout/dia.png"); background-repeat: no-repeat; background-position: center; float: right !important;}
+.btResumoCaixa { background-image: Url("./img/Layout/cai.png"); background-repeat: no-repeat; background-position: center; float: right !important;}
+.btRelatorioAnalitico { background-image: Url("./img/Layout/ana.png"); background-repeat: no-repeat; background-position: center; float: right;}
+.btRelatorioFaturamento { background-image: Url("./img/Layout/faturamento.png"); background-repeat: no-repeat; background-position: center; float: right;margin-left: 130px !important;}
+.btRelatorioSintetico { background-image: Url("./img/Layout/sin.png"); background-repeat: no-repeat; background-position: center; float: right;}
+#appetito  { background-image: Url("./img/Layout/logo2.png"); background-repeat: no-repeat; background-position: center;}
+.ImgDelivery { background-image: Url("./img/Layout/d.png"); background-repeat: no-repeat; background-position: center;}
+.ImgBalcao { background-image: Url("./img/Layout/b.png"); background-repeat: no-repeat; background-position: center;}
+.ImgBalcaoCartao { background-image: Url("./img/Layout/c.png"); background-repeat: no-repeat; background-position: center;}
+.ImgBalcaoDelivery { background-image: Url("./img/Layout/balcao_delivery.png"); background-repeat: no-repeat; background-position: center;}
+/*.ImgCartao { background-image: Url("./img/Layout/Pedidocartao.png"); background-repeat: no-repeat; background-position: center;}*/
+.ImgCartao { background-image: Url("./img/Layout/pedidoComandas.png"); background-repeat: no-repeat; background-position: center;}
+.ImgAutoFicha { background-image: Url("./img/Layout/ImgAutoFicha.png"); background-repeat: no-repeat; background-position: center;}
+.ImgMesas { background-image: Url("./img/Layout/m.png"); background-repeat: no-repeat; background-position: center;}
+.ImgCartoes { background-image: Url("./img/Layout/cartoes.png"); background-repeat: no-repeat; background-position: center;}
+.ImgPedido { background-image: Url("./img/Layout/pedido.png"); background-repeat: no-repeat; background-position: center;}
+.ImgEntrega { background-image: Url("./img/Layout/entrega.png"); background-repeat: no-repeat; background-position: center;}
+.ImgCliente { background-image: Url("./img/Layout/cliente.png"); background-repeat: no-repeat; background-position: center;}
+.ImgFechamento { background-image: Url("./img/Layout/ClienteCartao.png"); background-repeat: no-repeat; background-position: center;}
+#logoRestaurante { background-image: Url("../logo/logo.png"); }
+#logoMogo { background-image: Url("../logo/Mogo.png"); }
+.relatorioMesa, .relatorioCartao { background-image: Url("./img/Layout/Caixadiario.png"); }
+.pagamentoTotal { background-image: Url("./img/Layout/pagamentoTotal2.png"); background-repeat: no-repeat }
+.conteudoUlDireita ul.cont { background-image: Url("./img/Layout/exA.png"); }
+.icoForm .voltarList { background-image: Url("./img/Cadastro/voltar.png"); background-repeat: no-repeat; background-position: center;}
+#dlgRelatorioMesa .menuRel { background-image: Url("./img/Layout/Menu.png"); background-repeat: no-repeat; background-position: center;}
+#dlgRelatorioMesa .imprimir, #divRelMesaTopo .imprimir, .menufor.Ingressos .imprimir { background-image: Url("./img/Layout/ico_imprimir.png"); background-repeat: no-repeat; background-position: center;}
+#dlgRelatorioMesa .detalhes { background-image: Url("./img/Layout/ico_detalhes.png"); background-repeat: no-repeat; background-position: center;}
+#tbody .tdProduto { background-image: Url("./img/Layout/editarPedidoOpaco.png"); background-repeat: no-repeat; background-position: right;}
+#tbody .tdProduto.img { background-image: Url("./img/Layout/editarPedido.png"); background-repeat: no-repeat; background-position: right; background-position-y: 0px; }
+#backgroundPedido .ctP .ico .pz2 { background-image: Url("./img/Layout/sabores2.png"); background-repeat: no-repeat; background-position: left;}
+#backgroundPedido .ctP .ico .pz3 { background-image: Url("./img/Layout/sabores3.png"); background-repeat: no-repeat; background-position: left;}
+#backgroundPedido .ctP .ico .pz4 { background-image: Url("./img/Layout/sabores4.png"); background-repeat: no-repeat; background-position: left;}
+#backgroundPedido .ctP .ico .pz5 { background-image: Url("./img/Layout/sabores5.png"); background-repeat: no-repeat; background-position: left;}
+.montagem .pizza { background-image: Url("./img/Layout/borda.png"); background-repeat: no-repeat; }
+.montagem .editarPizza .icoEditar { background-image: Url("./img/Layout/maisAdd6.png"); background-repeat: no-repeat; }
+.ImgEntrega.entregaAlerta { background-image: Url("./img/Layout/entregaAlerta.png"); background-repeat: no-repeat; }
+.setaSlotMenu.fechaB { background-image: Url("./img/Layout/fechaB.png"); background-repeat: no-repeat; }
+.divUsuarioSemAcesso { background: Url("./img/Layout/AcessoNegado.png") 40px 30px no-repeat; }
+#funcIndisponivel #imgCarrinho { background-image: Url("./img/Layout/flag_shop.png"); background-repeat: no-repeat; }
+#funcIndisponivel #logoRodape { background-image: Url("./img/Login/imagem_rodape.png");}
+#dlgSuporte #divSuporteLogo { background: Url("./img/Layout/Mogo.png") 128px 115px no-repeat; background-position:center; }
+#dlgSuporte .pVerNoMapa { background: Url("./img/Layout/mapa.png") 128px 115px no-repeat; background-position:left; }
+#divCadastroView .icoBalanca { background: Url("./img/Layout/icoBalanca.png"); background-repeat: no-repeat; background-position:center; }
+#divCadastroView .icoIntegraPgt { background: Url("./img/Layout/integrapgt.png"); background-repeat: no-repeat; background-position:center; }
+#divBalancaPreLeitura .imgPesoValor { background: Url("./img/Layout/Switchbtn.png"); cursor:pointer; }
+#divCadastroView .icoFoneLinha1 { background: Url("./img/Layout/FoneLinha1.png"); background-repeat: no-repeat; background-position:center; }
+#divCadastroView .icoFoneLinha2 { background: Url("./img/Layout/FoneLinha2.png"); background-repeat: no-repeat; background-position:center; }
+#divCadastroView .icoFoneLendo { background: Url("./img/Layout/FoneLinhaOcupada.gif"); background-repeat: no-repeat; background-position:center; }
+#divCadRapidoRegiao #divRegiaoInfoIcon { background: Url("./img/Layout/Dica.png") no-repeat; background-position:center; background-size: 57px; }
+#ListaEdicaoAdicionaisGrupo #btnAddAdicional { background: Url("./img/Layout/mais.png") no-repeat; background-position:center; background-size: 22px; }
+.divEditor_DeliveryGenerica #LogradouroEntrega, .divEditor_DeliveryGenerica #BairroEntrega { background: Url("./img/Layout/AutoCompleteInputVerticalPesq.png") no-repeat; background-position:left; }
+#divOpcoesBuscaLogradouro .divOpcoesBuscaItem { background: Url("./img/Layout/Checado3Orange.png") no-repeat; background-position:5px 13px; background-size: 16px; }
+#divOpcoesBuscaLogradouro #divOpcoes input:focus { background: Url("./img/Layout/Checado2.png") no-repeat !important; background-position:5px 13px !important; background-size: 16px !important; }
+#acessoToobar .btnAdiciona { background: Url("./img/Layout/mais.png") no-repeat; }
+.divEditor_DeliveryGenerica #divLimparClienteDelivery { background: Url("./img/Layout/Limpar.png") 3px no-repeat; }
+#dlgLoading #divImgCarregador { background: Url("./img/Layout/carregador.gif") center no-repeat; }
+.divDialogContainer .divDialogFechar { background: Url("./img/Cadastro/sa.png") center no-repeat; }
+.divDialogContainer .divDialogFechar:Hover { background: Url("./img/Cadastro/saHover.png") center no-repeat; }
+.icoTriste {background-image: Url("./img/Layout/icoTriste.png");}
+#imgUsoNaoAutorizado { background-image: Url("./img/Licenca/imgUsoNaoAutorizado.png");}
+.pDataHoraFavoritosCliente { background: Url("./img/Layout/Clock.png") left no-repeat; }
+#divFavoritosCliente { background: Url("./img/Layout/HistoricoCliente.png") center no-repeat; }
+.btnAddGenerico { background: Url("./img/Layout/Adicionar.png") top left no-repeat; }
+.btnEditarGenerico { background: Url("./img/Layout/editarPedido.png") top left no-repeat; }
+#divEmissaoNFCeTopo .sair { background-image: Url("./img/Cadastro/sa.png"); background-repeat: no-repeat; background-position: center;}
+.tabEmissaoNFCe .tdNFCeAguardando { background-image: Url("./img/Layout/Checado3Orange.png"); }
+.tabEmissaoNFCe .tdNFCeProcessando { background-image: Url("./img/Layout/ajax-loader.gif"); }
+.tabEmissaoNFCe .tdNFCeSucesso { background-image: Url("./img/Layout/Checado2.png"); }
+.tabEmissaoNFCe .tdNFCeErro { background-image: Url("./img/Layout/x.png"); }
+#tabEmissaoNFCeCliente #tdEmissaoNFCeCliente { background-image: Url("./img/Layout/PersonBlack.png"); }
+#tabEmissaoNFCeCliente #tdEmissaoNFCeStatusSefaz.tdServidorSefaz { background-image: Url("./img/Layout/BallGrey.png"); }
+#tabEmissaoNFCeCliente #tdEmissaoNFCeStatusSefaz.tdServidorSefazConsultando { background-image: Url("./img/Layout/loading5.gif"); }
+#tabEmissaoNFCeCliente #tdEmissaoNFCeStatusSefaz.tdServidorSefazAtivo { background-image: Url("./img/Layout/BallGreen.png"); }
+#tabEmissaoNFCeCliente #tdEmissaoNFCeStatusSefaz.tdServidorSefazInativo { background-image: Url("./img/Layout/BallRed.png"); }
+.btnEmissaoNFCe { background-repeat: no-repeat; background-size: 18px; background-position: 5px; padding-left: 28px; }
+#btnEmissaoNFCeIniciar { background-image: Url("./img/Layout/StartBlack.png"); }
+#btnEmissaoNFCeRepetir { background-image: Url("./img/Layout/atualizar.png"); }
+#btnEmissaoNFCeCancelar { background-image: Url("./img/Layout/CancelBlack.png"); }
+#btnEmissaoNFCeCancelarNota { background-image: Url("./img/Layout/DeleteBlack.png"); }
+#btnEmissaoNFCeEncerrar { background-image: Url("./img/Layout/SairBlack.png"); }
+#btnEmissaoNFCeImprimir { background-image: Url("./img/Layout/PrintBlack.png"); }
+#btnEmissaoNFCeParar { background-image: Url("./img/Layout/StopBlack.png"); }
+.gear_icon { background-image: Url("./img/Layout/gear_icon.png") !important;}
+#btnConfirmaNFCeCancelada { background-image: Url("./img/Layout/ConfirmBlack.png"); }
+#btnCancelaNFCeCancelada { background-image: Url("./img/Layout/SairBlack.png"); }
+#divNFCeCancelada #pDescNFCeCancelada { background-image: Url("./img/Layout/CancelBlack.png"); }
+.conteudoDir .inutLoteNumNFCe { background-image: Url("./img/Layout/Sequencia.png"); }
+#divAlterPlano #ico_fone { background-image: Url("./img/Login/ico_phone.png"); background-repeat: no-repeat;}
+#divSuporteTecnico .divSupConteudoContainer.divSupCarregando { background-image: Url("./img/Layout/transparentP.gif"); background-position: center; background-repeat: no-repeat; }
+#divSuporteTecnico #divSuporteAba { background-image: Url("./img/Layout/Atendimento.png"); background-position: 5px 4px; background-repeat: no-repeat; }
+.divBackupBanco .divBackupAba { background-image: Url("./img/Layout/icobkp.png"); background-position: 5px 4px; background-repeat: no-repeat; }
+#divSuporteTecnico .pDescFoneSuporte { background-image: Url("./img/Layout/Clock.png"); background-size:15px; background-repeat: no-repeat; }
+#divSuporteTecnico .liSuporteEmail { background-image: Url("./img/Layout/SuporteEmail.png"); }
+#divSuporteTecnico .liSuporteFacebook { background-image: Url("./img/Layout/SuporteFacebook.png"); }
+#divSuporteTecnico .liSuporteFax { background-image: Url("./img/Layout/SuporteFax.png"); }
+#divSuporteTecnico .liSuporteGooglePlus { background-image: Url("./img/Layout/SuporteGooglePlus.png"); }
+#divSuporteTecnico .liSuporteHangouts { background-image: Url("./img/Layout/SuporteHangouts.png"); }
+#divSuporteTecnico .liSuporteSite { background-image: Url("./img/Layout/SuporteSite.png"); }
+#divSuporteTecnico .liSuporteSkype { background-image: Url("./img/Layout/SuporteSkype.png"); }
+#divSuporteTecnico .liSuporteTwitter { background-image: Url("./img/Layout/SuporteTwitter.png"); }
+#divSuporteTecnico .liSuporteWhatsApp { background-image: Url("./img/Layout/SuporteWhatsApp.png"); }
+#divSeletorTour #divSeletorTourAba { background-image: Url("./img/Layout/TutorialSistema.png"); }
+#divSeletorTour #divIcoConfigTour { background-image: Url("./img/Layout/AlvoQuadrado.png"); }
+.divContemTour { background-image: Url("./img/Layout/ContemTour.gif"); }
+#divSetaTour.divTourSetaAbaixo { background: Url("./img/Layout/Tour-SetaAbaixo.png"); }
+#divSetaTour.divTourSetaAcima { background: Url("./img/Layout/Tour-SetaAcima.png"); }
+#divSetaTour.divTourSetaDireita { background: Url("./img/Layout/Tour-SetaDireita.png"); }
+#divSetaTour.divTourSetaEsquerda { background: Url("./img/Layout/Tour-SetaEsquerda.png"); }
+#divTourFechar { background: Url("./img/Layout/TourFechar.png"); }
+#divTourTitulo #btnSetaTituloTour { background: Url("./img/Layout/SetaAbaixoVermelha.png"); }
+#divTourLink { background: Url("./img/Layout/ExternalLink.png"); }
+#divTecladoMogo #divOpcoesTeclado { background-image: Url("./img/Layout/menuHamburger.png"); }
+#divTecladoMogo[cor="preto"] #divOpcoesTeclado { background-image: Url("./img/Layout/menuHamburger_Invertido.png"); }
+#submenuTecladoMogo li.liOpcaoTecladoSel { background-image: Url("./img/Layout/Checado2.png"); }
+#divTecladoMogo #divAuxTecladoMogo #divFecharTeclado { background-image: Url("./img/Layout/sairCli.png"); background-repeat: no-repeat; background-position-y: 2px; }
+.tecladoVirtual { background-image: Url("./img/Layout/GenericKeyboard.png");}
+.baixar { background-image: Url("./img/Layout/baixarIcone.png"); background-repeat: no-repeat; width:27px; height:27px; float:left;}
+.baixarArquivoXml { background-image: Url("./img/Layout/baixarArquivoXml.png"); background-repeat: no-repeat; width:27px; height:27px; float:left;}
+
+.icoBtnValidarXML { background-image: Url("./img/Layout/minicon_check.png"); background-repeat: no-repeat; width:15px; height:15px;}
+.ajaxLoader { background-image: Url("./img/Layout/ajaxLoader.gif"); background-repeat: no-repeat;}
+.icoEnviarEmailNFCe { background-image: Url("./img/Layout/ico_mailfisc.png"); background-repeat: no-repeat; width:15px; height:15px;}
+.divContemTour.gifTour { background-image: Url("./img/Layout/ContemTour.gif"); }
+.toast-item-image-notice { background:url(./images/notice.png); }
+.toast-item-image-success { background:url(./images/success.png); }
+.toast-item-image-warning { background:url(./images/warning.png); }
+.toast-item-image-error { background:url(./images/error.png); }
+.toast-item-close { background: url(./images/close.gif); }
+
+.planoAppetito.online10 {background-image: Url("./img/Planos/light_smart.png") !important; background-repeat: no-repeat; background-position: center;}
+.planoAppetito.online20 {background-image: Url("./img/Planos/starter_smart.png") !important; background-repeat: no-repeat; background-position: center;}
+.planoAppetito.online30 {background-image: Url("./img/Planos/max_smart.png") !important; background-repeat: no-repeat; background-position: center;}
+.planoAppetito.online40 {background-image: Url("./img/Planos/premium_smart.png") !important; background-repeat: no-repeat; background-position: center;}
+.planoAppetito.online50 {background-image: Url("./img/Planos/ultimate_smart.png") !important; background-repeat: no-repeat; background-position: center;}
+.planoAppetito.desk10 {background-image: Url("./img/Planos/light_desk.png") !important; background-repeat: no-repeat; background-position: center;}
+.planoAppetito.desk20 {background-image: Url("./img/Planos/starter_desk.png") !important; background-repeat: no-repeat; background-position: center;}
+.planoAppetito.desk30 {background-image: Url("./img/Planos/max_desk.png") !important; background-repeat: no-repeat; background-position: center;}
+.planoAppetito.desk40 {background-image: Url("./img/Planos/premium_desk.png") !important; background-repeat: no-repeat; background-position: center;}
+.planoAppetito.desk50 {background-image: Url("./img/Planos/ultimate_desk.png") !important; background-repeat: no-repeat; background-position: center;}
+
+#pagDireita .online10 {background-image: Url("./img/planosWeb/logo_online_detail_light.png") !important; background-repeat: no-repeat; background-position: center;}
+#pagDireita .online20 {background-image: Url("./img/planosWeb/logo_online_detail_star.png") !important; background-repeat: no-repeat; background-position: center;}
+#pagDireita .online30 {background-image: Url("./img/planosWeb/logo_online_detail_max.png") !important; background-repeat: no-repeat; background-position: center;}
+#pagDireita .online40 {background-image: Url("./img/planosWeb/logo_online_detail_prem.png") !important; background-repeat: no-repeat; background-position: center;}
+#pagDireita .online50 {background-image: Url("./img/planosWeb/logo_online_detail_ult.png") !important; background-repeat: no-repeat; background-position: center;}
+#pagDireita .desk20 {background-image: Url("./img/planosWeb/logo_desk_detail_star.png") !important; background-repeat: no-repeat; background-position: center;}
+#pagDireita .desk30 {background-image: Url("./img/planosWeb/logo_desk_detail_max.png") !important; background-repeat: no-repeat; background-position: center;}
+#pagDireita .desk40 {background-image: Url("./img/planosWeb/logo_desk_detail_prem.png") !important; background-repeat: no-repeat; background-position: center;}
+#pagDireita .desk50 {background-image: Url("./img/planosWeb/logo_desk_detail_ult.png") !important; background-repeat: no-repeat; background-position: center;}
+
+#divSuporteTecnicoOnline .divSupConteudoContainer.divSupCarregando { background-image: Url("./img/Layout/transparentP.gif"); background-position: center; background-repeat: no-repeat; }
+#divSuporteTecnicoOnline #divSuporteAba { background-image: Url("./img/Layout/Atendimento.png"); background-position: 5px 4px; background-repeat: no-repeat; }
+#divSuporteTecnicoOnline .pDescFoneSuporte { background-image: Url("./img/Layout/Clock.png"); background-size:15px; background-repeat: no-repeat; }
+#divSuporteTecnicoOnline .liSuporteEmail { background-image: Url("./img/Layout/SuporteEmail.png"); }
+#divSuporteTecnicoOnline .liSuporteFacebook { background-image: Url("./img/Layout/SuporteFacebook.png"); }
+#divSuporteTecnicoOnline .liSuporteFax { background-image: Url("./img/Layout/SuporteFax.png"); }
+#divSuporteTecnicoOnline .liSuporteGooglePlus { background-image: Url("./img/Layout/SuporteGooglePlus.png"); }
+#divSuporteTecnicoOnline .liSuporteHangouts { background-image: Url("./img/Layout/SuporteHangouts.png"); }
+#divSuporteTecnicoOnline .liSuporteSite { background-image: Url("./img/Layout/SuporteSite.png"); }
+#divSuporteTecnicoOnline .liSuporteSkype { background-image: Url("./img/Layout/SuporteSkype.png"); }
+#divSuporteTecnicoOnline .liSuporteTwitter { background-image: Url("./img/Layout/SuporteTwitter.png"); }
+#divSuporteTecnicoOnline .liSuporteWhatsApp { background-image: Url("./img/Layout/SuporteWhatsApp.png"); }
+
+#divTipoProduto .imgComposicaoProduto { background-image: Url("./img/Cadastro/seleciona_comp.png"); }
+#divTipoProduto .imgVendaProduto { background-image: Url("./img/Cadastro/seleciona_vendas.png"); }
+
+.notifyInstalarAtualizacao #ldBar { background-image: Url("./images/loading-bar.gif"); }
+
+#appetito .logoMogoAppetito { background-image: Url("./img/Appetito/logoTop.png") !important; background-repeat: no-repeat;}
+#appetito .tudo .planoAppetito.appetitoCenter {background-image: Url("./img/Appetito/logoCenter.png") !important; background-repeat: no-repeat; background-position: center;}
+
+#dlgRelatorioGenerico .receipt {
+    background-image: url('img/Cadastro/receipt.png');
+}
+
+#divSuporteTecnicoOnline #abaSuporteOnline #iconSuporte { background-image: Url("./img/planosWeb/talk2us.png"); }
+#divCadastro .btImportarXML{background-image: url("./img/Layout/carregarArquivoXml.png")}
+/*.ex_comp_card{background-image: url("./img/Layout/ex_comp_card.png"); background-position: center; background-repeat: no-repeat;}*/
+.exemploProtocoloAut{background-image: url("./img/Layout/exemploProtocoloAut.png"); background-position: center; background-repeat: no-repeat;}
+.conf_geral{background-image: url("./img/Layout/conf_geral.png"); background-position: center; background-repeat: no-repeat;}
+
+#divCadastro .scale_txt_down {
+    background-image: url("./img/Layout/scale_txt_down.png");
+    background-repeat: no-repeat;
+    zoom: 0.9;
+    margin-top: 11px;
+}
+
+.excel_icon {
+    background-image: url('img/Cadastro/Microsoft Excel.png') !important;
+    zoom: 6%;
+    width: 300px !important;
+    height: 300px !important;
+}
+
+
+
+
+/*já tem ma referência para a classe em Componentes.css*/
+/*.genericSearch{background-image: Url("./img/Layout/lupa12.png"); background-repeat: no-repeat;}*/
