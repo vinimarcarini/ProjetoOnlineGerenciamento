@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{984CB356-B992-441E-BF81-A36D1B30ADD0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjetoModeloDDD.Domain</RootNamespace>
+    <AssemblyName>ProjetoModeloDDD.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Auxiliar\ClasseModelo.cs" />
+    <Compile Include="Auxiliar\ClasseModeloEstabelecimento.cs" />
+    <Compile Include="Auxiliar\ClasseModeloJsonConvert.cs" />
+    <Compile Include="Auxiliar\ICustomPrincipal.cs" />
+    <Compile Include="Auxiliar\IEstabelecimento.cs" />
+    <Compile Include="Auxiliar\MetodosAuxiliares.cs" />
+    <Compile Include="Auxiliar\SaveCollectionDefault.cs" />
+    <Compile Include="DAO\Auxiliar\ClasseModeloDAO.cs" />
+    <Compile Include="DAO\Auxiliar\CustomClasseModelo.cs" />
+    <Compile Include="DAO\Auxiliar\DaoStarter.cs" />
+    <Compile Include="DAO\Auxiliar\RecordMediator.cs" />
+    <Compile Include="DAO\Entities\AcessoUsuarioDAO.cs" />
+    <Compile Include="DAO\Entities\EmpresaDAO.cs" />
+    <Compile Include="DAO\Entities\EstabelecimentoDAO.cs" />
+    <Compile Include="Entities\AcessoItem.cs" />
+    <Compile Include="Entities\AcessoItensUsuario.cs" />
+    <Compile Include="Entities\AcessoPermissao.cs" />
+    <Compile Include="Entities\AcessoUsuario.cs" />
+    <Compile Include="Entities\Bairro.cs" />
+    <Compile Include="Entities\Cidade.cs" />
+    <Compile Include="Entities\Empresa.cs" />
+    <Compile Include="Entities\Estabelecimento.cs" />
+    <Compile Include="Entities\LogErros.cs" />
+    <Compile Include="Entities\Pais.cs" />
+    <Compile Include="Entities\TipoUsuarioAcesso.cs" />
+    <Compile Include="Entities\UFCidade.cs" />
+    <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="Entities\UsuarioEstabelecimento.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Castle.ActiveRecord">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\Castle.ActiveRecord.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Iesi.Collections.4.0.0.4000\lib\net40\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlBackup">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\MySqlBackup.dll</HintPath>
+    </Reference>
+    <Reference Include="NCalc">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\NCalc.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NFe.Components.Info">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\NFe.Components.Info.dll</HintPath>
+    </Reference>
+    <Reference Include="NFe.Components.XmlSerializers">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\NFe.Components.XmlSerializers.dll</HintPath>
+    </Reference>
+    <Reference Include="NFe.ConvertTxt">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\NFe.ConvertTxt.dll</HintPath>
+    </Reference>
+    <Reference Include="NFe_Util_2G">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\NFe_Util_2G.dll</HintPath>
+    </Reference>
+    <Reference Include="NFSe.Components">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\NFSe.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\NHibernate.4.0.0.4000\lib\net40\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.Castle">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\NHibernate.ByteCode.Castle.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.LinFu">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\NHibernate.ByteCode.LinFu.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Search">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\NHibernate.Search.dll</HintPath>
+    </Reference>
+    <Reference Include="PerpetuumSoft.Knockout">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\PerpetuumSoft.Knockout.dll</HintPath>
+    </Reference>
+    <Reference Include="Reports">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\Reports.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLAzureMWBatchBackup">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\SQLAzureMWBatchBackup.exe</HintPath>
+    </Reference>
+    <Reference Include="SQLAzureMWUtils">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\SQLAzureMWUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Http.Cors">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="Uol.PagSeguro">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\Uol.PagSeguro.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing">
+      <HintPath>..\..\..\..\..\..\..\..\GerenciamentoOnline\gerenciamentoonline\GerenciamentoOnline\dll\zxing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

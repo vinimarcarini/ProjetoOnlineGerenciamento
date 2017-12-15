@@ -1,0 +1,1042 @@
+﻿.divContainerRelatoriosNovos #divDownloadXmlRelatorioGenerico {
+    border: 1px solid rgba(242, 242, 242, 0);
+    height: 40px;
+    margin-left: 49px;
+    margin-top: 4px;
+    position: absolute;
+    width: 45px;
+    z-index: 50;
+}
+
+.divContainerRelatoriosNovos #divDownloadXmlRelatorioGenerico:hover{
+    border:1px solid #ccc; 
+    cursor:pointer; 
+}
+
+#relatorioContasReceber
+{
+    border: 1px solid silver;
+    float: left;
+    bottom: 0;
+    position: absolute;
+    top: 0;
+}
+
+#relatorioContasReceber .relatorioUl li *
+{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 25px;
+    float: left;
+    padding-left: 5px;
+    border-right: 1px solid silver;
+    height: 25px;
+}
+
+#relatorioContasReceber .relatorioUl li h1
+{
+    width: 195px;
+}
+
+#relatorioContasReceber .relatorioUl li h2
+{
+    width: 264px;
+}
+
+#relatorioContasReceber .relatorioUl li h3
+{
+    width: 115px;
+}
+
+#relatorioContasReceber .relatorioUl li h4
+{
+    width: 110px;
+}
+
+#relatorioContasReceber .relatorioUl li h5
+{
+    width: 110px;
+}
+
+#relatorioContasReceber .relatorioUl li h6
+{
+    width: 126px;
+}
+
+.relatorioUl.tool h6 {
+    width: 143px !important;
+}
+
+#relatorioContasReceber .relatorioUl.conteudo li h4
+{
+    /*
+
+    tive que comentar por que estava conflitando no relatório de vendas de produto
+    tem que ser mais especifico se for utilizar. andre 02/08/2013
+
+    width: 355px;
+    */
+}
+
+
+.relatorioUl.tool
+{
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#D5D5D5)) repeat-X;
+    background: -moz-linear-gradient(top, #fff, #D5D5D5) repeat-X;
+    border-top:1px solid #ccc;
+    float: left;
+}
+
+.relatorioUl.conteudo li.odd
+{
+    background-color: #f2f2f2;
+    float: left;
+    border-top-width: 1px;
+    /*border-top-style: solid;*/
+    border-top-color: silver;
+}
+
+/*
+#relatorioContasReceber li:last-child, .relatorioUl.conteudo li:nth-last-child(3) { border-bottom: 1px solid silver; }
+#relatorioContasReceber .totalRelatorio li:nth-last-child(3), #relatorioContasReceber .totalRelatorioResumo li:nth-last-child(3) 
+{
+    border-bottom:none;
+}
+*/
+#relatorioUlCont .liUltimoItem, 
+#relatorioUlCont .totalRelatorio ul li:last-child,
+#relatorioUlCont .totalRelatorioResumo ul li:last-child { border-bottom:1px solid silver; }
+
+.relatorioUl.conteudo li
+{
+    /*border-bottom: 1px solid silver;*/
+    float: left;
+}
+.relatorioUl.conteudo li:hover { background-color:#ddebba; }
+
+.relatorioUl.conteudo
+{
+    position: absolute;
+    bottom: 20px;
+    top: 106;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    /*height: 455px;*/
+}
+
+
+#relatorioContasReceber #contFiltro
+{
+    float: left;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#contFiltro a 
+{
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: rgb(109, 102, 102);
+    text-decoration: none;
+}
+
+.totalRelatorio, .totalRelatorioResumo
+{
+    width: 100%;
+    float: left;    
+}
+
+.totalRelatorio p, .totalRelatorioResumo p
+{
+    font-size: 15px;
+    color: rgb(10, 21, 143);
+    float: left;
+    padding: 15px 5px;
+    font-weight: bolder;
+    
+}
+.totalRelatorioResumo { margin-bottom:30px; }
+
+/*.totalRelatorio li, .totalRelatorioResumo li
+{
+    width: 100%;
+        
+}*/
+
+.totalRelatorio li h2, .totalRelatorioResumo li h2
+{
+    border: 0px !important;
+}
+
+
+.totalRelatorioResumo ul li:first-child
+{
+    border-top: 1px solid silver;    
+}
+
+.totalRelatorioResumo ul li
+{
+    border-top: 1px solid silver;    
+}
+
+.totalRelatorio ul li h2, .totalRelatorioResumo ul li h2 
+{
+    width: 745px !important;
+    border-right: 1px solid silver !important; 
+}
+
+#divParmRelatorio, #divRelatorioResultado
+{
+    position: relative;
+    background-color: #F7F7F7;
+    border-radius: 7px;
+}
+
+/*combobox filtro por tipo e por descricao*/
+
+.divPesqTipo, .divPesqDescricao 
+{
+    float: left;
+}
+
+#relatorioContasReceber .ui-combobox-input 
+{
+    height: 28px;
+}
+
+#relatorioContasReceber .ui-combobox-toggle 
+{
+    background: #f2f2f2;
+    height: 18px;
+    width: 20px;
+    border-radius: 0px;
+    top: 1px;
+}
+
+#relatorioContasReceber label 
+{
+    line-height: 28px;
+}
+
+#relatorioContasReceber .datepicker {
+    height: 28px;
+    border-radius: 0px;
+}
+
+.relatorioUl.conteudo .total {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-shadow: 2px 2px 2px silver;
+    color: gray;
+}
+
+#relatorioContasReceber .conteudoRelatorio 
+{
+    border-top: 1px solid silver;
+    float: left;    
+}
+
+.totalRelatorio ul li:first
+{
+    border-top-width: 1px; border-top-style: solid; border-top-color: silver;
+}
+
+#selAgrupamento 
+{
+    position:absolute; 
+    left:100px; 
+    top:13px; 
+    width:153px;
+}
+
+#relatorioCancelados #contFiltro label 
+{
+    position:absolute; 
+    top:18px;
+}
+
+#divCalendario 
+{
+    /*
+    comentei por que estava conflitando no relatorio de vendas de produto. andre 02/08/2013
+
+    position:absolute;
+    top:0;
+    left:-77px;
+    */
+}
+
+#relatorioTiposDeVenda #divCalendario { left:-359px; }
+#relatorioTiposDeVenda #divAtualizar { position:absolute; right:0; top:8px !important; }
+
+#relatorioTiposDeVenda #divCalendario .de 
+{
+    position:absolute; 
+    left:0; 
+    /*top:28px;*/
+}
+#divCalendario .de {
+    position:absolute; 
+    left:276px; 
+    top:18px;
+}
+
+#relatorioTiposDeVenda #divCalendario .ate 
+{
+    position:absolute; 
+    left:150px; 
+    /*top:28px;*/
+}
+#divCalendario .ate 
+{
+    position:absolute; 
+    left:422px; 
+    top:18px;
+}
+
+#relatorioTiposDeVenda #divCalendario #relatorioDataDe
+{
+    position:absolute; 
+    left:30px; 
+    /*top:22px;*/
+    height:28px; 
+    width:110px; 
+    padding-left: 7px;
+}
+#divCalendario #relatorioDataDe
+{
+    position:absolute; 
+    left:305px; 
+    top:13px; 
+    height:28px; 
+    width:110px; 
+    padding-left: 7px;
+}
+
+#relatorioTiposDeVenda #divCalendario #relatorioDataAte
+{
+    position:absolute; 
+    left:185px; 
+    /*top:22px;*/
+    height:28px; 
+    width:110px; 
+    padding-left: 7px;
+}
+#divCalendario #relatorioDataAte
+{
+    position:absolute; 
+    left:454px; 
+    top:13px; 
+    height:28px; 
+    width:110px; 
+    padding-left: 7px;
+}
+
+#relatorioTiposDeVenda #relatorioCancelados #divAtualizar {
+    position: absolute; 
+    height: 28px;
+    left: 846px;
+    top: 1px;
+}
+#relatorioCancelados #divAtualizar {
+    position: absolute; 
+    height: 28px;
+    left: 846px;
+    top: 10px;
+}
+
+#relatorioCancelados #selRelaPorUsuario 
+{
+    position:absolute; 
+    left:648px; 
+    top:13px; 
+    width:168px;
+}
+
+#contFiltro .usuario {
+    position:absolute; 
+    left:587px; 
+    top:18px;
+}
+
+#contRelatorioCancelados 
+{
+    margin-top:10px;
+}
+
+#cData 
+{
+    width:120px !important;
+    padding:0 10px !important;
+}
+
+.cartaocredito .btAtualizar
+{
+    width: 100px;
+    height: 25px;
+    margin-top: 3px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 8px;
+}
+
+.cartaocredito label.de, .cartaocredito label.ate 
+{
+    margin-top: 5px;
+    margin-right: 0px !important;
+}
+
+#dlgRelatorioCancelamentos .total{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#dlgRelatorioCancelamentos .total .titulo 
+{
+    font-family: verdana;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+    margin-bottom: 5px;
+}
+
+#dlgRelatorioCancelamentos .total p
+{
+    font-family: verdana;
+    float: left;
+    width: 163px;
+    color: rgb(87, 87, 87);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#dlgRelatorioCancelamentos .total .valorTotal p 
+{
+    font-size: 16px;
+    color: Blue;
+}
+#dlgRelatorioCancelamentos .total div 
+{
+    clear: both;
+}
+
+.cartaocredito .submit 
+{
+    width: 126px;
+}
+
+
+.containerDlgRelVendasGarcom 
+{
+    border: 1px solid rgb(85, 85, 85);
+    height: 586px;
+    min-height:596px;
+    width:924px;
+}
+#divRelatorioVendasPorGarcom /*, .divContainerRelatoriosNovos*/
+{
+    height:588px !important;
+}
+
+
+/** 
+    -----------------------------------------------------------------------------
+    
+    # Cristiano, 31/01/2014.
+    
+    ESTILOS DOS NOVOS RELATÓRIOS.
+    
+    -----------------------------------------------------------------------------
+**/
+
+
+/** --DIALOG-- **/
+#dlgOpcoesGeradorRelatorio 
+{
+    background-color: #f7f7f7;   
+    border-radius: 3px;
+}
+
+.divDialogRelatorio 
+{
+    background-color: rgb(246, 248, 246) !important;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgb(68, 41, 41);
+    color:rgb(199, 109, 26);
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.divDialogRelatorio .rodapeRelatorio 
+{
+    color: rgb(207, 117, 18);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/** TOPO **/
+
+.divContainerRelatoriosNovos .titulo
+{
+    border-bottom:1px solid silver;
+    height:50px;
+    line-height:50px;
+    margin:0 20px;
+}
+
+.divContainerRelatoriosNovos .imprimir,
+.divContainerRelatoriosNovos .exportar,
+.icoForm .exportar {
+    border: 1px solid rgba(242, 242, 242, 0);
+    height: 40px;
+    margin-left: 0;
+    margin-top: 4px;
+    position: absolute;
+    width: 45px;
+    z-index: 50;
+}
+.icoForm .exportar { margin: 7px 0; }
+
+.divContainerRelatoriosNovos .imprimir:hover,
+.divContainerRelatoriosNovos .exportar:hover,
+.icoForm .exportar:hover
+{ 
+    border:1px solid #ccc; cursor:pointer; 
+}
+
+.divContainerRelatoriosNovos .desc
+{
+    left:0;
+    position:absolute;
+    right:0;
+    text-align: center;
+    width:auto;
+    
+}
+.divContainerRelatoriosNovos .divTituloRelatorio
+{
+    color:#cf7512;
+    font-size: 20px;
+}
+#dlgRelatorioTipoDeVenda .divTituloRelatorio { margin-right: 45px; }
+
+#divVendasFechamentoTopo .divTituloRelatorio .divDadosCaixa {
+    font-size: 11px;
+    position: absolute;
+    top: 19px;
+    left: 300;
+}
+
+.divContainerRelatoriosNovos .sair
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgba(242, 242, 242, 0);
+    float: left;
+    height: 40px;
+    margin-top: 4px;
+    width: 45px;
+}
+
+.divContainerRelatoriosNovos .sair:hover
+{ 
+    border:1px solid #ccc; 
+    cursor:pointer;
+}
+
+
+/** FILTRO **/
+
+.divContainerRelatoriosNovos .divRelNovoFiltro
+{
+    border-bottom:1px dotted #cf7512;
+    height:67px;
+    margin:0 20px;
+}
+
+.divContainerRelatoriosNovos .divRelFiltro
+{ 
+    clear:none;
+    float:left;
+    margin-top:10px;
+}
+
+.divContainerRelatoriosNovos .divRelFiltro label 
+{
+    float: left;    
+}
+    
+.divContainerRelatoriosNovos .submit
+{ 
+    clear:left; 
+    margin:5px 10px 0 0; 
+    width:183px;
+}
+
+.divContainerRelatoriosNovos #divRelCalendario
+{
+    float:left;
+    position:relative;
+}
+
+.divContainerRelatoriosNovos .divIntRelCalendario input
+{
+    width:110px;
+}
+
+.divContainerRelatoriosNovos .divIntRelCalendario
+{
+    clear:none;
+    float:left;
+}
+
+.divContainerRelatoriosNovos .de,
+.divContainerRelatoriosNovos .ate
+{
+    float:left;
+}
+
+.divContainerRelatoriosNovos #relatorioDataDe,
+.divContainerRelatoriosNovos #relatorioDataAte
+{
+    float:left;
+    margin:5px 10px 0 0;
+    width:110px;
+}
+
+.divContainerRelatoriosNovos #divRelFiltroAtualizar
+{
+    text-align:right;
+    width:140px;
+}
+
+.divContainerRelatoriosNovos #divAtualizar
+{
+    float:right;
+    margin:13px 0 0 0;
+}
+
+
+/** CONTEUDO (GRID + SCROLL) **/
+
+.divContainerRelatoriosNovos .divRelNovoScroll 
+{ 
+    height:388px;
+    margin:10px 20px 20px 20px;
+}
+
+
+/** RESUMO **/
+
+.divContainerRelatoriosNovos .divRelNovoResumo
+{
+    background-color:rgb(225, 228, 225);
+    color:rgb(207, 117, 18);
+    font-size:14px !important;
+    height: 44px;
+    margin:0 20px;
+    padding:5px;
+    padding-top:14px;
+}
+
+/** ---------------------- **/
+/** ESTILOS PERSONALIZADOS **/
+/** ---------------------- **/
+
+.divContainerRelatoriosNovos .divRelNovoDescricao { float:left; font-weight:bold; left:0; }
+.divContainerRelatoriosNovos .divRelNovoTotal {font-weight:bold; margin-left:20px; right:0; float: left; }
+.divContainerRelatoriosNovos .divRelNovoTotalReceber { float:right; font-weight:bold; margin-left:20px; right:0; }
+.divContainerRelatoriosNovos .divRelNovoDescricao span,
+.divContainerRelatoriosNovos .divRelNovoTotal span,
+.divContainerRelatoriosNovos .divRelNovoTotalReceber span { color: #222; font-weight: bold; }
+#divRelCaixaPeriodoResumoDinheiro #divContentFaturamento{text-align: right;}
+#divRelCaixaPeriodoResumoDinheiro #divRelFaturamentoEspecie{margin-top: 5px;}
+#divRelCaixaPeriodo #divRelCaixaPeriodoResumoDinheiro{margin-bottom: 10px; height: 44px;}
+#divContentFaturamento .divRelNovoTotal{float:none; padding-bottom: 3px;}
+#divRelCaixaPeriodo .fatPersonalizados{height:auto !important;}
+
+/* Caixa Analítico */
+#dlgRelatorioCaixaAnalitico .divContFiltro { float:left; margin:8px 0 0 0; }
+#dlgRelatorioCaixaAnalitico #selFiltroCaixaAnalitico { width:300px; }
+#dlgRelatorioCaixaAnalitico #divRelFiltroAtualizar { float:left; margin:11px 0 0 0; }
+#dlgRelatorioCaixaAnalitico .divTituloRel { line-height: 0; margin: 18px 0 0 0; }
+#dlgRelatorioCaixaAnalitico .divDadosCaixa { color: #222; font-size: 11px; margin-top: 19px; line-height: 0; }
+
+#dlgRelatorioFaturamentoAnalitico .divContFiltro { float:left; margin:8px 0 0 0; }
+#dlgRelatorioFaturamentoAnalitico #selFiltroCaixaAnalitico { width:300px; }
+#dlgRelatorioFaturamentoAnalitico #divRelFiltroAtualizar { float:left; margin:11px 0 0 0; }
+#dlgRelatorioFaturamentoAnalitico .divTituloRel { line-height: 0; margin: 18px 0 0 0; }
+#dlgRelatorioFaturamentoAnalitico .divDadosCaixa { color: #222; font-size: 11px; margin-top: 19px; line-height: 0; }
+
+#dlgrelatorioReceitasAnalitico .divContFiltro { float:left; margin:8px 0 0 0; }
+#dlgrelatorioReceitasAnalitico #selFiltroCaixaAnalitico { width:300px; }
+#dlgrelatorioReceitasAnalitico #divRelFiltroAtualizar { float:left; margin:11px 0 0 0; }
+#dlgrelatorioReceitasAnalitico .divTituloRel { line-height: 0; margin: 18px 0 0 0; }
+#dlgrelatorioReceitasAnalitico .divDadosCaixa { color: #222; font-size: 11px; margin-top: 19px; line-height: 0; }
+
+#dlgRelatorioConferenciaAnalitico .divContFiltro { float:left; margin:8px 0 0 0; }
+#dlgRelatorioConferenciaAnalitico #selFiltroCaixaAnalitico { width:300px; }
+#dlgRelatorioConferenciaAnalitico #divRelFiltroAtualizar { float:left; margin:11px 0 0 0; }
+#dlgRelatorioConferenciaAnalitico .divTituloRel { line-height: 0; margin: 18px 0 0 0; }
+#dlgRelatorioConferenciaAnalitico .divDadosCaixa { color: #222; font-size: 11px; margin-top: 19px; line-height: 0; }
+
+#dlgRelatorioCaixaAnalitico #divRelResumoEntradas { float:left; }
+#dlgRelatorioCaixaAnalitico #divRelResumoSaidas { float:left; margin-left:10px; }
+#dlgRelatorioCaixaAnalitico #divRelResumoEntradas span { float:right;  color:green; }
+#dlgRelatorioCaixaAnalitico #divRelResumoSaidas span { float:right;  color:red; }
+#dlgRelatorioCaixaAnalitico #divRelResumoSuprimentos span { float:right;  color:black; }
+#dlgRelatorioCaixaAnalitico #divRelResumoDescontos span {  float:right; color:red; }
+#dlgRelatorioCaixaAnalitico #divRelResumoReceitasAprazo span { float:right;  color:black; }
+#dlgRelatorioCaixaAnalitico #divRelResumoCartaoFidelidade span {  float:right; color:black; }
+#dlgRelatorioCaixaAnalitico #divRelResumoDespesas span { float:right;  color:red; }
+
+#dlgRelatorioCaixaAnalitico #divRelResumoEntradas #divRs { float:left;  color:green; }
+#dlgRelatorioCaixaAnalitico #divRelResumoSaidas #divRs { float:left;  color:red; }
+#dlgRelatorioCaixaAnalitico #divRelResumoSuprimentos #divRs { float:left;  color:black; }
+#dlgRelatorioCaixaAnalitico #divRelResumoDescontos #divRs {  float:left; color:red; }
+#dlgRelatorioCaixaAnalitico #divRelResumoReceitasAprazo #divRs { float:left;  color:black; }
+#dlgRelatorioCaixaAnalitico #divRelResumoCartaoFidelidade #divRs {  float:left; color:black; }
+#dlgRelatorioCaixaAnalitico #divRelResumoDespesas #divRs { float:left;  color:red; }
+
+#dlgRelatorioCaixaAnalitico #divRelResumoEntradas { margin-bottom: 8px; width: 388px;} 
+#dlgRelatorioCaixaAnalitico #divRelResumoSaidas { margin-bottom: 8px; width: 388px;}
+#dlgRelatorioCaixaAnalitico #divRelResumoSuprimentos { margin-bottom: 8px; width: 388px;}
+#dlgRelatorioCaixaAnalitico #divRelResumoDescontos { margin-bottom: 8px; width: 388px;}
+#dlgRelatorioCaixaAnalitico #divRelResumoReceitasAprazo { margin-bottom: 8px; width: 388px;}
+#dlgRelatorioCaixaAnalitico #divRelResumoCartaoFidelidade { margin-bottom: 8px; width: 388px;}
+#dlgRelatorioCaixaAnalitico #divRelResumoDespesas  { margin-bottom: 8px; width: 388px;}
+/* Caixa por Período */
+/*
+#dlgRelatorioCaixaPeriodo .divContainerRelatoriosNovos { height:497px !important; }
+*/
+#dlgRelatorioCaixaPeriodo .divContainerRelatoriosNovos .divRelNovoScroll  { height:193px; }
+#dlgRelatorioCaixaPeriodo .divRelNovoResumo { margin-bottom:1px; }
+#dlgRelatorioCaixaPeriodo .divRelResumoFaturamento { color:rgb(18, 116, 207); }
+#dlgRelatorioCaixaPeriodo .divRelResumoSaidas { color:rgb(207, 18, 26); }
+#dlgRelatorioCaixaPeriodo #selFiltroCaixa { margin-right:5px !important; width:195px; }
+#dlgRelatorioCaixaPeriodo #divRelFiltroAtualizar { float:right; width:auto !important; }
+#divContentFaturamento #divRelResumoFaturamento{float: none;}
+
+/* Cancelamentos */
+#dlgRelatorioCancelamentos #divRelFiltroGarcom { width:215px; }
+#dlgRelatorioCancelamentos #divRelFiltroTipo { width:140px; }
+#dlgRelatorioCancelamentos #divRelFiltroOpcao { width:190px; }
+#dlgRelatorioCancelamentos #divRelFiltroAtualizar { width:125px; }
+#dlgRelatorioCancelamentos #selRelVendasPorGarcom { width:205px; }
+#dlgRelatorioCancelamentos #selTipo { width:130px; }
+#dlgRelatorioCancelamentos #selFiltro { width:180px; }
+#dlgRelatorioCancelamentos #divRelGarcomNome,
+#dlgRelatorioCancelamentos #divRelGarcomFiltro { float:left; font-weight:bold; left:0; }
+#dlgRelatorioCancelamentos #divRelGarcomFiltro { margin-left:30px; }
+#dlgRelatorioCancelamentos #divRelGarcomTotal { float:right; right:0; }
+#dlgRelatorioCancelamentos .divRelGarcom { margin-top:14px; }
+#dlgRelatorioCancelamentos #divRelGarcom span { color: #222; font-weight: bold; }
+
+/* Comissões por Garçom */
+#dlgRelatorioComissoesGarcom #divRelFiltroGarcom { width:215px; }
+#dlgRelatorioComissoesGarcom #divRelFiltroTipo { width:140px; }
+#dlgRelatorioComissoesGarcom #divRelFiltroOpcao { width:190px; }
+#dlgRelatorioComissoesGarcom #divRelFiltroAtualizar { width:125px; }
+#dlgRelatorioComissoesGarcom #selRelVendasPorGarcom { width:205px; }
+#dlgRelatorioComissoesGarcom #selTipo { width:130px; }
+#dlgRelatorioComissoesGarcom #selFiltro { width:180px; }
+#dlgRelatorioComissoesGarcom #divRelGarcomNome,
+#dlgRelatorioComissoesGarcom #divRelGarcomFiltro { float:left; font-weight:bold; left:0; }
+#dlgRelatorioComissoesGarcom #divRelGarcomFiltro { margin-left:30px; }
+#dlgRelatorioComissoesGarcom #divRelGarcomTotal { float:right; right:0; }
+#dlgRelatorioComissoesGarcom .divRelGarcom { margin-top:14px; }
+#dlgRelatorioComissoesGarcom #divRelGarcom span { color: #222; font-weight: bold; }
+
+/* Contas a Receber */
+#divRelContasReceber #divRelFiltroCliente { width:260px; }
+#divRelContasReceber #divRelFiltroSituacao { width:260px; }
+#divRelContasReceber #divRelCalendario { width:250px; }
+
+/* Convênio */
+#divRelFiltroConvenio, #divRelFiltroCliente { width:260px; }
+#divConvenioForm #selConvenio, #divConvenioForm #selClienteConvenio { width:250px; }
+
+/* Entregas por Entregador */
+#dlgRelatorioEntregador #tabRelEntregadorResumo tr { width:895px; }
+#dlgRelatorioEntregador #tabRelEntregadorResumo td { width:303px; }
+#dlgRelatorioEntregador #tabRelEntregadorResumo { color:rgb(207, 117, 18); font-size:14px !important; }
+#dlgRelatorioEntregador #divRelFiltroAtualizar { float:right; margin-top:5px; }
+
+/* Histório de Pagamentos */
+#dlgRelatorioHistoricoPagamentos * 
+{
+    /* background-color: rgb(255, 255, 255);*/
+    color: Gray;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#divRelMesaContainer #divContRelMesa .rel 
+{
+    float: left;
+    font-size: 13px;
+    line-height: 26px;
+}
+
+#dlgRelatorioHistoricoPagamentos .rel.valor 
+{
+    width: 60px;
+    text-align: right;
+}
+
+#dlgRelatorioHistoricoPagamentos .rel.quant 
+{
+    width: 48px;
+    padding-left: 13px;
+}
+
+#dlgRelatorioHistoricoPagamentos .rel.prod 
+{
+    width: 480px;
+}
+
+#dlgRelatorioHistoricoPagamentos .too {
+    line-height: 20px !important;
+    border-bottom: 1px solid silver;
+    margin-top: 15px;
+}
+#dlgRelatorioHistoricoPagamentos .too *, #dlgRelatorioHistoricoPagamentos .conteudo *, #dlgRelatorioHistoricoPagamentos .too { float: left; }
+#dlgRelatorioHistoricoPagamentos .titulo 
+{
+    border-bottom: 1px solid silver;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+#dlgRelatorioHistoricoPagamentos .desc 
+{
+    float: left;
+    width: 270px;
+    margin-right: 28px;
+    text-align: center;
+}
+#dlgRelatorioHistoricoPagamentos .desc .divTituloRelMesa { font-size: 20px; }
+#dlgRelatorioHistoricoPagamentos .menuRel, #dlgRelatorioHistoricoPagamentos .imprimir, #dlgRelatorioHistoricoPagamentos .sair, #dlgRelatorioHistoricoPagamentos .detalhes {
+    height: 40px;
+    width: 45px;
+    float: left;
+    border: 1px solid rgba(242, 242, 242, 0);
+    margin-top: 4px;
+}
+#dlgRelatorioHistoricoPagamentos .menuRel { margin-left:-10px; }
+#dlgRelatorioHistoricoPagamentos .imprimir  
+{
+    margin-left:-10px; 
+    position: absolute;
+    z-index: 15000;
+}
+#dlgRelatorioHistoricoPagamentos .imprimir, #dlgRelatorioHistoricoPagamentos .detalhes { margin-right: 10px; }
+#dlgRelatorioHistoricoPagamentos .imprimir:hover, #dlgRelatorioHistoricoPagamentos .sair:hover, #dlgRelatorioHistoricoPagamentos .detalhes:hover 
+{
+    cursor: pointer;
+    border: 1px solid silver;
+}
+#dlgRelatorioHistoricoPagamentos ul li *
+{
+    font-size: 14px;
+    line-height: 30px;
+} 
+#dlgRelatorioHistoricoPagamentos ul li.odd { background-color: #f7f7f7; }
+#dlgRelatorioHistoricoPagamentos .total * { font-size: 17px; }
+#dlgRelatorioHistoricoPagamentos #divRelMesaMenu { clear: none; float:left; padding-right: 10px; }
+#dlgRelatorioHistoricoPagamentos #divRelMesaScroll  
+{
+    clear: none; 
+    float:left; 
+    margin-left: 10px;
+    margin-top: 15px;
+    min-height: 390px;
+}
+
+#dlgRelatorioHistoricoPagamentos .pHistDetalhesTitulo, #dlgRelatorioHistoricoPagamentos .pHistDetalhesItem { margin:3px 0 5px 3px; }
+#dlgRelatorioHistoricoPagamentos .pHistDetalhesTitulo { color:#eeb44f; margin-top:10px; }
+#dlgRelatorioHistoricoPagamentos .pHistDetalhesItem { color:808080; font-weight:bold; margin-bottom:15px; }
+
+/* Tipo de Venda */
+#dlgRelatorioTipoDeVenda .divContainerRelatoriosNovos { height:465px !important; }
+#dlgRelatorioTipoDeVenda .divContainerRelatoriosNovos .divRelNovoScroll  { height:245px; }
+
+/* Taxa de Serviço por Garçom */
+#dlgRelatorioTaxaServicoGarcom #divRelFiltroGarcom { width:215px; }
+#dlgRelatorioTaxaServicoGarcom #divRelFiltroTipo { width:170px; }
+#dlgRelatorioTaxaServicoGarcom #divRelFiltroBandeira { display:none; width:160px; }
+#dlgRelatorioTaxaServicoGarcom #divRelFiltroOpcao { width:190px; }
+#dlgRelatorioTaxaServicoGarcom #divRelFiltroAtualizar { float:right; width:125px; }
+#dlgRelatorioTaxaServicoGarcom #selRelVendasPorGarcom { width:205px; }
+#dlgRelatorioTaxaServicoGarcom #selTipo { width:160px; }
+#dlgRelatorioTaxaServicoGarcom #selFiltro { width:180px; }
+#dlgRelatorioTaxaServicoGarcom #selBandeira { width:150px; }
+#dlgRelatorioTaxaServicoGarcom #divRelGarcomNome,
+#dlgRelatorioTaxaServicoGarcom #divRelGarcomFiltro { float:left; font-weight:bold; left:0; }
+#dlgRelatorioTaxaServicoGarcom #divRelGarcomFiltro { margin-left:30px; }
+#dlgRelatorioTaxaServicoGarcom #divRelGarcomTotal { float:right; right:0; }
+#dlgRelatorioTaxaServicoGarcom .divRelGarcom { margin-top:14px; }
+#dlgRelatorioTaxaServicoGarcom #divRelGarcom span { color: #222; font-weight: bold; }
+
+/* Vendas por Garçom */
+#dlgRelatorioVendasPorGarcom #divRelFiltroGarcom { width:215px; }
+#dlgRelatorioVendasPorGarcom #divRelFiltroTipo { width:140px; }
+#dlgRelatorioVendasPorGarcom #divRelFiltroOpcao { width:190px; }
+#dlgRelatorioVendasPorGarcom #divRelFiltroAtualizar { width:125px; }
+#dlgRelatorioVendasPorGarcom #selRelVendasPorGarcom { width:205px; }
+#dlgRelatorioVendasPorGarcom #selTipo { width:130px; }
+#dlgRelatorioVendasPorGarcom #selFiltro { width:180px; }
+#dlgRelatorioVendasPorGarcom #divRelGarcomNome,
+#dlgRelatorioVendasPorGarcom #divRelGarcomFiltro { float:left; font-weight:bold; left:0; }
+#dlgRelatorioVendasPorGarcom #divRelGarcomFiltro { margin-left:30px; }
+#dlgRelatorioVendasPorGarcom #divRelGarcomTotal { float:right; right:0; }
+#dlgRelatorioVendasPorGarcom .divRelGarcom { margin-top:14px; }
+#dlgRelatorioVendasPorGarcom #divRelGarcom span { color: #222; font-weight: bold; }
+
+#divRelVendasFechamentoResumo #spnRelVendasFechamentoQtde
+{
+    margin-right: 40px;
+}
+
+#dlgRelatorioHistoricoPagamentos #divRelMesaContainer #divContRelMesa
+{
+    height: 387px;
+    width: 612px;
+    overflow: auto;
+}
+
+#dlgRelatorioHistoricoPagamentos #divContRelMesa .num 
+{
+    float: left;
+    width: 50px;
+    text-align: right;
+}
+
+#dlgRelatorioHistoricoPagamentos #divContRelMesa .descProduto {
+    padding-left: 60px;
+}
+
+#dlgRelatorioHistoricoPagamentos #divContRelMesa .num, #dlgRelatorioHistoricoPagamentos #divContRelMesa .descProduto {
+    line-height: 30px;
+}
+
+#divVendasProdutosForm #divTurno #selTurno
+{
+    width: 152px;
+    margin-right: -8px;
+}
+#dlgRelatorioVendasPorGarcom #divRelGarcom span { color: #222; font-weight: bold; }
+
+#divRelVendasFechamentoResumo #spnRelVendasFechamentoQtde
+{
+    margin-right: 40px;
+}
+
+#dlgRelatorioHistoricoPagamentos #divRelMesaContainer #divContRelMesa
+{
+    height: 387px;
+    overflow: auto;
+}
+
+#dlgRelatorioHistoricoPagamentos #divContRelMesa .num 
+{
+    float: left;
+    width: 50px;
+    text-align: right;
+}
+
+#dlgRelatorioHistoricoPagamentos #divContRelMesa .descProduto {
+    padding-left: 60px;
+}
+
+#dlgRelatorioHistoricoPagamentos #divContRelMesa .num, #dlgRelatorioHistoricoPagamentos #divContRelMesa .descProduto {
+    line-height: 30px;
+}
+
+.topFiltro .tabelaToo 
+{
+    color: Black;
+}
+
+.topFiltro .btnAddGenerico, .topFiltro .btnEditarGenerico 
+{
+    float: left;
+}
+
+.filtroRelatorio .topFiltro 
+{
+    clear: right;
+    float: left;
+    width: 500px;
+}
+
+.filtroRelatorio .btDourado2.adiciona, .filtroItensTutorial .btDourado2.adiciona
+{
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+
+#conteudoSqlRelatorio .icoSalvar:hover 
+{
+    cursor: pointer;
+}
+
+#divRelCaixaAnaliticoResumo #dilRelEsquerda
+{
+  width: 410px;
+  height: 90px;
+  float: left;
+}
+
+#divRelCaixaAnaliticoResumo #dilRelDireita
+{
+  width: 410px;
+  height: 90px;
+  float: right;
+}
+
+#divRelCaixaAnaliticoResumo #txtTotal
+{
+  width: 256px;
+  float: left;
+}
+
+#divRelCaixaAnaliticoResumo #divRs
+{
+  width: 28px !important;
+  float: left;
+}
+#divRelCaixaAnaliticoResumo #divSpan
+{
+  width: 90px;
+  float: right;
+}
+
+#dlgRelatorioFaturamentoAnalitico #divRelCaixaAnaliticoResumo
+{
+    height: 25px !important;
+}
+
+#divRelFaturamentoAnalitico #dilRelEsquerda, #divRelFaturamentoAnalitico #dilRelDireita
+{
+    height: 29px !important;
+}
+
+#dlgrelatorioReceitasAnalitico #divRelCaixaAnaliticoResumo,
+#dlgRelatorioConferenciaAnalitico #divRelCaixaAnaliticoResumo
+{
+    height: 25px !important;
+}
+
+#divRelReceitasAnalitico #dilRelEsquerda, #divRelReceitasAnalitico #dilRelDireita,
+#dlgRelatorioConferenciaAnalitico #dilRelEsquerda, #dlgRelatorioConferenciaAnalitico #dilRelDireita
+{
+    height: 29px !important;
+}

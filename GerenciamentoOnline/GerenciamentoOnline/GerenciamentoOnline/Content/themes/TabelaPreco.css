@@ -1,0 +1,251 @@
+﻿#tabelaProdutos, #Observacao_Id, .comboEditoresGenerico
+{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    float: left;  
+    margin-right: 40px; 
+}
+
+#Bandeira_Id {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    float: left;
+}
+
+.tabelaToo
+{
+font-family: Arial;
+font-size: 15px;
+color: #666;  
+line-height: 27px;
+float: left;
+padding-right: 10px;
+}
+
+.valorTabela
+{
+    margin-right: 60px !important;   
+}
+
+#divReal
+{
+    width: 20px;
+    height: 20px;
+    float: right;
+    padding-top: 5px;
+    color: #777373;
+    font-size: 12px;
+}
+
+.Sabor .ComboGrid
+{
+  height: 317px;
+  width: 727px;  
+}
+  
+.Sabor .ComboGrid .adicionalSabor
+{
+    width: 726px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+    
+.Sabor .adicionalSabor h1
+{
+  width: 22px;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+.ComboGrid .btnAdiciona
+{
+    width:22px;
+    height:22px;
+    float: left;
+    margin-left: 140px;
+    margin-right: 50px;
+    position: absolute;
+    top: 42px;
+    margin-top: 32px;
+}
+
+.labelEditorLista .btnAdiciona
+{
+    top: 14px;
+}
+
+.btnAdiciona
+{
+    margin-top: -2px;    
+}
+
+.PrecoGarcom, .valorTabela
+{
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    float: right;  
+    margin-right: 15px !important; 
+    padding-left: 5px;
+    text-align: left;
+    color: #777373;
+}
+
+#divData .valorEstoque
+{
+    margin-top: 3px;
+}
+
+  #divData .valorEstoque span
+  {
+    font-size: 15px;
+  }
+
+.PrecoGarcom:focus, .valorTabela:focus
+{
+   border: 1px solid silver;
+   background-color: white; 
+   color: Black;
+}
+
+/*.PrecoGarcom:hover, .valorTabela:hover
+{
+    cursor: pointer;    
+}*/
+
+#PrecoGarcom, .editorLista.numerico.estilo
+{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    float: right;  
+    padding-left: 5px;
+    text-align: left;
+    margin-right: 85px;
+    margin-top: -5px;
+}
+
+.btnRemove
+{
+    width:22px;
+    height:22px;
+    border : 1px solid #f7f7f7;
+    margin-right : 20px;
+    margin-left : 20px;
+    float: right;
+}
+
+.PrecoGarcom:focus, #tabelaProdutos:focus
+{
+    border-color: #D3B337;    
+}
+
+.btnAdicionaTabela
+{
+    width: 22px;
+    height: 22px;   
+    float: left;
+}
+
+.conteudoListTabela
+{
+    border: 1px solid silver;
+    width: 725px !important;
+    position: relative;
+    background-color: #fff;
+    height: auto !important;
+}
+
+#contTabela
+{
+    overflow: scroll;
+    height: 290px !important;
+    overflow-x: hidden !important; 
+    width: 725px;
+    padding-bottom: 5px;
+}
+
+#toolTabelaPreco, .topoCaixa
+{
+    width: 725px; /*esse valor saiu da class .conteudoListTabela*/
+    height: 25px;
+    border-bottom: 1px solid #ACB0B4;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#D5D5D5)) repeat-X;
+    background: -moz-linear-gradient(top, #fff, #D5D5D5) repeat-X;    
+}
+
+.conteudoListTabela ol li
+{
+    border: 1px solid silver;
+    background-color: #f7f7f7;
+}
+
+.relatorioColunas .conteudoListTabela ol li {
+  background-position: left;
+  background-position-x: 2px;
+}
+  
+#toolTabelaPreco p
+{
+    width: 190px;
+    float: left;
+    font-size: 11px;
+    color: Black;
+    line-height: 25px;
+    padding-left: 10px;
+}
+
+#toolTabelaPreco h1
+{
+    width: 100px;
+    float:right;
+}
+
+#toolTabelaPreco h2
+{
+    width: 60px;
+    float: right;
+}
+
+#toolTabelaPreco h2, #toolTabelaPreco h1
+{
+    font-size: 11px;
+    color: Black;
+    line-height: 25px;
+    padding-right: 15px;
+    padding-left: 10px;
+    font-weight: normal;
+    border-left: 1px solid silver; 
+}
+
+#confRelatorioPeriodo .btnRemove{margin-top: 8px;}
+
+#acessoConteudo .check{
+width: 22px;
+height: 22px;
+border: 1px solid #f7f7f7;
+margin-right: 49px;
+margin-left: 20px;
+float: right;
+margin-top: 12px;
+}
+
+#toolTabelaPreco #hPrecoCompra {
+  width: 78px;
+}
+
+#contTabela #divTabCadProd_PrecoCompra input {
+  width: 68px;
+  text-align: right;
+  padding-right: 4px;
+  margin-top: -4px;
+  margin-left: 33px;
+}
+
+#bandeiraTipoPagamento #acessoConteudo{margin-top: 2px}

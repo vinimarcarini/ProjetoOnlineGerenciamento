@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Gerenciador Online</title>
+    @*@Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")*@
+
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="~/Content/fullcalendar.css" />
+    <link rel="stylesheet" href="~/Content/matrix-style.css" />
+    <link rel="stylesheet" href="~/Content/matrix-media.css" />
+    <link href="~/fonts/Font/font-awesome.css" rel="stylesheet" />
+    @*<link rel="stylesheet" href="css/jquery.gritter.css" />*@
+    @*<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>*@
+    @{string descricao = "<span>" + "Dashboard" + "</span>";
+    }
+
+</head>
+<body>
+
+    <div id="header">
+        <h1><a href="dashboard.html">Gerenciador de Lixeiras</a></h1>
+    </div>
+    <!--close-Header-part-->
+    <!--top-Header-menu-->
+    <div id="user-nav" class="navbar navbar-inverse">
+        <ul class="nav">
+            <li class=""><a title=""><i class="icon icon-user"></i> <span class="text">Bem Vindo</span></a></li>
+            <li class=""><a title=""><i class="icon icon-cog"></i> <span class="text">Configuração</span></a></li>
+            <li class=""><a title=""><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
+        </ul>
+    </div>
+    <!--close-top-Header-menu-->
+    <!--start-top-serch-->
+    <div id="search">
+        <input type="text" placeholder="Buscar..." />
+        <button type="submit" class="tip-bottom" title="Search"><i class="icon-search icon-white"></i></button>
+    </div>
+    <!--close-top-serch-->
+    <!--sidebar-menu-->
+    <div id="sidebar">
+        <a href="#" class="visible-phone"><i class="icon icon-home"></i> Dashboard</a>
+        <ul>
+            <li class="active">
+            <li><a @Html.ActionLink("Dashboard", "Index","Home") </li>
+            <li> <a a @Html.ActionLink("Graficos Avançados", "Index","Home") </li>
+        </ul>
+    </div>
+    <!--sidebar-menu-->
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Nome do aplicativo", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Início", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Sobre", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contato", "Contact", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>*@
+    <!--Footer-part-->
+
+    <div class="row-fluid">
+        @RenderBody()
+        <div id="footer" class="span12"> @DateTime.Now.Year &copy; Gerenciador de Lixeiras.</div>
+    </div>
+
+    <!--end-Footer-part-->
+
+    <script src="~/scripts/excanvas.min.js"></script>
+    <script src="~/scripts/jquery.min.js"></script>
+    <script src="~/scripts/jquery.ui.custom.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <script src="~/scripts/jquery.flot.min.js"></script>
+    <script src="~/scripts/jquery.flot.resize.min.js"></script>
+    <script src="~/scripts/jquery.peity.min.js"></script>
+    <script src="~/scripts/fullcalendar.min.js"></script>
+    <script src="~/scripts/matrix.js"></script>
+    <script src="~/scripts/matrix.dashboard.js"></script>
+    <script src="~/scripts/jquery.gritter.min.js"></script>
+    <script src="~/scripts/matrix.interface.js"></script>
+    <script src="~/scripts/matrix.chat.js"></script>
+    <script src="~/scripts/jquery.validate.js"></script>
+    <script src="~/scripts/matrix.form_validation.js"></script>
+    <script src="~/scripts/jquery.wizard.js"></script>
+    <script src="~/scripts/jquery.uniform.js"></script>
+    <script src="~/scripts/select2.min.js"></script>
+    <script src="~/scripts/matrix.popover.js"></script>
+    <script src="~/scripts/jquery.dataTables.min.js"></script>
+    <script src="~/scripts/matrix.tables.js"></script>
+
+    <script type="text/javascript">
+  // This function is called from the pop-up menus to transfer to
+  // a different page. Ignore if the value returned is a null string:
+  function goPage (newURL) {
+
+      // if url is empty, skip the menu dividers and reset the menu selection to default
+      if (newURL != "") {
+
+          // if url is "-", it is this page -- reset the menu:
+          if (newURL == "-" ) {
+              resetMenu();
+          }
+          // else, send page to designated URL
+          else {
+            document.location.href = newURL;
+          }
+      }
+  }
+
+// resets the menu selection upon entry to this page:
+function resetMenu() {
+   document.gomenu.selector.selectedIndex = 2;
+}
+    </script>
+
+    @*@Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")*@
+    @RenderSection("scripts", required: false)
+</body>
+</html>

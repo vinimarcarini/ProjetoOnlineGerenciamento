@@ -1,0 +1,165 @@
+﻿@*@model GerenciamentoOnline.Models.LogOnModel;*@
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutNotLog .cshtml";
+
+    bool listarEstabelecimentos = Convert.ToBoolean(ViewData["listarEstabelecimentos"] as string);
+    bool listarTipoAcessos = Convert.ToBoolean(ViewData["listarTipoAcessos"]);
+
+    string usuario = ViewData["usuario"] as string;
+    string senha = ViewData["senha"] as string;
+    string strIdUsuario = ViewData["idUsuario"] as string;
+    int idUsuario = !string.IsNullOrEmpty(strIdUsuario) ? Convert.ToInt32(strIdUsuario) : 0;
+    string empresa = ViewData["empresa"] as string;
+    string descricaoBotao = "Entrar";
+    string descricaoBotao1 = "Recuperar Senha";
+
+    <script type="text/javascript">
+
+    </script>
+    <style type="text/css">
+        #contMsgConfirmacao.infoLogin .footer .bt:last-child {
+            margin-left: 60px !important;
+            width: 150px !important;
+            margin-top:
+        }
+
+        #conteudoLogin {
+            /*background-color: #f2f2f2;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            left: 0px;
+            bottom: 0px;
+            padding-top: 200px;*/
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #formLogin {
+            border: 1px solid silver;
+            /*padding: 25px 20px 20px 20px;*/
+            /*box-shadow: 2px 2px 2px #999;*/
+            background-color: #ECECEC;
+            border-radius: 10px;
+            margin: auto;
+            /*width: 250px;*/
+        }
+
+        #esconde {
+            display: none;
+        }
+
+        /*#UserName, #Password, .estabelecimento {
+                height: 35px;
+                width: 250px;
+                border: 1px solid silver;
+                border-radius: 5px;
+                margin-bottom: 10px;
+                padding-left: 5px;
+                font-size: 16px;
+                color: #4e4e4e;
+            }*/
+
+        .estabelecimento {
+            font-size: 15px;
+        }
+
+        /*#formLogin p {
+                font-size: 14px;
+                color: #756A6A;
+            }*/
+
+        /*.loginEntrar {
+            -moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+            -webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+            box-shadow:inset 0px 1px 0px 0px #fceaca;
+            background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+            background:-moz-linear-gradient( center top, #ffce79 5%, #eeaf41 100% );
+            filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+            background-color:#ffce79;
+            -moz-border-radius:6px;
+            -webkit-border-radius:6px;
+            border-radius:6px;
+            border:1px solid #eeb44f;
+            display:inline-block;
+            color:#ffffff;
+            font-family:arial;
+            font-size:15px;
+            font-weight:bold;
+            padding:8px 54px;
+            text-decoration:none;
+            text-shadow:1px 1px 0px #ce8e28;
+        }*/
+
+        .loginEntrar:hover {
+            background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #eeaf41), color-stop(1, #ffce79) );
+            background: -moz-linear-gradient( center top, #eeaf41 5%, #ffce79 100% );
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeaf41', endColorstr='#ffce79');
+            background-color: #eeaf41;
+        }
+
+        .loginEntrar:active {
+            position: relative;
+            top: 1px;
+        }
+
+        #formLogin .btGif {
+            position: relative;
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+
+        #formLogin p.gif {
+            display: none;
+            position: absolute;
+            top: 11px;
+            right: 60px;
+            height: 20px;
+            width: 20px;
+            /*background-image: Url("~/Content/img/Layout/gif_bp.gif"); background-repeat: no-repeat;*/
+        }
+    </style>
+}
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <div id="loginbox">
+        <div id="conteudoLogin">
+
+            <div id="formLogin" class="form-vertical">
+                <p>@Html.ValidationSummary()</p>
+
+                <div class="control-group">
+                    <div class="controls">
+                        <div class="main_input_box">
+                            <span class="add-on bg_lg"><i class="icon-user"> </i></span><input data-val="true" data-val-required="O campo Usuario é obrigatório." id="UserName" name="UserName" placeholder="Usuario" type="text" value="">
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls">
+                        <div class="main_input_box">
+                            <span class="add-on bg_ly"><i class="icon-lock"></i></span><input data-val="true" data-val-required="O campo Senha é obrigatório." id="Password" name="Password" type="password" placeholder="Password" />
+                        </div>
+                    </div>
+                </div>
+
+
+                @if (!String.IsNullOrEmpty(usuario) && !String.IsNullOrEmpty(senha))
+                {
+                    <input type="hidden" value="@usuario" name="usuarioAutenticado" />
+                    <input type="hidden" value="@senha" name="senhaAutenticada" />
+                    <input type="hidden" value="@empresa" name="empresaAutenticada" />
+                }
+                <div class="form-actions">
+                    @*<span class="pull-left"><input type="submit" id="to-recover" class="flip-link btn btn-info" value="@descricaoBotao1" /></span>*@
+                    <span class="pull-right"><input type="submit" class="loginEntrar btn btn-success" value="@descricaoBotao" /></span>
+                </div>
+            </div>
+        </div>
+    </div>
+}

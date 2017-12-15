@@ -1,0 +1,1029 @@
+﻿.contPersonalizarPizza .notaGrupo.personalizar {
+    height: 75px;
+}
+
+#divSaborPizza .conteudo {
+    background-color: #f7f7f7;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#divSaborPizza .contPedido 
+{
+    margin: 0px;    
+}
+
+#divGrupoSabores 
+{
+    float: left;
+}
+
+#divSaborPizza .conteudo .passoAPasso 
+{
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    float: left;
+    width: 100%;
+    height: 444px;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+#divSaborPizza .conteudo .passoAPasso .tool {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#divSaborPizza .conteudo .passoAPasso .tool label 
+{
+    background-color: #f7f7f7;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+#divSaborPizza .conteudo .passoAPasso .escolhaSabores, #divSaborPizza .conteudo .passoAPasso .montagem, #divSaborPizza .conteudo .passoAPasso .personalizacao 
+{
+    height: 100%;
+    float: left;
+}
+
+#divSaborPizza .conteudo .passoAPasso .escolhaSabores { border-right: 1px solid silver; }
+
+#divSaborPizza .conteudo .passoAPasso .montagem { border-right: 1px solid silver; }
+
+/*#divSaborPizza .conteudo .passoAPasso */.montagem .cont .pizza 
+{
+    height: 220px;
+    width: 220px;
+    /*border: 3px solid silver;*/
+    border-radius: 114px;
+    margin-top: -7px;
+    margin-bottom: 7px;
+}
+
+.escolhaSabores .scroll 
+{
+    height: 395px;
+    width: 321px;
+    position: relative;
+}
+
+.escolhaSabores .item * 
+{
+    font-size: 15px;
+    color: Gray;
+    float: left;
+} 
+
+.escolhaSabores .cont .item 
+{ 
+    width: 100%;
+    /*height: 40px;*/
+    border-bottom: 1px dashed silver;
+    /*
+    padding-top: 8px;
+    padding-bottom: 8px;
+*/
+    float: left;
+    position: relative;
+}
+
+
+.escolhaSabores .cont .item .desc 
+{
+    width: 205px;
+    margin-left: 10px;
+    line-height: 17px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+.escolhaSabores .cont .item .btClickMais 
+{
+    border: 1px solid rgba(255, 255, 255, 0);
+    height: 43px;
+    width: 43px;
+    position: absolute;
+    right: 0px;
+
+}
+
+.escolhaSabores .cont .item .btClickMenos 
+{
+    border: 1px solid rgba(255, 255, 255, 0);
+    height: 43px;
+    width: 43px;
+    position: absolute;
+    left: 0px;
+}
+
+.escolhaSabores .cont .item .val 
+{
+    line-height: 69px;
+    /*width: 55px;*/
+    height: 30px;
+    color: Blue;
+    text-align: right;
+    float: right;
+}
+
+.escolhaSabores .item .bt 
+{
+    height: 28px;
+    width: 28px;
+    border-radius: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 7px;
+    display:inline-block;
+    line-height: 28px;
+}
+
+.escolhaSabores .item .alterar 
+{
+    position: absolute;
+    right: 45px;
+    font-size: 12px;
+    text-decoration: underline;
+    top: 1px;
+    height: 42px;
+    width: 60px;
+    text-align: right;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.escolhaSabores .item .alterar label { float: right; }
+
+.escolhaSabores .bt.mostraAdicionado, .escolhaSabores .bt.add, .escolhaSabores .cont .item .val 
+{
+    float: right;
+}
+
+.escolhaSabores .bt.mostraAdicionado, .escolhaSabores .bt.add {
+    float: right;
+    margin-right: 8px;
+}
+
+.escolhaSabores .item .bt.remove {    
+    -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+	background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+	background-color:#f24537;
+	border:1px solid #d02718;
+	
+	opacity: 0.2;
+	color: #FFF;
+	line-height: 8px;
+}
+
+.escolhaSabores .item .bt.remove:hover
+{
+    cursor: pointer;
+}
+
+.escolhaSabores .item .alterar:hover 
+{
+    cursor: pointer;
+    color: Orange;
+}
+
+.escolhaSabores .item .bt.add {
+   -moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+	background:-moz-linear-gradient( center top, #ffce79 5%, #eeaf41 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+	background-color:#ffce79;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	font-family:arial;
+	text-decoration:none;
+	text-shadow: 0px 1px 2px silver;
+	color: #FFF;
+    line-height: 27px;
+    font-size: 23px;
+}
+
+.escolhaSabores .item .bt.mostraAdicionado 
+{
+    color: #FFF;
+}
+
+.dialogMobile .contPersonalizarPizza .personalizar p label { background-color: #fff; }
+
+.contPersonalizarPizza .personalizar p label
+{
+    background-color: #f7f7f7;
+}
+
+.contPersonalizarPizza .cont ul li .valor 
+{
+    right: 50px;
+    color: rgb(89, 122, 190);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.contPersonalizarPizza .cont ul li .diminuir 
+{
+    line-height: 8px;
+}
+
+.contPersonalizarPizza .cont ul li .descricao
+{
+    color: Gray;
+    font-size: 12px;
+}
+
+.contPersonalizarPizza .personalizar .cont ul li .btn
+{
+    width: 33px;
+}
+
+.contPersonalizarPizza .adicGrupoQtde .cont ul li .valor 
+{
+    right: 40px;
+}
+
+.contPersonalizarPizza .personalizar .cont ul li .btn .mostraAdicionado, .escolhaSabores .item .bt.mostraAdicionado 
+{
+    font-size: 18px;
+}
+
+.escolhaSabores .item .bt.mostraAdicionado:hover 
+{
+    cursor: pointer;
+}
+
+.contPersonalizarPizza .btn:hover, .contPersonalizarPizza .check:hover 
+{
+    cursor: pointer;
+}
+
+.contPersonalizarPizza .cont 
+{
+    position: relative;
+}
+
+.contPersonalizarPizza .nota
+{
+    padding: 5px;
+    
+    width: 258px;
+    margin-left: 12px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: 1px solid silver;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+
+.montagem .pizza .limite1 .s1.adicionado 
+{
+    
+    width: 100%;
+    height: 100%;
+
+    -moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23) );
+	background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+	background-color:#ffec64;
+	display:inline-block;
+	position: relative;
+}
+
+.montagem .pizza .limite1 .adicionado p{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*--------- 2 sabores -----------*/
+.montagem .pizza .limite2 .adicionado 
+{
+    
+    width: 50%;
+    height: 100%;
+
+    -moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23) );
+	background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+	background-color:#ffec64;
+	display:inline-block;
+	position: relative;
+	float: left;
+	margin-left: -1px;
+	border-left: 1px solid rgb(255, 255, 255);
+}
+
+.montagem .pizza .limite2 .s1 p
+{
+    margin-top: 90px;
+}
+
+.montagem .pizza .limite2 .s2 p {
+    margin-top: 92px;
+    margin-left: -10px;
+}
+
+
+.montagem .cont p {
+    text-shadow: 4px 3px 6px rgb(80, 149, 189);
+    font-size: 14px;
+}
+
+/*--------- 3 sabores -----------*/
+.montagem .pizza .limite3 .adicionado
+{
+    position: absolute;
+}
+
+.montagem .pizza .limite3 .s1.adicionado
+{
+    border-color: transparent transparent transparent #FFF;  
+    border-width: 115px;  border-style: solid;  
+    height: 2px;  padding: 0px;
+    margin-left: 7px;
+    top: 85px;
+}
+
+.montagem .pizza .limite3 .s2.adicionado
+{
+    border-color: transparent transparent transparent #FFF;  
+    border-width: 115px;  border-style: solid;  
+    height: 2px;  padding: 0px;
+    margin-left: 7px;
+    top: 85px;
+}
+
+/*--------- 4 sabores -----------*/
+.montagem .pizza .limite4 .s1.adicionado, .montagem .pizza .limite4 .s2.adicionado 
+{
+    
+    width: 50%;
+    height: 50%;
+
+    -moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23) );
+	background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+	background-color:#ffec64;
+	display:inline-block;
+	position: relative;
+	float: left;
+	margin-left: -1px;
+	border-left: 1px solid rgb(255, 255, 255);
+}
+
+.montagem .pizza .limite4 .s3.adicionado, .montagem .pizza .limite4 .s4.adicionado 
+{
+    
+    width: 50%;
+    height: 50%;
+
+    -moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(endColorstr='#ffab23', startColorstr='#ffec64');
+	background-color:#ffec64;
+	display:inline-block;
+	position: relative;
+	float: left;
+	margin-left: -1px;
+	border-left: 1px solid rgb(255, 255, 255);
+}
+
+
+.montagem .pizza .limite4 .s1 p {
+    margin-top: 74px;
+    margin-left: 15px;
+}
+
+.montagem .pizza .limite4 .s2 p {
+    margin-top: 76px;
+    margin-left: 5px;
+}
+
+.montagem .pizza .limite4 .s3 p {
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+.montagem .pizza .limite4 .s4 p {
+    margin-top: 16px;
+    margin-left: 6px;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+
+.montagem .pizza .contorno
+{
+    border: 50px solid #f7f7f7;
+    height: 215px;
+    position: absolute;
+    width: 215px;
+    border-radius: 170px;
+    top: 47px;
+    left: 326px;
+    z-index: 100;
+}
+
+.montagem .pizza .borda {
+    position: absolute;
+    height: 206px;
+    width: 205px;
+    border-radius: 141px;
+    left: 374px;
+    top: 23px;
+    border: 11px solid silver;
+}
+
+.montagem .cont .adicionado p 
+{
+    color: #FFF;
+}
+    
+#divSaborPizza .montagem .opcoes .inicio, #divSaborPizza .montagem .opcoes .concluido .desc 
+{
+    font-size: 12px;
+    color: Gray;
+    text-align: center;
+    line-height: 20px;
+    text-shadow: 4px 3px 6px rgb(80, 149, 189);
+    width: 208px;
+}
+
+#divSaborPizza .montagem .opcoes .inicio
+{
+    margin-left: 61px;
+}
+
+#divSaborPizza .montagem .opcoes .concluido .desc  
+{
+    margin-left: 21px;
+}
+
+.montagem p.clique {
+    position: absolute;
+    width: 174px;
+    left: 366px;
+    z-index: 1000;
+    top: -67px;
+}
+
+.montagem .pizza .limite1 .adicionado p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.montagem #valorTotal
+{
+    margin-left: 17px;
+    bottom: 15px;
+}
+    
+.montagem #valorTotal .total {
+    float: left;
+    margin-left: 90px;
+    margin-right: 10px;
+}
+
+.montagem .opcoes .ident {
+    height: 11px;
+    width: 11px;
+    border: 1px solid rgba(0, 128, 0, 0.54);
+    border-radius: 14px;
+    background-color: rgb(4, 221, 4);
+    float: left;
+    margin-left: 83px;
+    margin-right: 6px;
+    margin-top: 4px;
+}
+
+.montagem .opcoes .desc {
+    font-size: 14px;
+}
+
+.montagem .opcoes 
+{
+    position: absolute;
+    top: 30px;
+    width: 240px;
+    z-index: 1000;
+}
+
+.montagem .opcoes .concluido 
+{
+    display: none;
+}
+    
+/*-------------------------------------------------------------------------------------------------*/
+.pizza-container {
+	width: 355px;
+	height: 250px;
+	
+    position: absolute;
+    top: 77px;
+    left: 362px;
+
+}
+
+.montagem .pizza .demo-placeholder {
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.montagem .pizza .legend table {
+	border-spacing: 5px;
+	background-color: #f7f7f7;
+}
+
+
+.montagem .pizza .legend {
+    position: relative;
+    margin-top: 228px;
+    float: left;
+    margin-left: 100px;
+}
+
+span.pieLabel .span {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 53px;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+}
+
+span.pieLabel .span span {
+    font-size: 16px;
+    position: absolute;
+    top: 8px;
+    left: 17px;
+    color: #fff;
+}
+
+.saborAdd .clickRemoveSabor
+{
+    position: absolute;  
+    top: -42px;  
+    left: -12px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.pieLabel .saborAdd
+{
+    width: 50px;
+}
+
+span.pieLabel .span:hover 
+{
+    cursor: pointer;    
+}
+
+.pizza .labelGrafico 
+{
+    font-size:11px; 
+    text-align:center; 
+    padding:2px; 
+    color:white;
+}
+
+.pizza span.desc 
+{
+    padding: 2px;
+    background-color: #000;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 11px;    
+}
+
+.pizza .selecionado span.desc {
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 25px rgb(75, 88, 94);   
+}
+
+.montagem .trocaDaPizza {
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    height: 23px;
+    margin-top: 18px;
+    font-size: 19px;
+    color: gray;
+}
+
+.montagem .trocaDaPizza .label
+{
+    width: 200px;
+    float: left;
+}
+
+.montagem .trocaDaPizza .back
+{
+    float: left;
+}
+
+.montagem .trocaDaPizza .next 
+{
+    float: right;
+}
+
+.montagem .trocaDaPizza .next, .montagem .trocaDaPizza .back {
+    border: 1px solid silver;
+    width: 22px;
+    border-radius: 6px;
+    text-align: center;
+    
+    -moz-box-shadow: inset 0px 1px 0px 0px #fceaca;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #fceaca;
+    box-shadow: inset 0px 1px 0px 0px #fceaca;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+    background: -moz-linear-gradient( center top, #ffce79 5%, #eeaf41 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+    background-color: #ffce79;
+    border: 1px solid #eeb44f;
+    color: #FFF;
+    display: none;
+}
+
+.montagem .trocaDaPizza .back:hover, .montagem .trocaDaPizza .next:hover
+{
+    cursor: pointer;
+}
+
+.montagem .trocaDaPizza .back:active, .montagem .trocaDaPizza .next:active
+{
+    color: Silver;
+}
+
+.montagem .borda {
+    padding: 19px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.montagem .backgound {
+    border: 1px solid silver;
+    padding: 15px;
+    border: 1px solid rgb(226, 226, 226);
+    background: #f1f1f1;
+}
+
+.montagem .borda .bc 
+{
+    position: absolute;
+    height: 40px;
+    border: 2px solid rgb(226, 226, 226);
+}
+
+.montagem .borda .bc.bc1  
+{
+    top: 45px;
+    left: 2px;
+}
+
+.montagem .borda .bc.bc2
+{
+    bottom: 45px;
+    left: 2px;
+}
+
+.montagem .borda .bc.bc3  
+{
+    top: 45px;
+    right: 2px;
+}
+
+.montagem .borda .bc.bc4
+{
+    bottom: 45px;
+    right: 2px;
+}
+
+.montagem .borda .abreCaixa 
+{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    right: -15px;
+    border-radius: 82px;
+    top: 122px;
+    box-shadow: -2px 0px -4px e7e7e7;
+}
+.montagem .borda .ec 
+{
+    position: absolute;
+    right: 0px;
+    top: 119px;
+    height: 50px;
+    width: 17px;
+    border-right: 1px solid #e7e7e7;
+}
+
+.montagem .borda .corBorda {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.montagem .borda .editarPizza {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    width: 67px;
+    margin-left: 23px;
+}
+
+.montagem .borda .editarPizza:hover, .montagem .borda .editarPizza label:hover  
+{
+    cursor: pointer; 
+    color: orange;
+}
+
+.montagem .borda .editarPizza:active { color: gray; }
+
+.montagem .borda .editarPizza label {
+    text-shadow: 2px 2px 2px silver;
+    text-decoration: underline;
+    color: rgb(156, 156, 156);
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    line-height: 25px;
+}
+
+.montagem .borda .editarPizza .icoEditar {
+    height: 25px;
+    width: 25px;
+}
+
+.editarPizza .qtde 
+{
+    color: silver;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    width: 32px;
+    font-family: calibri;
+    margin-left: 11px;
+}
+
+.editarPizza .desc 
+{
+    color: silver;
+    font-size: 20px;
+    margin-top: -6px;
+    margin-bottom: 6px;
+    text-align: center;
+    width: 50px;
+    font-family: calibri;
+}
+
+.labelOrange
+{
+    color: Orange !important;
+}
+
+.borderOrange 
+{
+    border: 1px solid Orange !important;
+}
+
+.labelBlue 
+{
+    color: rgb(127, 166, 202) !important;
+}
+
+.borderBlue 
+{
+    border: 1px solid rgb(127, 166, 202) !important;
+}
+
+.backf2 
+{
+    background-color: #f2f2f2 !important;
+}
+
+.backff
+{
+    background-color: #fff !important;
+}
+
+.passoAPasso .escolhaSabores .pesc {
+    border-bottom: 1px solid silver;
+    height: 40px;
+    position: relative;
+}
+
+.passoAPasso .escolhaSabores .inpPesq {
+    height: 26px;
+    width: 306px;
+    margin-top: 5px;
+    margin-left: 7px;
+    border: 1px solid silver;
+    border-radius: 7px;
+    padding-left: 30px;
+    color: Gray;
+}
+
+.escolhaSabores .icone {
+    height: 23px;
+    width: 23px;
+    margin-top: -24px;
+    position: absolute;
+    left: 10px;
+}
+
+.passoAPasso .pesc .limpar {
+    height: 18px;
+    width: 18px;
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: gray;
+    border-radius: 16px;
+    position: absolute;
+    right: 13px;
+    top: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.59) !important;
+}
+
+/*
+#divSaborPizza .escolhaSabores .item .bt
+{
+    font-size: 17px;
+}
+
+#divSaborPizza .escolhaSabores .item .btEach .label { margin-left: 3px; }
+
+#divSaborPizza .escolhaSabores .item .bt.remove { line-height: 7px; }
+
+#divSaborPizza .escolhaSabores .item .bt.add, #divSaborPizza .escolhaSabores .item .bt.per { line-height: 23px; }
+
+#divSaborPizza .escolhaSabores .item .bt.mostraAdd { line-height: 21px; }
+
+#divSaborPizza .escolhaSabores .btEach { position: relative; top: 0px; }
+
+#divSaborPizza .escolhaSabores .btEach.btAdiciona { right: 0px; }
+
+#divSaborPizza .escolhaSabores .btEach.btPersonaliza { right: 10px; }
+
+*/
+
+#pagPersonalizarSabor { background-color: #f7f7f7; }
+
+#divSaborPizza .hidePersonalizar { display: none; }
+
+#placeholder .personalizar {
+    margin-top: 1px;
+    margin-left: 5px;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 11px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: bold;
+}
+
+#placeholder .personalizar:hover { cursor: pointer; color: Orange; } 
+
+/*
+#placeholder .personalizar.alterado {
+    color: rgb(255, 255, 255);
+    background-color: orange;
+}
+*/
+#pagGraficoPizza .montagem .incluir .bt {
+    height: 32px;
+    width: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: gray;
+    position: absolute;
+    z-index: 1000;
+    right: 21px;
+    top: 21px;
+}
+
+#pagGraficoPizza .montagem .editar .bt
+{
+    position: absolute;
+    right: 21px;
+    bottom: 21px;
+    z-index: 1000;
+    background-position: center;
+    height: 32px;
+    width: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid rgb(185, 187, 165);
+}
+
+#pagGraficoPizza .montagem .traco 
+{
+    position: absolute;
+    z-index: 1000;
+}
+    
+#pagGraficoPizza .montagem .incluir .traco.v1 {
+    border-left: 1px solid Silver;
+    height: 28px;
+    right: 40px;
+    top: 58px;
+}
+
+#pagGraficoPizza .montagem .incluir .traco.v2 {
+    border-left: 1px solid Silver;  
+    height: 10px;  
+    right: 86px;  
+    top: 79px;
+}
+
+#pagGraficoPizza .montagem .incluir .traco.h1 {
+    border-bottom: 1px solid Silver;
+    width: 45px;
+    right: 41px;
+    top: 84px;
+}
+
+/*------------------------------------------------*/
+
+#pagGraficoPizza .montagem .editar .traco.v1 {
+    border-left: 1px solid Silver;
+    height: 19px;
+    right: 83px;
+    bottom: 37px;
+}
+
+#pagGraficoPizza .montagem .editar .traco.v2 {
+    border-bottom: 1px solid Silver;
+    width: 10px;
+    right: 79px;
+    bottom: 57px;
+    -webkit-transform: rotate(-36deg);
+}
+
+#pagGraficoPizza .montagem .editar .traco.h1 {
+    border-bottom: 1px solid Silver;
+    width: 19px;
+    right: 65px;
+    bottom: 37px;
+}
+html > /**/ body .escolhaSabores .item .bt  
+{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.escolhaSabores .item .alterar:active, .saborAdd .clickRemoveSabor:active
+{
+    border: 1px solid silver !important;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*
+.escolhaSabores .item .bt:active 
+{
+    border: dashed rgb(255, 255, 255) 4px;
+}
+*/
+
+#pagPersonalizarSabor .contPersonalizarPizza 
+{
+    max-height: 500px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
