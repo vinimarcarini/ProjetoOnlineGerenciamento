@@ -47,7 +47,19 @@
         <ul>
             <li class="active">
             <li><a @Html.ActionLink("Dashboard", "Index", "Home") </li>
-            <li> <a a @Html.ActionLink("Graficos Avançados", "Index", "Grafico") </li>
+            <li class="submenu">
+                <a> <span>Cadastros</span> </a>
+                <ul>
+                    <li><a>Lixeiras</a></li>
+                    <li><a>Cidades</a></li>
+                    <li><a>Bairros</a></li>
+                    <li><a>Estado</a></li>
+                    <li><a>Bairros</a></li>
+                </ul>
+            </li>
+            <li> <a @Html.ActionLink("Graficos Avançados", "Index", "Grafico") </li>
+
+
         </ul>
     </div>
     <!--sidebar-menu-->
@@ -160,7 +172,7 @@
 
             // setup control widget
             //var updateInterval = 1800000;
-            var updateInterval = 15000;
+            var updateInterval = 1500;
 
             $("#updateInterval").val(updateInterval).change(function () {
                 var v = $(this).val();

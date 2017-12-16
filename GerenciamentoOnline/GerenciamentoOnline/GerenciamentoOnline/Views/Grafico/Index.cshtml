@@ -10,14 +10,19 @@
      });*@
 </script>
 <style>
+    .GraficosAvancados {
+        padding-left: 15px;
+        margin-top: 2px;
+        margin-bottom: -28px;
+    }
     .Lixera {
         margin: 14px;
     }
-    .Regiao {
+    .Bairro {
         padding-left: 267px;
         margin-top: -84px;
     }
-    .Bairro {
+    .Regiao {
         padding-left: 521px;
         margin-top: -80px;
     }
@@ -31,12 +36,11 @@
 <div id="content">
 
     <div id="content-header">
-        <div id="breadcrumb"><a href="#" title="Dashboard" class="tip-bottom"><i class="icon-home"></i> Dashboard</a> <a href="#" class="current">Graficos e Status Avançados</a></div>
+        <div id="breadcrumb"><a href="#" title="Dashboard" class="tip-bottom"><i class="icon-home"></i> Dashboard</a> <a href="#" class="current">Graficos Avançados</a></div>
     </div>
     <div class="container-fluid">
-        
-        <h1>Graficos e Status Avançados</h1>
-        
+        <br>
+        <h1 class="GraficosAvancados">Graficos Avançados</h1>
         <div class="widget-content">
             <div class="row-fluid">
                 <div class="span12">
@@ -61,6 +65,7 @@
                             <h5> Cidade</h5>
                             @{ Html.RenderAction("GetDropDownCidade", "Grafico"); }
                         </div>
+                        <br>
                     </div>
                 </div>
             </div>
@@ -84,11 +89,11 @@
                         </div>
                         <div class="widget-content">
                             <div id="placeholder2"></div>
-                            <p>
+                            @*<p>
                                 Tempo de Atualização:
                                 <input id="updateInterval" type="text" value="" style="text-align: right; width:5em">
                                 Mili Segundos
-                            </p>
+                            </p>*@
                         </div>
                     </div>
                 </div>
