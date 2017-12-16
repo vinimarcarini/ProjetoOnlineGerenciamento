@@ -42,8 +42,13 @@
     <Compile Include="DAO\Auxiliar\DaoStarter.cs" />
     <Compile Include="DAO\Auxiliar\RecordMediator.cs" />
     <Compile Include="DAO\Entities\AcessoUsuarioDAO.cs" />
+    <Compile Include="DAO\Entities\BairroDAO.cs" />
+    <Compile Include="DAO\Entities\CidadeDAO.cs" />
     <Compile Include="DAO\Entities\EmpresaDAO.cs" />
     <Compile Include="DAO\Entities\EstabelecimentoDAO.cs" />
+    <Compile Include="DAO\Entities\LixeiraDAO.cs" />
+    <Compile Include="DAO\Entities\LogErrosDAO.cs" />
+    <Compile Include="DAO\Entities\RegiaoDAO.cs" />
     <Compile Include="Entities\AcessoItem.cs" />
     <Compile Include="Entities\AcessoItensUsuario.cs" />
     <Compile Include="Entities\AcessoPermissao.cs" />
@@ -55,6 +60,7 @@
     <Compile Include="Entities\Lixeira.cs" />
     <Compile Include="Entities\LogErros.cs" />
     <Compile Include="Entities\Pais.cs" />
+    <Compile Include="Entities\Regiao.cs" />
     <Compile Include="Entities\TipoUsuarioAcesso.cs" />
     <Compile Include="Entities\UFCidade.cs" />
     <Compile Include="Entities\Usuario.cs" />
