@@ -1,8 +1,17 @@
-﻿using System;
+﻿using GerenciamentoOnline.Auxiliares;
+using GerenciamentoOnline.Helper;
+using GerenciamentoOnline.Models;
+using Newtonsoft.Json;
+using NHibernate.Criterion;
+using ProjetoModeloDDD.Domain.DAO.Auxiliar;
+using ProjetoModeloDDD.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Web;
 using System.Web.Mvc;
+using static ProjetoModeloDDD.Domain.Entities.Lixeira;
 
 namespace GerenciamentoOnline.Controllers
 {
@@ -25,6 +34,78 @@ namespace GerenciamentoOnline.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+
+        /// <summary>
+        /// Busca todos os cartões cadastrados.
+        /// </summary>
+        /// <returns>Json String</returns>
+        public List<ListaLixeira> BuscaListaDados()
+        {
+            
+            string strMensagem = "Não foi possível buscar os dados cadastrados.";
+            List<ListaLixeira> lsCartoes = new List<ListaLixeira>();
+            CustomPrincipal user = User as CustomPrincipal;
+            try
+            {
+
+                // Busca todos os cartões cadastrados.
+                DetachedCriteria criteria = DetachedCriteria.For<Lixeira>();
+                //criteria.AddOrder(Order.Asc("Descricao"));
+
+                ClasseModeloDAO<Lixeira> dao = ClasseModeloDAO<Lixeira>.Create(1);
+
+                Lixeira[] cartoes = dao.FindAll(criteria);
+
+                // Adiciona cada cartão a lista.
+                foreach (Lixeira cartao in cartoes)
+                {
+                    ListaLixeira lc = new ListaLixeira()
+                    {
+                        Id = Convert.ToInt32(cartao.Id),
+                        Descricao = cartao.Descricao,
+                        TotalPorcentagem = cartao.TotalPorcentagem
+                    };
+                    lsCartoes.Add(lc);
+                }
+
+               
+                strMensagem = "OK";
+            }
+            catch (Exception e)
+            {
+                MetodosGlobais.SaveExceptionError(e);
+               
+                strMensagem = "Erro: " + e.Message;
+            }
+            //, Lixieras = lsCartoes
+
+
+            return lsCartoes;
+    
+        } // BuscaCartoesCadastrados
+
+        public JsonResult GetPeopleData()
+        {
+            System.Threading.Thread.Sleep(1000);
+            return Json(BuscaListaDados(), JsonRequestBehavior.AllowGet);
+        }
+
+        public JsonResult GetPeopleSearch(int offset, int limit, string search, string sort, string order)
+        {
+            var people = BuscaListaDados().AsQueryable()
+                .WhereIf(!string.IsNullOrEmpty(search), o =>
+                    o.Descricao.Contains(search, StringComparison.InvariantCultureIgnoreCase))
+                .OrderBy(sort ?? "TotalPorcentagem", order)
+                .ToList();
+
+            var model = new
+            {
+                total = people.Count(),
+                rows = people.Skip((offset / limit) * limit).Take(limit),
+            };
+            return Json(model, JsonRequestBehavior.AllowGet);
         }
     }
 }

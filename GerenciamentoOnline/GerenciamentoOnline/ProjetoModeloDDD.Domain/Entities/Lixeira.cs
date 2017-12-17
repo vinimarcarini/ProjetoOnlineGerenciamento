@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace ProjetoModeloDDD.Domain.Entities
 {
     [ActiveRecord(Cache = CacheEnum.ReadWrite, BatchSize = 20)]
-    [System.ComponentModel.DefaultPropertyAttribute("Login")]
+    [System.ComponentModel.DefaultPropertyAttribute("Lixeira")]
     [Serializable]
     public class Lixeira : ClasseModelo
     {
@@ -29,6 +29,10 @@ namespace ProjetoModeloDDD.Domain.Entities
         public int DadoSensor2 { get; set; }
 
         [Property]
+        public int TotalPorcentagem { get; set; }
+
+
+        [Property]
         [UIHint("Enum")]
         [JsonConverter(typeof(StringEnumConverter))]
         public LeituraValida leituraValida { get; set; }
@@ -37,6 +41,13 @@ namespace ProjetoModeloDDD.Domain.Entities
         {
             Aguardando,
             Lido         
+        }
+
+        public class ListaLixeira
+        {
+            public int Id { get; set; }
+            public string Descricao { get; set; }
+            public int TotalPorcentagem { get; set; }
         }
 
     }

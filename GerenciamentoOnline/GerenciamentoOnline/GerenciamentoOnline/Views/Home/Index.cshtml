@@ -1,5 +1,20 @@
 ﻿@{
     ViewBag.Title = "Home Page";
+    <link href="~/Content/bootstrap-table.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery.js"></script>
+    <script src="~/Scripts/bootstrap-table.js"></script>
+
+    @*<script type="text/javascript">
+            $(document).ready(function () {
+                function getUrlAction(cController, cAcao) {
+                    var cPatch = document.location.pathname;
+                    cPatch = "/";/*cPatch[cPatch.length - 1].indexOf("/") == -1 ? cPatch + "/" : cPatch;*/
+                    var cUrl = cPatch + cController + "/" + cAcao;
+                    return cUrl;
+                }
+
+            });
+        </script>*@
 }
 <!--main-container-part-->
 <div id="content">
@@ -26,17 +41,34 @@
                 </div>
                 <div class="widget-content">
                     <div class="row-fluid">
-                        <div class="span9">
-                            <div class="chart"></div>
+                        <div class="span12">
+                            @*@(Html.BootstrapTable(Url.Action("GetPeopleData"))
+                                .Columns("Id", "Descricao", "TotalPorcentagem"))*@
+
+                            @(Html.BootstrapTable<GerenciamentoOnline.Models.Person>(Url.Action("GetPeopleSearch"), TablePaginationOption.server)
+    
+    .Apply(TableOption.showRefresh, TableOption.showColumns, TableOption.search)
+    .Apply(TableOption.pageSize, 5)
+    .Apply(TableOption.sortName, "TotalPorcentagem").Apply(TableOption.sortOrder_asc) //<--- set the default initial table sort
+    .Apply(m => m.Id, ColumnOption.sortable)
+    .Apply(m => m.Descricao, ColumnOption.sortable)
+    .Apply(m => m.TotalPorcentagem, ColumnOption.sortable)
+    .Column("Check").Apply(ColumnOption.checkbox)
+                            )
+
                         </div>
-                        <div class="span3">
-                            <ul class="site-stats">
-                                <li class="bg_lh"><i class="icon-user"></i> <strong>2540</strong> <small>Total Lixeiras</small></li>
-                                <li class="bg_lh"><i class="icon-globe"></i> <strong>656</strong> <small>Total Online</small></li>
-                                <li class="bg_lh"><i class="icon-tag"></i> <strong>9540</strong> <small>Recolhimento Pendente</small></li>
-                                <li class="bg_lh"><i class="icon-repeat"></i> <strong>10</strong> <small>Abaixo do Nivel Médio</small></li>
-                            </ul>
-                        </div>
+                    </div>
+                </div>
+                <br>
+                <hr />
+                <div class="row-fluid">
+                    <div class="span6">
+                        <ul class="site-stats">
+                            <li class="bg_lh"><i class="icon-user"></i> <strong>2540</strong> <small>Total Lixeiras</small></li>
+                            <li class="bg_lh"><i class="icon-globe"></i> <strong>656</strong> <small>Total Online</small></li>
+                            <li class="bg_lh"><i class="icon-tag"></i> <strong>9540</strong> <small>Recolhimento Pendente</small></li>
+                            <li class="bg_lh"><i class="icon-repeat"></i> <strong>10</strong> <small>Abaixo do Nivel Médio</small></li>
+                        </ul>
                     </div>
                 </div>
             </div>

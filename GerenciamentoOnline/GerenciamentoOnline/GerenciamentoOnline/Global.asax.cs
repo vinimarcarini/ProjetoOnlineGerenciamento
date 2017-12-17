@@ -21,7 +21,7 @@ namespace GerenciamentoOnline
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             Inicializa(GetAssembly(), Server.MapPath("~/appconfig.xml"));
-            Castle.ActiveRecord.ActiveRecordStarter.CreateSchema();
+            Castle.ActiveRecord.ActiveRecordStarter.UpdateSchema();
         }
 
         public static Assembly[] GetAssembly()

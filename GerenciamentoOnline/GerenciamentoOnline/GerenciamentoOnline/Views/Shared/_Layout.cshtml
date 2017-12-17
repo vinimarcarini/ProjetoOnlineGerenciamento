@@ -13,10 +13,12 @@
     <link rel="stylesheet" href="~/Content/fullcalendar.css" />
     <link rel="stylesheet" href="~/Content/matrix-style.css" />
     <link rel="stylesheet" href="~/Content/matrix-media.css" />
+    <link rel="stylesheet" href="~/Content/jquery.bootgrid.css" />
     <link href="~/fonts/Font/font-awesome.css" rel="stylesheet" />
     @*<link rel="stylesheet" href="css/jquery.gritter.css" />*@
     @*<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>*@
     @{string descricao = "<span>" + "Dashboard" + "</span>";
+
     }
 
 </head>
@@ -92,9 +94,12 @@
     <!--end-Footer-part-->
 
     <script src="~/scripts/jquery.min.js"></script>
+    <script src="~/scripts/jquery.bootgrid.js"></script>
+    <script src="~/scripts/jquery.bootgrid.fa.js"></script>
+    
     <script src="~/scripts/fullcalendar.min.js"></script>
     <script src="~/scripts/matrix.charts.js"></script>
-    <script src="~/scripts/excanvas.min.js"></script>
+    
     <script src="~/scripts/bootstrap.min.js"></script>
     <script src="~/scripts/jquery.ui.custom.js"></script>
     <script src="~/scripts/jquery.gritter.min.js"></script>
@@ -103,10 +108,10 @@
     <script src="~/scripts/jquery.uniform.js"></script>
     <script src="~/scripts/jquery.dataTables.min.js"></script>
     <script src="~/scripts/jquery.peity.min.js"></script>
-    <script src="~/scripts/jquery.flot.min.js"></script>
-    <script src="~/scripts/jquery.flot.pie.min.js"></script>
-    <script src="~/scripts/jquery.flot.resize.min.js"></script>
 
+    <script src="~/scripts/jquery.flot.js"></script>
+    <script src="~/scripts/jquery.flot.pie.js"></script>
+    <script src="~/scripts/jquery.flot.resize.js"></script>
 
 
 
@@ -197,7 +202,7 @@
             function update() {
                 var aux = getRandomData();
                 plot.setData([aux]);
-                console.log(aux);
+                //console.log(aux);
                 // since the axes don't change, we don't need to call plot.setupGrid()
                 plot.draw();
 

@@ -52,16 +52,16 @@ hr{ border-top-color:#dadada;}
 	width: 100%;
 	z-index: -9;
 }
-#header h1 {
-	background: url("../imagens/logo.png")  no-repeat scroll 0 0 transparent;
-	height: 31px;
-	left: 20px;
-	line-height: 600px;
-	overflow: hidden;
-	position: relative;
-	top: 26px;
-	width: 191px;
-}
+    #header h1 {
+        background: url("../imagens/logo.png") no-repeat scroll 0 0 transparent;
+        height: 31px;
+        left: -3px;
+        line-height: 600px;
+        overflow: hidden;
+        position: relative;
+        top: 26px;
+        width: 250px;/*191*/
+    }
 #header h1 a {
 	display: block;
 }
