@@ -8,7 +8,7 @@
     <add key="dialect"
         value="NHibernate.Dialect.MsSql2008Dialect" />
     <add key="connection.connection_string"
-        value="Data Source=.\sqlexpress;Initial Catalog=gerenciamento;User ID=sa;Password=098722" />
+        value="Data Source=gerenciamentoonline.cifmhs1e3sit.sa-east-1.rds.amazonaws.com;Initial Catalog=gerenciamento;User ID=sa;Password=09872291926" />
     <add key="cache.provider_class" value="NHibernate.Cache.HashtableCacheProvider" />
     <add key="cache.use_second_level_cache" value="true" />
     <add key="cache.use_query_cache" value="true"/>

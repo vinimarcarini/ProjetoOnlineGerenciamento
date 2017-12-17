@@ -43,7 +43,7 @@ namespace GerenciamentoOnline.Controllers
         /// <returns>Json String</returns>
         public List<ListaLixeira> BuscaListaDados()
         {
-            
+
             string strMensagem = "Não foi possível buscar os dados cadastrados.";
             List<ListaLixeira> lsCartoes = new List<ListaLixeira>();
             CustomPrincipal user = User as CustomPrincipal;
@@ -53,10 +53,11 @@ namespace GerenciamentoOnline.Controllers
                 // Busca todos os cartões cadastrados.
                 DetachedCriteria criteria = DetachedCriteria.For<Lixeira>();
                 //criteria.AddOrder(Order.Asc("Descricao"));
+                criteria.Add(Expression.Eq("leituraValida", LeituraValida.Aguardando));
 
                 ClasseModeloDAO<Lixeira> dao = ClasseModeloDAO<Lixeira>.Create(1);
 
-                Lixeira[] cartoes = dao.FindAll(criteria);
+                Lixeira[] cartoes = dao.FindAll();
 
                 // Adiciona cada cartão a lista.
                 foreach (Lixeira cartao in cartoes)
@@ -67,23 +68,27 @@ namespace GerenciamentoOnline.Controllers
                         Descricao = cartao.Descricao,
                         TotalPorcentagem = cartao.TotalPorcentagem
                     };
-                    lsCartoes.Add(lc);
+                    if (lsCartoes.Any(x => x.Descricao == lc.Descricao) == false)
+                    {
+                        lsCartoes.Add(lc);
+                    }
+                    
                 }
 
-               
+
                 strMensagem = "OK";
             }
             catch (Exception e)
             {
                 MetodosGlobais.SaveExceptionError(e);
-               
+
                 strMensagem = "Erro: " + e.Message;
             }
             //, Lixieras = lsCartoes
 
 
             return lsCartoes;
-    
+
         } // BuscaCartoesCadastrados
 
         public JsonResult GetPeopleData()
@@ -97,7 +102,7 @@ namespace GerenciamentoOnline.Controllers
             var people = BuscaListaDados().AsQueryable()
                 .WhereIf(!string.IsNullOrEmpty(search), o =>
                     o.Descricao.Contains(search, StringComparison.InvariantCultureIgnoreCase))
-                .OrderBy(sort ?? "TotalPorcentagem", order)
+                .OrderBy(sort ?? "Descricao", order)
                 .ToList();
 
             var model = new

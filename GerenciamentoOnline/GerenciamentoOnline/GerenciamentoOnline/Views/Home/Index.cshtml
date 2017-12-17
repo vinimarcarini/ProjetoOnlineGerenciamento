@@ -46,14 +46,13 @@
                                 .Columns("Id", "Descricao", "TotalPorcentagem"))*@
 
                             @(Html.BootstrapTable<GerenciamentoOnline.Models.Person>(Url.Action("GetPeopleSearch"), TablePaginationOption.server)
-    
-    .Apply(TableOption.showRefresh, TableOption.showColumns, TableOption.search)
-    .Apply(TableOption.pageSize, 5)
-    .Apply(TableOption.sortName, "TotalPorcentagem").Apply(TableOption.sortOrder_asc) //<--- set the default initial table sort
-    .Apply(m => m.Id, ColumnOption.sortable)
-    .Apply(m => m.Descricao, ColumnOption.sortable)
-    .Apply(m => m.TotalPorcentagem, ColumnOption.sortable)
-    .Column("Check").Apply(ColumnOption.checkbox)
+                                .Apply(TableOption.showRefresh, TableOption.showColumns, TableOption.search)
+                                .Apply(TableOption.pageSize, 5)
+                                .Apply(TableOption.sortName, "Descricao").Apply(TableOption.sortOrder_asc) //<--- set the default initial table sort
+                                .Apply(m => m.Id, ColumnOption.sortable)
+                                .Apply(m => m.Descricao, ColumnOption.sortable)
+                                .Apply(m => m.TotalPorcentagem, ColumnOption.sortable)
+    //.Column("Check").Apply(ColumnOption.checkbox)
                             )
 
                         </div>

@@ -492,11 +492,9 @@
     <Content Include="Imagens\Icons\32\user.png" />
     <Content Include="Imagens\Icons\32\wallet.png" />
     <Content Include="Imagens\Icons\32\web.png" />
-    <Content Include="Imagens\Thumbs.db" />
-    <Content Include="Imagens\Icons\32\Thumbs.db" />
-    <Content Include="Imagens\Demo\Thumbs.db" />
     <Content Include="Content\jquery-3.2.1.min.map" />
     <Content Include="Content\jquery-3.2.1.slim.min.map" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.2.1.intellisense.js" />
     <Content Include="Imagens\breadcrumb.png" />
     <Content Include="Imagens\glyphicons-halflings-white.png" />
