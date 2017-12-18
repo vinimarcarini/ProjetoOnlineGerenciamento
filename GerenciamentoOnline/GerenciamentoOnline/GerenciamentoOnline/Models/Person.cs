@@ -12,14 +12,14 @@ namespace GerenciamentoOnline.Models
     [DebuggerDisplayAttribute("{Id}-{FirstName}")]
     public class Person
     {
-        [Display(Order = 1)] //<--- set custom title
+        [Display(Order = 1, Name = "Descricao")] //<--- set custom title
         public string Descricao { get; set; }
 
-        [Display(Order = 2)]
+        [Display(Order = 2,Name = "%")]
         public string TotalPorcentagem { get; set; }
 
-        [Display(Order = 0)] //<--- specify order
-        public int Id { get; set; }
+        //[Display(Order = 0)] //<--- specify order
+        //public int Id { get; set; }
        
 
         //[Display(AutoGenerateField = false)]

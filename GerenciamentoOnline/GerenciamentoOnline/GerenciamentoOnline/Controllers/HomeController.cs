@@ -68,11 +68,30 @@ namespace GerenciamentoOnline.Controllers
                         Descricao = cartao.Descricao,
                         TotalPorcentagem = cartao.TotalPorcentagem
                     };
-                    if (lsCartoes.Any(x => x.Descricao == lc.Descricao) == false)
+                    if (lsCartoes.Any(x => x.Descricao == lc.Descricao) == true)
+                    {
+                        if (lsCartoes.Any(x => x.TotalPorcentagem != lc.TotalPorcentagem) == true)
+                        {
+                            foreach (var itemCarros in lsCartoes)
+                            {
+                                if (itemCarros != lc)
+                                {
+                                    lsCartoes.Remove(itemCarros);
+                                    lsCartoes.Add(lc);
+                                }
+                                else
+                                {
+                                    lsCartoes.Add(lc);
+                                }
+
+                            }
+                        }
+                    }
+                    else
                     {
                         lsCartoes.Add(lc);
                     }
-                    
+
                 }
 
 
