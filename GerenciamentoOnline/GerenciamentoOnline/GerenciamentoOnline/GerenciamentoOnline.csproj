@@ -256,11 +256,7 @@
     </Compile>
     <Compile Include="Helper.cs" />
     <Compile Include="Models\AccountModels.cs" />
-<<<<<<< HEAD
-    <Compile Include="Models\LixieraViewModel.cs" />
-=======
     <Compile Include="Models\Person.cs" />
->>>>>>> 59d2e69807c99a41c64497ff8759870b121b0ad9
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

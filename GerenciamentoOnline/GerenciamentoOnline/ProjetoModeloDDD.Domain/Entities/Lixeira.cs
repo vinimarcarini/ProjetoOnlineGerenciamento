@@ -23,10 +23,10 @@ namespace ProjetoModeloDDD.Domain.Entities
         public string Descricao { get; set; }
 
         [Property]
-        public int DadoSensor1 { get; set; }
+        public string DadoSensor1 { get; set; }
 
         [Property]
-        public int DadoSensor2 { get; set; }
+        public string DadoSensor2 { get; set; }
 
         [Property]
         public int TotalPorcentagem { get; set; }

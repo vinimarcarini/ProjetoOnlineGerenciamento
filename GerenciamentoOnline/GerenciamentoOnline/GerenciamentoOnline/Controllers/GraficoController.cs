@@ -9,6 +9,8 @@ using NHibernate.Criterion;
 using GerenciamentoOnline.Auxiliares;
 using ProjetoModelo.Entities;
 using kardapio.Suprimentos;
+using static ProjetoModeloDDD.Domain.Entities.Lixeira;
+using ProjetoModeloDDD.Domain.DAO.Auxiliar;
 
 namespace GerenciamentoOnline.Controllers
 {
@@ -22,10 +24,10 @@ namespace GerenciamentoOnline.Controllers
 
         public static string GetDropDownLixeiras()
         {
-            string cSelect = "<select class='lixeira'>";
+            string cSelect = "<select class='lixeiras'>";
             try
             {
-                Lixeira[] lixeira = LixeiraDAO.FindAll(Expression.Eq("Ativo", true));
+                Lixeira[] lixeira = LixeiraDAO.FindAll();
 
                 foreach (Lixeira tipoAc in lixeira)
                 {
@@ -38,6 +40,7 @@ namespace GerenciamentoOnline.Controllers
             }
             cSelect += "</select>";
 
+         
             return cSelect;
         }
 
@@ -49,34 +52,52 @@ namespace GerenciamentoOnline.Controllers
             return new MvcHtmlString(chtml);
         }
 
-        public static string GetDropDownRegiaos()
-        {
-            string cSelect = "<select class='regiao'>";
-            try
-            {
-                Regiao[] regiao = RegiaoDAO.FindAll();
+        //public static string GetDropDownRegiaos()
+        //{
+        //    string cSelect = "";
+        //    string cSelect1 = "<select class='regiao'>";
+        //    string cSelect2 = "<option value=\"";
+        //    string cSelect3 = "\">";
+        //    string cSelect4 = "</option>";
+        //    string cSelect5 = "</select>";
+        //    int cSelect6 = 0;
+        //    string cSelect7 = "";
+        //    string cSelect9 = "";
+        //    try
+        //    {
+        //        Regiao[] regiao = RegiaoDAO.FindAll();
 
-                foreach (Regiao tipoAc in regiao)
-                {
-                    cSelect += "<option value=\"" + tipoAc.Id + "\">" + tipoAc.Descricao + "</option>";
-                }
-            }
-            catch (Exception e)
-            {
-                MetodosGlobais.SaveExceptionError(e, "Home/GetDropDownRegiao");
-            }
-            cSelect += "</select>";
+        //        foreach (Regiao tipoAc in regiao)
+        //        {
+        //            cSelect6 = tipoAc.Id.Value;
+        //            cSelect7 = tipoAc.Descricao;
 
-            return cSelect;
-        }
+        //            if (cSelect7 == cSelect9)
+        //            {
+        //                cSelect9 = "";
+        //            }
+        //            else
+        //            {
+        //                cSelect9 = cSelect7;
+        //                cSelect = cSelect1 + cSelect2 + cSelect6 + cSelect3 + cSelect7 + cSelect4 + cSelect5;
+        //            }
+        //        }
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        MetodosGlobais.SaveExceptionError(e, "Home/GetDropDownRegiao");
+        //    }
 
-        [AllowAnonymous]
-        public MvcHtmlString GetDropDownRegiao()
-        {
-            string chtml = GetDropDownRegiaos();
+        //    return cSelect;
+        //}
 
-            return new MvcHtmlString(chtml);
-        }
+        //[AllowAnonymous]
+        //public MvcHtmlString GetDropDownRegiao()
+        //{
+        //    string chtml = GetDropDownRegiaos();
+
+        //    return new MvcHtmlString(chtml);
+        //}
 
         public static string GetDropDownBairros()
         {
@@ -102,7 +123,7 @@ namespace GerenciamentoOnline.Controllers
         [AllowAnonymous]
         public MvcHtmlString GetDropDownBairro()
         {
-            string chtml = GetDropDownRegiaos();
+            string chtml = GetDropDownBairros();
 
             return new MvcHtmlString(chtml);
         }
